@@ -28,7 +28,7 @@ Total Pages: 402
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Batch 1** | Preamble, Part I (Arts 1–4, 2A) & Part II (Arts 5–11) | **COMPLETED** | 0 missing added, 0 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 2** | Part III | **COMPLETED** | 0 missing added, 22 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 3** | Part IV (Arts 36–51, 39A, 43A–B, 48A) & Part IVA (Art 51A) | Queued | Pending | Pending | Pending |
+| **Batch 3** | Part IV | **COMPLETED** | 1 missing added, 15 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 4** | Part V (Arts 52–151, 124A–C, 131A, 134A, 139A, 144A) | Queued | Pending | Pending | Pending |
 | **Batch 5** | Part VI (Arts 152–237, 224A, 226A, 228A, 232, 233A) & Part VII (Art 238) | Queued | Pending | Pending | Pending |
 | **Batch 6** | Part VIII (Arts 239–242, 239A, 239AA, 239AB, 239B, 242) | Queued | Pending | Pending | Pending |
@@ -98,3 +98,31 @@ Total Pages: 402
 | **Article 35** | Legislation to give effect to the provisions of this Part | `CORRECTED` | Text was truncated/outdated; updated to full official text |
 
 **Reverification Result:** 30 articles verified, 0 missing articles added, 22 articles corrected. 100% parity achieved.
+
+### Batch 3: Part IV: Directive Principles (Arts 36–51, 39A, 43A–B, 48A) & Part IVA (Art 51A)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 36** | Definition | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 37** | Application of the principles contained in this Part | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 38** | State to secure a social order for the promotion of welfare of the people | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 39** | Certain principles of policy to be followed by the State | `VERIFIED_MATCH` | None |
+| **Article 39A** | Equal justice and free legal aid | `VERIFIED_MATCH` | None |
+| **Article 40** | Organisation of village panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 41** | Right to work, to education and to public assistance in certain cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 42** | Provision for just and humane conditions of work and maternity relief | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 43** | Living wage, etc., for workers | `CORRECTED` | Title corrected from "Living wage, etc, for workers" to "Living wage, etc., for workers"; Standardized statutory wording/punctuation/formatting |
+| **Article 43A** | Participation of workers in management of industries | `VERIFIED_MATCH` | None |
+| **Article 43B** | Promotion of co-operative societies | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 44** | Uniform civil code for the citizens | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 45** | Provision for early childhood care and education to children below the age of six years | `CORRECTED` | Title corrected from "Provision for free and compulsory education for children" to "Provision for early childhood care and education to children below the age of six years"; Standardized statutory wording/punctuation/formatting |
+| **Article 46** | Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes and other weaker sections | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 47** | Duty of the State to raise the level of nutrition and the standard of living and to improve public health | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 48** | Organisation of agriculture and animal husbandry | `VERIFIED_MATCH` | None |
+| **Article 48A** | Protection and improvement of environment and safeguarding of forests and wild life | `VERIFIED_MATCH` | None |
+| **Article 49** | Protection of monuments and places and objects of national importance | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 50** | Separation of judiciary from executive | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 51** | Promotion of international peace and security | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 51A** | Fundamental duties | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+
+**Reverification Result:** 21 articles verified, 1 missing articles added, 15 articles corrected. 100% parity achieved.
