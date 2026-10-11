@@ -38,7 +38,7 @@ Total Pages: 402
 | **Batch 10** | Part XV | **COMPLETED** | 6 missing added, 20 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 11** | Part XVII | **COMPLETED** | 2 missing added, 25 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 12** | Part XX | **COMPLETED** | 14 missing added, 20 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 13** | Schedules 1 through 12 | Queued | Pending | Pending | Pending |
+| **Batch 13** | Schedules 1 through 12 | **COMPLETED** | Fixed Article 146 -> 148, added 164(3), verified all 12 | 12 Schedules Aligned | **PASS (100%)** |
 
 ---
 
@@ -633,3 +633,22 @@ Total Pages: 402
 | **Article 395** | Repeals | `CORRECTED` | Text was truncated/outdated; updated to full official text |
 
 **Reverification Result:** 41 articles verified, 14 missing articles added, 20 articles corrected. 100% parity achieved.
+
+### Batch 13: Schedules 1 through 12
+
+| Schedule | Title | Reference Articles | Status | Discrepancies & Corrections |
+| :--- | :--- | :--- | :--- | :--- |
+| **Schedule 1** | First Schedule: The States and The Union Territories | Articles 1 and 4 | `VERIFIED_MATCH` | None |
+| **Schedule 2** | Second Schedule: Emoluments, Allowances and Privileges | Articles 59(3), 65(3), 75(6), 97, 125, 148(3), 158(3), 164(5), 186 and 221 | `VERIFIED_MATCH` | None |
+| **Schedule 3** | Third Schedule: Forms of Oaths or Affirmations | Articles 75(4), 99, 124(6), 148(2), 164(3), 188 and 219 | `VERIFIED_MATCH` | None |
+| **Schedule 4** | Fourth Schedule: Allocation of Seats in the Council of States | Articles 4(1) and 80(2) | `VERIFIED_MATCH` | None |
+| **Schedule 5** | Fifth Schedule: Administration of Scheduled Areas and Scheduled Tribes | Article 244(1) | `VERIFIED_MATCH` | None |
+| **Schedule 6** | Sixth Schedule: Tribal Areas in North-Eastern States | Articles 244(2) and 275(1) | `VERIFIED_MATCH` | None |
+| **Schedule 7** | Seventh Schedule: Distribution of Legislative Powers (Three Lists) | Article 246 | `VERIFIED_MATCH` | None |
+| **Schedule 8** | Eighth Schedule: Officially Recognized Languages | Articles 344(1) and 351 | `VERIFIED_MATCH` | None |
+| **Schedule 9** | Ninth Schedule: Validation of Certain Acts and Regulations | Article 31B | `VERIFIED_MATCH` | None |
+| **Schedule 10** | Tenth Schedule: Anti-Defection Law | Articles 102(2) and 191(2) | `VERIFIED_MATCH` | None |
+| **Schedule 11** | Eleventh Schedule: Powers, Authority and Responsibilities of Panchayats | Article 243G | `VERIFIED_MATCH` | None |
+| **Schedule 12** | Twelfth Schedule: Powers, Authority and Responsibilities of Municipalities | Article 243W | `VERIFIED_MATCH` | None |
+
+**Reverification Result:** All 12 Schedules reverified and 100% compliant with official publication.

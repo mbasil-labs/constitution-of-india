@@ -1,8 +1,8 @@
 [
   {
     "scheduleNumber": 1,
-    "title": "First Schedule: States and Union Territories",
-    "description": "Lists the States and Union Territories of India, specifying the territorial borders and jurisdiction of each state and territory as amended by state reorganisation acts.",
+    "title": "First Schedule: The States and The Union Territories",
+    "description": "Lists the 28 States and 8 Union Territories of India, specifying the territorial borders, boundaries, and jurisdiction of each as amended by state reorganisation acts.",
     "articles": "Articles 1 and 4",
     "highlights": [
       "28 States and 8 Union Territories",
@@ -11,9 +11,9 @@
   },
   {
     "scheduleNumber": 2,
-    "title": "Second Schedule: Emoluments and Allowances",
-    "description": "Provisions regarding the salaries, allowances, privileges, and official residences of the President, Governors, Speaker and Deputy Speaker of Lok Sabha and Legislative Assemblies, Judges of Supreme Court and High Courts, and the CAG.",
-    "articles": "Articles 59, 65, 75, 97, 125, 148, 158, 164, 186 and 221",
+    "title": "Second Schedule: Emoluments, Allowances and Privileges",
+    "description": "Provisions regarding salaries, allowances, and official residences for the President, Governors, Speaker and Deputy Speaker of Lok Sabha, Chairman and Deputy Chairman of Rajya Sabha, Judges of the Supreme Court and High Courts, and the Comptroller and Auditor-General of India.",
+    "articles": "Articles 59(3), 65(3), 75(6), 97, 125, 148(3), 158(3), 164(5), 186 and 221",
     "highlights": [
       "Salaries charged upon Consolidated Fund of India",
       "Immune from negative alteration during tenure"
@@ -22,18 +22,18 @@
   {
     "scheduleNumber": 3,
     "title": "Third Schedule: Forms of Oaths or Affirmations",
-    "description": "Prescribes the solemn forms of oaths or affirmations to be taken by Union Ministers, candidates for Parliament, Members of Parliament, Supreme Court Judges, CAG, State Ministers, State Legislators, and High Court Judges.",
-    "articles": "Articles 75, 84, 99, 124, 146, 173, 188 and 219",
+    "description": "Prescribes the solemn forms of oaths or affirmations taken by Union Ministers, candidates for Parliament, Members of Parliament, Supreme Court Judges, the Comptroller and Auditor-General of India, State Ministers, State Legislators, and High Court Judges.",
+    "articles": "Articles 75(4), 99, 124(6), 148(2), 164(3), 188 and 219",
     "highlights": [
-      "Oath of Allegiance to the Constitution",
-      "Oath of Secrecy for executive ministers"
+      "Oath of Allegiance to the Constitution of India",
+      "Oath of Secrecy for Union and State Ministers"
     ]
   },
   {
     "scheduleNumber": 4,
-    "title": "Fourth Schedule: Allocation of Seats in the Rajya Sabha",
-    "description": "Allocates seats to each State and Union Territory in the Council of States (Rajya Sabha), determined according to the population of each state.",
-    "articles": "Articles 4 and 80",
+    "title": "Fourth Schedule: Allocation of Seats in the Council of States",
+    "description": "Allocates seats to each State and Union Territory in the Council of States (Rajya Sabha), determined according to proportional demographic weight.",
+    "articles": "Articles 4(1) and 80(2)",
     "highlights": [
       "Reflects federal representation based on demographic weight",
       "Maximum sanctioned strength is 250 (238 elected + 12 nominated)"
@@ -45,14 +45,14 @@
     "description": "Contains special provisions for the administration and control of Scheduled Areas and Scheduled Tribes in states other than Assam, Meghalaya, Tripura, and Mizoram. Establishes Tribes Advisory Councils.",
     "articles": "Article 244(1)",
     "highlights": [
-      "Governor's discretionary powers to suspend parliamentary laws in scheduled zones",
+      "Governor's discretionary powers in scheduled zones",
       "Tribes Advisory Council (TAC) mandatory consultation"
     ]
   },
   {
     "scheduleNumber": 6,
     "title": "Sixth Schedule: Tribal Areas in North-Eastern States",
-    "description": "Administration of autonomous tribal areas in the North-Eastern States of Assam, Meghalaya, Tripura, and Mizoram through Autonomous District Councils (ADCs) and Regional Councils with legislative, judicial, and financial autonomy.",
+    "description": "Administration of autonomous tribal areas in the North-Eastern States of Assam, Meghalaya, Tripura, and Mizoram through Autonomous District Councils (ADCs) and Regional Councils with legislative, judicial, and financial powers.",
     "articles": "Articles 244(2) and 275(1)",
     "highlights": [
       "Empowered Autonomous District Councils (ADCs)",
@@ -62,7 +62,7 @@
   {
     "scheduleNumber": 7,
     "title": "Seventh Schedule: Distribution of Legislative Powers (Three Lists)",
-    "description": "Delineates subjects of governance into three lists: List I (Union List - 100 items), List II (State List - 61 items), and List III (Concurrent List - 52 items). Residuary powers reside exclusively with Parliament.",
+    "description": "Delineates subjects of governance into three lists: List I (Union List - 97 items), List II (State List - 66 items), and List III (Concurrent List - 47 items). Residuary legislative powers reside exclusively with Parliament.",
     "articles": "Article 246",
     "highlights": [
       "List I: Defence, Foreign Affairs, Atomic Energy, Currency, Railways",
@@ -83,10 +83,10 @@
   {
     "scheduleNumber": 9,
     "title": "Ninth Schedule: Validation of Certain Acts and Regulations",
-    "description": "Added by the 1st Amendment (1951) to protect land reform laws and agrarian legislation from judicial review on ground of violation of Fundamental Rights. In I.R. Coelho (2007), SC held laws placed after April 24, 1973 are open to Basic Structure review.",
+    "description": "Added by the 1st Constitutional Amendment (1951) to protect agrarian land reforms and progressive legislation from judicial review on ground of Fundamental Rights infringement. In I.R. Coelho (2007), Supreme Court held laws placed after April 24, 1973 are open to Basic Structure review.",
     "articles": "Article 31B",
     "highlights": [
-      "Contains over 284 protected state and central agrarian laws",
+      "Contains 284 protected state and central agrarian laws",
       "Subject to Basic Structure doctrine post-1973 (I.R. Coelho v. State of TN)"
     ]
   },
@@ -97,13 +97,13 @@
     "articles": "Articles 102(2) and 191(2)",
     "highlights": [
       "Disqualification for voluntarily giving up party membership or defying whip",
-      "Kihoto Hollohan (1992): Speaker's decision is subject to judicial review"
+      "Kihoto Hollohan (1992): Presiding Officer decision subject to judicial review"
     ]
   },
   {
     "scheduleNumber": 11,
-    "title": "Eleventh Schedule: Powers and Functions of Panchayats",
-    "description": "Added by 73rd Amendment Act (1992). Lists 29 functional subjects devolved to Panchayati Raj Institutions for economic development and social justice.",
+    "title": "Eleventh Schedule: Powers, Authority and Responsibilities of Panchayats",
+    "description": "Added by the 73rd Amendment Act (1992). Lists 29 functional subjects devolved to Panchayati Raj Institutions for economic development and social justice.",
     "articles": "Article 243G",
     "highlights": [
       "29 functional items including agriculture, rural housing, drinking water, roads, poverty alleviation",
@@ -112,8 +112,8 @@
   },
   {
     "scheduleNumber": 12,
-    "title": "Twelfth Schedule: Powers and Functions of Municipalities",
-    "description": "Added by 74th Amendment Act (1992). Lists 18 functional subjects within the purview of urban local bodies (Municipalities and Corporations).",
+    "title": "Twelfth Schedule: Powers, Authority and Responsibilities of Municipalities",
+    "description": "Added by the 74th Amendment Act (1992). Lists 18 functional subjects within the purview of urban local bodies (Municipalities and Corporations).",
     "articles": "Article 243W",
     "highlights": [
       "18 functional subjects including urban planning, water supply, public health, fire services, solid waste management",
