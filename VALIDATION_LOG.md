@@ -34,7 +34,7 @@ Total Pages: 402
 | **Batch 6** | Part VIII | **COMPLETED** | 2 missing added, 4 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | **COMPLETED** | 0 missing added, 47 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 8** | Part XI | **COMPLETED** | 6 missing added, 52 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 9** | Part XIII (Arts 301–307, 306), Part XIV (Arts 308–323, 312A, 314, 320), Part XIVA (Arts 323A–323B) | Queued | Pending | Pending | Pending |
+| **Batch 9** | Part XIII | **COMPLETED** | 3 missing added, 21 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 10** | Part XV (Arts 324–329A) & Part XVI (Arts 330–342A, 330A, 332A, 334A, 338A–B, 342A) | Queued | Pending | Pending | Pending |
 | **Batch 11** | Part XVII (Arts 343–351), Part XVIII (Arts 352–360), Part XIX (Arts 361–367) | Queued | Pending | Pending | Pending |
 | **Batch 12** | Part XX (Art 368), Part XXI (Arts 369–392, 371A–J, 379–391), Part XXII (Arts 393–395) | Queued | Pending | Pending | Pending |
@@ -481,3 +481,36 @@ Total Pages: 402
 | **Article 300A** | Persons not to be deprived of property save by authority of law | `CORRECTED` | Text was truncated/outdated; updated to full official text |
 
 **Reverification Result:** 64 articles verified, 6 missing articles added, 52 articles corrected. 100% parity achieved.
+
+### Batch 9: Part XIII: Trade & Commerce (Arts 301–307), Part XIV: Services & UPSC (Arts 308–323), Part XIVA: Tribunals (Arts 323A–323B)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 301** | Freedom of trade, commerce and intercourse | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 302** | Power of Parliament to impose restrictions on trade, commerce and intercourse | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 303** | Restrictions on the legislative powers of the Union and of the States with regard to trade and commerce | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 304** | Restrictions on trade, commerce and intercourse among States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 305** | Saving of existing laws and laws providing for State monopolies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 306** | Power of certain States in Part B of the First Schedule to impose restrictions on trade and commerce | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 307** | Appointment of authority for carrying out the purposes of articles 301 to 304 | `VERIFIED_MATCH` | None |
+| **Article 308** | Interpretation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 309** | Recruitment and conditions of service of persons serving the Union or a State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 310** | Tenure of office of persons serving the Union or a State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 311** | Dismissal, removal or reduction in rank of persons employed in civil capacities under the Union or a State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 312** | All-India services | `VERIFIED_MATCH` | None |
+| **Article 312A** | Power of Parliament to vary or revoke conditions of service of officers of certain services | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 313** | Transitional provisions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 314** | Provision for protection of existing officers of certain services | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 315** | Public Service Commissions for the Union and for the States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 316** | Appointment and term of office of members | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 317** | Removal and suspension of a member of a Public Service Commission | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 318** | Power to make regulations as to conditions of service of members and staff of the Commission | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 319** | Prohibition as to the holding of offices by members of Commission on ceasing to be such members | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 320** | Functions of Public Service Commissions | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 321** | Power to extend functions of Public Service Commissions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 322** | Expenses of Public Service Commissions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 323** | Reports of Public Service Commissions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 323A** | Administrative tribunals | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 323B** | Tribunals for other matters | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+
+**Reverification Result:** 26 articles verified, 3 missing articles added, 21 articles corrected. 100% parity achieved.

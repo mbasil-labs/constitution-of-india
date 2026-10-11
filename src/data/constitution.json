@@ -9823,7 +9823,7 @@
     "partId": "Part XIII",
     "partName": "Part XIII: Trade & Commerce",
     "category": "Trade & Commerce",
-    "description": "Subject to the other provisions of this Part, trade, commerce and intercourse throughout the territory of India shall be free.",
+    "description": "Subject to the\n\nother provisions of this Part, trade, commerce and intercourse throughout the\n\nterritory of India shall be free",
     "summary": "Article 301 provides constitutional rules and provisions regarding freedom of trade, commerce and intercourse, under Part XIII: Trade & Commerce.",
     "cases": [],
     "importance": "standard",
@@ -9847,7 +9847,7 @@
     "partId": "Part XIII",
     "partName": "Part XIII: Trade & Commerce",
     "category": "Trade & Commerce",
-    "description": "Parliament may by law impose such restrictions on the freedom of trade, commerce or intercourse between one State and another or within any part of the territory of India as may be required in the public interest.",
+    "description": "Parliament may by law impose such restrictions on the\n\nfreedom of trade, commerce or intercourse between one State and another or\n\nwithin any part of the territory of India as may be required in the public\n\ninterest",
     "summary": "Article 302 provides constitutional rules and provisions regarding power of parliament to impose restrictions on trade, commerce and intercourse, under Part XIII: Trade & Commerce.",
     "cases": [],
     "importance": "standard",
@@ -9874,7 +9874,7 @@
     "partId": "Part XIII",
     "partName": "Part XIII: Trade & Commerce",
     "category": "Trade & Commerce",
-    "description": "(1) Notwithstanding anything in article 302, neither Parliament nor the Legislature of a State shall have power to make any law giving, or authorising the giving of, any preference to one State over another, or making, or authorising the making of, any discrimination between one State and another, by virtue of any entry relating to trade and commerce in any of the Lists in the Seventh Schedule.\n\n \n\n(2) Nothing in clause (1) shall prevent Parliament from making any law giving, or authorising the giving of, any preference or making, or authorising the making of, any discrimination if it is declared by such law that it is necessary to do so for the purpose of dealing with a situation arising from scarcity of goods in any part of the territory of India.",
+    "description": "(1) Notwithstanding anything\n\nin article 302, neither Parliament nor the Legislature of a State shall have power\n\nto make any law giving, or authorising the giving of, any preference to one\n\nState over another, or making, or authorising the making of, any discrimination\n\nbetween one State and another, by virtue of any entry relating to trade and\n\ncommerce in any of the Lists in the Seventh Schedule.\n\n(2) Nothing in clause (1) shall prevent Parliament from making any law\n\ngiving, or authorising the giving of, any preference or making, or authorising\n\nthe making of, any discrimination if it is declared by such law that it is\n\nnecessary to do so for the purpose of dealing with a situation arising from\n\nscarcity of goods in any part of the territory of India",
     "summary": "Article 303 provides constitutional rules and provisions regarding restrictions on the legislative powers of the union and of the states with regard to trade and commerce, under Part XIII: Trade & Commerce.",
     "cases": [],
     "importance": "standard",
@@ -9902,7 +9902,7 @@
     "partId": "Part XIII",
     "partName": "Part XIII: Trade & Commerce",
     "category": "Trade & Commerce",
-    "description": "Notwithstanding anything in article 301 or article 303, the Legislature of a State may by law —\n\n \n\n(a) impose on goods imported from other States 1 [or the Union territories] any tax to which similar goods manufactured or produced in that State are subject, so, however, as not to discriminate between goods so imported and goods so manufactured or produced; and\n\n \n\n(b) impose such reasonable restrictions on the freedom of trade, commerce or intercourse with or within that State as may be required in the public interest:\n\n \n\n   Provided that no Bill or amendment for the purposes of clause (b) shall be introduced or moved in the Legislature of a State without the previous sanction of the President",
+    "description": "Notwithstanding anything in article 301 or article 303, the\n\nLegislature of a State may by law—\n\n(a) impose on goods imported from other States or the Union\n\nterritories any tax to which similar goods manufactured or produced in\n\nthat State are subject, so, however, as not to discriminate between goods\n\nso imported and goods so manufactured or produced; and\n\n(b) impose such reasonable restrictions on the freedom of trade,\n\ncommerce or intercourse with or within that State as may be required in\n\nthe public interest:\nProvided that no Bill or amendment for the purposes of clause (b) shall\n\nbe introduced or moved in the Legislature of a State without the previous\n\nsanction of the President",
     "summary": "Article 304 provides constitutional rules and provisions regarding restrictions on trade, commerce and intercourse among states, under Part XIII: Trade & Commerce.",
     "cases": [],
     "importance": "standard",
@@ -9928,7 +9928,7 @@
     "partId": "Part XIII",
     "partName": "Part XIII: Trade & Commerce",
     "category": "Trade & Commerce",
-    "description": "Nothing in articles 301 and 303 shall affect the provisions of any existing law except in so far as the President may by order otherwise direct; and nothing in article 301 shall affect the operation of any law made before the commencement of the Constitution (Fourth Amendment) Act, 1955, in so far as it relates to, or prevent Parliament or the Legislature of a State from making any law relating to, any such matter as is referred to in subclause (ii) of clause (6) of article 19.",
+    "description": "Nothing in articles 301 and 303 shall affect the provisions of\n\nany existing law except in so far as the President may by order otherwise\n\ndirect; and nothing in article 301 shall affect the operation of any law made\n\nbefore the commencement of the Constitution (Fourth Amendment) Act, 1955,\n\nin so far as it relates to, or prevent Parliament or the Legislature of a State from\n\nmaking any law relating to, any such matter as is referred to in sub-clause (ii)\n\nof clause (6) of article 19.",
     "summary": "Article 305 provides constitutional rules and provisions regarding saving of existing laws and laws providing for state monopolies, under Part XIII: Trade & Commerce.",
     "cases": [],
     "importance": "standard",
@@ -9945,8 +9945,38 @@
     "isFundamental": false
   },
   {
-    "id": "art-307",
+    "id": "art-306",
     "index": 388,
+    "article": "Article 306",
+    "articleNumber": 306,
+    "articleStr": "306",
+    "title": "Power of certain States in Part B of the First Schedule to impose restrictions on trade and commerce",
+    "partId": "Part XIII",
+    "partName": "Part XIII: Trade & Commerce",
+    "category": "Trade & Commerce",
+    "description": "[Power of certain States in Part B of the First Schedule to impose restrictions on trade and commerce.]—Omitted by the Constitution (Seventh Amendment) Act, 1956, s. 29 and Sch. (w.e.f. 1-11-1956).",
+    "summary": "Article 306 provides constitutional rules and provisions regarding power of certain states in part b of the first schedule to impose restrictions on trade and commerce, under Part XIII: Trade & Commerce.",
+    "cases": [],
+    "importance": "standard",
+    "tags": [
+      "part xiii",
+      "trade & commerce",
+      "power",
+      "certain",
+      "states",
+      "part",
+      "first",
+      "schedule",
+      "impose",
+      "restrictions",
+      "trade",
+      "commerce"
+    ],
+    "isFundamental": false
+  },
+  {
+    "id": "art-307",
+    "index": 389,
     "article": "Article 307",
     "articleNumber": 307,
     "articleStr": "307",
@@ -9954,7 +9984,7 @@
     "partId": "Part XIII",
     "partName": "Part XIII: Trade & Commerce",
     "category": "Trade & Commerce",
-    "description": "Parliament may by law appoint such authority as it considers appropriate for carrying out the purposes of articles 301, 302, 303 and 304, and confer on the authority so appointed such powers and such duties as it thinks necessary.",
+    "description": "Parliament may by law appoint such authority as it\n\nconsiders appropriate for carrying out the purposes of articles 301, 302, 303\n\nand 304, and confer on the authority so appointed such powers and such duties\n\nas it thinks necessary.",
     "summary": "Article 307 provides constitutional rules and provisions regarding appointment of authority for carrying out the purposes of articles 301 to 304, under Part XIII: Trade & Commerce.",
     "cases": [],
     "importance": "standard",
@@ -9971,7 +10001,7 @@
   },
   {
     "id": "art-308",
-    "index": 389,
+    "index": 390,
     "article": "Article 308",
     "articleNumber": 308,
     "articleStr": "308",
@@ -9979,7 +10009,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "In this Part, unless the context otherwise requires, the expression “State” does not include the State of Jammu and Kashmir.",
+    "description": "In this Part, unless the context otherwise requires,\n\nthe expression “State” does not include the State of Jammu and Kashmir",
     "summary": "Article 308 provides constitutional rules and provisions regarding interpretation, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -9992,7 +10022,7 @@
   },
   {
     "id": "art-309",
-    "index": 390,
+    "index": 391,
     "article": "Article 309",
     "articleNumber": 309,
     "articleStr": "309",
@@ -10000,7 +10030,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "Subject to the provisions of this Constitution, Acts of the appropriate Legislature may regulate the recruitment, and conditions of service of persons appointed, to public services and posts in connection with the affairs of the Union or of any State:\n\n \n\n   Provided that it shall be competent for the President or such person as he may direct in the case of services and posts in connection with the affairs of the Union, and for the Governor of a State or such person as he may direct in the case of services and posts in connection with the affairs of the State, to make rules regulating the recruitment, and the conditions of service of persons appointed, to such services and posts until provision in that behalf is made by or under an Act of the appropriate Legislature under this article, and any rules so made shall have effect subject to the provisions of any such Act.",
+    "description": "Subject to the provisions of this Constitution, Acts of the\n\nappropriate Legislature may regulate the recruitment, and conditions of service\n\nof persons appointed, to public services and posts in connection with the affairs\n\nof the Union or of any State:\n\nProvided that it shall be competent for the President or such person as he\n\nmay direct in the case of services and posts in connection with the affairs of the\n\nUnion, and for the Governor  of a State or such person as he may direct in\n\nthe case of services and posts in connection with the affairs of the State, to\n\nmake rules regulating the recruitment, and the conditions of service of persons\n\nappointed, to such services and posts until provision in that behalf is made by\n\nor under an Act of the appropriate Legislature under this article, and any rules\n\nso made shall have effect subject to the provisions of any such Act",
     "summary": "Article 309 provides constitutional rules and provisions regarding recruitment and conditions of service of persons serving the union or a state, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10019,7 +10049,7 @@
   },
   {
     "id": "art-310",
-    "index": 391,
+    "index": 392,
     "article": "Article 310",
     "articleNumber": 310,
     "articleStr": "310",
@@ -10027,7 +10057,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "(1) Except as expressly provided by this Constitution, every person who is a member of a defence service or of a civil service of the Union or of an all-India service or holds any post connected with defence or any civil post under the Union holds office during the pleasure of the President, and every person who is a member of a civil service of a State or holds any civil post under a State holds office during the pleasure of the Governor of the State.\n\n \n\n(2) Notwithstanding that a person holding a civil post under the Union or a State holds office during the pleasure of the President or, as the case may be, of the Governor of the State, any contract under which a person, not being a member of a defence service or of an all-India service or of a civil service of the Union or a State, is appointed under this Constitution to hold such a post may, if the President or the Governor, as the case may be, deems it necessary in order to secure the services of a person having special qualifications, provide for the payment to him of compensation, if before the expiration of an agreed period that post is abolished or he is, for reasons not connected with any misconduct on his part, required to vacate that post.",
+    "description": "(1)\n\nExcept as expressly provided by this Constitution, every person who is a\n\nmember of a defence service or of a civil service of the Union or of an\n\nall-India service or holds any post connected with defence or any civil post\n\nunder the Union holds office during the pleasure of the President, and every\n\nperson who is a member of a civil service of a State or holds any civil post\n\nunder a State holds office during the pleasure of the Governor  of the\n\nState.\n\n(2) Notwithstanding that a person holding a civil post under the Union or\n\na State holds office during the pleasure of the President or, as the case may be,\n\nof the Governor  of the State, any contract under which a person, not being\n\na member of a defence service or of an all-India service or of a civil service of\n\nthe Union or a State, is appointed under this Constitution to hold such a post\n\nmay, if the President or the Governor , as the case may be, deems it\n\nnecessary in order to secure the services of a person having special\n\nqualifications, provide for the payment to him of compensation, if before the\n\nexpiration of an agreed period that post is abolished or he is, for reasons not\n\nconnected with any misconduct on his part, required to vacate that post",
     "summary": "Article 310 provides constitutional rules and provisions regarding tenure of office of persons serving the union or a state, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10045,7 +10075,7 @@
   },
   {
     "id": "art-311",
-    "index": 392,
+    "index": 393,
     "article": "Article 311",
     "articleNumber": 311,
     "articleStr": "311",
@@ -10053,7 +10083,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "(1) No person who is a member of a civil service of the Union or an all-India service or a civil service of a State or holds a civil post under the Union or a State shall be dismissed or removed by an authority subordinate to that by which he was appointed.\n\n \n\n(2) No such person as aforesaid shall be dismissed or removed or reduced in rank except after an inquiry in which he has been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges:\n\n \n\n   Provided that where it is proposed after such inquiry, to impose upon him any such penalty, such penalty may be imposed on the basis of the evidence adduced during such inquiry and it shall not be necessary to give such person any opportunity of making representation on the penalty proposed:\n\n \n\n   Provided further that this clause shall not apply — \n\n \n\n(a) where a person is dismissed or removed or reduced in rank on the ground of conduct which has led to his conviction on a criminal charge; or\n\n \n\n(b) where the authority empowered to dismiss or remove a person or to reduce him in rank is satisfied that for some reason, to be recorded by that authority in writing, it is not reasonably practicable to hold such inquiry; or\n\n \n\n(c) where the President or the Governor, as the case may be, is satisfied that in the interest of the security of the State it is not expedient to hold such inquiry.\n\n \n\n(3) If, in respect of any such person as aforesaid, a question arises whether it is reasonably practicable to hold such inquiry as is referred to in clause (2), the decision thereon of the authority empowered to dismiss or remove such person or to reduce him in rank shall be final.",
+    "description": "(1) No person who is a member\n\nof a civil service of the Union or an all-India service or a civil service of a\n\nState or holds a civil post under the Union or a State shall be dismissed or\n\nremoved by an authority subordinate to that by which he was appointed.\n\n(2) No such person as aforesaid shall be dismissed or removed or\n\nreduced in rank except after an inquiry in which he has been informed of the\n\ncharges against him and given a reasonable opportunity of being heard in\n\nrespect of those charges :\n\nProvided that where it is proposed after such inquiry, to impose upon\n\nhim any such penalty, such penalty may be imposed on the basis of the\n\nevidence adduced during such inquiry and it shall not be necessary to give such\n\nperson any opportunity of making representation on the penalty proposed:\n\nProvided further that this clause shall not apply—\n\n(a) where a person is dismissed or removed or reduced in rank on\n\nthe ground of conduct which has led to his conviction on a criminal\n\ncharge; or\n\n(b) where the authority empowered to dismiss or remove a person\n\nor to reduce him in rank is satisfied that for some reason, to be recorded\n\nby that authority in writing, it is not reasonably practicable to hold such\n\ninquiry; or\n\n(c) where the President or the Governor, as the case may be, is\n\nsatisfied that in the interest of the security of the State it is not expedient\n\nto hold such inquiry.\n\n(3) If, in respect of any such person as aforesaid, a question arises\n\nwhether it is reasonably practicable to hold such inquiry as is referred to in\n\nclause (2), the decision thereon of the authority empowered to dismiss or\n\nremove such person or to reduce him in rank shall be final.",
     "summary": "Dismissal, removal or reduction in rank of civil servants: constitutional safeguards preventing dismissal by subordinate authority and requiring inquiry with reasonable opportunity to be heard.",
     "cases": [
       "Union of India v. Tulsiram Patel (1985) - Exceptions to disciplinary inquiry."
@@ -10082,7 +10112,7 @@
   },
   {
     "id": "art-312",
-    "index": 393,
+    "index": 394,
     "article": "Article 312",
     "articleNumber": 312,
     "articleStr": "312",
@@ -10090,7 +10120,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "(1) Notwithstanding anything in Chapter VI of Part VI or Part XI, if the Council of States has declared by resolution supported by not less than two-thirds of the members present and voting that it is necessary or expedient in the national interest so to do, Parliament may by law provide for the creation of one or more all India services (including an all-India judicial service) common to the Union and the States, and, subject to the other provisions of this Chapter, regulate the recruitment, and the conditions of service of persons appointed, to any such service.\n\n \n\n(2) The services known at the commencement of this Constitution as the Indian Administrative Service and the Indian Police Service shall be deemed to be services created by Parliament under this article.\n\n \n\n(3) The all-India judicial service referred to in clause (1) shall not include any post inferior to that of a district judge as defined in article 236.\n\n \n\n(4) The law providing for the creation of the all-India judicial service aforesaid may contain such provisions for the amendment of Chapter VI of Part VI as may be necessary for giving effect to the provisions of that law and no such law shall be deemed to be an amendment of this Constitution for the purposes of article 368.",
+    "description": "(1) Notwithstanding anything in Chapter VI\n\nof Part VI or Part XI, if the Council of States has declared by resolution\n\nsupported by not less than two-thirds of the members present and voting that it\n\nis necessary or expedient in the national interest so to do, Parliament may by\n\nlaw provide for the creation of one or more all India services (including an\n\nall-India judicial service) common to the Union and the States, and, subject to\n\nthe other provisions of this Chapter, regulate the recruitment, and the\n\nconditions of service of persons appointed, to any such service.\n\n(2) The services known at the commencement of this Constitution as the\n\nIndian Administrative Service and the Indian Police Service shall be deemed to\n\nbe services created by Parliament under this article.\n\n(3) The all-India judicial service referred to in clause (1) shall not\n\ninclude any post inferior to that of a district judge as defined in article 236.\n\n(4) The law providing for the creation of the all-India judicial service\n\naforesaid may contain such provisions for the amendment of Chapter VI of\n\nPart VI as may be necessary for giving effect to the provisions of that law and\n\nno such law shall be deemed to be an amendment of this Constitution for the\n\npurposes of article 368.",
     "summary": "All-India Services (IAS, IPS, IFoS): empowers Rajya Sabha by two-thirds majority resolution to create new All-India Services in national interest.",
     "cases": [
       "Federal pillar binding the Union administrative structure."
@@ -10111,7 +10141,7 @@
   },
   {
     "id": "art-312A",
-    "index": 394,
+    "index": 395,
     "article": "Article 312A",
     "articleNumber": "312A",
     "articleStr": "312A",
@@ -10119,7 +10149,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "(1) Parliament may by law —\n\n \n\n(a) vary or revoke, whether prospectively or retrospectively, the conditions of services as respects remuneration, leave and pension and the rights as respects disciplinary matters of persons who, having been appointed by the Secretary of State or Secretary of State in Council to a civil service of the Crown in India before the commencement of this Constitution, continue on and after the commencement of the Constitution (Twenty-eighth Amendment) Act, 1972, to serve under the Government of India or of a State in any service or post;\n\n \n\n(b) vary or revoke, whether prospectively or retrospectively, the conditions of service as respects pension of persons who, having been appointed by the Secretary of State or Secretary of State in Council to a civil service of the Crown in India before the commencement of this Constitution, retired or otherwise ceased to be in service at any time before the commencement of the Constitution (Twentyeighth Amendment) Act, 1972:\n\n \n\n   Provided that in the case of any such person who is holding or has held the office of the Chief Justice or other Judge of the Supreme Court or a High Court, the Comptroller and Auditor-General of India, the Chairman or other member of the Union or a State Public Service Commission or the Chief Election Commissioner, nothing in sub-clause (a) or sub-clause (b) shall be construed as empowering Parliament to vary or revoke, after his appointment to such post, the conditions of his service to his disadvantage except in so far as such conditions of service are applicable to him by reason of his being a person appointed by the Secretary of State or Secretary of State in Council to a civil service of the Crown in India.\n\n \n\n(2) Except to the extent provided for by Parliament by law under this article, nothing in this article shall affect the power of any Legislature or other authority under any other provision of this Constitution to regulate the conditions of service of persons referred to in clause (1).\n\n \n\n(3) Neither the Supreme Court nor any other court shall have jurisdiction in —\n\n \n\n(a) any dispute arising out of any provision of, or any endorsement on, any covenant, agreement or other similar instrument which was entered into or executed by any person referred to in clause (1), or arising out of any letter issued to such person, in relation to his appointment to any civil service of the Crown in India or his continuance in service under the Government of the Dominion of India or a Province thereof;\n\n \n\n(b) any dispute in respect of any right, liability or obligation under article 314 as originally enacted.\n\n \n\n(4) The provisions of this article shall have effect notwithstanding anything in article 314 as originally enacted or in any other provision of this Constitution.",
+    "description": "(1) Parliament may by law—\n\n(a) vary or revoke, whether prospectively or retrospectively, the\n\nconditions of services as respects remuneration, leave and pension and\n\nthe rights as respects disciplinary matters of persons who, having been\n\nappointed by the Secretary of State or Secretary of State in Council to a\n\ncivil service of the Crown in India before the commencement of this\n\nConstitution, continue on and after the commencement of the\n\nConstitution (Twenty-eighth Amendment) Act, 1972, to serve under the\n\nGovernment of India or of a State in any service or post;\n\n(b) vary or revoke, whether prospectively or retrospectively, the\n\nconditions of service as respects pension of persons who, having been\n\nappointed by the Secretary of State or Secretary of State in Council to a\n\ncivil service of the Crown in India before the commencement of this\n\nConstitution, retired or otherwise ceased to be in service at any time\n\nbefore the commencement of the Constitution (Twenty-eighth\n\nAmendment) Act, 1972:\n\nProvided that in the case of any such person who is holding or has held\n\nthe office of the Chief Justice or other Judge of the Supreme Court or a High\n\nCourt, the Comptroller and Auditor-General of India, the Chairman or other\n\nmember of the Union or a State Public Service Commission or the Chief\n\nElection Commissioner, nothing in sub-clause (a) or sub-clause (b) shall be\n\nconstrued as empowering Parliament to vary or revoke, after his appointment\n\nto such post, the conditions of his service to his disadvantage except in so far as\n\nsuch conditions of service are applicable to him by reason of his being a\n\nperson appointed by the Secretary of State or Secretary of State in Council to a\n\ncivil service of the Crown in India.\n\n(2) Except to the extent provided for by Parliament by law under this\n\narticle, nothing in this article shall affect the power of any Legislature or other\n\nauthority under any other provision of this Constitution to regulate the\n\nconditions of service of persons referred to in clause (1).\n\n(3) Neither the Supreme Court nor any other court shall have jurisdiction in—\n\n(a) any dispute arising out of any provision of, or any\n\nendorsement on, any covenant, agreement or other similar instrument\n\nwhich was entered into or executed by any person referred to in\n\nclause (1), or arising out of any letter issued to such person, in relation to\n\nhis appointment to any civil service of the Crown in India or his\n\ncontinuance in service under the Government of the Dominion of India\n\nor a Province thereof;\n\n(b) any dispute in respect of any right, liability or obligation\n\nunder article 314 as originally enacted.\n\n(4) The provisions of this article shall have effect notwithstanding\n\nanything in article 314 as originally enacted or in any other provision of this\n\nConstitution.",
     "summary": "Article 312A provides constitutional rules and provisions regarding power of parliament to vary or revoke conditions of service of officers of certain services, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10140,7 +10170,7 @@
   },
   {
     "id": "art-313",
-    "index": 395,
+    "index": 396,
     "article": "Article 313",
     "articleNumber": 313,
     "articleStr": "313",
@@ -10148,7 +10178,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "Until other provision is made in this behalf under this Constitution, all the laws in force immediately before the commencement of this Constitution and applicable to any public service or any post which continues to exist after the commencement of this Constitution, as an allIndia service or as service or post under the Union or a State shall continue in force so far as consistent with the provisions of this Constitution.",
+    "description": "Until other provision is made in this\n\nbehalf under this Constitution, all the laws in force immediately before the\n\ncommencement of this Constitution and applicable to any public service or any\n\npost which continues to exist after the commencement of this Constitution, as\n\nan all-India service or as service or post under the Union or a State shall\n\ncontinue in force so far as consistent with the provisions of this Constitution",
     "summary": "Article 313 provides constitutional rules and provisions regarding transitional provisions, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10161,8 +10191,34 @@
     "isFundamental": false
   },
   {
+    "id": "art-314",
+    "index": 397,
+    "article": "Article 314",
+    "articleNumber": 314,
+    "articleStr": "314",
+    "title": "Provision for protection of existing officers of certain services",
+    "partId": "Part XIV",
+    "partName": "Part XIV: Services Under Union & States",
+    "category": "Civil Services & UPSC",
+    "description": "[Provision for protection of existing officers of certain services.]—Omitted by the Constitution (Twenty-eighth Amendment) Act, 1972, s. 3 (w.e.f. 29-8-1972).",
+    "summary": "Article 314 provides constitutional rules and provisions regarding provision for protection of existing officers of certain services, under Part XIV: Services Under Union & States.",
+    "cases": [],
+    "importance": "standard",
+    "tags": [
+      "part xiv",
+      "civil services & upsc",
+      "provision",
+      "protection",
+      "existing",
+      "officers",
+      "certain",
+      "services"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-315",
-    "index": 396,
+    "index": 398,
     "article": "Article 315",
     "articleNumber": 315,
     "articleStr": "315",
@@ -10170,7 +10226,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "(1) Subject to the provisions of this article, there shall be a Public Service Commission for the Union and a Public Service Commission for each State.\n\n \n\n(2) Two or more States may agree that there shall be one Public Service Commission for that group of States, and if a resolution to that effect is passed by the House or, where there are two Houses, by each House of the Legislature of each of those States, Parliament may by law provide for the appointment of a Joint State Public Service Commission (referred to in this Chapter as Joint Commission) to serve the needs of those States.\n\n \n\n(3) Any such law as aforesaid may contain such incidental and consequential provisions as may be necessary or desirable for giving effect to the purposes of the law.\n\n \n\n(4) The Public Service Commission for the Union, if requested so to do by the Governor of a State, may, with the approval of the President, agree to serve all or any of the needs of the State.\n\n \n\n(5) References in this Constitution to the Union Public Service Commission or a State Public Service Commission shall, unless the context otherwise requires, be construed as references to the Commission serving the needs of the Union or, as the case may be, the State as respects the particular matter in question.",
+    "description": "(1) Subject to the provisions of this article, there shall be a Public Service\n\nCommission for the Union and a Public Service Commission for each State.\n\n(2) Two or more States may agree that there shall be one Public Service\n\nCommission for that group of States, and if a resolution to that effect is passed\n\nby the House or, where there are two Houses, by each House of the Legislature\n\nof each of those States, Parliament may by law provide for the appointment of a\n\nJoint State Public Service Commission (referred to in this Chapter as Joint\n\nCommission) to serve the needs of those States.\n\n(3) Any such law as aforesaid may contain such incidental and\n\nconsequential provisions as may be necessary or desirable for giving effect to\n\nthe purposes of the law.\n\n(4) The Public Service Commission for the Union, if requested so to do\n\nby the Governor  of a State, may, with the approval of the President, agree\n\nto serve all or any of the needs of the State.\n\n(5) References in this Constitution to the Union Public Service\n\nCommission or a State Public Service Commission shall, unless the context\n\notherwise requires, be construed as references to the Commission serving the\n\nneeds of the Union or, as the case may be, the State as respects the particular\n\nmatter in question",
     "summary": "Public Service Commissions for the Union (UPSC) and for the States (SPSC), conducting examinations for appointments to administrative services.",
     "cases": [
       "Constitutional independence of recruitment bodies."
@@ -10194,7 +10250,7 @@
   },
   {
     "id": "art-316",
-    "index": 397,
+    "index": 399,
     "article": "Article 316",
     "articleNumber": 316,
     "articleStr": "316",
@@ -10202,7 +10258,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "(1) The Chairman and other members of a Public Service Commission shall be appointed, in the case of the Union Commission or a Joint Commission, by the President, and in the case of a State Commission, by the Governor of the State:\n\n \n\n    Provided that as nearly as may be one-half of the members of every Public Service Commission shall be persons who at the dates of their respective appointments have held office for at least ten years either under the Government of India or under the Government of a State, and in computing the said period of ten years any period before the commencement of this Constitution during which a person has held office under the Crown in India or under the Government of an Indian State shall be included.\n\n \n\n(1A) If the office of the Chairman of the Commission becomes vacant or if any such Chairman is by reason of absence or for any other reason unable to perform the duties of his office, those duties shall, until some person appointed under clause (1) to the vacant office has entered on the duties thereof or, as the case may be, until the Chairman has resumed his duties, be performed by such one of the other members of the Commission as the President, in the case of the Union Commission or a Joint Commission, and the Governor of the State in the case of a State Commission, may appoint for the purpose.\n\n \n\n(2) A member of a Public Service Commission shall hold office for a term of six years from the date on which he enters upon his office or until he attains, in the case of the Union Commission, the age of sixty-five years, and in the case of a State Commission or a Joint Commission, the age of sixty-two years, whichever is earlier:\n\n \n\n   Provided that —\n\n \n\n(a) a member of a Public Service Commission may, by writing under his hand addressed, in the case of the Union Commission or a Joint Commission, to the President, and in the case of a State Commission, to the Governor of the State, resign his office;\n\n \n\n(b) a member of a Public Service Commission may be removed from his office in the manner provided in clause (1) or clause (3) of article 317.\n\n \n\n(3) A person who holds office as a member of a Public Service Commission shall, on the expiration of his term of office, be ineligible for re-appointment to that office.",
+    "description": "(1) The Chairman\n\nand other members of a Public Service Commission shall be appointed, in the\n\ncase of the Union Commission or a Joint Commission, by the President, and in\n\nthe case of a State Commission, by the Governor of the State:\n\nProvided that as nearly as may be one-half of the members of every\n\nPublic Service Commission shall be persons who at the dates of their respective\n\nappointments have held office for at least ten years either under the\n\nGovernment of India or under the Government of a State, and in computing the\n\nsaid period of ten years any period before the commencement of this\n\nConstitution during which a person has held office under the Crown in India or\n\nunder the Government of an Indian State shall be included.\n\n(1A) If the office of the Chairman of the Commission becomes vacant\n\nor if any such Chairman is by reason of absence or for any other reason unable\n\nto perform the duties of his office, those duties shall, until some person\n\nappointed under clause (1) to the vacant office has entered on the duties thereof\n\nor, as the case may be, until the Chairman has resumed his duties, be performed\n\nby such one of the other members of the Commission as the President, in the\n\ncase of the Union Commission or a Joint Commission, and the Governor of the\n\nState in the case of a State Commission, may appoint for the purpose.\n\n(2) A member of a Public Service Commission shall hold office for a\n\nterm of six years from the date on which he enters upon his office or until he\n\nattains, in the case of the Union Commission, the age of sixty-five years, and in\n\nthe case of a State Commission or a Joint Commission, the age of sixty-two\n\nyears, whichever is earlier:\n\nProvided that—\n\n(a) a member of a Public Service Commission may, by writing under\n\nhis hand addressed, in the case of the Union Commission or a Joint\n\nCommission, to the President, and in the case of a State Commission, to\n\nthe Governor  of the State, resign his office;\n\n(b) a member of a Public Service Commission may be removed from\n\nhis office in the manner provided in clause (1) or clause (3) of\n\narticle 317.\n\n(3) A person who holds office as a member of a Public Service\n\nCommission shall, on the expiration of his term of office, be ineligible for\n\nre-appointment to that office",
     "summary": "Article 316 provides constitutional rules and provisions regarding appointment and term of office of members, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10218,7 +10274,7 @@
   },
   {
     "id": "art-317",
-    "index": 398,
+    "index": 400,
     "article": "Article 317",
     "articleNumber": 317,
     "articleStr": "317",
@@ -10226,7 +10282,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "(1) Subject to the provisions of clause (3), the Chairman or any other member of a Public Service Commission shall only be removed from his office by order of the President on the ground of misbehaviour after the Supreme Court, on reference being made to it by the President, has, on inquiry held in accordance with the procedure prescribed in that behalf under article 145, reported that the Chairman or such other member, as the case may be, ought on any such ground to be removed.\n\n \n\n(2) The President, in the case of the Union Commission or a Joint Commission, and the Governor in the case of a State Commission, may suspend from office the Chairman or any other member of the Commission in respect of whom a reference has been made to the Supreme Court under clause (1) until the President has passed orders on receipt of the report of the Supreme Court on such reference.\n\n \n\n(3) Notwithstanding anything in clause (1), the President may by order remove from office the Chairman or any other member of a Public Service Commission if the Chairman or such other member, as the case may be, —\n\n \n\n(a) is adjudged an insolvent; or\n\n \n\n(b) engages during his term of office in any paid employment outside the duties of his office; or\n\n \n\n(c) is, in the opinion of the President, unfit to continue in office by reason of infirmity of mind or body.\n\n \n\n(4) If the Chairman or any other member of a Public Service Commission is or becomes in any way concerned or interested in any contract or agreement made by or on behalf of the Government of India or the Government of a State or participates in any way in the profit thereof or in any benefit or emolument arising therefrom otherwise than as a member and in common with the other members of an incorporated company, he shall, for the purposes of clause (1), be deemed to be guilty of misbehaviour.",
+    "description": "(1) Subject to the provisions of clause (3), the Chairman or\n\nany other member of a Public Service Commission shall only be removed from\n\nhis office by order of the President on the ground of misbehaviour after the\n\nSupreme Court, on reference being made to it by the President, has, on inquiry\n\nheld in accordance with the procedure prescribed in that behalf under\n\narticle 145, reported that the Chairman or such other member, as the case may\n\nbe, ought on any such ground to be removed.\n\n(2) The President, in the case of the Union Commission or a Joint\n\nCommission, and the Governor  in the case of a State Commission, may\n\nsuspend from office the Chairman or any other member of the Commission in\n\nrespect of whom a reference has been made to the Supreme Court under\n\nclause (1) until the President has passed orders on receipt of the report of the\n\nSupreme Court on such reference.\n\n(3) Notwithstanding anything in clause (1), the President may by order\n\nremove from office the Chairman or any other member of a Public Service\n\nCommission if the Chairman or such other member, as the case may be,—\n\n(a) is adjudged an insolvent; or\n\n(b) engages during his term of office in any paid employment outside\n\nthe duties of his office; or\n\n(c) is, in the opinion of the President, unfit to continue in office by\n\nreason of infirmity of mind or body.\n\n(4) If the Chairman or any other member of a Public Service\n\nCommission is or becomes in any way concerned or interested in any contract\n\nor agreement made by or on behalf of the Government of India or the\n\nGovernment of a State or participates in any way in the profit thereof or in any\n\nbenefit or emolument arising therefrom otherwise than as a member and in\n\ncommon with the other members of an incorporated company, he shall, for the\n\npurposes of clause (1), be deemed to be guilty of misbehaviour",
     "summary": "Article 317 provides constitutional rules and provisions regarding removal and suspension of a member of a public service commission, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10244,7 +10300,7 @@
   },
   {
     "id": "art-318",
-    "index": 399,
+    "index": 401,
     "article": "Article 318",
     "articleNumber": 318,
     "articleStr": "318",
@@ -10252,7 +10308,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "In the case of the Union Commission or a Joint Commission, the President and, in the case of a State Commission, the Governor of the State may by regulations —\n\n \n\n(a) determine the number of members of the Commission and their conditions of service; and\n\n \n\n(b) make provision with respect to the number of members of the staff of the Commission and their conditions of service:\n\n \n\n   Provided that the conditions of service of a member of a Public Service Commission shall not be varied to his disadvantage after his appointment.",
+    "description": "In the case of the Union\n\nCommission or a Joint Commission, the President and, in the case of a State\n\nCommission, the Governor  of the State may by regulations—\n\n(a) determine the number of members of the Commission and their\n\nconditions of service; and\n\n(b) make provision with respect to the number of members of the\n\nstaff of the Commission and their conditions of service:\n\nProvided that the conditions of service of a member of a Public Service\n\nCommission shall not be varied to his disadvantage after his appointment",
     "summary": "Article 318 provides constitutional rules and provisions regarding power to make regulations as to conditions of service of members and staff of the commission, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10272,7 +10328,7 @@
   },
   {
     "id": "art-319",
-    "index": 400,
+    "index": 402,
     "article": "Article 319",
     "articleNumber": 319,
     "articleStr": "319",
@@ -10280,7 +10336,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "On ceasing to hold office —\n\n \n\n(a) the Chairman of the Union Public Service Commission shall be ineligible for further employment either under the Government of India or under the Government of a State;\n\n \n\n(b) the Chairman of a State Public Service Commission shall be eligible for appointment as the Chairman or any other member of the Union Public Service Commission or as the Chairman of any other State Public Service Commission, but not for any other employment either under the Government of India or under the Government of a State;\n\n \n\n(c) a member other than the Chairman of the Union Public Service Commission shall be eligible for appointment as the Chairman of the Union Public Service Commission, or as the Chairman of a State Public Service Commission, but not for any other employment either under the Government of India or under the Government of a State;\n\n \n\n(d) a member other than the Chairman of a State Public Service Commission shall be eligible for appointment as the Chairman or any other member of the Union Public Service Commission or as the Chairman of that or any other State Public Service Commission, but not for any other employment either under the Government of India or under the Government of a State.",
+    "description": "On ceasing to hold office—\n\n(a) the Chairman of the Union Public Service Commission shall be\n\nineligible for further employment either under the Government of India\n\nor under the Government of a State;\n\n(b) the Chairman of a State Public Service Commission shall be\n\neligible for appointment as the Chairman or any other member of the\n\nUnion Public Service Commission or as the Chairman of any other State\n\nPublic Service Commission, but not for any other employment either\n\nunder the Government of India or under the Government of a State;\n\n(c) a member other than the Chairman of the Union Public Service\n\nCommission shall be eligible for appointment as the Chairman of the\n\nUnion Public Service Commission or as the Chairman of a State Public\n\nService Commission, but not for any other employment either under the\n\nGovernment of India or under the Government of a State;\n\n(d) a member other than the Chairman of a State Public Service\n\nCommission shall be eligible for appointment as the Chairman or any\n\nother member of the Union Public Service Commission or as the\n\nChairman of that or any other State Public Service Commission, but not\n\nfor any other employment either under the Government of India or under\n\nthe Government of a State",
     "summary": "Article 319 provides constitutional rules and provisions regarding prohibition as to the holding of offices by members of commission on ceasing to be such members, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10297,8 +10353,40 @@
     "isFundamental": false
   },
   {
+    "id": "art-320",
+    "index": 403,
+    "article": "Article 320",
+    "articleNumber": 320,
+    "articleStr": "320",
+    "title": "Functions of Public Service Commissions",
+    "partId": "Part XIV",
+    "partName": "Part XIV: Services Under Union & States",
+    "category": "Civil Services & UPSC",
+    "description": "(1) It shall be the\n\nduty of the Union and the State Public Service Commissions to conduct\n\nexaminations for appointments to the services of the Union and the services of\n\nthe State respectively.\n\n(2) It shall also be the duty of the Union Public Service Commission, if\n\nrequested by any two or more States so to do, to assist those States in framing\n\nand operating schemes of joint recruitment for any services for which\n\ncandidates possessing special qualifications are required.\n\n(3) The Union Public Service Commission or the State Public Service\n\nCommission, as the case may be, shall be consulted—\n\n(a) on all matters relating to methods of recruitment to civil\n\nservices and for civil posts;\n\n(b) on the principles to be followed in making appointments to\n\ncivil services and posts and in making promotions and transfers from one\n\nservice to another and on the suitability of candidates for such\n\nappointments, promotions or transfers;\n\n(c) on all disciplinary matters affecting a person serving under the\n\nGovernment of India or the Government of a State in a civil capacity,\n\nincluding memorials or petitions relating to such matters;\n\n(d) on any claim by or in respect of a person who is serving or\n\nhas served under the Government of India or the Government of a State\n\nor under the Crown in India or under the Government of an Indian State,\n\nin a civil capacity, that any costs incurred by him in defending legal\n\nproceedings instituted against him in respect of acts done or purporting\n\nto be done in the execution of his duty should be paid out of the\n\nConsolidated Fund of India, or, as the case may be, out of the\n\nConsolidated Fund of the State;\n\n(e) on any claim for the award of a pension in respect of injuries\n\nsustained by a person while serving under the Government of India or\n\nthe Government of a State or under the Crown in India or under the\n\nGovernment of an Indian State, in a civil capacity, and any question as to\n\nthe amount of any such award,\n\nand it shall be the duty of a Public Service Commission to advise on any matter\n\nso referred to them and on any other matter which the President, or, as the case\n\nmay be, the Governor  of the State, may refer to them:\n\nProvided that the President as respects the all-India services and also as\n\nrespects other services and posts in connection with the affairs of the Union,\n\nand the Governor , as respects other services and posts in connection with\n\nthe affairs of a State, may make regulations specifying the matters in which\n\neither generally, or in any particular class of case or in any particular\n\ncircumstances, it shall not be necessary for a Public Service Commission to be\n\nconsulted.\n\n(4) Nothing in clause (3) shall require a Public Service Commission to\n\nbe consulted as respects the manner in which any provision referred to in\n\nclause (4) of article 16 may be made or as respects the manner in which effect\n\nmay be given to the provisions of article 335.\n\n(5) All regulations made under the proviso to clause (3) by the President\n\nor the Governor  of a State shall be laid for not less than fourteen days\n\nbefore each House of Parliament or the House or each House of the Legislature\n\nof the State, as the case may be, as soon as possible after they are made, and\n\nshall be subject to such modifications, whether by way of repeal or amendment,\n\nas both Houses of Parliament or the House or both Houses of the Legislature of\n\nthe State may make during the session in which they are so laid",
+    "summary": "Functions of Public Service Commissions: duty to conduct examinations for appointments to services of Union and States, and mandatory consultation on recruitment methods and disciplinary matters.",
+    "cases": [
+      "State of UP v. Manbodhan Lal Srivastava (1957) - Consultation with UPSC under Art 320(3)(c) is directory, not mandatory, but safeguards meritocracy."
+    ],
+    "importance": "landmark",
+    "tags": [
+      "part xiv",
+      "civil services & upsc",
+      "upsc",
+      "spsc",
+      "examinations",
+      "civil services",
+      "recruitment",
+      "merit",
+      "functions",
+      "public",
+      "service",
+      "commissions"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-321",
-    "index": 401,
+    "index": 404,
     "article": "Article 321",
     "articleNumber": 321,
     "articleStr": "321",
@@ -10306,7 +10394,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "An Act made by Parliament or, as the case may be, the Legislature of a State may provide for the exercise of additional functions by the Union Public Service Commission or the State Public Service Commission as respects the services of the Union or the State and also as respects the services of any local authority or other body corporate constituted by law or of any public institution.",
+    "description": "An\n\nAct made by Parliament or, as the case may be, the Legislature of a State may\n\nprovide for the exercise of additional functions by the Union Public Service\n\nCommission or the State Public Service Commission as respects the services of\n\nthe Union or the State and also as respects the services of any local authority or\n\nother body corporate constituted by law or of any public institution",
     "summary": "Article 321 provides constitutional rules and provisions regarding power to extend functions of public service commissions, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10324,7 +10412,7 @@
   },
   {
     "id": "art-322",
-    "index": 402,
+    "index": 405,
     "article": "Article 322",
     "articleNumber": 322,
     "articleStr": "322",
@@ -10332,7 +10420,7 @@
     "partId": "Part XIV",
     "partName": "Part XIV: Services Under Union & States",
     "category": "Civil Services & UPSC",
-    "description": "The expenses of the Union or a State Public Service Commission, including any salaries, allowances and pensions payable to or in respect of the members or staff of the Commission, shall be charged on the Consolidated Fund of India or, as the case may be, the Consolidated Fund of the State.",
+    "description": "The expenses of the\n\nUnion or a State Public Service Commission, including any salaries,\n\nallowances and pensions payable to or in respect of the members or staff of the\n\nCommission, shall be charged on the Consolidated Fund of India or, as the case\n\nmay be, the Consolidated Fund of the State",
     "summary": "Article 322 provides constitutional rules and provisions regarding expenses of public service commissions, under Part XIV: Services Under Union & States.",
     "cases": [],
     "importance": "standard",
@@ -10348,7 +10436,7 @@
   },
   {
     "id": "art-323",
-    "index": 403,
+    "index": 406,
     "article": "Article 323",
     "articleNumber": 323,
     "articleStr": "323",
@@ -10356,7 +10444,7 @@
     "partId": "Part XIVA",
     "partName": "Part XIVA: Tribunals",
     "category": "Administrative Tribunals",
-    "description": "(1) It shall be the duty of the Union Commission to present annually to the President a report as to the work done by the Commission and on receipt of such report the President shall cause a copy thereof together with a memorandum explaining, as respects the cases, if any, where the advice of the Commission was not accepted, the reasons for such non-acceptance to be laid before each House of Parliament.\n\n \n\n(2) It shall be the duty of a State Commission to present annually to the Governor of the State a report as to the work done by the Commission, and it shall be the duty of a Joint Commission to present annually to the Governor of each of the States the needs of which are served by the Joint Commission a report as to the work done by the Commission in relation to that State, and in either case the Governor, shall, on receipt of such report, cause a copy thereof together with a memorandum explaining, as respects the cases, if any, where the advice of the Commission was not accepted, the reasons for such non-acceptance to be laid before the Legislature of the State.",
+    "description": "(1) It shall be the duty\n\nof the Union Commission to present annually to the President a report as to the\n\nwork done by the Commission and on receipt of such report the President shall\n\ncause a copy thereof together with a memorandum explaining, as respects the\n\ncases, if any, where the advice of the Commission was not accepted, the\n\nreasons for such non-acceptance to be laid before each House of Parliament.\n\n(2) It shall be the duty of a State Commission to present annually to the\n\nGovernor  of the State a report as to the work done by the Commission,\n\nand it shall be the duty of a Joint Commission to present annually to the\n\nGovernor  of each of the States the needs of which are served by the Joint\n\nCommission a report as to the work done by the Commission in relation to that\n\nState, and in either case the Governor , shall, on receipt of such report,\n\ncause a copy thereof together with a memorandum explaining, as respects the\n\ncases, if any, where the advice of the Commission was not accepted, the\n\nreasons for such non-acceptance to be laid before the Legislature of the State.\n\nPART XIVA\n\nTRIBUNALS",
     "summary": "Article 323 provides constitutional rules and provisions regarding reports of public service commissions, under Part XIVA: Tribunals.",
     "cases": [],
     "importance": "standard",
@@ -10372,7 +10460,7 @@
   },
   {
     "id": "art-323A",
-    "index": 404,
+    "index": 407,
     "article": "Article 323A",
     "articleNumber": "323A",
     "articleStr": "323A",
@@ -10380,7 +10468,7 @@
     "partId": "Part XIVA",
     "partName": "Part XIVA: Tribunals",
     "category": "Administrative Tribunals",
-    "description": "(1) Parliament may, by law, provide for the adjudication or trial by administrative tribunals of disputes and complaints with respect to recruitment and conditions of service of persons appointed to public services and posts in connection with the affairs of the Union or of any State or of any local or other authority within the territory of India or under the control of the Government of India or of any corporation owned or controlled by the Government.\n\n \n\n(2) A law made under clause (1) may —\n\n \n\n(a) provide for the establishment of an administrative tribunal for the Union and a separate administrative tribunal for each State or for two or more States;\n\n \n\n(b) specify the jurisdiction, powers (including the power to punish for contempt) and authority which may be exercised by each of the said tribunals;\n\n \n\n(c) provide for the procedure (including provisions as to limitation and rules of evidence) to be followed by the said tribunals;\n\n \n\n(d) exclude the jurisdiction of all courts, except the jurisdiction of the Supreme Court under article 136, with respect to the disputes or complaints referred to in clause (1);\n\n \n\n(e) provide for the transfer to each such administrative tribunal of any cases pending before any court or other authority immediately before the establishment of such tribunal as would have been within the jurisdiction of such tribunal if the causes of action on which such suits or proceedings are based had arisen after such establishment;\n\n \n\n(f) repeal or amend any order made by the President under clause (3) of article 371D;\n\n \n\n(g) contain such supplemental, incidental and consequential provisions (including provisions as to fees) as Parliament may deem necessary for the effective functioning of, and for the speedy disposal of cases by, and the enforcement of the orders of, such tribunals.\n\n \n\n(3) The provisions of this article shall have effect notwithstanding anything in any other provision of this Constitution or in any other law for the time being in force.",
+    "description": "(1) Parliament may, by law, provide\n\nfor the adjudication or trial by administrative tribunals of disputes and\n\ncomplaints with respect to recruitment and conditions of service of persons\n\nappointed to public services and posts in connection with the affairs of the\n\nUnion or of any State or of any local or other authority within the territory of\n\nIndia or under the control of the Government of India or of any corporation\n\nowned or controlled by the Government.\n\n(2) A law made under clause (1) may—\n\n(a) provide for the establishment of an administrative tribunal for the\n\nUnion and a separate administrative tribunal for each State or for two or\n\nmore States;\n\n(b) specify the jurisdiction, powers (including the power to punish for\n\ncontempt) and authority which may be exercised by each of the said\n\ntribunals;\n\n(c) provide for the procedure (including provisions as to limitation\n\nand rules of evidence) to be followed by the said tribunals;\n\n(d) exclude the jurisdiction of all courts, except the jurisdiction of the\n\nSupreme Court under article 136, with respect to the disputes or\n\ncomplaints referred to in clause (1);\n\n(e) provide for the transfer to each such administrative tribunal of any\n\ncases pending before any court or other authority immediately before the\n\nestablishment of such tribunal as would have been within the jurisdiction\n\nof such tribunal if the causes of action on which such suits or\n\nproceedings are based had arisen after such establishment;\n\n(f) repeal or amend any order made by the President under clause (3)\n\nof article 371D;\n\n(g) contain such supplemental, incidental and consequential\n\nprovisions (including provisions as to fees) as Parliament may deem\n\nnecessary for the effective functioning of, and for the speedy disposal of\n\ncases by, and the enforcement of the orders of, such tribunals.\n\n(3) The provisions of this article shall have effect notwithstanding\n\nanything in any other provision of this Constitution or in any other law for the\n\ntime being in force",
     "summary": "Article 323A provides constitutional rules and provisions regarding administrative tribunals, under Part XIVA: Tribunals.",
     "cases": [],
     "importance": "standard",
@@ -10394,7 +10482,7 @@
   },
   {
     "id": "art-323B",
-    "index": 405,
+    "index": 408,
     "article": "Article 323B",
     "articleNumber": "323B",
     "articleStr": "323B",
@@ -10402,7 +10490,7 @@
     "partId": "Part XIVA",
     "partName": "Part XIVA: Tribunals",
     "category": "Administrative Tribunals",
-    "description": "(1) The appropriate Legislature may, by law, provide for the adjudication or trial by tribunals of any disputes, complaints, or offences with respect to all or any of the matters specified in clause (2) with respect to which such Legislature has power to make laws.\n\n \n\n(2) The matters referred to in clause (1) are the following, namely: —\n\n \n\n(a) levy, assessment, collection and enforcement of any tax;\n\n \n\n(b) foreign exchange, import and export across customs frontiers;\n\n \n\n(c) industrial and labour disputes;\n\n \n\n(d) land reforms by way of acquisition by the State of any estate as defined in article 31A or of any rights therein or the extinguishment or modification of any such rights or by way of ceiling on agricultural land or in any other way;\n\n \n\n(e) ceiling on urban property;\n\n \n\n(f) elections to either House of Parliament or the House or either House of the Legislature of a State, but excluding the matters referred to in article 329 and article 329A;\n\n \n\n(g) production, procurement, supply and distribution of food-stuffs (including edible oilseeds and oils) and such other goods as the President may, by public notification, declare to be essential goods for the purpose of this article and control of prices of such goods;\n\n \n\n(h) rent, its regulation and control and tenancy issues including the right, title and interest of landlords and tenants;\n\n \n\n(i) offences against laws with respect to any of the matters specified in sub-clauses (a) to (h) and fees in respect of any of those matters;\n\n \n\n(j) any matter incidental to any of the matters specified in sub-clauses (a) to (i).\n\n \n\n(3) A law made under clause (1) may —\n\n \n\n(a) provide for the establishment of a hierarchy of tribunals;\n\n \n\n(b) specify the jurisdiction, powers (including the power to punish for contempt) and authority which may be exercised by each of the said tribunals;\n\n \n\n(c) provide for the procedure (including provisions as to limitation and rules of evidence) to be followed by the said tribunals;\n\n \n\n(d) exclude the jurisdiction of all courts, except the jurisdiction of the Supreme Court under article 136, with respect to all or any of the matters falling within the jurisdiction of the said tribunals;\n\n \n\n(e) provide for the transfer to each such tribunal of any cases pending before any court or any other authority immediately before the establishment of such tribunal as would have been within the jurisdiction of such tribunal if the causes of action on which such suits or proceedings are based had arisen after such establishment;\n\n \n\n(f) contain such supplemental, incidental and consequential provisions (including provisions as to fees) as the appropriate Legislature may deem necessary for the effective functioning of, and for the speedy disposal of cases by, and the enforcement of the orders of, such tribunals.\n\n \n\n(4) The provisions of this article shall have effect notwithstanding anything in any other provision of this Constitution or in any other law for the time being in force.\n\n \n\n   Explanation. — In this article, “appropriate Legislature”, in relation to any matter, means Parliament or, as the case may be, a State Legislature competent to make laws with respect to such matter in accordance with the provisions of Part XI.",
+    "description": "(1) The appropriate Legislature\n\nmay, by law, provide for the adjudication or trial by tribunals of any disputes,\n\ncomplaints, or offences with respect to all or any of the matters specified in\n\nclause (2) with respect to which such Legislature has power to make laws.\n\n(2) The matters referred to in clause (1) are the following, namely:—\n\n(a) levy, assessment, collection and enforcement of any tax;\n\n(b) foreign exchange, import and export across customs frontiers;\n\n(c) industrial and labour disputes;\n\n(d) land reforms by way of acquisition by the State of any estate as\n\ndefined in article 31A or of any rights therein or the extinguishment or\n\nmodification of any such rights or by way of ceiling on agricultural land\n\nor in any other way;\n\n(e) ceiling on urban property;\n\n(f) elections to either House of Parliament or the House or either\n\nHouse of the Legislature of a State, but excluding the matters referred to\n\nin article 329 and article 329A;\n\n(g) production, procurement, supply and distribution of food-stuffs\n\n(including edible oilseeds and oils) and such other goods as the President\n\nmay, by public notification, declare to be essential goods for the purpose\n\nof this article and control of prices of such goods;\n\n(h) rent, its regulation and control and tenancy issues including the\n\nright, title and interest of landlords and tenants;\n\n(i) offences against laws with respect to any of the matters\n\nspecified in sub-clauses (a) to (h) and fees in respect of any of those\n\nmatters;\n\n(j) any matter incidental to any of the matters specified in\n\nsub-clauses (a) to (i).\n\n(3) A law made under clause (1) may—\n\n(a) provide for the establishment of a hierarchy of tribunals;\n\n(b) specify the jurisdiction, powers (including the power to punish for\n\ncontempt) and authority which may be exercised by each of the said\n\ntribunals;\n\n(c) provide for the procedure (including provisions as to limitation\n\nand rules of evidence) to be followed by the said tribunals;\n\n(d) exclude the jurisdiction of all courts, except the jurisdiction of the\n\nSupreme Court under article 136, with respect to all or any of the matters\n\nfalling within the jurisdiction of the said tribunals;\n\n(e) provide for the transfer to each such tribunal of any cases pending\n\nbefore any court or any other authority immediately before the\n\nestablishment of such tribunal as would have been within the jurisdiction\n\nof such tribunal if the causes of action on which such suits or\n\nproceedings are based had arisen after such establishment;\n\n(f) contain such supplemental, incidental and consequential\n\nprovisions (including provisions as to fees) as the appropriate\n\nLegislature may deem necessary for the effective functioning of, and for\n\nthe speedy disposal of cases by, and the enforcement of the orders of,\n\nsuch tribunals.\n\n(4) The provisions of this article shall have effect notwithstanding\n\nanything in any other provision of this Constitution or in any other law for the\n\ntime being in force.\n\nExplanation.—In this article, “appropriate Legislature”, in relation to any\n\nmatter, means Parliament or, as the case may be, a State Legislature competent\n\nto make laws with respect to such matter in accordance with the provisions of\n\nPart XI.",
     "summary": "Article 323B provides constitutional rules and provisions regarding tribunals for other matters, under Part XIVA: Tribunals.",
     "cases": [],
     "importance": "standard",
@@ -10416,7 +10504,7 @@
   },
   {
     "id": "art-324",
-    "index": 406,
+    "index": 409,
     "article": "Article 324",
     "articleNumber": 324,
     "articleStr": "324",
@@ -10451,7 +10539,7 @@
   },
   {
     "id": "art-325",
-    "index": 407,
+    "index": 410,
     "article": "Article 325",
     "articleNumber": 325,
     "articleStr": "325",
@@ -10483,7 +10571,7 @@
   },
   {
     "id": "art-326",
-    "index": 408,
+    "index": 411,
     "article": "Article 326",
     "articleNumber": 326,
     "articleStr": "326",
@@ -10517,7 +10605,7 @@
   },
   {
     "id": "art-327",
-    "index": 409,
+    "index": 412,
     "article": "Article 327",
     "articleNumber": 327,
     "articleStr": "327",
@@ -10544,7 +10632,7 @@
   },
   {
     "id": "art-328",
-    "index": 410,
+    "index": 413,
     "article": "Article 328",
     "articleNumber": 328,
     "articleStr": "328",
@@ -10571,7 +10659,7 @@
   },
   {
     "id": "art-329",
-    "index": 411,
+    "index": 414,
     "article": "Article 329",
     "articleNumber": 329,
     "articleStr": "329",
@@ -10595,7 +10683,7 @@
   },
   {
     "id": "art-330",
-    "index": 412,
+    "index": 415,
     "article": "Article 330",
     "articleNumber": 330,
     "articleStr": "330",
@@ -10622,7 +10710,7 @@
   },
   {
     "id": "art-331",
-    "index": 413,
+    "index": 416,
     "article": "Article 331",
     "articleNumber": 331,
     "articleStr": "331",
@@ -10648,7 +10736,7 @@
   },
   {
     "id": "art-332",
-    "index": 414,
+    "index": 417,
     "article": "Article 332",
     "articleNumber": 332,
     "articleStr": "332",
@@ -10676,7 +10764,7 @@
   },
   {
     "id": "art-333",
-    "index": 415,
+    "index": 418,
     "article": "Article 333",
     "articleNumber": 333,
     "articleStr": "333",
@@ -10703,7 +10791,7 @@
   },
   {
     "id": "art-334",
-    "index": 416,
+    "index": 419,
     "article": "Article 334",
     "articleNumber": 334,
     "articleStr": "334",
@@ -10731,7 +10819,7 @@
   },
   {
     "id": "art-335",
-    "index": 417,
+    "index": 420,
     "article": "Article 335",
     "articleNumber": 335,
     "articleStr": "335",
@@ -10757,7 +10845,7 @@
   },
   {
     "id": "art-336",
-    "index": 418,
+    "index": 421,
     "article": "Article 336",
     "articleNumber": 336,
     "articleStr": "336",
@@ -10784,7 +10872,7 @@
   },
   {
     "id": "art-337",
-    "index": 419,
+    "index": 422,
     "article": "Article 337",
     "articleNumber": 337,
     "articleStr": "337",
@@ -10813,7 +10901,7 @@
   },
   {
     "id": "art-338",
-    "index": 420,
+    "index": 423,
     "article": "Article 338",
     "articleNumber": 338,
     "articleStr": "338",
@@ -10837,7 +10925,7 @@
   },
   {
     "id": "art-338A",
-    "index": 421,
+    "index": 424,
     "article": "Article 338A",
     "articleNumber": "338A",
     "articleStr": "338A",
@@ -10861,7 +10949,7 @@
   },
   {
     "id": "art-339",
-    "index": 422,
+    "index": 425,
     "article": "Article 339",
     "articleNumber": 339,
     "articleStr": "339",
@@ -10889,7 +10977,7 @@
   },
   {
     "id": "art-340",
-    "index": 423,
+    "index": 426,
     "article": "Article 340",
     "articleNumber": 340,
     "articleStr": "340",
@@ -10915,7 +11003,7 @@
   },
   {
     "id": "art-341",
-    "index": 424,
+    "index": 427,
     "article": "Article 341",
     "articleNumber": 341,
     "articleStr": "341",
@@ -10937,7 +11025,7 @@
   },
   {
     "id": "art-342",
-    "index": 425,
+    "index": 428,
     "article": "Article 342",
     "articleNumber": 342,
     "articleStr": "342",
@@ -10959,7 +11047,7 @@
   },
   {
     "id": "art-343",
-    "index": 426,
+    "index": 429,
     "article": "Article 343",
     "articleNumber": 343,
     "articleStr": "343",
@@ -10982,7 +11070,7 @@
   },
   {
     "id": "art-344",
-    "index": 427,
+    "index": 430,
     "article": "Article 344",
     "articleNumber": 344,
     "articleStr": "344",
@@ -11007,7 +11095,7 @@
   },
   {
     "id": "art-345",
-    "index": 428,
+    "index": 431,
     "article": "Article 345",
     "articleNumber": 345,
     "articleStr": "345",
@@ -11031,7 +11119,7 @@
   },
   {
     "id": "art-346",
-    "index": 429,
+    "index": 432,
     "article": "Article 346",
     "articleNumber": 346,
     "articleStr": "346",
@@ -11058,7 +11146,7 @@
   },
   {
     "id": "art-347",
-    "index": 430,
+    "index": 433,
     "article": "Article 347",
     "articleNumber": 347,
     "articleStr": "347",
@@ -11086,7 +11174,7 @@
   },
   {
     "id": "art-348",
-    "index": 431,
+    "index": 434,
     "article": "Article 348",
     "articleNumber": 348,
     "articleStr": "348",
@@ -11114,7 +11202,7 @@
   },
   {
     "id": "art-349",
-    "index": 432,
+    "index": 435,
     "article": "Article 349",
     "articleNumber": 349,
     "articleStr": "349",
@@ -11141,7 +11229,7 @@
   },
   {
     "id": "art-350",
-    "index": 433,
+    "index": 436,
     "article": "Article 350",
     "articleNumber": 350,
     "articleStr": "350",
@@ -11166,7 +11254,7 @@
   },
   {
     "id": "art-350A",
-    "index": 434,
+    "index": 437,
     "article": "Article 350A",
     "articleNumber": "350A",
     "articleStr": "350A",
@@ -11192,7 +11280,7 @@
   },
   {
     "id": "art-350B",
-    "index": 435,
+    "index": 438,
     "article": "Article 350B",
     "articleNumber": "350B",
     "articleStr": "350B",
@@ -11216,7 +11304,7 @@
   },
   {
     "id": "art-351",
-    "index": 436,
+    "index": 439,
     "article": "Article 351",
     "articleNumber": 351,
     "articleStr": "351",
@@ -11240,7 +11328,7 @@
   },
   {
     "id": "art-352",
-    "index": 437,
+    "index": 440,
     "article": "Article 352",
     "articleNumber": 352,
     "articleStr": "352",
@@ -11270,7 +11358,7 @@
   },
   {
     "id": "art-353",
-    "index": 438,
+    "index": 441,
     "article": "Article 353",
     "articleNumber": 353,
     "articleStr": "353",
@@ -11293,7 +11381,7 @@
   },
   {
     "id": "art-354",
-    "index": 439,
+    "index": 442,
     "article": "Article 354",
     "articleNumber": 354,
     "articleStr": "354",
@@ -11322,7 +11410,7 @@
   },
   {
     "id": "art-355",
-    "index": 440,
+    "index": 443,
     "article": "Article 355",
     "articleNumber": 355,
     "articleStr": "355",
@@ -11351,7 +11439,7 @@
   },
   {
     "id": "art-356",
-    "index": 441,
+    "index": 444,
     "article": "Article 356",
     "articleNumber": 356,
     "articleStr": "356",
@@ -11384,7 +11472,7 @@
   },
   {
     "id": "art-357",
-    "index": 442,
+    "index": 445,
     "article": "Article 357",
     "articleNumber": 357,
     "articleStr": "357",
@@ -11410,7 +11498,7 @@
   },
   {
     "id": "art-358",
-    "index": 443,
+    "index": 446,
     "article": "Article 358",
     "articleNumber": 358,
     "articleStr": "358",
@@ -11435,7 +11523,7 @@
   },
   {
     "id": "art-359",
-    "index": 444,
+    "index": 447,
     "article": "Article 359",
     "articleNumber": 359,
     "articleStr": "359",
@@ -11462,7 +11550,7 @@
   },
   {
     "id": "art-360",
-    "index": 445,
+    "index": 448,
     "article": "Article 360",
     "articleNumber": 360,
     "articleStr": "360",
@@ -11491,7 +11579,7 @@
   },
   {
     "id": "art-361",
-    "index": 446,
+    "index": 449,
     "article": "Article 361",
     "articleNumber": 361,
     "articleStr": "361",
@@ -11515,7 +11603,7 @@
   },
   {
     "id": "art-361A",
-    "index": 447,
+    "index": 450,
     "article": "Article 361A",
     "articleNumber": "361A",
     "articleStr": "361A",
@@ -11541,7 +11629,7 @@
   },
   {
     "id": "art-361B",
-    "index": 448,
+    "index": 451,
     "article": "Article 361B",
     "articleNumber": "361B",
     "articleStr": "361B",
@@ -11566,7 +11654,7 @@
   },
   {
     "id": "art-363",
-    "index": 449,
+    "index": 452,
     "article": "Article 363",
     "articleNumber": 363,
     "articleStr": "363",
@@ -11593,7 +11681,7 @@
   },
   {
     "id": "art-363A",
-    "index": 450,
+    "index": 453,
     "article": "Article 363A",
     "articleNumber": "363A",
     "articleStr": "363A",
@@ -11622,7 +11710,7 @@
   },
   {
     "id": "art-364",
-    "index": 451,
+    "index": 454,
     "article": "Article 364",
     "articleNumber": 364,
     "articleStr": "364",
@@ -11647,7 +11735,7 @@
   },
   {
     "id": "art-365",
-    "index": 452,
+    "index": 455,
     "article": "Article 365",
     "articleNumber": 365,
     "articleStr": "365",
@@ -11674,7 +11762,7 @@
   },
   {
     "id": "art-366",
-    "index": 453,
+    "index": 456,
     "article": "Article 366",
     "articleNumber": 366,
     "articleStr": "366",
@@ -11695,7 +11783,7 @@
   },
   {
     "id": "art-367",
-    "index": 454,
+    "index": 457,
     "article": "Article 367",
     "articleNumber": 367,
     "articleStr": "367",
@@ -11716,7 +11804,7 @@
   },
   {
     "id": "art-368",
-    "index": 455,
+    "index": 458,
     "article": "Article 368",
     "articleNumber": 368,
     "articleStr": "368",
@@ -11753,7 +11841,7 @@
   },
   {
     "id": "art-369",
-    "index": 456,
+    "index": 459,
     "article": "Article 369",
     "articleNumber": 369,
     "articleStr": "369",
@@ -11786,7 +11874,7 @@
   },
   {
     "id": "art-370",
-    "index": 457,
+    "index": 460,
     "article": "Article 370",
     "articleNumber": 370,
     "articleStr": "370",
@@ -11821,7 +11909,7 @@
   },
   {
     "id": "art-371",
-    "index": 458,
+    "index": 461,
     "article": "Article 371",
     "articleNumber": 371,
     "articleStr": "371",
@@ -11847,7 +11935,7 @@
   },
   {
     "id": "art-371A",
-    "index": 459,
+    "index": 462,
     "article": "Article 371A",
     "articleNumber": "371A",
     "articleStr": "371A",
@@ -11872,7 +11960,7 @@
   },
   {
     "id": "art-371B",
-    "index": 460,
+    "index": 463,
     "article": "Article 371B",
     "articleNumber": "371B",
     "articleStr": "371B",
@@ -11897,7 +11985,7 @@
   },
   {
     "id": "art-371C",
-    "index": 461,
+    "index": 464,
     "article": "Article 371C",
     "articleNumber": "371C",
     "articleStr": "371C",
@@ -11922,7 +12010,7 @@
   },
   {
     "id": "art-371D",
-    "index": 462,
+    "index": 465,
     "article": "Article 371D",
     "articleNumber": "371D",
     "articleStr": "371D",
@@ -11948,7 +12036,7 @@
   },
   {
     "id": "art-371E",
-    "index": 463,
+    "index": 466,
     "article": "Article 371E",
     "articleNumber": "371E",
     "articleStr": "371E",
@@ -11973,7 +12061,7 @@
   },
   {
     "id": "art-371F",
-    "index": 464,
+    "index": 467,
     "article": "Article 371F",
     "articleNumber": "371F",
     "articleStr": "371F",
@@ -11998,7 +12086,7 @@
   },
   {
     "id": "art-371G",
-    "index": 465,
+    "index": 468,
     "article": "Article 371G",
     "articleNumber": "371G",
     "articleStr": "371G",
@@ -12023,7 +12111,7 @@
   },
   {
     "id": "art-371H",
-    "index": 466,
+    "index": 469,
     "article": "Article 371H",
     "articleNumber": "371H",
     "articleStr": "371H",
@@ -12049,7 +12137,7 @@
   },
   {
     "id": "art-371I",
-    "index": 467,
+    "index": 470,
     "article": "Article 371I",
     "articleNumber": "371I",
     "articleStr": "371I",
@@ -12073,7 +12161,7 @@
   },
   {
     "id": "art-372",
-    "index": 468,
+    "index": 471,
     "article": "Article 372",
     "articleNumber": 372,
     "articleStr": "372",
@@ -12099,7 +12187,7 @@
   },
   {
     "id": "art-372A",
-    "index": 469,
+    "index": 472,
     "article": "Article 372A",
     "articleNumber": "372A",
     "articleStr": "372A",
@@ -12123,7 +12211,7 @@
   },
   {
     "id": "art-373",
-    "index": 470,
+    "index": 473,
     "article": "Article 373",
     "articleNumber": 373,
     "articleStr": "373",
@@ -12153,7 +12241,7 @@
   },
   {
     "id": "art-374",
-    "index": 471,
+    "index": 474,
     "article": "Article 374",
     "articleNumber": 374,
     "articleStr": "374",
@@ -12182,7 +12270,7 @@
   },
   {
     "id": "art-375",
-    "index": 472,
+    "index": 475,
     "article": "Article 375",
     "articleNumber": 375,
     "articleStr": "375",
@@ -12210,7 +12298,7 @@
   },
   {
     "id": "art-376",
-    "index": 473,
+    "index": 476,
     "article": "Article 376",
     "articleNumber": 376,
     "articleStr": "376",
@@ -12234,7 +12322,7 @@
   },
   {
     "id": "art-377",
-    "index": 474,
+    "index": 477,
     "article": "Article 377",
     "articleNumber": 377,
     "articleStr": "377",
@@ -12259,7 +12347,7 @@
   },
   {
     "id": "art-378",
-    "index": 475,
+    "index": 478,
     "article": "Article 378",
     "articleNumber": 378,
     "articleStr": "378",
@@ -12283,7 +12371,7 @@
   },
   {
     "id": "art-378A",
-    "index": 476,
+    "index": 479,
     "article": "Article 378A",
     "articleNumber": "378A",
     "articleStr": "378A",
@@ -12310,7 +12398,7 @@
   },
   {
     "id": "art-392",
-    "index": 477,
+    "index": 480,
     "article": "Article 392",
     "articleNumber": 392,
     "articleStr": "392",
@@ -12334,7 +12422,7 @@
   },
   {
     "id": "art-393",
-    "index": 478,
+    "index": 481,
     "article": "Article 393",
     "articleNumber": 393,
     "articleStr": "393",
@@ -12356,7 +12444,7 @@
   },
   {
     "id": "art-394",
-    "index": 479,
+    "index": 482,
     "article": "Article 394",
     "articleNumber": 394,
     "articleStr": "394",
@@ -12377,7 +12465,7 @@
   },
   {
     "id": "art-394A",
-    "index": 480,
+    "index": 483,
     "article": "Article 394A",
     "articleNumber": "394A",
     "articleStr": "394A",
@@ -12401,7 +12489,7 @@
   },
   {
     "id": "art-395",
-    "index": 481,
+    "index": 484,
     "article": "Article 395",
     "articleNumber": 395,
     "articleStr": "395",
