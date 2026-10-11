@@ -255,7 +255,7 @@ function updateToolbar() {
   }
 
   // Update top filter chips active class
-  document.querySelectorAll('.m3-chips-toolbar .m3-filter-chip').forEach(chip => {
+  document.querySelectorAll('.chips-scroll-container .m3-filter-chip, .chips-scroll-container .filter-tab').forEach(chip => {
     chip.classList.toggle('active', chip.dataset.filter === state.activeFilterType);
   });
 }
@@ -316,12 +316,15 @@ function renderCurrentCard() {
   // Render Underneath Card Depth Preview
   if (nextItem && state.filteredArticles.length > 1) {
     cardBack.innerHTML = `
-      <div class="m3-card-header" style="opacity: 0.65;">
-        <div class="m3-card-pills-row">
-          <span class="m3-badge-tonal badge-primary">${nextItem.article}</span>
-          <span class="m3-badge-tonal badge-secondary">${nextItem.partId}</span>
+      <div class="card-header-minimal" style="opacity: 0.5;">
+        <div class="card-meta-bar">
+          <div class="meta-pills">
+            <span class="badge-article">${nextItem.article}</span>
+            <span class="meta-sep">•</span>
+            <span class="badge-part">${nextItem.partName}</span>
+          </div>
         </div>
-        <h3 class="m3-card-title" style="font-size: 1.15rem;">${nextItem.title}</h3>
+        <h3 class="card-title" style="font-size: 1.1rem; opacity: 0.7;">${nextItem.title}</h3>
       </div>
     `;
   } else {
@@ -336,51 +339,53 @@ function createCardHTML(item, isFav, mode) {
   const isLandmark = item.importance === 'landmark';
 
   return `
-    <div class="m3-card-header">
-      <div class="m3-card-pills-row">
-        <span class="m3-badge-tonal badge-primary">${item.article}</span>
-        <span class="m3-badge-tonal badge-secondary">${item.partId}</span>
-        <span class="m3-badge-tonal badge-outline">${item.category}</span>
-        ${isLandmark ? '<span class="m3-badge-tonal badge-landmark">★ Landmark Case</span>' : ''}
+    <div class="card-header-minimal">
+      <div class="card-meta-bar">
+        <div class="meta-pills">
+          <span class="badge-article">${item.article}</span>
+          <span class="meta-sep">•</span>
+          <span class="badge-part">${item.partName}</span>
+          ${isLandmark ? '<span class="badge-landmark">★ Landmark</span>' : ''}
+        </div>
+
+        <!-- Modern Minimalist Segmented Tabs -->
+        <div class="card-view-tabs" role="tablist">
+          <button class="view-tab-btn ${mode === 'summary' ? 'active' : ''}" data-mode="summary" role="tab" title="Plain summary & precedents">
+            <span class="material-symbols-outlined tab-icon">notes</span>
+            <span>Summary</span>
+          </button>
+          <button class="view-tab-btn ${mode === 'legal' ? 'active' : ''}" data-mode="legal" role="tab" title="Full legal text">
+            <span class="material-symbols-outlined tab-icon">article</span>
+            <span>Legal Text</span>
+          </button>
+        </div>
       </div>
 
-      <h2 class="m3-card-title">${item.title}</h2>
-
-      <!-- M3 Segmented Button -->
-      <div class="m3-segmented-button-container" role="tablist">
-        <button class="m3-segment-btn ${mode === 'summary' ? 'active' : ''}" data-mode="summary" role="tab">
-          <span class="material-symbols-outlined">${mode === 'summary' ? 'check' : 'lightbulb'}</span>
-          <span>Plain Summary & Precedents</span>
-        </button>
-        <button class="m3-segment-btn ${mode === 'legal' ? 'active' : ''}" data-mode="legal" role="tab">
-          <span class="material-symbols-outlined">${mode === 'legal' ? 'check' : 'menu_book'}</span>
-          <span>Legal Text</span>
-        </button>
-      </div>
+      <h2 class="card-title">${item.title}</h2>
     </div>
 
-    <div class="m3-card-body">
+    <div class="card-body-scroll">
       ${mode === 'summary' ? renderSummaryBody(item) : renderLegalBody(item)}
     </div>
 
-    <div class="m3-card-footer">
-      <div class="footer-actions-left">
-        <button id="btn-toggle-fav" class="m3-button ${isFav ? 'tonal' : 'outlined'}" title="Bookmark article">
+    <div class="card-footer-toolbar">
+      <div class="footer-btn-group">
+        <button id="btn-toggle-fav" class="card-btn ${isFav ? 'active' : ''}" title="Bookmark article (F)">
           <span class="material-symbols-outlined">${isFav ? 'bookmark' : 'bookmark_border'}</span>
           <span>${isFav ? 'Saved' : 'Bookmark'}</span>
         </button>
-        <button id="btn-read-aloud" class="m3-button outlined" title="Read Aloud (TTS)">
+        <button id="btn-read-aloud" class="card-btn" title="Read Aloud (S)">
           <span class="material-symbols-outlined speech-icon">volume_up</span>
           <span class="speech-label">Listen</span>
         </button>
       </div>
 
-      <div class="footer-actions-right">
-        <button id="btn-copy-card" class="m3-button outlined" title="Copy text & citation">
+      <div class="footer-btn-group">
+        <button id="btn-copy-card" class="card-btn" title="Copy text & citation">
           <span class="material-symbols-outlined">content_copy</span>
           <span>Copy</span>
         </button>
-        <button id="btn-share-card" class="m3-button outlined" title="Share article">
+        <button id="btn-share-card" class="card-btn" title="Share article">
           <span class="material-symbols-outlined">share</span>
           <span>Share</span>
         </button>
@@ -394,41 +399,58 @@ function renderSummaryBody(item) {
   if (item.cases && item.cases.length > 0) {
     casesHtml = `
       <div class="precedents-section">
-        <div class="section-title">
-          <span class="material-symbols-outlined" style="font-size: 16px;">gavel</span>
+        <div class="precedents-header">
+          <span class="material-symbols-outlined" style="font-size: 15px;">gavel</span>
           <span>Landmark Supreme Court Precedents</span>
         </div>
-        ${item.cases.map(c => {
-          const parts = c.split(' - ');
-          const caseTitle = parts[0];
-          const caseDesc = parts.slice(1).join(' - ');
-          return `
-            <div class="m3-precedent-card">
-              <div class="precedent-title">${caseTitle}</div>
-              ${caseDesc ? `<div class="precedent-desc">${caseDesc}</div>` : ''}
-            </div>
-          `;
-        }).join('')}
+        <div class="precedents-list">
+          ${item.cases.map(c => {
+            const parts = c.split(' - ');
+            const caseTitle = parts[0];
+            const caseDesc = parts.slice(1).join(' - ');
+            return `
+              <div class="precedent-item">
+                <div class="precedent-title">${caseTitle}</div>
+                ${caseDesc ? `<div class="precedent-desc">${caseDesc}</div>` : ''}
+              </div>
+            `;
+          }).join('')}
+        </div>
       </div>
     `;
   }
 
-  const tagsHtml = (item.tags || []).map(t => `
-    <button class="m3-assist-chip tag-chip" data-tag="${t}">
+  // Curate keywords: filter out generic fillers and stop words, limit to 4
+  const genericWords = new Set(['the', 'and', 'or', 'of', 'in', 'to', 'for', 'a', 'an', 'part', 'part i', 'part ii', 'part iii', 'part iv', 'part iva', 'part v', 'part vi', 'part xviii', 'article', 'articles', 'state', 'states', 'provisions', 'rules', 'shall', 'union & territory', 'union & parliament']);
+  const curatedTags = (item.tags || [])
+    .filter(t => !genericWords.has(t.toLowerCase().trim()) && t.trim().length > 2)
+    .slice(0, 4);
+
+  const tagsHtml = curatedTags.map(t => `
+    <button class="tag-chip" data-tag="${t}">
       <span>#${t}</span>
     </button>
   `).join('');
 
   return `
-    <div class="m3-callout-card">
-      <strong>Constitutional Takeaway:</strong> ${item.summary}
+    <div class="minimal-takeaway-card">
+      <div class="takeaway-label">
+        <span class="material-symbols-outlined label-icon">verified</span>
+        <span>Constitutional Takeaway</span>
+      </div>
+      <p class="takeaway-text">${item.summary}</p>
     </div>
 
     ${casesHtml}
 
-    <div class="m3-card-tags">
-      ${tagsHtml}
-    </div>
+    ${curatedTags.length > 0 ? `
+      <div class="card-keywords-row">
+        <span class="keywords-label">Keywords:</span>
+        <div class="keywords-list">
+          ${tagsHtml}
+        </div>
+      </div>
+    ` : ''}
   `;
 }
 
@@ -445,7 +467,7 @@ function renderLegalBody(item) {
 
 function attachCardEvents(item) {
   // Segmented button mode switch
-  cardFront.querySelectorAll('.m3-segment-btn').forEach(btn => {
+  cardFront.querySelectorAll('.view-tab-btn, .m3-segment-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const mode = btn.dataset.mode;
       if (mode !== state.cardMode) {
@@ -690,7 +712,7 @@ function stopSpeech() {
     window.speechSynthesis.cancel();
   }
   state.isSpeaking = false;
-  document.querySelectorAll('.m3-button.speaking').forEach(btn => {
+  document.querySelectorAll('.card-btn.speaking, .m3-button.speaking').forEach(btn => {
     btn.classList.remove('speaking');
     const icon = btn.querySelector('.speech-icon');
     const label = btn.querySelector('.speech-label');
@@ -848,13 +870,14 @@ function setupEventListeners() {
   btnClearFilter.addEventListener('click', clearFilter);
 
   // Filter chips in top toolbar
-  document.querySelectorAll('.m3-chips-toolbar .m3-filter-chip').forEach(chip => {
+  document.querySelectorAll('.chips-scroll-container .m3-filter-chip, .chips-scroll-container .filter-tab').forEach(chip => {
     chip.addEventListener('click', () => {
       const filterType = chip.dataset.filter;
       state.activeFilterType = filterType;
       updateFilter();
       renderCurrentCard();
-      showToast(`Filter: ${chip.querySelector('span:nth-child(2)').textContent}`);
+      const chipLabel = chip.querySelector('span:not(.chip-count):not(.tab-icon)')?.textContent || chip.textContent.trim();
+      showToast(`Filter: ${chipLabel}`);
     });
   });
 
@@ -1016,11 +1039,13 @@ function setupEventListeners() {
 function checkNetworkStatus() {
   function update() {
     if (navigator.onLine) {
-      offlineStatusPill.className = 'm3-status-badge online';
-      offlineStatusPill.querySelector('.status-label').textContent = 'Offline Ready';
+      offlineStatusPill.className = 'status-indicator online';
+      const label = offlineStatusPill.querySelector('.status-label');
+      if (label) label.textContent = 'Offline Ready';
     } else {
-      offlineStatusPill.className = 'm3-status-badge offline';
-      offlineStatusPill.querySelector('.status-label').textContent = 'Offline Mode Active';
+      offlineStatusPill.className = 'status-indicator offline';
+      const label = offlineStatusPill.querySelector('.status-label');
+      if (label) label.textContent = 'Offline Mode Active';
       showToast('Offline Mode: All 465 articles available locally');
     }
   }
@@ -1031,9 +1056,23 @@ function checkNetworkStatus() {
 }
 
 function setupServiceWorker() {
-  if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
-    const base = import.meta.env.BASE_URL || './';
-    navigator.serviceWorker.register(`${base}sw.js`, { scope: base }).catch(() => {});
+  if ('serviceWorker' in navigator) {
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    if (isLocal) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+      if ('caches' in window) {
+        caches.keys().then(names => {
+          for (let name of names) caches.delete(name);
+        });
+      }
+    } else if (window.location.protocol.startsWith('http')) {
+      const base = import.meta.env.BASE_URL || './';
+      navigator.serviceWorker.register(`${base}sw.js`, { scope: base }).catch(() => {});
+    }
   }
 }
 

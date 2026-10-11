@@ -1,20 +1,6 @@
-const CACHE_NAME = 'constitution-india-m3-v1';
+const CACHE_NAME = 'constitution-india-v2';
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      const scope = self.registration.scope;
-      return cache.addAll([
-        scope,
-        `${scope}index.html`,
-        `${scope}emblem.jpg`,
-        `${scope}icon-512.png`,
-        `${scope}manifest.webmanifest`
-      ]).catch((err) => {
-        console.warn('Pre-cache warning (continuing anyway):', err);
-      });
-    })
-  );
   self.skipWaiting();
 });
 

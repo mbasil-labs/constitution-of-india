@@ -31,50 +31,50 @@
   </div>
 
   <div id="app" class="app-layout">
-    <!-- M3 Top App Bar -->
-    <header class="m3-top-app-bar">
-      <div class="app-bar-leading">
-        <button id="btn-preamble-direct" class="m3-icon-button" title="View Preamble">
+    <!-- Top Navigation Bar -->
+    <header class="app-header">
+      <div class="header-left">
+        <button id="btn-preamble-direct" class="nav-icon-btn" title="View Preamble">
           <span class="material-symbols-outlined">menu_book</span>
         </button>
-        <div class="app-bar-title-block">
-          <h1 class="app-bar-title">Constitution of India</h1>
-          <span class="app-bar-subtitle">Samvidhan • 465 Articles</span>
+        <div class="header-brand">
+          <h1 class="header-title">Constitution of India</h1>
+          <span class="header-badge">465 Articles</span>
         </div>
       </div>
 
-      <!-- M3 Docked Search Bar Trigger -->
-      <div class="app-bar-center">
-        <button id="btn-open-search" class="m3-search-bar-trigger" title="Search articles (Cmd+K)">
+      <!-- Centered Minimalist Search Trigger -->
+      <div class="header-search-wrap">
+        <button id="btn-open-search" class="search-trigger" title="Search articles (Cmd+K)">
           <span class="material-symbols-outlined search-icon">search</span>
-          <span class="search-placeholder">Search articles, rights, cases, keywords...</span>
-          <kbd class="m3-shortcut-kbd">⌘K</kbd>
+          <span class="search-placeholder">Search articles, rights, keywords...</span>
+          <kbd class="shortcut-kbd">⌘K</kbd>
         </button>
       </div>
 
-      <div class="app-bar-trailing">
+      <div class="header-right">
         <!-- Navigation Buttons -->
-        <button id="btn-open-schedules" class="m3-icon-button" title="12 Schedules">
+        <button id="btn-open-schedules" class="nav-icon-btn" title="12 Schedules">
           <span class="material-symbols-outlined">dataset</span>
         </button>
-        <button id="btn-open-jump" class="m3-icon-button" title="Jump to Article Number">
+        <button id="btn-open-jump" class="nav-icon-btn" title="Jump to Article Number">
           <span class="material-symbols-outlined">tag</span>
         </button>
 
-        <!-- Offline Status Badge -->
-        <div id="offline-status-pill" class="m3-status-badge online" title="100% Offline Ready">
+        <!-- Status Indicator Dot -->
+        <div id="offline-status-pill" class="status-indicator online" title="100% Offline Ready">
           <span class="status-dot"></span>
-          <span class="status-label">Offline</span>
+          <span class="status-label">Offline Ready</span>
         </div>
 
         <!-- Theme Toggle -->
-        <button id="btn-theme-toggle" class="m3-icon-button" title="Switch Theme (Dark / Light)">
+        <button id="btn-theme-toggle" class="nav-icon-btn" title="Switch Theme (Dark / Light)">
           <span class="material-symbols-outlined theme-icon-dark">light_mode</span>
           <span class="material-symbols-outlined theme-icon-light">dark_mode</span>
         </button>
 
         <!-- Install PWA Button -->
-        <button id="btn-install-pwa" class="m3-button tonal" style="display: none;" title="Install PWA">
+        <button id="btn-install-pwa" class="btn-install" style="display: none;" title="Install PWA">
           <span class="material-symbols-outlined">download</span>
           <span>Install</span>
         </button>
@@ -83,91 +83,91 @@
 
     <!-- Main Content Area -->
     <main class="main-content">
-      <!-- M3 Filter Chips Carousel / Toolbar -->
-      <section class="m3-chips-toolbar" aria-label="Article categories">
-        <div class="chips-scroll-container">
-          <button class="m3-filter-chip active" data-filter="all">
-            <span class="material-symbols-outlined chip-check">check</span>
-            <span>All Articles</span>
-            <span class="chip-count">465</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="landmark">
-            <span class="material-symbols-outlined chip-icon">gavel</span>
-            <span>Landmark Precedents</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="Part III">
-            <span class="material-symbols-outlined chip-icon">shield</span>
-            <span>Fundamental Rights</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="Part IV">
-            <span class="material-symbols-outlined chip-icon">psychology</span>
-            <span>Directive Principles</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="Part IVA">
-            <span class="material-symbols-outlined chip-icon">loyalty</span>
-            <span>Fundamental Duties</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="Part V">
-            <span class="material-symbols-outlined chip-icon">account_balance</span>
-            <span>Union & Parliament</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="judiciary">
-            <span class="material-symbols-outlined chip-icon">balance</span>
-            <span>Judiciary</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="Part XVIII">
-            <span class="material-symbols-outlined chip-icon">warning</span>
-            <span>Emergency</span>
-          </button>
-          <button class="m3-filter-chip" data-filter="favorites">
-            <span class="material-symbols-outlined chip-icon">bookmark</span>
-            <span>Bookmarks</span>
-            <span id="fav-quick-count" class="chip-count">0</span>
-          </button>
+      <!-- Unified Minimalist Filter & Status Toolbar -->
+      <section class="sub-toolbar" aria-label="Article categories and navigation">
+        <div class="sub-toolbar-inner">
+          <div class="chips-scroll-container">
+            <button class="m3-filter-chip active" data-filter="all">
+              <span>All Articles</span>
+              <span class="chip-count">465</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="landmark">
+              <span class="material-symbols-outlined tab-icon">gavel</span>
+              <span>Landmarks</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="Part III">
+              <span class="material-symbols-outlined tab-icon">shield</span>
+              <span>Fundamental Rights</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="Part IV">
+              <span class="material-symbols-outlined tab-icon">psychology</span>
+              <span>Directive Principles</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="Part IVA">
+              <span class="material-symbols-outlined tab-icon">loyalty</span>
+              <span>Duties</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="Part V">
+              <span class="material-symbols-outlined tab-icon">account_balance</span>
+              <span>Union</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="judiciary">
+              <span class="material-symbols-outlined tab-icon">balance</span>
+              <span>Judiciary</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="Part XVIII">
+              <span class="material-symbols-outlined tab-icon">warning</span>
+              <span>Emergency</span>
+            </button>
+            <button class="m3-filter-chip" data-filter="favorites">
+              <span class="material-symbols-outlined tab-icon">bookmark</span>
+              <span>Bookmarks</span>
+              <span id="fav-quick-count" class="chip-count">0</span>
+            </button>
+          </div>
+
+          <!-- Right Status & Controls in Toolbar -->
+          <div class="sub-toolbar-controls">
+            <div id="active-filter-badge" class="filter-status-tag" style="display: none;">
+              <span id="active-filter-text">Filtered</span>
+              <button id="btn-clear-filter" class="btn-clear-chip" title="Clear filter">
+                <span class="material-symbols-outlined">close</span>
+              </button>
+            </div>
+
+            <div class="article-meta-counter">
+              <span id="article-counter" class="counter-number">Art 1 of 465</span>
+              <span class="counter-dot">•</span>
+              <span id="article-part-mini" class="counter-part">Preamble</span>
+            </div>
+
+            <div class="sub-utility-actions">
+              <button id="btn-random-article" class="utility-btn" title="Discover a random article">
+                <span class="material-symbols-outlined">shuffle</span>
+              </button>
+              <div class="font-controls">
+                <button id="btn-font-decrease" class="utility-btn" title="Decrease font size">
+                  <span class="material-symbols-outlined">text_decrease</span>
+                </button>
+                <button id="btn-font-increase" class="utility-btn" title="Increase font size">
+                  <span class="material-symbols-outlined">text_increase</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Toolbar Secondary Utilities -->
-        <div class="toolbar-utility-actions">
-          <button id="btn-random-article" class="m3-icon-button-small" title="Discover a random article">
-            <span class="material-symbols-outlined">shuffle</span>
-          </button>
-          <div class="font-stepper">
-            <button id="btn-font-decrease" class="m3-icon-button-small" title="Decrease font size">
-              <span class="material-symbols-outlined">text_decrease</span>
-            </button>
-            <button id="btn-font-increase" class="m3-icon-button-small" title="Increase font size">
-              <span class="material-symbols-outlined">text_increase</span>
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <!-- Active Filter Strip & Linear Progress -->
-      <section class="m3-progress-section">
-        <div class="progress-meta">
-          <div class="progress-left">
-            <span id="article-counter" class="m3-label-large">Article 1 of 465</span>
-            <span class="meta-dot">•</span>
-            <span id="article-part-mini" class="m3-body-medium">Preamble of the Constitution</span>
-          </div>
-          <div id="active-filter-badge" class="m3-input-chip" style="display: none;">
-            <span id="active-filter-text">Filtered</span>
-            <button id="btn-clear-filter" class="chip-trailing-icon" title="Clear filter">
-              <span class="material-symbols-outlined">close</span>
-            </button>
-          </div>
-        </div>
-        <!-- M3 Linear Progress Bar -->
-        <div class="m3-linear-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-          <div id="deck-progress-bar" class="progress-indicator" style="width: 1%;"></div>
+        <!-- Hairline Progress Bar -->
+        <div class="hairline-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+          <div id="deck-progress-bar" class="hairline-progress-bar" style="width: 1%;"></div>
         </div>
       </section>
 
       <!-- Interactive Swipable Card Stage -->
       <section class="card-stage" id="card-stage" aria-live="polite">
-        <!-- Floating M3 Navigation Button Prev -->
-        <button id="btn-prev-card" class="m3-fab-nav prev-fab" title="Previous Article (Swipe Right / Left Arrow)" aria-label="Previous Article">
-          <span class="material-symbols-outlined">arrow_back</span>
+        <!-- Floating Minimalist Navigation Arrow Prev -->
+        <button id="btn-prev-card" class="stage-nav-arrow prev-arrow" title="Previous Article (Swipe Right / Left Arrow)" aria-label="Previous Article">
+          <span class="material-symbols-outlined">chevron_left</span>
         </button>
 
         <!-- Deck Stack Container -->
@@ -181,19 +181,19 @@
           </article>
         </div>
 
-        <!-- Floating M3 Navigation Button Next -->
-        <button id="btn-next-card" class="m3-fab-nav next-fab" title="Next Article (Swipe Left / Right Arrow)" aria-label="Next Article">
-          <span class="material-symbols-outlined">arrow_forward</span>
+        <!-- Floating Minimalist Navigation Arrow Next -->
+        <button id="btn-next-card" class="stage-nav-arrow next-arrow" title="Next Article (Swipe Left / Right Arrow)" aria-label="Next Article">
+          <span class="material-symbols-outlined">chevron_right</span>
         </button>
       </section>
 
-      <!-- M3 Swipe Guidance Footer -->
+      <!-- Minimalist Keyboard & Gesture Hint Footer -->
       <footer class="deck-footer-hint">
-        <div class="m3-assist-chip">
-          <span class="material-symbols-outlined chip-icon">swipe</span>
-          <span>Swipe left / right to navigate</span>
-          <span class="desktop-hint">• or use arrow keys <kbd>←</kbd> <kbd>→</kbd></span>
-        </div>
+        <span class="hint-text">Swipe or use <kbd>←</kbd> <kbd>→</kbd> arrow keys to navigate</span>
+        <span class="hint-divider">•</span>
+        <span class="hint-tip">Press <kbd>M</kbd> or <kbd>Space</kbd> to toggle legal text</span>
+        <span class="hint-divider">•</span>
+        <span class="hint-tip">Press <kbd>F</kbd> to bookmark</span>
       </footer>
     </main>
   </div>
