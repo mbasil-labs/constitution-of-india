@@ -27,7 +27,7 @@ Total Pages: 402
 | Batch | Scope | Status | Discrepancies Found | Corrections Applied | Reverification |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Batch 1** | Preamble, Part I (Arts 1–4, 2A) & Part II (Arts 5–11) | **COMPLETED** | 0 missing added, 0 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 2** | Part III (Arts 12–35, 21A, 31A–31D, 32A) | Queued | Pending | Pending | Pending |
+| **Batch 2** | Part III | **COMPLETED** | 0 missing added, 22 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 3** | Part IV (Arts 36–51, 39A, 43A–B, 48A) & Part IVA (Art 51A) | Queued | Pending | Pending | Pending |
 | **Batch 4** | Part V (Arts 52–151, 124A–C, 131A, 134A, 139A, 144A) | Queued | Pending | Pending | Pending |
 | **Batch 5** | Part VI (Arts 152–237, 224A, 226A, 228A, 232, 233A) & Part VII (Art 238) | Queued | Pending | Pending | Pending |
@@ -61,3 +61,40 @@ Total Pages: 402
 | **Article 11** | Parliament to regulate the right of citizenship by law | `VERIFIED_MATCH` | None |
 
 **Reverification Result:** 13 articles verified, 0 missing articles added, 0 articles corrected. 100% parity achieved.
+
+### Batch 2: Part III: Fundamental Rights (Arts 12–35, 21A, 31A–31D, 32A)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 12** | Definition | `CORRECTED` | Title corrected from "Definitions" to "Definition"; Standardized statutory wording/punctuation/formatting |
+| **Article 13** | Laws inconsistent with or in derogation of the fundamental rights | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 14** | Equality before law | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 15** | Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth | `VERIFIED_MATCH` | None |
+| **Article 16** | Equality of opportunity in matters of public employment | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 17** | Abolition of Untouchability | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 18** | Abolition of titles | `VERIFIED_MATCH` | None |
+| **Article 19** | Protection of certain rights regarding freedom of speech, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 20** | Protection in respect of conviction for offences | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 21** | Protection of life and personal liberty | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 21A** | Right to education | `VERIFIED_MATCH` | None |
+| **Article 22** | Protection against arrest and detention in certain cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 23** | Prohibition of traffic in human beings and forced labour | `VERIFIED_MATCH` | None |
+| **Article 24** | Prohibition of employment of children in factories, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 25** | Freedom of conscience and free profession, practice and propagation of religion | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 26** | Freedom to manage religious affairs | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 27** | Freedom as to payment of taxes for promotion of any particular religion | `VERIFIED_MATCH` | None |
+| **Article 28** | Freedom as to attendance at religious instruction or religious worship in certain educational institutions | `VERIFIED_MATCH` | None |
+| **Article 29** | Protection of interests of minorities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 30** | Right of minorities to establish and administer educational institutions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 31** | Compulsory acquisition of property | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 31A** | Saving of laws providing for acquisition of estates, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 31B** | Validation of certain Acts and Regulations | `VERIFIED_MATCH` | None |
+| **Article 31C** | Saving of laws giving effect to certain directive principles | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 31D** | Saving of laws in respect of anti-national activities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 32** | Remedies for enforcement of rights conferred by this Part | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 32A** | Constitutional validity of State laws not to be considered in proceedings under article 32 | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 33** | Power of Parliament to modify the rights conferred by this Part in their application to Forces, etc | `VERIFIED_MATCH` | None |
+| **Article 34** | Restriction on rights conferred by this Part while martial law is in force in any area | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 35** | Legislation to give effect to the provisions of this Part | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+
+**Reverification Result:** 30 articles verified, 0 missing articles added, 22 articles corrected. 100% parity achieved.
