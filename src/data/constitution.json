@@ -10512,7 +10512,7 @@
     "partId": "Part XV",
     "partName": "Part XV: Elections",
     "category": "Elections & ECI",
-    "description": "(1) The superintendence, direction and control of the preparation of the electoral rolls for, and the conduct of, all elections to Parliament and to the Legislature of every State and of elections to the offices of President and Vice-President held under this Constitution shall be vested in a Commission (referred to in this Constitution as the Election Commission).\n\n \n\n(2) The Election Commission shall consist of the Chief Election Commissioner and such number of other Election Commissioners, if any, as the President may from time to time fix and the appointment of the Chief Election Commissioner and other Election Commissioners shall, subject to the provisions of any law made in that behalf by Parliament, be made by the President.\n\n \n\n(3) When any other Election Commissioner is so appointed the Chief Election Commissioner shall act as the Chairman of the Election Commission.\n\n \n\n(4) Before each general election to the House of the People and to the Legislative Assembly of each State, and before the first general election and thereafter before each biennial election to the Legislative Council of each State having such Council, the President may also appoint after consultation with the Election Commission such Regional Commissioners as he may consider necessary to assist the Election Commission in the performance of the functions conferred on the Commission by clause (1).\n\n \n\n(5) Subject to the provisions of any law made by Parliament, the conditions of service and tenure of office of the Election Commissioners and the Regional Commissioners shall be such as the President may by rule determine: \n\n \n\n   Provided that the Chief Election Commissioner shall not be removed from his office except in like manner and on the like grounds as a Judge of the Supreme Court and the conditions of service of the Chief Election Commissioner shall not be varied to his disadvantage after his appointment:\n\n \n\n   Provided further that any other Election Commissioner or a Regional Commissioner shall not be removed from office except on the recommendation of the Chief Election Commissioner.\n\n \n\n(6) The President, or the Governor of a State, shall, when so requested by the Election Commission, make available to the Election Commission or to a Regional Commissioner such staff as may be necessary for the discharge of the functions conferred on the Election Commission by clause (1).",
+    "description": "(1) The superintendence, direction and control\n\nof the preparation of the electoral rolls for, and the conduct of, all elections to\n\nParliament and to the Legislature of every State and of elections to the offices\n\nof President and Vice-President held under this Constitution  shall be\n\nvested in a Commission (referred to in this Constitution as the Election\n\nCommission).\n\n(2) The Election Commission shall consist of the Chief Election\n\nCommissioner and such number of other Election Commissioners, if any, as the\n\nPresident may from time to time fix and the appointment of the Chief Election\n\nCommissioner and other Election Commissioners shall, subject to the provisions\n\nof any law made in that behalf by Parliament, be made by the President.\n\n(3) When any other Election Commissioner is so appointed the Chief\n\nElection Commissioner shall act as the Chairman of the Election Commission.\n\n(4) Before each general election to the House of the People and to the\n\nLegislative Assembly of each State, and before the first general election and\n\nthereafter before each biennial election to the Legislative Council of each State\n\nhaving such Council, the President may also appoint after consultation with the\n\nElection Commission such Regional Commissioners as he may consider\n\nnecessary to assist the Election Commission in the performance of the\n\nfunctions conferred on the Commission by clause (1).\n\n(5) Subject to the provisions of any law made by Parliament, the conditions\n\nof service and tenure of office of the Election Commissioners and the Regional\n\nCommissioners shall be such as the President may by rule determine:\n\nProvided that the Chief Election Commissioner shall not be removed\n\nfrom his office except in like manner and on the like grounds as a Judge of the\n\nSupreme Court and the conditions of service of the Chief Election\n\nCommissioner shall not be varied to his disadvantage after his appointment:\n\nProvided further that any other Election Commissioner or a Regional\n\nCommissioner shall not be removed from office except on the recommendation\n\nof the Chief Election Commissioner.\n\n(6) The President, or the Governor  of a State, shall, when so\n\nrequested by the Election Commission, make available to the Election\n\nCommission or to a Regional Commissioner such staff as may be necessary for\n\nthe discharge of the functions conferred on the Election Commission by\n\nclause (1)",
     "summary": "Superintendence, direction and control of elections to be vested in an Election Commission of India (ECI), ensuring free and fair democratic polls.",
     "cases": [
       "T.N. Seshan v. Union of India (1995) - Independence and multi-member commission.",
@@ -10547,7 +10547,7 @@
     "partId": "Part XV",
     "partName": "Part XV: Elections",
     "category": "Elections & ECI",
-    "description": "There shall be one general electoral roll for every territorial constituency for election to either House of Parliament or to the House or either House of the Legislature of a State and no person shall be ineligible for inclusion in any such roll or claim to be included in any special electoral roll for any such constituency on grounds only of religion, race, caste, sex or any of them.",
+    "description": "There shall be one general electoral roll for every territorial constituency\n\nfor election to either House of Parliament or to the House or either House of the\n\nLegislature of a State and no person shall be ineligible for inclusion in any such\n\nroll or claim to be included in any special electoral roll for any such\n\nconstituency on grounds only of religion, race, caste, sex or any of them",
     "summary": "Article 325 provides constitutional rules and provisions regarding no person to be ineligible for inclusion in, or to claim to be included in a special, electoral roll on grounds of religion, race, caste or sex, under Part XV: Elections.",
     "cases": [],
     "importance": "standard",
@@ -10579,7 +10579,7 @@
     "partId": "Part XV",
     "partName": "Part XV: Elections",
     "category": "Elections & ECI",
-    "description": "The elections to the House of the People and to the Legislative Assembly of every State shall be on the basis of adult suffrage; that is to say, every person who is a citizen of India and who is not less than  [eighteen years] of age on such date as may be fixed in that behalf by or under any law made by the appropriate Legislature and is not otherwise disqualified under this Constitution or any law made by the appropriate Legislature on the ground of non-residence, unsoundness of mind, crime or corrupt or illegal practice, shall be entitled to be registered as a voter at any such election.",
+    "description": "The elections to\n\nthe House of the People and to the Legislative Assembly of every State shall be\n\non the basis of adult suffrage; that is to say, every person who is a citizen of\n\nIndia and who is not less than eighteen years of age on such date as may be\n\nfixed in that behalf by or under any law made by the appropriate Legislature\n\nand is not otherwise disqualified under this Constitution or any law made by\n\nthe appropriate Legislature on the ground of non-residence, unsoundness of\n\nmind, crime or corrupt or illegal practice, shall be entitled to be registered as a\n\nvoter at any such election",
     "summary": "Elections to the House of the People and to Legislative Assemblies of States to be on the basis of adult suffrage (universal adult franchise, 18 years+).",
     "cases": [
       "61st Constitutional Amendment Act 1988 lowered voting age from 21 to 18 years."
@@ -10613,7 +10613,7 @@
     "partId": "Part XV",
     "partName": "Part XV: Elections",
     "category": "Elections & ECI",
-    "description": "Subject to the provisions of this Constitution, Parliament may from time to time by law make provision with respect to all matters relating to, or in connection with, elections to either House of Parliament or to the House or either House of the Legislature of a State including the preparation of electoral rolls, the delimitation of constituencies and all other matters necessary for securing the due constitution of such House or Houses.",
+    "description": "Subject to the provisions of this Constitution, Parliament\n\nmay from time to time by law make provision with respect to all matters\n\nrelating to, or in connection with, elections to either House of Parliament or to\n\nthe House or either House of the Legislature of a State including the\n\npreparation of electoral rolls, the delimitation of constituencies and all other\n\nmatters necessary for securing the due constitution of such House or Houses",
     "summary": "Article 327 provides constitutional rules and provisions regarding power of parliament to make provision with respect to elections to legislatures, under Part XV: Elections.",
     "cases": [],
     "importance": "standard",
@@ -10640,7 +10640,7 @@
     "partId": "Part XV",
     "partName": "Part XV: Elections",
     "category": "Elections & ECI",
-    "description": "Subject to the provisions of this Constitution and in so far as provision in that behalf is not made by Parliament, the Legislature of a State may from time to time by law make provision with respect to all matters relating to, or in connection with, the elections to the House or either House of the Legislature of the State including the preparation of electoral rolls and all other matters necessary for securing the due constitution of such House or Houses.",
+    "description": "Subject to the provisions of this\n\nConstitution and in so far as provision in that behalf is not made by Parliament,\n\nthe Legislature of a State may from time to time by law make provision with\n\nrespect to all matters relating to, or in connection with, the elections to the\n\nHouse or either House of the Legislature of the State including the preparation\n\nof electoral rolls and all other matters necessary for securing the due\n\nconstitution of such House or Houses",
     "summary": "Article 328 provides constitutional rules and provisions regarding power of legislature of a state to make provision with respect to elections to such legislature, under Part XV: Elections.",
     "cases": [],
     "importance": "standard",
@@ -10667,7 +10667,7 @@
     "partId": "Part XV",
     "partName": "Part XV: Elections",
     "category": "Elections & ECI",
-    "description": "Notwithstanding anything in this Constitution — \n\n \n\n(a) the validity of any law relating to the delimitation of constituencies or the allotment of seats to such constituencies, made or purporting to be made under article 327 or article 328, shall not be called in question in any court;\n\n \n\n(b) no election to either House of Parliament or to the House or either House of the Legislature of a State shall be called in question except by an election petition presented to such authority and in such manner as may be provided for by or under any law made by the appropriate Legislature.",
+    "description": "Notwithstanding anything in this Constitution —\n\n(a) the validity of any law relating to the delimitation of\n\nconstituencies or the allotment of seats to such constituencies, made or\n\npurporting to be made under article 327 or article 328, shall not be called\n\nin question in any court;\n\n(b) no election to either House of Parliament or to the House or\n\neither House of the Legislature of a State shall be called in question\n\nexcept by an election petition presented to such authority and in such\n\nmanner as may be provided for by or under any law made by the\n\nappropriate Legislature",
     "summary": "Article 329 provides constitutional rules and provisions regarding bar to interference by courts in electoral matters, under Part XV: Elections.",
     "cases": [],
     "importance": "standard",
@@ -10682,8 +10682,36 @@
     "isFundamental": false
   },
   {
-    "id": "art-330",
+    "id": "art-329A",
     "index": 415,
+    "article": "Article 329A",
+    "articleNumber": "329A",
+    "articleStr": "329A",
+    "title": "Special provision as to elections to Parliament in the case of Prime Minister and Speaker",
+    "partId": "Part XV",
+    "partName": "Part XV: Elections",
+    "category": "Elections & ECI",
+    "description": "[Special provision as to elections to Parliament in the case of Prime Minister and Speaker.]—Omitted by the Constitution (Forty-fourth Amendment) Act, 1978, s. 36 (w.e.f. 20-6-1979).",
+    "summary": "Article 329A provides constitutional rules and provisions regarding special provision as to elections to parliament in the case of prime minister and speaker, under Part XV: Elections.",
+    "cases": [],
+    "importance": "standard",
+    "tags": [
+      "part xv",
+      "elections & eci",
+      "special",
+      "provision",
+      "elections",
+      "parliament",
+      "case",
+      "prime",
+      "minister",
+      "speaker"
+    ],
+    "isFundamental": false
+  },
+  {
+    "id": "art-330",
+    "index": 416,
     "article": "Article 330",
     "articleNumber": 330,
     "articleStr": "330",
@@ -10691,7 +10719,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) Seats shall be reserved in the House of the People for —\n\n \n\n(a) the Scheduled Castes;\n\n \n\n(b) the Scheduled Tribes except the Scheduled Tribes in the autonomous districts of Assam; and\n\n \n\n(c) the Scheduled Tribes in the autonomous districts of Assam.\n\n \n\n(2) The number of seats reserved in any State or Union territory for the Scheduled Castes or the Scheduled Tribes under clause (1) shall bear, as nearly as may be, the same proportion to the total number of seats allotted to that State 2 [or Union territory] in the House of the People as the population of the Scheduled Castes in the State or Union territory or of the Scheduled Tribes in the State or Union territory or part of the State or Union territory, as the case may be, in respect of which seats are so reserved, bears to the total population of the State or Union territory.\n\n \n\n(3) Notwithstanding anything contained in clause (2), the number of seats reserved in the House of the People for the Scheduled Tribes in the autonomous districts of Assam shall bear to the total number of seats allotted to that State a proportion not less than the population of the Scheduled Tribes in the said autonomous districts bears to the total population of the State.\n\n \n\nExplanation —In this article and in article 332, the expression “population” means the population as ascertained at the last preceding census of which the relevant figures have been published:\n\n \n\n    Provided that the reference in this Explanation to the last preceding census of which the relevant figures have been published shall, until the relevant figures for the first census taken after the year 2026 have been published, be construed as a reference to the 2001 census.",
+    "description": "(1) Seats shall be reserved in the House of the\n\nPeople for —\n\n(a) the Scheduled Castes;\n\n(b) the Scheduled Tribes except the Scheduled Tribes in the\n\nautonomous districts of Assam; and\n\n(c) the Scheduled Tribes in the autonomous districts of Assam.\n\n(2) The number of seats reserved in any State or Union territory for\n\nthe Scheduled Castes or the Scheduled Tribes under clause (1) shall bear, as\n\nnearly as may be, the same proportion to the total number of seats allotted to\n\nthat State or Union territory in the House of the People as the population of\n\nthe Scheduled Castes in the State or Union territory or of the Scheduled\n\nTribes in the State or Union territory or part of the State or Union territory,\n\nas the case may be, in respect of which seats are so reserved, bears to the total\n\npopulation of the State or Union territory.\n\n(3) Notwithstanding anything contained in clause (2), the number of\n\nseats reserved in the House of the People for the Scheduled Tribes in the\n\nautonomous districts of Assam shall bear to the total number of seats allotted to\n\nthat State a proportion not less than the population of the Scheduled Tribes in\n\nthe said autonomous districts bears to the total population of the State.\n\nExplanation.—In this article and in article 332, the expression\n\n“population” means the population as ascertained at the last preceding census\n\nof which the relevant figures have been published:\n\nProvided that the reference in this Explanation to the last preceding\n\ncensus of which the relevant figures have been published shall, until the\n\nrelevant figures for the first census taken after the year 2026 have been\n\npublished, be construed as a reference to the 2001 census.",
     "summary": "Article 330 provides constitutional rules and provisions regarding reservation of seats for scheduled castes and scheduled tribes in the house of the people, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10709,8 +10737,40 @@
     "isFundamental": false
   },
   {
+    "id": "art-330A",
+    "index": 417,
+    "article": "Article 330A",
+    "articleNumber": "330A",
+    "articleStr": "330A",
+    "title": "Reservation of seats for women in the House of the People",
+    "partId": "Part XVI",
+    "partName": "Part XVI: Special Provisions for Certain Classes",
+    "category": "Affirmative Action & Special Classes",
+    "description": "(1) Seats shall be reserved for women in the House of the People.\n\n(2) As nearly as may be, one-third of the total number of seats reserved\n\nunder clause (2) of article 330 shall be reserved for women belonging to the\n\nScheduled Castes or the Scheduled Tribes.\n\n(3) As nearly as may be, one-third (including the number of seats\n\nreserved for women belonging to the Scheduled Castes and the Scheduled\n\nTribes) of the total number of seats to be filled by direct election to the House\n\nof the People shall be reserved for women.",
+    "summary": "Reservation of seats for women in the House of the People (Lok Sabha). Enacted via the historic 106th Constitutional Amendment Act, 2023 (Nari Shakti Vandan Adhiniyam), reserving one-third of total seats for women.",
+    "cases": [
+      "Historic constitutional breakthrough for gender parity in national parliamentary representation."
+    ],
+    "importance": "landmark",
+    "tags": [
+      "part xvi",
+      "affirmative action & special classes",
+      "women reservation",
+      "lok sabha",
+      "nari shakti vandan",
+      "106th amendment",
+      "gender equality",
+      "reservation",
+      "seats",
+      "women",
+      "house",
+      "people"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-331",
-    "index": 416,
+    "index": 418,
     "article": "Article 331",
     "articleNumber": 331,
     "articleStr": "331",
@@ -10718,7 +10778,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "Notwithstanding anything in article 81, the President may, if he is of opinion that the Anglo-Indian community is not adequately represented in the House of the People, nominate not more than two members of that community to the House of the People.",
+    "description": "Notwithstanding anything in article 81, the President may, if he is\n\nof opinion that the Anglo-Indian community is not adequately represented in\n\nthe House of the People, nominate not more than two members of that\n\ncommunity to the House of the People",
     "summary": "Article 331 provides constitutional rules and provisions regarding representation of the anglo-indian community in the house of the people, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10736,7 +10796,7 @@
   },
   {
     "id": "art-332",
-    "index": 417,
+    "index": 419,
     "article": "Article 332",
     "articleNumber": 332,
     "articleStr": "332",
@@ -10744,7 +10804,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) Seats shall be reserved for the Scheduled Castes and the Scheduled Tribes, except the Scheduled Tribes in the autonomous districts of Assam, in the Legislative Assembly of every State.\n\n \n\n(2) Seats shall be reserved also for the autonomous districts in the Legislative Assembly of the State of Assam.\n\n \n\n(3) The number of seats reserved for the Scheduled Castes or the Scheduled Tribes in the Legislative Assembly of any State under clause (1) shall bear, as nearly as may be, the same proportion to the total number of seats in the Assembly as the population of the Scheduled Castes in the State or of the Scheduled Tribes in the State or part of the State, as the case may be, in respect of which seats are so reserved, bears to the total population of the State.\n\n \n\n(3A) Notwithstanding anything contained in clause (3), until the taking effect, under article 170, of the readjustment, on the basis of the first census after the year 2026, of the number of seats in the Legislative Assemblies of the States of Arunachal Pradesh, Meghalaya, Mizoram and Nagaland, the seats which shall be reserved for the Scheduled Tribes in the Legislative Assembly of any such State shall be,—\n\n \n\n(a) if all the seats in the Legislative Assembly of such State in existence on the date of coming into force of the Constitution (Fifty-seventh Amendment) Act, 1987 (hereafter in this clause referred to as the existing Assembly) are held by members of the Scheduled Tribes, all the seats except one;\n\n \n\n(b) in any other case, such number of seats as bears to the total number of seats, a proportion not less than the number (as on the said date) of members belonging to the Scheduled Tribes in the existing Assembly bears to the total number of seats in the existing Assembly.\n\n \n\n(3B) Notwithstanding anything contained in clause (3), until the re-adjustment, under article 170, takes effect on the basis of the first census after the year 2026, of the number of seats in the Legislative Assembly of the State of Tripura, the seats which shall be reserved for the Scheduled Tribes in the Legislative Assembly shall be, such number of seats as bears to the total number of seats, a proportion not less than the number, as on the date of coming into force of the Constitution (Seventysecond Amendment) Act, 1992, of members belonging to the Scheduled Tribes in the Legislative Assembly in existence on the said date bears to the total number of seats in that Assembly.\n\n \n\n(4) The number of seats reserved for an autonomous district in the Legislative Assembly of the State of Assam shall bear to the total number of seats in that Assembly a proportion not less than the population of the district bears to the total population of the State.\n\n \n\n(5) The constituencies for the seats reserved for any autonomous district of Assam shall not comprise any area outside that district.\n\n \n\n(6) No person who is not a member of a Scheduled Tribe of any autonomous district of the State of Assam shall be eligible for election to the Legislative Assembly of the State from any constituency of that district\n\n \n\n     Provided that for elections to the Legislative Assembly of the State of Assam, the representation of the Scheduled Tribes and non-Scheduled Tribes in the constituencies included in the Bodoland Territorial Areas District, so notified, and existing prior to the constitution of Bodoland Territorial Areas District, shall be maintained.",
+    "description": "(1) Seats shall be reserved for\n\nthe Scheduled Castes and the Scheduled Tribes, except the Scheduled Tribes\n\nin the autonomous districts of Assam, in the Legislative Assembly of every\n\nState .\n\n(2) Seats shall be reserved also for the autonomous districts in the\n\nLegislative Assembly of the State of Assam.\n\n(3) The number of seats reserved for the Scheduled Castes or the\n\nScheduled Tribes in the Legislative Assembly of any State under clause (1)\n\nshall bear, as nearly as may be, the same proportion to the total number of seats\n\nin the Assembly as the population of the Scheduled Castes in the State or of the\n\nScheduled Tribes in the State or part of the State, as the case may be, in respect\n\nof which seats are so reserved, bears to the total population of the State.\n\n(3A) Notwithstanding anything contained in clause (3), until the taking\n\neffect, under article 170, of the re-adjustment, on the basis of the first census\n\nafter the year 2026, of the number of seats in the Legislative Assemblies of\n\nthe States of Arunachal Pradesh, Meghalaya, Mizoram and Nagaland, the seats\n\nwhich shall be reserved for the Scheduled Tribes in the Legislative Assembly\n\nof any such State shall be,—\n\n(a) if all the seats in the Legislative Assembly of such State in\n\nexistence on the date of coming into force of the Constitution (Fifty-\n\nseventh Amendment) Act, 1987 (hereafter in this clause referred to as\n\nthe existing Assembly) are held by members of the Scheduled Tribes, all\n\nthe seats except one;\n\n(b) in any other case, such number of seats as bears to the total\n\nnumber of seats, a proportion not less than the number (as on the said\n\ndate) of members belonging to the Scheduled Tribes in the existing\n\nAssembly bears to the total number of seats in the existing Assembly.\n\n(3B) Notwithstanding anything contained in clause (3), until the\n\nre-adjustment, under article 170, takes effect on the basis of the first census\n\nafter the year 2026, of the number of seats in the Legislative Assembly of the\n\nState of Tripura, the seats which shall be reserved for the Scheduled Tribes in\n\nthe Legislative Assembly shall be, such number of seats as bears to the total\n\nnumber of seats, a proportion not less than the number, as on the date of\n\ncoming into force of the Constitution (Seventy-second Amendment) Act, 1992,\n\nof members belonging to the Scheduled Tribes in the Legislative Assembly in\n\nexistence on the said date bears to the total number of seats in that Assembly.\n\n(4) The number of seats reserved for an autonomous district in the\n\nLegislative Assembly of the State of Assam shall bear to the total number of\n\nseats in that Assembly a proportion not less than the population of the district\n\nbears to the total population of the State.\n\n(5) The constituencies for the seats reserved for any autonomous district\n\nof Assam shall not comprise any area outside that district .\n\n(6) No person who is not a member of a Scheduled Tribe of any\n\nautonomous district of the State of Assam shall be eligible for election to the\n\nLegislative Assembly of the State from any constituency of that district :\n\nProvided that for elections to the Legislative Assembly of the State of\n\nAssam, the representation of the Scheduled Tribes and non-Scheduled Tribes in\n\nthe constituencies included in the Bodoland Territorial Areas District, so\n\nnotified, and existing prior to the constitution of Bodoland Territorial Areas\n\nDistrict, shall be maintained.",
     "summary": "Article 332 provides constitutional rules and provisions regarding reservation of seats for scheduled castes and scheduled tribes in the legislative assemblies of the states, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10763,8 +10823,41 @@
     "isFundamental": false
   },
   {
+    "id": "art-332A",
+    "index": 420,
+    "article": "Article 332A",
+    "articleNumber": "332A",
+    "articleStr": "332A",
+    "title": "Reservation of seats for women in the Legislative Assemblies of the States",
+    "partId": "Part XVI",
+    "partName": "Part XVI: Special Provisions for Certain Classes",
+    "category": "Affirmative Action & Special Classes",
+    "description": "(1) Seats shall be reserved for women in the\n\nLegislative Assembly of every State.\n\n(2) As nearly as may be, one-third of the total number of seats reserved\n\nunder clause (3) of article 332 shall be reserved for women belonging to the\n\nScheduled Castes or the Scheduled Tribes.\n\n(3) As nearly as may be , one-third (including the number of seats\n\nreserved for women belonging to the Scheduled Castes and the Sceduled\n\nTribes) of the total number of seats to be filled by direct election in the\n\nLegislative Assembly of every State shall be reserved for women.",
+    "summary": "Reservation of seats for women in the Legislative Assemblies of the States. Enacted via the 106th Constitutional Amendment Act, 2023, reserving one-third of total assembly seats for women.",
+    "cases": [
+      "Empowers female representation across State Legislative Assemblies."
+    ],
+    "importance": "landmark",
+    "tags": [
+      "part xvi",
+      "affirmative action & special classes",
+      "women reservation",
+      "state assemblies",
+      "nari shakti vandan",
+      "106th amendment",
+      "gender equality",
+      "reservation",
+      "seats",
+      "women",
+      "legislative",
+      "assemblies",
+      "states"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-333",
-    "index": 418,
+    "index": 421,
     "article": "Article 333",
     "articleNumber": 333,
     "articleStr": "333",
@@ -10772,7 +10865,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "Notwithstanding anything in article 170, the Governor of a State may, if he is of opinion that the Anglo-Indian community needs representation in the Legislative Assembly of the State and is not adequately represented therein, nominate one member of that community to the Assembly.",
+    "description": "Notwithstanding anything in article\n\n170, the Governor  of a State may, if he is of opinion that the Anglo-Indian\n\ncommunity needs representation in the Legislative Assembly of the State and is\n\nnot adequately represented therein, nominate one member of that community\n\nto the Assembly",
     "summary": "Article 333 provides constitutional rules and provisions regarding representation of the anglo-indian community in the legislative assemblies of the states, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10791,22 +10884,22 @@
   },
   {
     "id": "art-334",
-    "index": 419,
+    "index": 422,
     "article": "Article 334",
     "articleNumber": 334,
     "articleStr": "334",
-    "title": "Reservation of seats and special representation to cease after certain period",
+    "title": "4Reservation of seats and special representation to cease after certain period",
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "Notwithstanding anything in the foregoing provisions of this Part, the provisions of this Constitution relating to —\n\n \n\n(a) the reservation of seats for the Scheduled Castes and the Scheduled Tribes in the House of the People and in the Legislative Assemblies of the States; and\n\n \n\n(b) the representation of the Anglo-Indian community in the House of the People and in the Legislative Assemblies of the States by nomination,\n\n \n\nshall cease to have effect on the expiration of a period of eighty years in respect of clause (a) and seventy years in respect of clause (b) from the commencement of this Constitution:\n\n \n\n    Provided that nothing in this article shall affect any representation in the House of the People or in the Legislative Assembly of a State until the dissolution of the then existing House or Assembly, as the case may be.",
-    "summary": "Article 334 provides constitutional rules and provisions regarding reservation of seats and special representation to cease after certain period, under Part XVI: Special Provisions for Certain Classes.",
+    "description": "Notwithstanding anything in the foregoing provisions of this\n\nPart, the provisions of this Constitution relating to—\n\n(a) the reservation of seats for the Scheduled Castes and the\n\nScheduled Tribes in the House of the People and in the Legislative\n\nAssemblies of the States; and\n\n(b) the representation of the Anglo-Indian community in the\n\nHouse of the People and in the Legislative Assemblies of the States by\n\nnomination,\n\nshall cease to have effect on the expiration of a period of eighty years in respect of clause (a) and seventy years in respect of clause (b) from the\n\ncommencement of this Constitution:\n\nProvided that nothing in this article shall affect any representation in the House of the People or in the Legislative Assembly of a State until the dissolution of the then existing House or Assembly, as the case may be",
+    "summary": "Article 334 provides constitutional rules and provisions regarding 4reservation of seats and special representation to cease after certain period, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
     "tags": [
       "part xvi",
       "affirmative action & special classes",
-      "reservation",
+      "4reservation",
       "seats",
       "special",
       "representation",
@@ -10818,8 +10911,40 @@
     "isFundamental": false
   },
   {
+    "id": "art-334A",
+    "index": 423,
+    "article": "Article 334A",
+    "articleNumber": "334A",
+    "articleStr": "334A",
+    "title": "Reservation of seats for women take effect",
+    "partId": "Part XVI",
+    "partName": "Part XVI: Special Provisions for Certain Classes",
+    "category": "Affirmative Action & Special Classes",
+    "description": "(1) Notwithstanding anything in the foregoing provision of this Part or Part VIII, the provisions of the Constitution relating to the reservation of seats for women in the House of the People, the Legislative Assembly of a State and the Legislative Assembly of the National Capital Territory of Delhi shall come into effect after an exercise of delimitation is undertaken for this purpose after the relevant figures for the first census taken after commencement of the Constitution (One Hundred and Sixth Amendment) Act, 2023 have been published and shall cease to have effect on the expiration of a period of fifteen years from such commencement. (2) Subject to the provisions of articles 239AA, 330A and 332A, seats reserved for women in the House of the People, the Legislative Assembly of a State and the Legislative Assembly of the National Capital Territory of Delhi shall continue till such date as the Parliament may by law determine. (3) Rotation of seats reserved for women in the House of the People, the Legislative Assembly of a State and the Legislative Assembly of the National Capital Territory of Delhi shall take effect after each subsequent exercise of delimitation as the Parliament may by law determine. (4) Nothing in this article shall affect any representation in the House of the People, the Legislative Assembly of a State or the Legislative Assembly of the National Capital Territory of Delhi until the dissolution of the then existing House of the People, Legislative Assembly of a State or the Legislative Assembly of the National Capital Territory of Delhi.",
+    "summary": "Reservation of seats for women to take effect: specifies that women's reservation in Lok Sabha and State Assemblies will come into effect after delimitation following the relevant census and continue for fifteen years initially.",
+    "cases": [
+      "Enacted via the 106th Constitutional Amendment Act, 2023."
+    ],
+    "importance": "landmark",
+    "tags": [
+      "part xvi",
+      "affirmative action & special classes",
+      "women reservation",
+      "delimitation",
+      "census",
+      "106th amendment",
+      "sun-set clause",
+      "reservation",
+      "seats",
+      "women",
+      "take",
+      "effect"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-335",
-    "index": 420,
+    "index": 424,
     "article": "Article 335",
     "articleNumber": 335,
     "articleStr": "335",
@@ -10827,7 +10952,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "The claims of the members of the Scheduled Castes and the Scheduled Tribes shall be taken into consideration, consistently with the maintenance of efficiency of administration, in the making of appointments to services and posts in connection with the affairs of the Union or of a State:\n\n \n\n     Provided that nothing in this article shall prevent in making of any provision in favour of the members of the Scheduled Castes and the Scheduled Tribes for relaxation in qualifying marks in any examination or lowering the standards of evaluation, for reservation in matters of promotion to any class or classes of services or posts in connection with the affairs of the Union or of a State.",
+    "description": "The claims of the members of the Scheduled Castes and the\n\nScheduled Tribes shall be taken into consideration, consistently with the maintenance of efficiency of administration, in the making of appointments to services and posts in connection with the affairs of the Union or of a State:\n\nProvided that nothing in this article shall prevent in making of any\n\nprovision in favour of the members of the Scheduled Castes and the Scheduled\n\nTribes for relaxation in qualifying marks in any examination or lowering the\n\nstandards of evaluation, for reservation in matters or promotion to any class or\n\nclasses of services or posts in connection with the affairs of the Union or of a State.",
     "summary": "Article 335 provides constitutional rules and provisions regarding claims of scheduled castes and scheduled tribes to services and posts, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10845,7 +10970,7 @@
   },
   {
     "id": "art-336",
-    "index": 421,
+    "index": 425,
     "article": "Article 336",
     "articleNumber": 336,
     "articleStr": "336",
@@ -10853,7 +10978,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) During the first two years after the commencement of this Constitution, appointments of members of the Anglo-Indian community to posts in the railway, customs, postal and telegraph services of the Union shall be made on the same basis as immediately before the fifteenth day of August, 1947.\n\n \n\nDuring every succeeding period of two years, the number of posts reserved for the members of the said community in the said services shall, as nearly as possible, be less by ten per cent. than the numbers so reserved during the immediately preceding period of two years:\n\n \n\n     Provided that at the end of ten years from the commencement of this Constitution all such reservations shall cease.\n\n \n\n(2) Nothing in clause (1) shall bar the appointment of members of the Anglo-Indian community to posts other than, or in addition to, those reserved for the community under that clause if such members are found qualified for appointment on merit as compared with the members of other communities.",
+    "description": "(1) During the first two years after the commencement of this\n\nConstitution, appointments of members of the Anglo-Indian community to posts\n\nin the railway, customs, postal and telegraph services of the Union shall be made\n\non the same basis as immediately before the fifteenth day of August, 1947.\n\nDuring every succeeding period of two years, the number of posts\n\nreserved for the members of the said community in the said services shall, as\n\nnearly as possible, be less by ten per cent. than the numbers so reserved during\n\nthe immediately preceding period of two years:\n\nProvided that at the end of ten years from the commencement of this\n\nConstitution all such reservations shall cease.\n\n(2) Nothing in clause (1) shall bar the appointment of members of the\n\nAnglo-Indian community to posts other than, or in addition to, those reserved\n\nfor the community under that clause if such members are found qualified for\n\nappointment on merit as compared with the members of other communities",
     "summary": "Article 336 provides constitutional rules and provisions regarding special provision for anglo-indian community in certain services, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10872,7 +10997,7 @@
   },
   {
     "id": "art-337",
-    "index": 422,
+    "index": 426,
     "article": "Article 337",
     "articleNumber": 337,
     "articleStr": "337",
@@ -10880,7 +11005,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "During the first three financial years after the commencement of this Constitution, the same grants, if any, shall be made by the Union and by each State for the benefit of the Anglo-Indian community in respect of education as were made in the financial year ending on the thirty-first day of March, 1948.\n\n \n\nDuring every succeeding period of three years the grants may be less by ten per cent. than those for the immediately preceding period of three years :\n\n \n\n     Provided that at the end of ten years from the commencement of this Constitution such grants, to the extent to which they are a special concession to the AngloIndian community, shall cease:\n\n \n\n     Provided further that no educational institution shall be entitled to receive any grant under this article unless at least forty per cent. of the annual admissions therein are made available to members of communities other than the Anglo-Indian community.",
+    "description": "During the first three financial years\n\nafter the commencement of this Constitution, the same grants, if any, shall be\n\nmade by the Union and by each State  for the benefit of the Anglo-Indian\n\ncommunity in respect of education as were made in the financial year ending\n\non the thirty-first day of March, 1948.\n\nDuring every succeeding period of three years the grants may be less by\n\nten per cent. than those for the immediately preceding period of three years:\n\nProvided that at the end of ten years from the commencement of this\n\nConstitution such grants, to the extent to which they are a special concession to\n\nthe Anglo-Indian community, shall cease:\n\nProvided further that no educational institution shall be entitled to\n\nreceive any grant under this article unless at least forty per cent. of the annual\n\nadmissions therein are made available to members of communities other than\n\nthe Anglo-Indian community",
     "summary": "Article 337 provides constitutional rules and provisions regarding special provision with respect to educational grants for the benefit of anglo-indian community, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10901,22 +11026,22 @@
   },
   {
     "id": "art-338",
-    "index": 423,
+    "index": 427,
     "article": "Article 338",
     "articleNumber": 338,
     "articleStr": "338",
-    "title": "National Commission for Scheduled Castes",
+    "title": "1National Commission for Scheduled Castes",
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) There shall be a Commission for the Scheduled Castes to be known as the National Commission for the Scheduled Castes.\n\n \n\n(2) Subject to the provisions of any law made in this behalf by Parliament, the Commission shall consist of a Chairperson, Vice-Chairperson and three other Members and the conditions of service and tenure of office of the Chairperson, Vice-Chairperson and other Members so appointed shall be such as the President may by rule determine.\n\n \n\n(3) The Chairperson, Vice-Chairperson and other Members of the Commission shall be appointed by the President by warrant under his hand and seal.\n\n \n\n(4) The Commission shall have the power to regulate its own procedure.\n\n \n\n(5) It shall be the duty of the Commission —\n\n \n\n(a) to investigate and monitor all matters relating to the safeguards provided for the Scheduled Castes under this Constitution or under any other law for the time being in force or under any order of the Government and to evaluate the working of such safeguards;\n\n \n\n(b) to inquire into specific complaints with respect to the deprivation of rights and safeguards of the Scheduled Castes;\n\n \n\n(c) to participate and advise on the planning process of socio-economic development of the Scheduled Castes and to evaluate the progress of their development under the Union and any State;\n\n \n\n(d) to present to the President, annually and at such other times as the Commission may deem fit, reports upon the working of those safeguards;\n\n \n\n(e) to make in such reports recommendations as to the measures that should be taken by the Union or any State for the effective implementation of those safeguards and other measures for the protection, welfare and socio-economic development of the Scheduled Castes; and\n\n \n\n(f) to discharge such other functions in relation to the protection, welfare and development and advancement of the Scheduled Castes as the President may, subject to the provisions of any law made by Parliament, by rule specify.\n\n \n\n(6) The President shall cause all such reports to be laid before each House of Parliament along with a memorandum explaining the action taken or proposed to be taken on the recommendations relating to the Union and the reasons for the non-acceptance, if any, of any of such recommendations.\n\n \n\n(7) Where any such report, or any part thereof, relates to any matter with which any State Government is concerned, a copy of such report shall be forwarded to the Governor of the State who shall cause it to be laid before the Legislature of the State along with a memorandum explaining the action taken or proposed to be taken on the recommendations relating to the State and the reasons for the non-acceptance, if any, of any of such recommendations.\n\n \n\n(8) The Commission shall, while investigating any matter referred to in sub-clause (a) or inquiring into any complaint referred to in sub-clause (b) of clause (5), have all the powers of a civil court trying a suit and in particular in respect of the following matters, namely :—\n\n \n\n(a) summoning and enforcing the attendance of any person from any part of India and examining him on oath;\n\n \n\n(b) requiring the discovery and production of any document;\n\n \n\n(c) receiving evidence on affidavits;\n\n \n\n(d) requisitioning any public record or copy thereof from any court or office;\n\n \n\n(e) issuing commissions for the examination of witnesses and documents;\n\n \n\n(f) any other matter which the President may, by rule, determine.\n\n \n\n(9) The Union and every State Government shall consult the Commission on all major policy matters affecting Scheduled Castes.\n\n \n\n(10) In this article, references to the Scheduled Castes shall be construed as including references to such other backward classes as the President may, on receipt of the report of a Commission appointed under clause (1) of article 340, by order specify and also to the Anglo-Indian community.",
-    "summary": "Article 338 provides constitutional rules and provisions regarding national commission for scheduled castes, under Part XVI: Special Provisions for Certain Classes.",
+    "description": "(1) There\n\nshall be a Commission for the Scheduled Castes to be known as the National\n\nCommission for the Scheduled Castes.\n\n(2) Subject to the provisions of any law made in this behalf by\n\nParliament, the Commission shall consist of a Chairperson, Vice-Chairperson\n\nand three other Members and the conditions of service and tenure of office of\n\nthe Chairperson, Vice-Chairperson and other Members so appointed shall be\n\nsuch as the President may by rule determine.\n\n(3) The Chairperson, Vice-Chairperson and other Members of the\n\nCommission shall be appointed by the President by warrant under his hand and seal.\n\n(4) The Commission shall have the power to regulate its own procedure.\n\n(5) It shall be the duty of the Commission—\n\n(a) to investigate and monitor all matters relating to the safeguards\n\nprovided for the Scheduled Castes  under this Constitution or under\n\nany other law for the time being in force or under any order of the\n\nGovernment and to evaluate the working of such safeguards;\n\n(b) to inquire into specific complaints with respect to the\n\ndeprivation of rights and safeguards of the Scheduled Castes ;\n\n(c) to participate and advise on the planning process of\n\nsocio-economic development of the Scheduled Castes  and to\n\nevaluate the progress of their development under the Union and any\n\nState;\n\n(d) to present to the President, annually and at such other times as the\n\nCommission may deem fit, reports upon the working of those safeguards;\n\n(e) to make in such reports recommendations as to the measures that should be taken by the Union or any State for the effective implementation of\n\nthose safeguards and other measures for the protection, welfare and socio-economic development of the Scheduled Castes ; and\n\n(f) to discharge such other functions in relation to the protection, welfare and development and advancement of the Scheduled Castes  as the President\n\nmay, subject to the provisions of any law made by Parliament, by rule specify. (6) The President shall cause all such reports to be laid before each House of Parliament along with a memorandum explaining the action taken or proposed to be taken on the recommendations relating to the Union and the reasons for the non-acceptance, if any, of any of such recommendations. (7) Where any such report, or any part thereof, relates to any matter with which any State Government is concerned, a copy of such report shall be forwarded to the Governor of the State who shall cause it to be laid before the\n\nLegislature of the State along with a memorandum explaining the action taken or proposed to be taken on the recommendations relating to the State and the reasons for the non-acceptance, if any, of any of such recommendations. (8) The Commission shall, while investigating any matter referred to in sub-clause (a) or inquiring into any complaint referred to in sub-clause (b) of clause (5), have all the powers of a civil court trying a suit and in particular in respect of the following matters, namely:— (a) summoning and enforcing the attendance of any person from any part of India and examining him on oath; (b) requiring the discovery and production of any document;\n\n(c) receiving evidence on affidavits;\n\n(d) requisitioning any public record or copy thereof from any court or office;\n\n(e) issuing commissions for the examination of witnesses and documents;\n\n(f) any other matter which the President may, by rule, determine. (9) The Union and every State Government shall consult the Commission on all major policy matters affecting Scheduled Castes .\n\n(10) In this article, references to the Scheduled Castes  shall be\n\nconstrued as including references  to the Anglo-Indian community",
+    "summary": "Article 338 provides constitutional rules and provisions regarding 1national commission for scheduled castes, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
     "tags": [
       "part xvi",
       "affirmative action & special classes",
-      "national",
+      "1national",
       "commission",
       "scheduled",
       "castes"
@@ -10925,7 +11050,7 @@
   },
   {
     "id": "art-338A",
-    "index": 424,
+    "index": 428,
     "article": "Article 338A",
     "articleNumber": "338A",
     "articleStr": "338A",
@@ -10933,7 +11058,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) There shall be a Commission for the Scheduled Tribes to be known as the National Commission for the Scheduled Tribes.\n\n \n\n(2) Subject to the provisions of any law made in this behalf by Parliament, the Commission shall consist of a Chairperson, Vice-Chairperson and three other Members and the conditions of service and tenure of office of the Chairperson, Vice-Chairperson and other Members so appointed shall be such as the President by rule determine.\n\n \n\n(3) The Chairperson, Vice-Chairperson and other Members of the Commission shall be appointed by the President by warrant under his hand and seal.\n\n \n\n(4) The Commission shall have the power to regulate its own procedure. (5) It shall be the duty of the Commission —\n\n \n\n(a) to investigate and monitor all matters relating to the safeguards provided for the Scheduled Tribes under this Constitution or under any other law for the time being in force or under any order of the Government and to evaluate the working of such safeguards;\n\n \n\n(b) to inquire into specific complaints with respect to the deprivation of rights and safeguards of the Scheduled Tribes;\n\n \n\n(c) to participate and advise on the planning process of socio-economic development of the Scheduled Tribes and to evaluate the progress of their development under the Union and any State;\n\n \n\n(d) to present to the President, annually and at such other times as the Commission may deem fit, reports upon the working of those safeguards;\n\n \n\n(e) to make in such reports recommendations as to the measures that should be taken by the Union or any State for the effective implementation of those safeguards and other measures for the protection, welfare and socio-economic development of the Scheduled Tribes; and\n\n \n\n(f) to discharge such other functions in relation to the protection, welfare and development and advancement of the Scheduled Tribes as the President may, subject to the provisions of any law made by Parliament, by rule specify.\n\n \n\n(6) The President shall cause all such reports to be laid before each House of Parliament along with a memorandum explaining the action taken or proposed to be taken on the recommendations relating to the Union and the reasons for the non-acceptance, if any, of any of such recommendations.\n\n \n\n(7) Where any such report, or any part thereof, relates to any matter with which any State Government is concerned, a copy of such report shall be forwarded to the Governor of the State who shall cause it to be laid before the Legislature of the State along with a memorandum explaining the action taken or proposed to be taken on the recommendations relating to the State and the reasons for the non-acceptance, if any, of any of such recommendations.\n\n \n\n(8) The Commission shall, while investigating any matter referred to in sub-clause (a) or inquiring into any complaint referred to in sub-clause (b) of clause (5), have all the powers of a civil court trying a suit and in particular in respect of the following matters, namely: —\n\n \n\n(a) summoning and enforcing the attendance of any person from any part of India and examining him on oath;\n\n \n\n(b) requiring the discovery and production of any document;\n\n \n\n(c) receiving evidence on affidavits;\n\n \n\n(d) requisitioning any public record or copy thereof from any court or office;\n\n \n\n(e) issuing commissions for the examination of witnesses and documents;\n\n \n\n(f) any other matter which the President may, by rule, determine.\n\n \n\n(9) The Union and every State Government shall consult the Commission on all major policy matters affecting Scheduled Tribes.",
+    "description": "(1) There shall be a Commission for the Scheduled Tribes to be known as the National\n\nCommission for the Scheduled Tribes.\n\n(2) Subject to the provisions of any law made in this behalf by\n\nParliament, the Commission shall consist of a Chairperson, Vice-Chairperson\n\nand three other Members and the conditions of service and tenure of office of\n\nthe Chairperson, Vice-Chairperson and other Members so appointed shall be\n\nsuch as the President may by rule determine.\n\n(3) The Chairperson, Vice-Chairperson and other Members of the\n\nCommission shall be appointed by the President by warrant under his hand and seal.\n\n(4) The Commission shall have the power to regulate its own procedure.\n\n(5) It shall be the duty of the Commission—\n\n(a) to investigate and monitor all matters relating to the\n\nsafeguards provided for the Scheduled Tribes under this Constitution or\n\nunder any other law for the time being in force or under any order of the\n\nGovernment and to evaluate the working of such safeguards;\n\n(b) to inquire into specific complaints with respect to the\n\ndeprivation of rights and safeguards of the Scheduled Tribes;\n\n(c) to participate and advise on the planning process of\n\nsocio-economic development of the Scheduled Tribes and to evaluate the\n\nprogress of their development under the Union and any State;\n\n(d) to present to the President, annually and at such other times as\n\nthe Commission may deem fit, reports upon the working of those\n\nsafeguards;\n\n(e) to make in such reports recommendations as to the\n\nmeasures that should be taken by the Union or any State for the\n\neffective implementation of those safeguards and other measures\n\nfor the protection, welfare and socio-economic development of the\n\nScheduled Tribes; and\n\n(f) to discharge such other functions in relation to the protection,\n\nwelfare and development and advancement of the Scheduled Tribes as\n\nthe President may, subject to the provisions of any law made by\n\nParliament, by rule specify.\n\n(6) The President shall cause all such reports to be laid before each\n\nHouse of Parliament along with a memorandum explaining the action taken or\n\nproposed to be taken on the recommendations relating to the Union and the\n\nreasons for the non-acceptance, if any, of any such recommendations.\n\n(7) Where any such report, or any part thereof, relates to any matter\n\nwith which any State Government is concerned, a copy of such report shall be\n\nforwarded to the Governor of the State who shall cause it to be laid before the\n\nLegislature of the State along with a memorandum explaining the action taken\n\nor proposed to be taken on the recommendations relating to the State and the\n\nreasons for the non-acceptance, if any, of any of such recommendations.\n\n(8) The Commission shall, while investigating any matter referred to in\n\nsub-clause (a) or inquiring into any complaint referred to in sub-clause (b) of\n\nclause (5), have all the powers of a civil court trying a suit and in particular in\n\nrespect of the following matters, namely:—\n\n(a) summoning and enforcing the attendance of any person from\n\nany part of India and examining him on oath;\n\n(b) requiring the discovery and production of any document;\n\n(c) receiving evidence on affidavits;\n\n(d) requisitioning any public record or copy thereof from any\n\ncourt or office;\n\n(e) issuing commissions for the examination of witnesses and documents;\n\n(f) any other matter which the President may, by rule, determine.\n\n(9) The Union and every State Government shall consult the\n\nCommission on all major policy matters affecting Scheduled Tribes.",
     "summary": "Article 338A provides constitutional rules and provisions regarding national commission for scheduled tribes, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10948,8 +11073,39 @@
     "isFundamental": false
   },
   {
+    "id": "art-338B",
+    "index": 429,
+    "article": "Article 338B",
+    "articleNumber": "338B",
+    "articleStr": "338B",
+    "title": "National Commission for Backward Classes",
+    "partId": "Part XVI",
+    "partName": "Part XVI: Special Provisions for Certain Classes",
+    "category": "Affirmative Action & Special Classes",
+    "description": "(1) There shall\n\nbe a Commission for the socially and educationally backward classes to be\n\nknown as the National Commission for Backward Classes.\n\n(2) Subject to the provisions of any law made in this behalf by\n\nParliament, the Commission shall consist of a Chairperson, Vice-Chairperson\n\nand three other Members and the conditions of service and tenure of office of\n\nthe Chairperson, Vice-Chairperson and other Members so appointed shall be\n\nsuch as the President may by rule determine.\n\n(3) The Chairperson, Vice-Chairperson and other Members of the\n\nCommission shall be appointed by the President by warrant under his hand and\n\nseal.\n\n(4) The Commission shall have the power to regulate its own procedure.\n\n(5) It shall be the duty of the Commission—\n\n(a) to investigate and monitor all matters relating to the safeguards\n\nprovided for the socially and educationally backward classes under this\n\nConstitution or under any other law for the time being in force or under\n\nany order of the Government and to evaluate the working of such\n\nsafeguards;\n\n(b) to inquire into specific complaints with respect to the\n\ndeprivation of rights and safeguards of the socially and educationally\n\nbackward classes;\n\n(c) to participate and advise on the socio-economic development\n\nof the socially and educationally backward classes and to evaluate the\n\nprogress of their development under the Union and any State;\n\n(d) to present to the President, annually and at such other times as\n\nthe Commission may deem fit, reports upon the working of those\n\nsafeguards;\n\n(e) to make in such reports the recommendations as to the\n\nmeasures that should be taken by the Union or any State for the effective\n\nimplementation of those safeguards and other measures for the\n\nprotection, welfare and socio-economic development of the socially and\n\neducationally backward classes; and\n\n(f) to discharge such other functions in relation to the protection,\n\nwelfare and development and advancement of the socially and\n\neducationally backward classes as the President may, subject to the\n\nprovisions of any law made by Parliament, by rule specify.\n\n(6) The President shall cause all such reports to be laid before each\n\nHouse of Parliament along with a memorandum explaining the action taken or\n\nproposed to be taken on the recommendations relating to the Union and the\n\nreasons for the non-acceptance, if any, of any such recommendations.\n\n(7) Where any such report, or any part thereof, relates to any matter with\n\nwhich any State Government is concerned, a copy of such report shall be\n\nforwarded to the State Government which shall cause it to be laid before the\n\nLegislature of the State along with a memorandum explaining the action taken\n\nor proposed to be taken on the recommendations relating to the State and the\n\nreasons for the non-acceptance, if any, of any of such recommendations.\n\n(8) The Commission shall, while investigating any matter referred to in\n\nsub-clause (a) or inquiring into any complaint referred to in sub-clause (b) of\n\nclause (5), have all the powers of a civil court trying a suit and in particular in\n\nrespect of the following matters, namely :—\n\n(a) summoning and enforcing the attendance of any person from\n\nany part of India and examining him on oath;\n\n(b) requiring the discovery and production of any document;\n\n(c) receiving evidence on affidavits;\n\n(d) requisitioning any public record or copy thereof from any\n\ncourt or office;\n\n(e) issuing commissions for the examination of witnesses and\n\ndocuments;\n\n(f) any other matter which the President may by rule, determine.\n\n(9) The Union and every State Government shall consult the\n\nCommission on all major policy matters affecting the socially and\n\neducationally backward classes:\n\nProvided that nothing in this clause shall apply for the purposes of\n\nclause (3) of article 342A.",
+    "summary": "National Commission for Backward Classes (NCBC): granted constitutional status with powers equivalent to a civil court to investigate and monitor safeguards for socially and educationally backward classes. Added by 102nd Amendment Act, 2018.",
+    "cases": [
+      "Jaishri Laxmanrao Patil v. Chief Minister, Maharashtra (Maratha Reservation, 2021)."
+    ],
+    "importance": "landmark",
+    "tags": [
+      "part xvi",
+      "affirmative action & special classes",
+      "ncbc",
+      "backward classes",
+      "obc",
+      "102nd amendment",
+      "social justice",
+      "national",
+      "commission",
+      "backward",
+      "classes"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-339",
-    "index": 425,
+    "index": 430,
     "article": "Article 339",
     "articleNumber": 339,
     "articleStr": "339",
@@ -10957,7 +11113,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) The President may at any time and shall, at the expiration of ten years from the commencement of this Constitution by order appoint a Commission to report on the administration of the Scheduled Areas and the welfare of the Scheduled Tribes in the States .\n\n \n\n  The order may define the composition, powers and procedure of the Commission and may contain such incidental or ancillary provisions as the President may consider necessary or desirable.\n\n \n\n(2) The executive power of the Union shall extend to the giving of directions to a State as to the drawing up and execution of schemes specified in the direction to be essential for the welfare of the Scheduled Tribes in the State.",
+    "description": "(1) The President may at any\n\ntime and shall, at the expiration of ten years from the commencement of this\n\nConstitution by order appoint a Commission to report on the administration of\n\nthe Scheduled Areas and the welfare of the Scheduled Tribes in the States .\n\nThe order may define the composition, powers and procedure of the\n\nCommission and may contain such incidental or ancillary provisions as the\n\nPresident may consider necessary or desirable.\n\n(2) The executive power of the Union shall extend to the giving of\n\ndirections to a State as to the drawing up and execution of schemes specified\n\nin the direction to be essential for the welfare of the Scheduled Tribes in the\n\nState",
     "summary": "Article 339 provides constitutional rules and provisions regarding control of the union over the administration of scheduled areas and the welfare of scheduled tribes, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -10977,7 +11133,7 @@
   },
   {
     "id": "art-340",
-    "index": 426,
+    "index": 431,
     "article": "Article 340",
     "articleNumber": 340,
     "articleStr": "340",
@@ -10985,7 +11141,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) The President may by order appoint a Commission consisting of such persons as he thinks fit to investigate the conditions of socially and educationally backward classes within the territory of India and the difficulties under which they labour and to make recommendations as to the steps that should be taken by the Union or any State to remove such difficulties and to improve their condition and as to the grants that should be made for the purpose by the Union or any State and the conditions subject to which such grants should be made, and the order appointing such Commission shall define the procedure to be followed by the Commission.\n\n \n\n(2) A Commission so appointed shall investigate the matters referred to them and present to the President a report setting out the facts as found by them and making such recommendations as they think proper.\n\n \n\n(3) The President shall cause a copy of the report so presented together with a memorandum explaining the action taken thereon to be laid before each House of Parliament.",
+    "description": "(1) The President may by order appoint a Commission\n\nconsisting of such persons as he thinks fit to investigate the conditions of\n\nsocially and educationally backward classes within the territory of India and the\n\ndifficulties under which they labour and to make recommendations as to the\n\nsteps that should be taken by the Union or any State to remove such difficulties\n\nand to improve their condition and as to the grants that should be made for the\n\npurpose by the Union or any State and the conditions subject to which such\n\ngrants should be made, and the order appointing such Commission shall define\n\nthe procedure to be followed by the Commission.\n\n(2) A Commission so appointed shall investigate the matters referred to\n\nthem and present to the President a report setting out the facts as found by them\n\nand making such recommendations as they think proper.\n\n(3) The President shall cause a copy of the report so presented together\n\nwith a memorandum explaining the action taken thereon to be laid before each\n\nHouse of Parliament",
     "summary": "Article 340 provides constitutional rules and provisions regarding appointment of a commission to investigate the conditions of backward classes, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -11003,7 +11159,7 @@
   },
   {
     "id": "art-341",
-    "index": 427,
+    "index": 432,
     "article": "Article 341",
     "articleNumber": 341,
     "articleStr": "341",
@@ -11011,7 +11167,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) The President 2 [may with respect to any State 3 [or Union territory], and where it is a State, after consultation with the Governor thereof, by public notification, specify the castes, races or tribes or parts of or groups within castes, races or tribes which shall for the purposes of this Constitution be deemed to be Scheduled Castes in relation to that State 2[or Union territory, as the case may be.\n\n \n\n(2) Parliament may by law include in or exclude from the list of Scheduled Castes specified in a notification issued under clause (1) any caste, race or tribe or part of or group within any caste, race or tribe, but save as aforesaid a notification issued under the said clause shall not be varied by any subsequent notification.",
+    "description": "(1) The President may with respect to any\n\nState or Union territory, and where it is a State , after consultation with\n\nthe Governor  thereof, by public notification2, specify the castes, races or\n\ntribes or parts of or groups within castes, races or tribes which shall for the\n\npurposes of this Constitution be deemed to be Scheduled Castes in relation to\n\nthat State or Union territory, as the case may be. (2) Parliament may by law include in or exclude from the list of Scheduled Castes specified in a notification issued under clause (1) any caste, race or tribe or part of or group within any caste, race or tribe, but save as aforesaid a notification issued under the said clause shall not be varied by any subsequent notification",
     "summary": "Article 341 provides constitutional rules and provisions regarding scheduled castes, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -11025,7 +11181,7 @@
   },
   {
     "id": "art-342",
-    "index": 428,
+    "index": 433,
     "article": "Article 342",
     "articleNumber": 342,
     "articleStr": "342",
@@ -11033,7 +11189,7 @@
     "partId": "Part XVI",
     "partName": "Part XVI: Special Provisions for Certain Classes",
     "category": "Affirmative Action & Special Classes",
-    "description": "(1) The President may with respect to any State or Union territory, and where it is a State 4, after consultation with the Governor thereof, by public notification6 , specify the tribes or tribal communities or parts of or groups within tribes or tribal communities which shall for the purposes of this Constitution be deemed to be Scheduled Tribes in relation to that State or Union territory, as the case may be.\n\n \n\n(2) Parliament may by law include in or exclude from the list of Scheduled Tribes specified in a notification issued under clause (1) any tribe or tribal community or part of or group within any tribe or tribal community, but save as aforesaid a notification issued under the said clause shall not be varied by any subsequent notification.",
+    "description": "(1) The President may with respect to any\n\nState or Union territory, and where it is a State , after consultation with\n\nthe Governor  thereof, by public notification6\n\n,\n\n5 specify the tribes or tribal communities or parts of or groups within tribes or tribal communities which shall for the purposes of this Constitution be deemed to be Scheduled Tribes in relation to that State or Union territory, as the case may be.\n\n(2) Parliament may by law include in or exclude from the list of\n\nScheduled Tribes specified in a notification issued under clause (1) any tribe or\n\ntribal community or part of or group within any tribe or tribal community, but\n\nsave as aforesaid a notification issued under the said clause shall not be varied\n\nby any subsequent notification",
     "summary": "Article 342 provides constitutional rules and provisions regarding scheduled tribes, under Part XVI: Special Provisions for Certain Classes.",
     "cases": [],
     "importance": "standard",
@@ -11046,8 +11202,39 @@
     "isFundamental": false
   },
   {
+    "id": "art-342A",
+    "index": 434,
+    "article": "Article 342A",
+    "articleNumber": "342A",
+    "articleStr": "342A",
+    "title": "Socially and educationally backward classes",
+    "partId": "Part XVI",
+    "partName": "Part XVI: Special Provisions for Certain Classes",
+    "category": "Affirmative Action & Special Classes",
+    "description": "(1) The\n\nPresident may with respect to any State or Union territory, and where it is a\n\nState, after consultation with the Governor thereof, by public notification,\n\nspecify the socially and educationally backward classes in the Central List\n\nwhich shall for the purposes of the Central Government be deemed to be\n\nsocially and educationally backward classes in relation to that State or Union\n\nterritory, as the case may be.\n\n(2) Parliament may by law include in or exclude from the Central List of\n\nsocially and educationally backward classes specified in a notification issued\n\nunder clause (1) any socially and educationally backward class, but save as\n\naforesaid a notification issued under the said clause shall not be varied by any\n\nsubsequent notification.\n\nExplanation.—For the purposes of clauses (1) and (2), the expression\n\n“Central List” means the list of socially and educationally backward classes\n\nprepared and maintained by and for the Central Government.\n\n(3) Notwithstanding any contained in clauses (1) and (2), every State or\n\nUnion territory may, by law, prepare and maintain, for its own purposes, a list\n\nof socially and educationally backward classes, entries in which may be\n\ndifferent from the Central List.",
+    "summary": "Socially and educationally backward classes: empowers President to specify the Central List of SEBCs, and 105th Amendment (2021) clarified power of States to maintain their own State OBC lists.",
+    "cases": [
+      "105th Constitutional Amendment Act, 2021 restored states' authority to maintain State OBC lists."
+    ],
+    "importance": "landmark",
+    "tags": [
+      "part xvi",
+      "affirmative action & special classes",
+      "backward classes",
+      "obc list",
+      "102nd amendment",
+      "105th amendment",
+      "federalism",
+      "socially",
+      "educationally",
+      "backward",
+      "classes"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-343",
-    "index": 429,
+    "index": 435,
     "article": "Article 343",
     "articleNumber": 343,
     "articleStr": "343",
@@ -11070,7 +11257,7 @@
   },
   {
     "id": "art-344",
-    "index": 430,
+    "index": 436,
     "article": "Article 344",
     "articleNumber": 344,
     "articleStr": "344",
@@ -11095,7 +11282,7 @@
   },
   {
     "id": "art-345",
-    "index": 431,
+    "index": 437,
     "article": "Article 345",
     "articleNumber": 345,
     "articleStr": "345",
@@ -11119,7 +11306,7 @@
   },
   {
     "id": "art-346",
-    "index": 432,
+    "index": 438,
     "article": "Article 346",
     "articleNumber": 346,
     "articleStr": "346",
@@ -11146,7 +11333,7 @@
   },
   {
     "id": "art-347",
-    "index": 433,
+    "index": 439,
     "article": "Article 347",
     "articleNumber": 347,
     "articleStr": "347",
@@ -11174,7 +11361,7 @@
   },
   {
     "id": "art-348",
-    "index": 434,
+    "index": 440,
     "article": "Article 348",
     "articleNumber": 348,
     "articleStr": "348",
@@ -11202,7 +11389,7 @@
   },
   {
     "id": "art-349",
-    "index": 435,
+    "index": 441,
     "article": "Article 349",
     "articleNumber": 349,
     "articleStr": "349",
@@ -11229,7 +11416,7 @@
   },
   {
     "id": "art-350",
-    "index": 436,
+    "index": 442,
     "article": "Article 350",
     "articleNumber": 350,
     "articleStr": "350",
@@ -11254,7 +11441,7 @@
   },
   {
     "id": "art-350A",
-    "index": 437,
+    "index": 443,
     "article": "Article 350A",
     "articleNumber": "350A",
     "articleStr": "350A",
@@ -11280,7 +11467,7 @@
   },
   {
     "id": "art-350B",
-    "index": 438,
+    "index": 444,
     "article": "Article 350B",
     "articleNumber": "350B",
     "articleStr": "350B",
@@ -11304,7 +11491,7 @@
   },
   {
     "id": "art-351",
-    "index": 439,
+    "index": 445,
     "article": "Article 351",
     "articleNumber": 351,
     "articleStr": "351",
@@ -11328,7 +11515,7 @@
   },
   {
     "id": "art-352",
-    "index": 440,
+    "index": 446,
     "article": "Article 352",
     "articleNumber": 352,
     "articleStr": "352",
@@ -11358,7 +11545,7 @@
   },
   {
     "id": "art-353",
-    "index": 441,
+    "index": 447,
     "article": "Article 353",
     "articleNumber": 353,
     "articleStr": "353",
@@ -11381,7 +11568,7 @@
   },
   {
     "id": "art-354",
-    "index": 442,
+    "index": 448,
     "article": "Article 354",
     "articleNumber": 354,
     "articleStr": "354",
@@ -11410,7 +11597,7 @@
   },
   {
     "id": "art-355",
-    "index": 443,
+    "index": 449,
     "article": "Article 355",
     "articleNumber": 355,
     "articleStr": "355",
@@ -11439,7 +11626,7 @@
   },
   {
     "id": "art-356",
-    "index": 444,
+    "index": 450,
     "article": "Article 356",
     "articleNumber": 356,
     "articleStr": "356",
@@ -11472,7 +11659,7 @@
   },
   {
     "id": "art-357",
-    "index": 445,
+    "index": 451,
     "article": "Article 357",
     "articleNumber": 357,
     "articleStr": "357",
@@ -11498,7 +11685,7 @@
   },
   {
     "id": "art-358",
-    "index": 446,
+    "index": 452,
     "article": "Article 358",
     "articleNumber": 358,
     "articleStr": "358",
@@ -11523,7 +11710,7 @@
   },
   {
     "id": "art-359",
-    "index": 447,
+    "index": 453,
     "article": "Article 359",
     "articleNumber": 359,
     "articleStr": "359",
@@ -11550,7 +11737,7 @@
   },
   {
     "id": "art-360",
-    "index": 448,
+    "index": 454,
     "article": "Article 360",
     "articleNumber": 360,
     "articleStr": "360",
@@ -11579,7 +11766,7 @@
   },
   {
     "id": "art-361",
-    "index": 449,
+    "index": 455,
     "article": "Article 361",
     "articleNumber": 361,
     "articleStr": "361",
@@ -11603,7 +11790,7 @@
   },
   {
     "id": "art-361A",
-    "index": 450,
+    "index": 456,
     "article": "Article 361A",
     "articleNumber": "361A",
     "articleStr": "361A",
@@ -11629,7 +11816,7 @@
   },
   {
     "id": "art-361B",
-    "index": 451,
+    "index": 457,
     "article": "Article 361B",
     "articleNumber": "361B",
     "articleStr": "361B",
@@ -11654,7 +11841,7 @@
   },
   {
     "id": "art-363",
-    "index": 452,
+    "index": 458,
     "article": "Article 363",
     "articleNumber": 363,
     "articleStr": "363",
@@ -11681,7 +11868,7 @@
   },
   {
     "id": "art-363A",
-    "index": 453,
+    "index": 459,
     "article": "Article 363A",
     "articleNumber": "363A",
     "articleStr": "363A",
@@ -11710,7 +11897,7 @@
   },
   {
     "id": "art-364",
-    "index": 454,
+    "index": 460,
     "article": "Article 364",
     "articleNumber": 364,
     "articleStr": "364",
@@ -11735,7 +11922,7 @@
   },
   {
     "id": "art-365",
-    "index": 455,
+    "index": 461,
     "article": "Article 365",
     "articleNumber": 365,
     "articleStr": "365",
@@ -11762,7 +11949,7 @@
   },
   {
     "id": "art-366",
-    "index": 456,
+    "index": 462,
     "article": "Article 366",
     "articleNumber": 366,
     "articleStr": "366",
@@ -11783,7 +11970,7 @@
   },
   {
     "id": "art-367",
-    "index": 457,
+    "index": 463,
     "article": "Article 367",
     "articleNumber": 367,
     "articleStr": "367",
@@ -11804,7 +11991,7 @@
   },
   {
     "id": "art-368",
-    "index": 458,
+    "index": 464,
     "article": "Article 368",
     "articleNumber": 368,
     "articleStr": "368",
@@ -11841,7 +12028,7 @@
   },
   {
     "id": "art-369",
-    "index": 459,
+    "index": 465,
     "article": "Article 369",
     "articleNumber": 369,
     "articleStr": "369",
@@ -11874,7 +12061,7 @@
   },
   {
     "id": "art-370",
-    "index": 460,
+    "index": 466,
     "article": "Article 370",
     "articleNumber": 370,
     "articleStr": "370",
@@ -11909,7 +12096,7 @@
   },
   {
     "id": "art-371",
-    "index": 461,
+    "index": 467,
     "article": "Article 371",
     "articleNumber": 371,
     "articleStr": "371",
@@ -11935,7 +12122,7 @@
   },
   {
     "id": "art-371A",
-    "index": 462,
+    "index": 468,
     "article": "Article 371A",
     "articleNumber": "371A",
     "articleStr": "371A",
@@ -11960,7 +12147,7 @@
   },
   {
     "id": "art-371B",
-    "index": 463,
+    "index": 469,
     "article": "Article 371B",
     "articleNumber": "371B",
     "articleStr": "371B",
@@ -11985,7 +12172,7 @@
   },
   {
     "id": "art-371C",
-    "index": 464,
+    "index": 470,
     "article": "Article 371C",
     "articleNumber": "371C",
     "articleStr": "371C",
@@ -12010,7 +12197,7 @@
   },
   {
     "id": "art-371D",
-    "index": 465,
+    "index": 471,
     "article": "Article 371D",
     "articleNumber": "371D",
     "articleStr": "371D",
@@ -12036,7 +12223,7 @@
   },
   {
     "id": "art-371E",
-    "index": 466,
+    "index": 472,
     "article": "Article 371E",
     "articleNumber": "371E",
     "articleStr": "371E",
@@ -12061,7 +12248,7 @@
   },
   {
     "id": "art-371F",
-    "index": 467,
+    "index": 473,
     "article": "Article 371F",
     "articleNumber": "371F",
     "articleStr": "371F",
@@ -12086,7 +12273,7 @@
   },
   {
     "id": "art-371G",
-    "index": 468,
+    "index": 474,
     "article": "Article 371G",
     "articleNumber": "371G",
     "articleStr": "371G",
@@ -12111,7 +12298,7 @@
   },
   {
     "id": "art-371H",
-    "index": 469,
+    "index": 475,
     "article": "Article 371H",
     "articleNumber": "371H",
     "articleStr": "371H",
@@ -12137,7 +12324,7 @@
   },
   {
     "id": "art-371I",
-    "index": 470,
+    "index": 476,
     "article": "Article 371I",
     "articleNumber": "371I",
     "articleStr": "371I",
@@ -12161,7 +12348,7 @@
   },
   {
     "id": "art-372",
-    "index": 471,
+    "index": 477,
     "article": "Article 372",
     "articleNumber": 372,
     "articleStr": "372",
@@ -12187,7 +12374,7 @@
   },
   {
     "id": "art-372A",
-    "index": 472,
+    "index": 478,
     "article": "Article 372A",
     "articleNumber": "372A",
     "articleStr": "372A",
@@ -12211,7 +12398,7 @@
   },
   {
     "id": "art-373",
-    "index": 473,
+    "index": 479,
     "article": "Article 373",
     "articleNumber": 373,
     "articleStr": "373",
@@ -12241,7 +12428,7 @@
   },
   {
     "id": "art-374",
-    "index": 474,
+    "index": 480,
     "article": "Article 374",
     "articleNumber": 374,
     "articleStr": "374",
@@ -12270,7 +12457,7 @@
   },
   {
     "id": "art-375",
-    "index": 475,
+    "index": 481,
     "article": "Article 375",
     "articleNumber": 375,
     "articleStr": "375",
@@ -12298,7 +12485,7 @@
   },
   {
     "id": "art-376",
-    "index": 476,
+    "index": 482,
     "article": "Article 376",
     "articleNumber": 376,
     "articleStr": "376",
@@ -12322,7 +12509,7 @@
   },
   {
     "id": "art-377",
-    "index": 477,
+    "index": 483,
     "article": "Article 377",
     "articleNumber": 377,
     "articleStr": "377",
@@ -12347,7 +12534,7 @@
   },
   {
     "id": "art-378",
-    "index": 478,
+    "index": 484,
     "article": "Article 378",
     "articleNumber": 378,
     "articleStr": "378",
@@ -12371,7 +12558,7 @@
   },
   {
     "id": "art-378A",
-    "index": 479,
+    "index": 485,
     "article": "Article 378A",
     "articleNumber": "378A",
     "articleStr": "378A",
@@ -12398,7 +12585,7 @@
   },
   {
     "id": "art-392",
-    "index": 480,
+    "index": 486,
     "article": "Article 392",
     "articleNumber": 392,
     "articleStr": "392",
@@ -12422,7 +12609,7 @@
   },
   {
     "id": "art-393",
-    "index": 481,
+    "index": 487,
     "article": "Article 393",
     "articleNumber": 393,
     "articleStr": "393",
@@ -12444,7 +12631,7 @@
   },
   {
     "id": "art-394",
-    "index": 482,
+    "index": 488,
     "article": "Article 394",
     "articleNumber": 394,
     "articleStr": "394",
@@ -12465,7 +12652,7 @@
   },
   {
     "id": "art-394A",
-    "index": 483,
+    "index": 489,
     "article": "Article 394A",
     "articleNumber": "394A",
     "articleStr": "394A",
@@ -12489,7 +12676,7 @@
   },
   {
     "id": "art-395",
-    "index": 484,
+    "index": 490,
     "article": "Article 395",
     "articleNumber": 395,
     "articleStr": "395",

@@ -35,7 +35,7 @@ Total Pages: 402
 | **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | **COMPLETED** | 0 missing added, 47 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 8** | Part XI | **COMPLETED** | 6 missing added, 52 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 9** | Part XIII | **COMPLETED** | 3 missing added, 21 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 10** | Part XV (Arts 324–329A) & Part XVI (Arts 330–342A, 330A, 332A, 334A, 338A–B, 342A) | Queued | Pending | Pending | Pending |
+| **Batch 10** | Part XV | **COMPLETED** | 6 missing added, 20 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 11** | Part XVII (Arts 343–351), Part XVIII (Arts 352–360), Part XIX (Arts 361–367) | Queued | Pending | Pending | Pending |
 | **Batch 12** | Part XX (Art 368), Part XXI (Arts 369–392, 371A–J, 379–391), Part XXII (Arts 393–395) | Queued | Pending | Pending | Pending |
 | **Batch 13** | Schedules 1 through 12 | Queued | Pending | Pending | Pending |
@@ -514,3 +514,36 @@ Total Pages: 402
 | **Article 323B** | Tribunals for other matters | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
 
 **Reverification Result:** 26 articles verified, 3 missing articles added, 21 articles corrected. 100% parity achieved.
+
+### Batch 10: Part XV: Elections (Arts 324–329A) & Part XVI: Special Provisions (Arts 330–342A)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 324** | Superintendence, direction and control of elections to be vested in an Election Commission | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 325** | No person to be ineligible for inclusion in, or to claim to be included in a special, electoral roll on grounds of religion, race, caste or sex | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 326** | Elections to the House of the People and to the Legislative Assemblies of States to be on the basis of adult suffrage | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 327** | Power of Parliament to make provision with respect to elections to Legislatures | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 328** | Power of Legislature of a State to make provision with respect to elections to such Legislature | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 329** | Bar to interference by courts in electoral matters | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 329A** | Special provision as to elections to Parliament in the case of Prime Minister and Speaker | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 330** | Reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 330A** | Reservation of seats for women in the House of the People | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 331** | Representation of the Anglo-Indian Community in the House of the People | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 332** | Reservation of seats for Scheduled Castes and Scheduled Tribes in the Legislative Assemblies of the States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 332A** | Reservation of seats for women in the Legislative Assemblies of the States | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 333** | Representation of the Anglo-Indian community in the Legislative Assemblies of the States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 334** | 4Reservation of seats and special representation to cease after certain period | `CORRECTED` | Title corrected from "Reservation of seats and special representation to cease after certain period" to "4Reservation of seats and special representation to cease after certain period"; Standardized statutory wording/punctuation/formatting |
+| **Article 334A** | Reservation of seats for women take effect | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 335** | Claims of Scheduled Castes and Scheduled Tribes to services and posts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 336** | Special provision for Anglo-Indian community in certain services | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 337** | Special provision with respect to educational grants for the benefit of Anglo-Indian community | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 338** | 1National Commission for Scheduled Castes | `CORRECTED` | Title corrected from "National Commission for Scheduled Castes" to "1National Commission for Scheduled Castes"; Standardized statutory wording/punctuation/formatting |
+| **Article 338A** | National Commission for Scheduled Tribes | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 338B** | National Commission for Backward Classes | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 339** | Control of the Union over the administration of Scheduled Areas and the welfare of Scheduled Tribes | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 340** | Appointment of a Commission to investigate the conditions of backward classes | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 341** | Scheduled Castes | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 342** | Scheduled Tribes | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 342A** | Socially and educationally backward classes | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+
+**Reverification Result:** 26 articles verified, 6 missing articles added, 20 articles corrected. 100% parity achieved.
