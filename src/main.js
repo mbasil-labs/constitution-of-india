@@ -2,7 +2,7 @@ import constitutionData from './data/constitution.json';
 import schedulesData from './data/schedules.json';
 
 /* ==========================================================================
-   APP STATE
+   APP STATE (Material Design 3 Architecture)
    ========================================================================== */
 const state = {
   allArticles: constitutionData,
@@ -13,7 +13,7 @@ const state = {
   searchQuery: '',
   cardMode: 'summary', // 'summary' | 'legal'
   fontSizeLevel: 1, // 0: small, 1: normal, 2: large
-  theme: localStorage.getItem('coi_theme') || 'midnight',
+  theme: localStorage.getItem('coi_theme') || 'dark',
   favorites: new Set(JSON.parse(localStorage.getItem('coi_favorites') || '[]')),
   isSpeaking: false,
   deferredPrompt: null
@@ -23,48 +23,48 @@ const state = {
 const preambleDictionary = {
   SOVEREIGN: {
     title: "SOVEREIGN",
-    tag: "External Independence & Internal Supremacy",
-    desc: "India is an independent state, supreme internally and completely free from any external foreign control or dominion. Parliament and its institutions have absolute legislative sovereignty within constitutional limits."
+    tag: "Constitutional Philosophy",
+    desc: "India is an independent state, supreme internally and completely free from any external foreign control or dominion. Parliament and its institutions possess sovereign constituent authority within constitutional bounds."
   },
   SOCIALIST: {
     title: "SOCIALIST",
     tag: "Democratic Socialism",
-    desc: "Added by the 42nd Amendment (1976). Indian socialism is a 'democratic socialism' aiming to end poverty, ignorance, disease, and inequality of opportunity through a mixed economy, distinct from communistic state socialism."
+    desc: "Added by the 42nd Amendment (1976). Indian socialism is democratic socialism aimed at ending poverty, ignorance, disease, and inequality of opportunity through a mixed welfare economy."
   },
   SECULAR: {
     title: "SECULAR",
     tag: "Sarva Dharma Sambhava",
-    desc: "Added by the 42nd Amendment (1976). Declared basic structure in S.R. Bommai (1994). The State has no official religion and treats all religions equally with equal respect, freedom, and protection."
+    desc: "Added by the 42nd Amendment (1976). Declared basic structure in S.R. Bommai (1994). The State maintains no official religion and treats all faiths with equal dignity, freedom, and protection."
   },
   DEMOCRATIC: {
     title: "DEMOCRATIC",
     tag: "Rule by the People",
-    desc: "Power emanates from the people. Ensured through universal adult suffrage (Article 326), periodic free and fair elections, rule of law, and accountability of the executive to the elected legislature."
+    desc: "Sovereign power emanates from the citizens, exercised through universal adult suffrage (Article 326), periodic free and fair elections, rule of law, and an executive accountable to Parliament."
   },
   REPUBLIC: {
     title: "REPUBLIC",
     tag: "Elected Head of State",
-    desc: "The head of state (the President of India) is elected by the people indirectly, rather than inheriting hereditary office as in a monarchy. Public offices are open to every citizen without discrimination."
+    desc: "The head of state (the President of India) is an elected representative rather than a hereditary monarch. All public offices are accessible to every citizen without discrimination."
   },
   JUSTICE: {
-    title: "JUSTICE (Social, Economic & Political)",
-    tag: "Triple Dimension of Justice",
-    desc: "Social justice eliminates discrimination based on caste, religion, or gender. Economic justice seeks to bridge gaps in wealth and income. Political justice ensures equal political rights and access to governance."
+    title: "JUSTICE",
+    tag: "Triple Dimension",
+    desc: "Social justice eliminates unjust discrimination based on birth or caste; Economic justice curbs non-equitable concentration of wealth; Political justice guarantees equal access to political processes."
   },
   LIBERTY: {
-    title: "LIBERTY (Thought, Expression, Belief, Faith & Worship)",
-    tag: "Individual Freedom",
-    desc: "Absence of arbitrary restraints on the activities of individuals, combined with opportunities for the development of individual personalities, protected under Articles 19 and 25-28."
+    title: "LIBERTY",
+    tag: "Fundamental Freedom",
+    desc: "Absence of arbitrary executive restraints on personal liberty, thoughts, conscience, faith, and profession, as constitutionally safeguarded under Articles 19 and 25-28."
   },
   EQUALITY: {
-    title: "EQUALITY (Status & Opportunity)",
-    tag: "Equal Protection of the Law",
-    desc: "Absence of special privileges for any section of society, guaranteeing equal opportunities in public employment, civic standing, and human dignity under Articles 14-18."
+    title: "EQUALITY",
+    tag: "Equal Opportunity",
+    desc: "Abolition of arbitrary privileges, guaranteeing equal protection of the laws, civic non-discrimination, and equality of opportunity in public appointments under Articles 14-18."
   },
   FRATERNITY: {
-    title: "FRATERNITY (Dignity & Unity)",
-    tag: "Sense of Brotherhood",
-    desc: "A common feeling of brotherhood and unity among all Indians, transcending regional, linguistic, or religious diversities, safeguarding individual dignity and the nation's integrity."
+    title: "FRATERNITY",
+    tag: "Dignity & Integrity",
+    desc: "A spirit of common brotherhood among all citizens across diverse linguistic, regional, and religious lines, assuring the sacred dignity of every individual and national unity."
   }
 };
 
@@ -83,7 +83,6 @@ const activeFilterBadge = document.getElementById('active-filter-badge');
 const activeFilterText = document.getElementById('active-filter-text');
 const btnClearFilter = document.getElementById('btn-clear-filter');
 const btnRandomArticle = document.getElementById('btn-random-article');
-const btnQuickFavorites = document.getElementById('btn-quick-favorites');
 const favQuickCount = document.getElementById('fav-quick-count');
 const btnFontDecrease = document.getElementById('btn-font-decrease');
 const btnFontIncrease = document.getElementById('btn-font-increase');
@@ -102,7 +101,6 @@ const searchCountLabel = document.getElementById('search-count-label');
 const partDropdownSelect = document.getElementById('part-dropdown-select');
 
 const preambleModal = document.getElementById('preamble-modal');
-const btnOpenPreamble = document.getElementById('btn-open-preamble');
 const btnPreambleDirect = document.getElementById('btn-preamble-direct');
 const btnClosePreamble = document.getElementById('btn-close-preamble');
 const btnPreambleSpeech = document.getElementById('btn-preamble-speech');
@@ -139,7 +137,7 @@ function init() {
   renderSchedulesModal();
   checkNetworkStatus();
 
-  // Check URL params for deep linking
+  // Deep linking
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get('view') === 'preamble') {
     openModal(preambleModal);
@@ -149,7 +147,7 @@ function init() {
 }
 
 /* ==========================================================================
-   THEME & ACCESSIBILITY
+   THEME & ACCESSIBILITY (M3 Dynamic Color Switching)
    ========================================================================== */
 function applyTheme(themeName) {
   state.theme = themeName;
@@ -158,18 +156,18 @@ function applyTheme(themeName) {
 }
 
 function toggleTheme() {
-  const nextTheme = state.theme === 'midnight' ? 'parchment' : 'midnight';
+  const nextTheme = state.theme === 'dark' ? 'light' : 'dark';
   applyTheme(nextTheme);
-  showToast(`Switched to ${nextTheme === 'midnight' ? 'Imperial Midnight' : 'Heritage Parchment'} theme`);
+  showToast(`Theme: ${nextTheme === 'dark' ? 'Material Dark' : 'Material Light'}`);
 }
 
 function adjustFontSize(delta) {
   state.fontSizeLevel = Math.max(0, Math.min(2, state.fontSizeLevel + delta));
-  const sizes = ['0.95rem', '1.05rem', '1.2rem'];
-  const lineHeights = ['1.6', '1.75', '1.85'];
+  const sizes = ['0.92rem', '1rem', '1.15rem'];
+  const lineHeights = ['1.5', '1.65', '1.75'];
   document.documentElement.style.setProperty('--content-font-size', sizes[state.fontSizeLevel]);
   document.documentElement.style.setProperty('--content-line-height', lineHeights[state.fontSizeLevel]);
-  showToast(`Font size: ${state.fontSizeLevel === 0 ? 'Compact' : state.fontSizeLevel === 1 ? 'Standard' : 'Enlarged'}`);
+  showToast(`Type scale: ${state.fontSizeLevel === 0 ? 'Compact' : state.fontSizeLevel === 1 ? 'Standard' : 'Enlarged'}`);
 }
 
 /* ==========================================================================
@@ -196,7 +194,6 @@ function populatePartsDropdown() {
 function updateFilter() {
   let list = state.allArticles;
 
-  // Filter type
   if (state.activeFilterType === 'landmark') {
     list = list.filter(a => a.importance === 'landmark');
   } else if (state.activeFilterType === 'favorites') {
@@ -207,12 +204,10 @@ function updateFilter() {
     list = list.filter(a => a.partId === state.activeFilterType);
   }
 
-  // Selected Part dropdown
   if (state.selectedPart) {
     list = list.filter(a => a.partId === state.selectedPart);
   }
 
-  // Search Query
   if (state.searchQuery.trim()) {
     const q = state.searchQuery.toLowerCase().trim();
     list = list.filter(a => {
@@ -226,9 +221,7 @@ function updateFilter() {
   }
 
   state.filteredArticles = list;
-  state.currentIndex = 0; // reset to first card in filtered collection
-
-  // Update Toolbar UI
+  state.currentIndex = 0;
   updateToolbar();
 }
 
@@ -238,7 +231,7 @@ function updateToolbar() {
   
   if (total === 0) {
     articleCounter.textContent = '0 articles found';
-    articlePartMini.textContent = 'Try adjusting your search or filter';
+    articlePartMini.textContent = 'Adjust search or filters';
     deckProgressBar.style.width = '0%';
   } else {
     const activeArt = state.filteredArticles[state.currentIndex];
@@ -247,20 +240,24 @@ function updateToolbar() {
     deckProgressBar.style.width = `${Math.round((curr / total) * 100)}%`;
   }
 
-  // Filter Badge
   const isFiltered = state.activeFilterType !== 'all' || state.selectedPart !== '' || state.searchQuery !== '';
   if (isFiltered) {
     activeFilterBadge.style.display = 'inline-flex';
-    let label = 'Filtered: ';
-    if (state.activeFilterType === 'favorites') label += 'Bookmarked';
-    else if (state.activeFilterType === 'landmark') label += 'Landmark Cases';
-    else if (state.selectedPart) label += state.selectedPart;
-    else if (state.activeFilterType !== 'all') label += state.activeFilterType;
-    else if (state.searchQuery) label += `"${state.searchQuery}"`;
+    let label = '';
+    if (state.activeFilterType === 'favorites') label = 'Bookmarks';
+    else if (state.activeFilterType === 'landmark') label = 'Landmark Cases';
+    else if (state.selectedPart) label = state.selectedPart;
+    else if (state.activeFilterType !== 'all') label = state.activeFilterType;
+    else if (state.searchQuery) label = `"${state.searchQuery}"`;
     activeFilterText.textContent = `${label} (${total})`;
   } else {
     activeFilterBadge.style.display = 'none';
   }
+
+  // Update top filter chips active class
+  document.querySelectorAll('.m3-chips-toolbar .m3-filter-chip').forEach(chip => {
+    chip.classList.toggle('active', chip.dataset.filter === state.activeFilterType);
+  });
 }
 
 function clearFilter() {
@@ -270,14 +267,10 @@ function clearFilter() {
   searchInput.value = '';
   partDropdownSelect.value = '';
   btnSearchClear.style.display = 'none';
-  
-  document.querySelectorAll('.filter-pill').forEach(p => {
-    p.classList.toggle('active', p.dataset.filterType === 'all');
-  });
 
   updateFilter();
   renderCurrentCard();
-  showToast('Filters cleared. Showing all 465 articles');
+  showToast('Filters reset: Showing all 465 articles');
 }
 
 function applyFilter(filterType) {
@@ -287,23 +280,23 @@ function applyFilter(filterType) {
 }
 
 /* ==========================================================================
-   CARD RENDERING & ANIMATION
+   CARD RENDERING (M3 Components)
    ========================================================================== */
 function renderCurrentCard() {
   stopSpeech();
 
   if (state.filteredArticles.length === 0) {
     cardFront.innerHTML = `
-      <div class="card-header">
-        <h2 class="card-title">No Articles Found</h2>
+      <div class="m3-card-header">
+        <h2 class="m3-card-title">No Articles Found</h2>
       </div>
-      <div class="card-body">
-        <div class="summary-card-callout">
-          No articles match your current query or bookmark filter. Click <strong>"Clear Filters"</strong> above to explore all 465 articles of the Constitution of India.
+      <div class="m3-card-body">
+        <div class="m3-callout-card">
+          No constitutional articles match your query or filters. Click <strong>"Clear Filters"</strong> to return to all 465 articles.
         </div>
       </div>
-      <div class="card-footer">
-        <button id="btn-empty-clear" class="primary-action-btn">Clear All Filters</button>
+      <div class="m3-card-footer">
+        <button id="btn-empty-clear" class="m3-button filled">Clear All Filters</button>
       </div>
     `;
     const emptyClear = document.getElementById('btn-empty-clear');
@@ -317,76 +310,79 @@ function renderCurrentCard() {
   const nextItem = state.filteredArticles[(state.currentIndex + 1) % state.filteredArticles.length];
   const isFav = state.favorites.has(item.id);
 
-  // Render Front Card
+  // Render Active Front Card
   cardFront.innerHTML = createCardHTML(item, isFav, state.cardMode);
 
-  // Render Back Card Depth Preview
+  // Render Underneath Card Depth Preview
   if (nextItem && state.filteredArticles.length > 1) {
     cardBack.innerHTML = `
-      <div class="card-header" style="opacity: 0.7;">
-        <div class="card-pills-row">
-          <span class="pill pill-article">${nextItem.article}</span>
-          <span class="pill pill-part">${nextItem.partId}</span>
+      <div class="m3-card-header" style="opacity: 0.65;">
+        <div class="m3-card-pills-row">
+          <span class="m3-badge-tonal badge-primary">${nextItem.article}</span>
+          <span class="m3-badge-tonal badge-secondary">${nextItem.partId}</span>
         </div>
-        <h3 class="card-title" style="font-size: 1.25rem;">${nextItem.title}</h3>
+        <h3 class="m3-card-title" style="font-size: 1.15rem;">${nextItem.title}</h3>
       </div>
     `;
   } else {
     cardBack.innerHTML = '';
   }
 
-  // Attach card event listeners
   attachCardEvents(item);
   updateToolbar();
 }
 
 function createCardHTML(item, isFav, mode) {
   const isLandmark = item.importance === 'landmark';
-  
+
   return `
-    <div class="card-header">
-      <div class="card-pills-row">
-        <span class="pill pill-article">${item.article}</span>
-        <span class="pill pill-part">${item.partId}</span>
-        <span class="pill pill-category">${item.category}</span>
-        ${isLandmark ? '<span class="pill pill-landmark">⭐ Landmark Article</span>' : ''}
-      </div>
-      
-      <div class="card-title-row">
-        <h2 class="card-title">${item.title}</h2>
+    <div class="m3-card-header">
+      <div class="m3-card-pills-row">
+        <span class="m3-badge-tonal badge-primary">${item.article}</span>
+        <span class="m3-badge-tonal badge-secondary">${item.partId}</span>
+        <span class="m3-badge-tonal badge-outline">${item.category}</span>
+        ${isLandmark ? '<span class="m3-badge-tonal badge-landmark">★ Landmark Case</span>' : ''}
       </div>
 
-      <div class="card-mode-tabs" role="tablist">
-        <button class="mode-tab-btn ${mode === 'summary' ? 'active' : ''}" data-mode="summary" role="tab" aria-selected="${mode === 'summary'}">
-          💡 Plain Summary & Precedents
+      <h2 class="m3-card-title">${item.title}</h2>
+
+      <!-- M3 Segmented Button -->
+      <div class="m3-segmented-button-container" role="tablist">
+        <button class="m3-segment-btn ${mode === 'summary' ? 'active' : ''}" data-mode="summary" role="tab">
+          <span class="material-symbols-outlined">${mode === 'summary' ? 'check' : 'lightbulb'}</span>
+          <span>Plain Summary & Precedents</span>
         </button>
-        <button class="mode-tab-btn ${mode === 'legal' ? 'active' : ''}" data-mode="legal" role="tab" aria-selected="${mode === 'legal'}">
-          📜 Full Constitutional Legal Text
+        <button class="m3-segment-btn ${mode === 'legal' ? 'active' : ''}" data-mode="legal" role="tab">
+          <span class="material-symbols-outlined">${mode === 'legal' ? 'check' : 'menu_book'}</span>
+          <span>Legal Text</span>
         </button>
       </div>
     </div>
 
-    <div class="card-body">
+    <div class="m3-card-body">
       ${mode === 'summary' ? renderSummaryBody(item) : renderLegalBody(item)}
     </div>
 
-    <div class="card-footer">
+    <div class="m3-card-footer">
       <div class="footer-actions-left">
-        <button id="btn-toggle-fav" class="card-action-btn ${isFav ? 'active-favorite' : ''}" title="Bookmark this article">
-          <span>${isFav ? '★ Saved' : '☆ Bookmark'}</span>
+        <button id="btn-toggle-fav" class="m3-button ${isFav ? 'tonal' : 'outlined'}" title="Bookmark article">
+          <span class="material-symbols-outlined">${isFav ? 'bookmark' : 'bookmark_border'}</span>
+          <span>${isFav ? 'Saved' : 'Bookmark'}</span>
         </button>
-        <button id="btn-read-aloud" class="card-action-btn" title="Listen to this article (Web Speech)">
-          <span class="speech-btn-icon">🔊</span>
-          <span class="speech-btn-label">Listen</span>
+        <button id="btn-read-aloud" class="m3-button outlined" title="Read Aloud (TTS)">
+          <span class="material-symbols-outlined speech-icon">volume_up</span>
+          <span class="speech-label">Listen</span>
         </button>
       </div>
 
       <div class="footer-actions-right">
-        <button id="btn-copy-card" class="card-action-btn" title="Copy article text & citation">
-          <span>📋 Copy</span>
+        <button id="btn-copy-card" class="m3-button outlined" title="Copy text & citation">
+          <span class="material-symbols-outlined">content_copy</span>
+          <span>Copy</span>
         </button>
-        <button id="btn-share-card" class="card-action-btn" title="Share article">
-          <span>↗ Share</span>
+        <button id="btn-share-card" class="m3-button outlined" title="Share article">
+          <span class="material-symbols-outlined">share</span>
+          <span>Share</span>
         </button>
       </div>
     </div>
@@ -397,64 +393,63 @@ function renderSummaryBody(item) {
   let casesHtml = '';
   if (item.cases && item.cases.length > 0) {
     casesHtml = `
-      <div class="landmark-cases-section">
-        <div class="section-label">
-          <span>⚖️ Landmark Supreme Court Precedents</span>
+      <div class="precedents-section">
+        <div class="section-title">
+          <span class="material-symbols-outlined" style="font-size: 16px;">gavel</span>
+          <span>Landmark Supreme Court Precedents</span>
         </div>
-        <div class="cases-list">
-          ${item.cases.map(c => {
-            const parts = c.split(' - ');
-            const caseTitle = parts[0];
-            const caseDesc = parts.slice(1).join(' - ');
-            return `
-              <div class="case-card">
-                <strong>${caseTitle}</strong>
-                ${caseDesc ? `<span>${caseDesc}</span>` : ''}
-              </div>
-            `;
-          }).join('')}
-        </div>
+        ${item.cases.map(c => {
+          const parts = c.split(' - ');
+          const caseTitle = parts[0];
+          const caseDesc = parts.slice(1).join(' - ');
+          return `
+            <div class="m3-precedent-card">
+              <div class="precedent-title">${caseTitle}</div>
+              ${caseDesc ? `<div class="precedent-desc">${caseDesc}</div>` : ''}
+            </div>
+          `;
+        }).join('')}
       </div>
     `;
   }
 
-  const tagsHtml = (item.tags || []).map(t => `<button class="tag-chip" data-tag="${t}">#${t}</button>`).join('');
+  const tagsHtml = (item.tags || []).map(t => `
+    <button class="m3-assist-chip tag-chip" data-tag="${t}">
+      <span>#${t}</span>
+    </button>
+  `).join('');
 
   return `
-    <div class="summary-container">
-      <div class="summary-card-callout">
-        <strong>Constitutional Core:</strong> ${item.summary}
-      </div>
+    <div class="m3-callout-card">
+      <strong>Constitutional Takeaway:</strong> ${item.summary}
+    </div>
 
-      ${casesHtml}
+    ${casesHtml}
 
-      <div class="card-tags-cloud">
-        ${tagsHtml}
-      </div>
+    <div class="m3-card-tags">
+      ${tagsHtml}
     </div>
   `;
 }
 
 function renderLegalBody(item) {
-  // Format clauses cleanly
   const paragraphs = item.description.split('\n\n').filter(p => p.trim());
   const formatted = paragraphs.map(p => `<p class="clause-paragraph">${p.trim()}</p>`).join('');
 
   return `
     <div class="legal-text-view">
-      ${formatted || '<p>No legal text description available for this provision.</p>'}
+      ${formatted || '<p>No legal text clauses registered for this item.</p>'}
     </div>
   `;
 }
 
 function attachCardEvents(item) {
-  // Mode switcher tabs
-  const tabBtns = cardFront.querySelectorAll('.mode-tab-btn');
-  tabBtns.forEach(btn => {
+  // Segmented button mode switch
+  cardFront.querySelectorAll('.m3-segment-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const selectedMode = btn.dataset.mode;
-      if (selectedMode !== state.cardMode) {
-        state.cardMode = selectedMode;
+      const mode = btn.dataset.mode;
+      if (mode !== state.cardMode) {
+        state.cardMode = mode;
         renderCurrentCard();
       }
     });
@@ -462,31 +457,22 @@ function attachCardEvents(item) {
 
   // Favorite button
   const favBtn = document.getElementById('btn-toggle-fav');
-  if (favBtn) {
-    favBtn.addEventListener('click', () => toggleFavorite(item));
-  }
+  if (favBtn) favBtn.addEventListener('click', () => toggleFavorite(item));
 
-  // Read Aloud button
+  // Speech button
   const speechBtn = document.getElementById('btn-read-aloud');
-  if (speechBtn) {
-    speechBtn.addEventListener('click', () => toggleSpeech(item, speechBtn));
-  }
+  if (speechBtn) speechBtn.addEventListener('click', () => toggleSpeech(item, speechBtn));
 
   // Copy button
   const copyBtn = document.getElementById('btn-copy-card');
-  if (copyBtn) {
-    copyBtn.addEventListener('click', () => copyArticleText(item));
-  }
+  if (copyBtn) copyBtn.addEventListener('click', () => copyArticleText(item));
 
   // Share button
   const shareBtn = document.getElementById('btn-share-card');
-  if (shareBtn) {
-    shareBtn.addEventListener('click', () => shareArticle(item));
-  }
+  if (shareBtn) shareBtn.addEventListener('click', () => shareArticle(item));
 
-  // Tag chips
-  const tagChips = cardFront.querySelectorAll('.tag-chip');
-  tagChips.forEach(chip => {
+  // Tags click
+  cardFront.querySelectorAll('.tag-chip').forEach(chip => {
     chip.addEventListener('click', () => {
       const tag = chip.dataset.tag;
       state.searchQuery = tag;
@@ -494,13 +480,13 @@ function attachCardEvents(item) {
       btnSearchClear.style.display = 'block';
       updateFilter();
       renderCurrentCard();
-      showToast(`Filtering by tag: #${tag}`);
+      showToast(`Filter: #${tag}`);
     });
   });
 }
 
 /* ==========================================================================
-   TOUCH & MOUSE SWIPING ENGINE (Card Stack Physics)
+   TOUCH & MOUSE SWIPING ENGINE
    ========================================================================== */
 function setupTouchAndMouseSwipe() {
   let isDragging = false;
@@ -508,11 +494,10 @@ function setupTouchAndMouseSwipe() {
   let startY = 0;
   let currentX = 0;
   let currentY = 0;
-  const swipeThreshold = 75; // px
+  const swipeThreshold = 75;
 
   function onDragStart(e) {
-    // Ignore interactive element clicks
-    if (e.target.closest('button, input, select, dialog, a, .card-mode-tabs')) return;
+    if (e.target.closest('button, input, select, dialog, a, .m3-segmented-button-container')) return;
 
     isDragging = true;
     startX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
@@ -532,22 +517,20 @@ function setupTouchAndMouseSwipe() {
     const dx = currentX - startX;
     const dy = currentY - startY;
 
-    // Only swipe horizontally if dx > dy
     if (Math.abs(dx) > Math.abs(dy)) {
       if (e.cancelable && e.type.startsWith('touch')) {
         e.preventDefault();
       }
 
-      const rotate = dx * 0.04;
+      const rotate = dx * 0.035;
       const opacity = Math.max(0.65, 1 - Math.abs(dx) / 1000);
       cardFront.style.transform = `translateX(${dx}px) rotate(${rotate}deg)`;
       cardFront.style.opacity = opacity;
 
-      // Card back layer scales up proportionally
-      const progress = Math.min(1, Math.abs(dx) / 300);
+      const progress = Math.min(1, Math.abs(dx) / 280);
       const backScale = 0.96 + progress * 0.04;
       cardBack.style.transform = `scale(${backScale})`;
-      cardBack.style.opacity = `${0.55 + progress * 0.3}`;
+      cardBack.style.opacity = `${0.5 + progress * 0.3}`;
     }
   }
 
@@ -558,41 +541,32 @@ function setupTouchAndMouseSwipe() {
     const dx = currentX - startX;
     const dy = currentY - startY;
 
-    cardFront.style.transition = 'transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease';
-    cardBack.style.transition = 'transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease';
+    cardFront.style.transition = 'transform 0.3s var(--md-motion-easing-standard), opacity 0.25s ease';
+    cardBack.style.transition = 'transform 0.3s var(--md-motion-easing-standard), opacity 0.25s ease';
 
     if (Math.abs(dx) > swipeThreshold && Math.abs(dx) > Math.abs(dy)) {
       if (dx < 0) {
-        // Swiped Left -> Next Card
-        cardFront.style.transform = 'translateX(-120%) rotate(-12deg)';
+        cardFront.style.transform = 'translateX(-120%) rotate(-10deg)';
         cardFront.style.opacity = '0';
-        setTimeout(() => {
-          nextCard();
-        }, 180);
+        setTimeout(() => nextCard(), 180);
       } else {
-        // Swiped Right -> Previous Card
-        cardFront.style.transform = 'translateX(120%) rotate(12deg)';
+        cardFront.style.transform = 'translateX(120%) rotate(10deg)';
         cardFront.style.opacity = '0';
-        setTimeout(() => {
-          prevCard();
-        }, 180);
+        setTimeout(() => prevCard(), 180);
       }
     } else {
-      // Snap Back
       cardFront.style.transform = 'translateX(0) rotate(0)';
       cardFront.style.opacity = '1';
       cardBack.style.transform = 'scale(0.96)';
-      cardBack.style.opacity = '0.55';
+      cardBack.style.opacity = '0.5';
     }
   }
 
-  // Touch Events
   cardStage.addEventListener('touchstart', onDragStart, { passive: true });
   window.addEventListener('touchmove', onDragMove, { passive: false });
   window.addEventListener('touchend', onDragEnd);
   window.addEventListener('touchcancel', onDragEnd);
 
-  // Mouse / Pointer Events
   cardStage.addEventListener('mousedown', onDragStart);
   window.addEventListener('mousemove', onDragMove);
   window.addEventListener('mouseup', onDragEnd);
@@ -617,7 +591,7 @@ function resetCardTransforms() {
   cardFront.style.transform = 'translateX(0) rotate(0)';
   cardFront.style.opacity = '1';
   cardBack.style.transform = 'scale(0.96)';
-  cardBack.style.opacity = '0.55';
+  cardBack.style.opacity = '0.5';
 }
 
 function jumpToArticle(artNumQuery) {
@@ -629,7 +603,6 @@ function jumpToArticle(artNumQuery) {
   });
 
   if (index !== -1) {
-    // If filtered, reset filter so article is shown
     if (state.activeFilterType !== 'all' || state.searchQuery || state.selectedPart) {
       state.activeFilterType = 'all';
       state.searchQuery = '';
@@ -647,7 +620,7 @@ function jumpToArticle(artNumQuery) {
 }
 
 /* ==========================================================================
-   FAVORITES / BOOKMARKS SYSTEM (Offline localStorage)
+   FAVORITES SYSTEM (localStorage)
    ========================================================================== */
 function toggleFavorite(item) {
   if (state.favorites.has(item.id)) {
@@ -661,7 +634,6 @@ function toggleFavorite(item) {
   localStorage.setItem('coi_favorites', JSON.stringify(Array.from(state.favorites)));
   updateFavoritesCount();
 
-  // If in bookmarks view, re-filter
   if (state.activeFilterType === 'favorites') {
     updateFilter();
   }
@@ -673,7 +645,7 @@ function updateFavoritesCount() {
 }
 
 /* ==========================================================================
-   AUDIO TEXT-TO-SPEECH READER (Native Web Speech API)
+   AUDIO TEXT-TO-SPEECH READER (Web Speech API)
    ========================================================================== */
 function toggleSpeech(item, buttonEl) {
   if (!('speechSynthesis' in window)) {
@@ -692,7 +664,6 @@ function toggleSpeech(item, buttonEl) {
   utterance.rate = 0.95;
   utterance.pitch = 1.0;
 
-  // Try to find English-Indian voice if available
   const voices = window.speechSynthesis.getVoices();
   const inVoice = voices.find(v => v.lang === 'en-IN');
   if (inVoice) utterance.voice = inVoice;
@@ -701,17 +672,15 @@ function toggleSpeech(item, buttonEl) {
     state.isSpeaking = true;
     if (buttonEl) {
       buttonEl.classList.add('speaking');
-      buttonEl.querySelector('.speech-btn-label').textContent = 'Pause';
+      const icon = buttonEl.querySelector('.speech-icon');
+      const label = buttonEl.querySelector('.speech-label');
+      if (icon) icon.textContent = 'pause';
+      if (label) label.textContent = 'Pause';
     }
   };
 
-  utterance.onend = () => {
-    stopSpeech();
-  };
-
-  utterance.onerror = () => {
-    stopSpeech();
-  };
+  utterance.onend = () => stopSpeech();
+  utterance.onerror = () => stopSpeech();
 
   window.speechSynthesis.speak(utterance);
 }
@@ -721,10 +690,11 @@ function stopSpeech() {
     window.speechSynthesis.cancel();
   }
   state.isSpeaking = false;
-  const speechBtns = document.querySelectorAll('.card-action-btn.speaking');
-  speechBtns.forEach(btn => {
+  document.querySelectorAll('.m3-button.speaking').forEach(btn => {
     btn.classList.remove('speaking');
-    const label = btn.querySelector('.speech-btn-label');
+    const icon = btn.querySelector('.speech-icon');
+    const label = btn.querySelector('.speech-label');
+    if (icon) icon.textContent = 'volume_up';
     if (label) label.textContent = 'Listen';
   });
 }
@@ -736,7 +706,7 @@ async function copyArticleText(item) {
   const textToCopy = `Constitution of India — ${item.article}: ${item.title}\n(${item.partName})\n\n${item.summary}\n\nFull Official Text:\n${item.description}\n\nShared via Samvidhan Constitution PWA`;
   try {
     await navigator.clipboard.writeText(textToCopy);
-    showToast(`Copied ${item.article} to clipboard!`);
+    showToast(`Copied ${item.article} to clipboard`);
   } catch (err) {
     showToast('Failed to copy to clipboard');
   }
@@ -752,9 +722,7 @@ async function shareArticle(item) {
   if (navigator.share) {
     try {
       await navigator.share(shareData);
-    } catch (err) {
-      // User cancelled share
-    }
+    } catch (err) {}
   } else {
     copyArticleText(item);
   }
@@ -779,7 +747,6 @@ function renderSearchResults() {
   const query = searchInput.value.trim().toLowerCase();
   let results = state.allArticles;
 
-  // Filter category
   if (state.activeFilterType === 'landmark') {
     results = results.filter(a => a.importance === 'landmark');
   } else if (state.activeFilterType === 'favorites') {
@@ -790,12 +757,10 @@ function renderSearchResults() {
     results = results.filter(a => a.partId === state.activeFilterType);
   }
 
-  // Dropdown Part
   if (partDropdownSelect.value) {
     results = results.filter(a => a.partId === partDropdownSelect.value);
   }
 
-  // Text Query
   if (query) {
     results = results.filter(a => {
       const artNum = String(a.articleNumber).toLowerCase();
@@ -811,14 +776,13 @@ function renderSearchResults() {
 
   if (results.length === 0) {
     searchResultsList.innerHTML = `
-      <div style="text-align: center; padding: 30px; color: var(--text-muted);">
+      <div style="text-align: center; padding: 32px; color: var(--md-sys-color-on-surface-variant);">
         No articles match your search criteria.
       </div>
     `;
     return;
   }
 
-  // Render top 100 results for speed
   const displayResults = results.slice(0, 80);
   searchResultsList.innerHTML = displayResults.map(item => {
     let highlightedTitle = item.title;
@@ -841,7 +805,6 @@ function renderSearchResults() {
     `;
   }).join('');
 
-  // Item click handlers
   searchResultsList.querySelectorAll('.search-result-item').forEach(itemEl => {
     itemEl.addEventListener('click', () => {
       const artId = itemEl.dataset.id;
@@ -863,14 +826,13 @@ function renderSearchResults() {
 function renderSchedulesModal() {
   schedulesGrid.innerHTML = schedulesData.map(s => {
     return `
-      <div class="schedule-card">
-        <span class="schedule-num-badge">Schedule ${s.scheduleNumber}</span>
+      <div class="m3-schedule-card">
+        <div class="schedule-header">
+          <span class="schedule-num">Schedule ${s.scheduleNumber}</span>
+          <span class="schedule-articles-meta">${s.articles}</span>
+        </div>
         <h3 class="schedule-title">${s.title}</h3>
         <p class="schedule-desc">${s.description}</p>
-        <span class="schedule-articles-meta">Related: ${s.articles}</span>
-        <ul class="schedule-highlights-list">
-          ${s.highlights.map(h => `<li>${h}</li>`).join('')}
-        </ul>
       </div>
     `;
   }).join('');
@@ -880,44 +842,37 @@ function renderSchedulesModal() {
    EVENT LISTENERS SETUP
    ========================================================================== */
 function setupEventListeners() {
-  // Navigation Arrows
   prevBtn.addEventListener('click', prevCard);
   nextBtn.addEventListener('click', nextCard);
 
-  // Clear Filter
   btnClearFilter.addEventListener('click', clearFilter);
 
-  // Random Article
+  // Filter chips in top toolbar
+  document.querySelectorAll('.m3-chips-toolbar .m3-filter-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const filterType = chip.dataset.filter;
+      state.activeFilterType = filterType;
+      updateFilter();
+      renderCurrentCard();
+      showToast(`Filter: ${chip.querySelector('span:nth-child(2)').textContent}`);
+    });
+  });
+
+  // Random article
   btnRandomArticle.addEventListener('click', () => {
     if (state.filteredArticles.length > 0) {
       const rand = Math.floor(Math.random() * state.filteredArticles.length);
       state.currentIndex = rand;
       renderCurrentCard();
-      showToast(`Discovering ${state.filteredArticles[rand].article}`);
+      showToast(`Discovered ${state.filteredArticles[rand].article}`);
     }
   });
 
-  // Quick Bookmarks Filter
-  btnQuickFavorites.addEventListener('click', () => {
-    if (state.activeFilterType === 'favorites') {
-      state.activeFilterType = 'all';
-      showToast('Showing all articles');
-    } else {
-      state.activeFilterType = 'favorites';
-      showToast(`Showing ${state.favorites.size} saved bookmarks`);
-    }
-    updateFilter();
-    renderCurrentCard();
-  });
-
-  // Font Size
   btnFontDecrease.addEventListener('click', () => adjustFontSize(-1));
   btnFontIncrease.addEventListener('click', () => adjustFontSize(1));
-
-  // Theme Toggle
   btnThemeToggle.addEventListener('click', toggleTheme);
 
-  // Search Dialog Triggers
+  // Search dialog
   btnOpenSearch.addEventListener('click', () => {
     openModal(searchModal);
     searchInput.focus();
@@ -926,7 +881,7 @@ function setupEventListeners() {
   btnCloseSearch.addEventListener('click', () => closeModal(searchModal));
 
   searchInput.addEventListener('input', () => {
-    btnSearchClear.style.display = searchInput.value ? 'block' : 'none';
+    btnSearchClear.style.display = searchInput.value ? 'inline-flex' : 'none';
     state.searchQuery = searchInput.value;
     renderSearchResults();
   });
@@ -939,12 +894,12 @@ function setupEventListeners() {
     searchInput.focus();
   });
 
-  // Search Modal Filter Pills
-  document.querySelectorAll('.filter-pill').forEach(pill => {
-    pill.addEventListener('click', () => {
-      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
-      pill.classList.add('active');
-      state.activeFilterType = pill.dataset.filterType;
+  // Search Modal Filter Chips
+  document.querySelectorAll('.dialog-filter-chips .m3-filter-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.dialog-filter-chips .m3-filter-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      state.activeFilterType = chip.dataset.filterType;
       renderSearchResults();
     });
   });
@@ -954,32 +909,23 @@ function setupEventListeners() {
     renderSearchResults();
   });
 
-  // Preamble Modal Triggers
-  const openPreambleHandler = () => {
-    openModal(preambleModal);
-  };
-  btnOpenPreamble.addEventListener('click', openPreambleHandler);
-  btnPreambleDirect.addEventListener('click', openPreambleHandler);
+  // Preamble Modal
+  btnPreambleDirect.addEventListener('click', () => openModal(preambleModal));
   btnClosePreamble.addEventListener('click', () => closeModal(preambleModal));
 
-  // Preamble Keyword Explainer Pills
-  document.querySelectorAll('.preamble-word-pill').forEach(pill => {
+  document.querySelectorAll('.m3-preamble-pillars .m3-filter-chip, .m3-preamble-objectives .m3-filter-chip').forEach(pill => {
     pill.addEventListener('click', () => {
       const word = pill.dataset.word;
       if (preambleDictionary[word]) {
         explainerWordTitle.textContent = preambleDictionary[word].title;
         explainerWordDesc.textContent = preambleDictionary[word].desc;
-        preambleWordExplainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
     });
   });
 
-  // Preamble Speech
   btnPreambleSpeech.addEventListener('click', () => {
     const preambleItem = state.allArticles.find(a => a.articleNumber === 0);
-    if (preambleItem) {
-      toggleSpeech(preambleItem, btnPreambleSpeech);
-    }
+    if (preambleItem) toggleSpeech(preambleItem, btnPreambleSpeech);
   });
 
   btnJumpToPreambleCard.addEventListener('click', () => {
@@ -987,11 +933,11 @@ function setupEventListeners() {
     jumpToArticle(0);
   });
 
-  // Schedules Modal Triggers
+  // Schedules Modal
   btnOpenSchedules.addEventListener('click', () => openModal(schedulesModal));
   btnCloseSchedules.addEventListener('click', () => closeModal(schedulesModal));
 
-  // Jump Modal Triggers
+  // Jump Modal
   btnOpenJump.addEventListener('click', () => {
     openModal(jumpModal);
     jumpArticleInput.value = '';
@@ -1008,7 +954,7 @@ function setupEventListeners() {
     }
   });
 
-  document.querySelectorAll('.quick-jump-chip').forEach(chip => {
+  document.querySelectorAll('.jump-quick-chips .m3-assist-chip').forEach(chip => {
     chip.addEventListener('click', () => {
       jumpToArticle(chip.dataset.jump);
       closeModal(jumpModal);
@@ -1017,7 +963,6 @@ function setupEventListeners() {
 
   // Keyboard Shortcuts
   window.addEventListener('keydown', (e) => {
-    // If inside an input or form, don't trigger global shortcuts
     if (e.target.matches('input, select, textarea')) return;
 
     if (e.key === 'ArrowLeft') {
@@ -1045,7 +990,7 @@ function setupEventListeners() {
     }
   });
 
-  // PWA Install Prompt Handler
+  // PWA Prompt
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     state.deferredPrompt = e;
@@ -1057,7 +1002,7 @@ function setupEventListeners() {
       state.deferredPrompt.prompt();
       const { outcome } = await state.deferredPrompt.userChoice;
       if (outcome === 'accepted') {
-        showToast('Thank you for installing Samvidhan!');
+        showToast('Thank you for installing Samvidhan PWA!');
       }
       state.deferredPrompt = null;
       btnInstallPwa.style.display = 'none';
@@ -1071,12 +1016,12 @@ function setupEventListeners() {
 function checkNetworkStatus() {
   function update() {
     if (navigator.onLine) {
-      offlineStatusPill.className = 'status-pill online';
-      offlineStatusPill.querySelector('.status-text').textContent = 'Offline Ready';
+      offlineStatusPill.className = 'm3-status-badge online';
+      offlineStatusPill.querySelector('.status-label').textContent = 'Offline Ready';
     } else {
-      offlineStatusPill.className = 'status-pill offline';
-      offlineStatusPill.querySelector('.status-text').textContent = 'Offline Mode Active';
-      showToast('You are offline. Full Constitution remains 100% accessible locally.');
+      offlineStatusPill.className = 'm3-status-badge offline';
+      offlineStatusPill.querySelector('.status-label').textContent = 'Offline Mode Active';
+      showToast('Offline Mode: All 465 articles available locally');
     }
   }
 
@@ -1087,29 +1032,28 @@ function checkNetworkStatus() {
 
 function setupServiceWorker() {
   if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('/sw.js').then((reg) => {
-      console.log('Samvidhan PWA Service Worker Registered:', reg.scope);
-    }).catch((err) => {
-      console.warn('Service worker registration error:', err);
-    });
+    navigator.serviceWorker.register('/sw.js').catch(() => {});
   }
 }
 
 /* ==========================================================================
-   TOAST NOTIFICATION ENGINE
+   M3 SNACKBAR NOTIFICATIONS
    ========================================================================== */
 function showToast(message) {
-  const toast = document.createElement('div');
-  toast.className = 'toast';
-  toast.innerHTML = `<span>⚖️</span> <span>${message}</span>`;
-  toastContainer.appendChild(toast);
+  const snackbar = document.createElement('div');
+  snackbar.className = 'm3-snackbar';
+  snackbar.innerHTML = `
+    <span class="material-symbols-outlined" style="font-size: 18px;">info</span>
+    <span>${message}</span>
+  `;
+  toastContainer.appendChild(snackbar);
 
   setTimeout(() => {
-    if (toast.parentNode) {
-      toast.parentNode.removeChild(toast);
+    if (snackbar.parentNode) {
+      snackbar.parentNode.removeChild(snackbar);
     }
   }, 3000);
 }
 
-// Start application
+// Start
 init();
