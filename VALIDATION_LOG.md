@@ -31,7 +31,7 @@ Total Pages: 402
 | **Batch 3** | Part IV | **COMPLETED** | 1 missing added, 15 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 4** | Part V | **COMPLETED** | 5 missing added, 93 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 5** | Part VI | **COMPLETED** | 3 missing added, 83 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 6** | Part VIII (Arts 239–242, 239A, 239AA, 239AB, 239B, 242) | Queued | Pending | Pending | Pending |
+| **Batch 6** | Part VIII | **COMPLETED** | 2 missing added, 4 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | Queued | Pending | Pending | Pending |
 | **Batch 8** | Part XI (Arts 245–263, 246A, 257A–259) & Part XII (Arts 264–300A, 268A, 269A, 278–279A, 290A, 291) | Queued | Pending | Pending | Pending |
 | **Batch 9** | Part XIII (Arts 301–307, 306), Part XIV (Arts 308–323, 312A, 314, 320), Part XIVA (Arts 323A–323B) | Queued | Pending | Pending | Pending |
@@ -339,3 +339,18 @@ Total Pages: 402
 | **Article 238** | Application of provisions of Part VI to States in Part B of the First Schedule | `CORRECTED` | Text was truncated/outdated; updated to full official text |
 
 **Reverification Result:** 92 articles verified, 3 missing articles added, 83 articles corrected. 100% parity achieved.
+
+### Batch 6: Part VIII: The Union Territories (Arts 239–242, 239A, 239AA, 239AB, 239B, 242)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 239** | Administration of Union territories | `VERIFIED_MATCH` | None |
+| **Article 239A** | Creation of local Legislatures or Council of Ministers or both for certain Union territories | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 239AA** | Special provisions with respect to Delhi | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 239AB** | Provision in case of failure of constitutional machinery | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 239B** | Power of administrator to promulgate Ordinances during recess of Legislature | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 240** | Power of President to make regulations for certain Union territories | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 241** | High Courts for Union territories | `VERIFIED_MATCH` | None |
+| **Article 242** | Coorg | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+
+**Reverification Result:** 8 articles verified, 2 missing articles added, 4 articles corrected. 100% parity achieved.

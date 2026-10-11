@@ -6801,7 +6801,7 @@
     "partId": "Part VIII",
     "partName": "Part VIII: The Union Territories",
     "category": "Union Territories",
-    "description": "(1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President acting, to such extent as he thinks fit, through an administrator to be appointed by him with such designation as he may specify.\n\n \n\n(2) Notwithstanding anything contained in Part VI, the President may appoint the Governor of a State as the administrator of an adjoining Union territory, and where a Governor is so appointed, he shall exercise his functions as such administrator independently of his Council of Ministers.",
+    "description": "(1) Save as otherwise\n\nprovided by Parliament by law, every Union territory shall be administered by\n\nthe President acting, to such extent as he thinks fit, through an administrator to\n\nbe appointed by him with such designation as he may specify.\n\n(2) Notwithstanding anything contained in Part VI, the President may\n\nappoint the Governor of a State as the administrator of an adjoining Union\n\nterritory, and where a Governor is so appointed, he shall exercise his functions\n\nas such administrator independently of his Council of Ministers.",
     "summary": "Article 239 provides constitutional rules and provisions regarding administration of union territories, under Part VIII: The Union Territories.",
     "cases": [],
     "importance": "standard",
@@ -6815,32 +6815,8 @@
     "isFundamental": false
   },
   {
-    "id": "art-239 A A",
-    "index": 263,
-    "article": "Article 239 A A",
-    "articleNumber": "239 A A",
-    "articleStr": "239 A A",
-    "title": "Special provisions with respect to Delhi",
-    "partId": "Part VIII",
-    "partName": "Part VIII: The Union Territories",
-    "category": "Union Territories",
-    "description": "(1) As from the date of commencement of the Constitution (Sixty-ninth Amendment) Act, 1991, the Union territory of Delhi shall be called the National Capital Territory of Delhi (hereafter in this Part referred to as the National Capital Territory) and the administrator thereof appointed under article 239 shall be designated as the Lieutenant Governor.\n\n \n\n(2) (a) There shall be a Legislative Assembly for the National Capital Territory and the seats in such Assembly shall be filled by members chosen by direct election from territorial constituencies in the National Capital Territory.\n\n \n\n(b) The total number of seats in the Legislative Assembly, the number of seats reserved for Scheduled Castes, the division of the National Capital Territory into territorial constituencies (including the basis for such division) and all other matters relating to the functioning of the Legislative Assembly shall be regulated by law made by Parliament.\n\n \n\n(c) The provisions of articles 324 to 327 and 329 shall apply in relation to the National Capital Territory, the Legislative Assembly of the National Capital Territory and the members thereof as they apply, in relation to a State, the Legislative Assembly of a State and the members thereof respectively; and any reference in articles 326 and 329 to “appropriate Legislature” shall be deemed to be a reference to Parliament.\n\n \n\n(3) (a) Subject to the provisions of this Constitution, the Legislative Assembly shall have power to make laws for the whole or any part of the National Capital Territory with respect to any of the matters enumerated in the State List or in the Concurrent List in so far as any such matter is applicable to Union territories except matters with respect to Entries 1, 2 and 18 of the State List and Entries 64, 65 and 66 of that List in so far as they relate to the said Entries 1, 2 and 18.\n\n \n\n(b) Nothing in sub-clause (a) shall derogate from the powers of Parliament under this Constitution to make laws with respect to any matter for a Union territory or any part thereof.\n\n \n\n(c) If any provision of a law made by the Legislative Assembly with respect to any matter is repugnant to any provision of a law made by Parliament with respect to that matter, whether passed before or after the law made by the Legislative Assembly, or of an earlier law, other than a law made by the Legislative Assembly, then, in either case, the law made by Parliament, or, as the case may be, such earlier law, shall prevail and the law made by the Legislative Assembly shall, to the extent of the repugnancy, be void:\n\n \n\n   Provided that if any such law made by the Legislative Assembly has been reserved for the consideration of the President and has received his assent, such law shall prevail in the National Capital Territory:\n\n \n\n   Provided further that nothing in this sub-clause shall prevent Parliament from enacting at any time any law with respect to the same matter including a law adding to, amending, varying or repealing the law so made by the Legislative Assembly.\n\n \n\n(4) There shall be a Council of Ministers consisting of not more than ten per cent. of the total number of members in the Legislative Assembly, with the Chief Minister at the head to aid and advise the Lieutenant Governor in the exercise of his functions in relation to matters with respect to which the Legislative Assembly has power to make laws, except in so far as he is, by or under any law, required to act in his discretion:\n\n \n\nProvided that in the case of difference of opinion between the Lieutenant Governor and his Ministers on any matter, the Lieutenant Governor shall refer it to the President for decision and act according to the decision given thereon by the President and pending such decision it shall be competent for the Lieutenant Governor in any case where the matter, in his opinion, is so urgent that it is necessary for him to take immediate action, to take such action or to give such direction in the matter as he deems necessary.\n\n \n\n(5) The Chief Minister shall be appointed by the President and other Ministers shall be appointed by the President on the advice of the Chief Minister and the Ministers shall hold office during the pleasure of the President.\n\n \n\n(6) The Council of Ministers shall be collectively responsible to the Legislative Assembly.\n\n \n\n(7) (a) Parliament may, by law, make provisions for giving effect to, or supplementing the provisions contained in the foregoing clauses and for all matters incidental or consequential thereto.\n\n \n\n(b) Any such law as is referred to in sub-clause (a) shall not be deemed to be an amendment of this Constitution for the purposes of article 368 notwithstanding that it contains any provision which amends or has the effect of amending, this Constitution.\n\n \n\n(8) The provisions of article 239B shall, so far as may be, apply in relation to the National Capital Territory, the Lieutenant Governor and the Legislative Assembly, as they apply in relation to the Union territory of Puducherry, the administrator and its Legislature, respectively; and any reference in that article to “clause (1) of article 239A” shall be deemed to be a reference to this article or article 239AB, as the case may be.",
-    "summary": "Article 239 A A provides constitutional rules and provisions regarding special provisions with respect to delhi, under Part VIII: The Union Territories.",
-    "cases": [],
-    "importance": "standard",
-    "tags": [
-      "part viii",
-      "union territories",
-      "special",
-      "provisions",
-      "respect",
-      "delhi"
-    ],
-    "isFundamental": false
-  },
-  {
     "id": "art-239A",
-    "index": 264,
+    "index": 263,
     "article": "Article 239A",
     "articleNumber": "239A",
     "articleStr": "239A",
@@ -6848,7 +6824,7 @@
     "partId": "Part VIII",
     "partName": "Part VIII: The Union Territories",
     "category": "Union Territories",
-    "description": "(1) Parliament may by law create for the Union territory of Puducherry —\n\n \n\n(a) a body, whether elected or partly nominated and partly elected, to function as a Legislature for the Union territory, or\n\n \n\n(b) a Council of Ministers,\n\n \n\nor both with such constitution, powers and functions, in each case, as may be specified in the law.\n\n \n\n(2) Any such law as is referred to in clause (1) shall not be deemed to be an amendment of this Constitution for the purposes of article 368 notwithstanding that it contains any provision which amends or has the effect of amending this Constitution",
+    "description": "(1) Parliament may by law create for\n\nthe Union territory of Puducherry—\n\n(a) a body, whether elected or partly nominated and partly elected, to\n\nfunction as a Legislature for the Union territory, or\n\n(b) a Council of Ministers,\n\nor both with such constitution, powers and functions, in each case, as may be\n\nspecified in the law.\n\n(2) Any such law as is referred to in clause (1) shall not be deemed to be\n\nan amendment of this Constitution for the purposes of article 368\n\nnotwithstanding that it contains any provision which amends or has the effect\n\nof amending this Constitution.",
     "summary": "Article 239A provides constitutional rules and provisions regarding creation of local legislatures or council of ministers or both for certain union territories, under Part VIII: The Union Territories.",
     "cases": [],
     "importance": "standard",
@@ -6868,6 +6844,37 @@
     "isFundamental": false
   },
   {
+    "id": "art-239AA",
+    "index": 264,
+    "article": "Article 239AA",
+    "articleNumber": "239AA",
+    "articleStr": "239AA",
+    "title": "Special provisions with respect to Delhi",
+    "partId": "Part VIII",
+    "partName": "Part VIII: The Union Territories",
+    "category": "Union Territories",
+    "description": "(1) As from the\n\ndate of commencement of the Constitution (Sixty-ninth Amendment) Act,\n\n1991, the Union territory of Delhi shall be called the National Capital Territory\n\nof Delhi (hereafter in this Part referred to as the National Capital Territory) and\n\nthe administrator thereof appointed under article 239 shall be designated as the\n\nLieutenant Governor.\n\n(2)(a) There shall be a Legislative Assembly for the National Capital\n\nTerritory and the seats in such Assembly shall be filled by members chosen by\n\ndirect election from territorial constituencies in the National Capital Territory.\n\n(b) The total number of seats in the Legislative Assembly, the number of\n\nseats reserved for Scheduled Castes, the division of the National Capital\n\nTerritory into territorial constituencies (including the basis for such division)\n\nand all other matters relating to the functioning of the Legislative Assembly\n\nshall be regulated by law made by Parliament.\n\n(ba) Seats shall be reserved for women in the Legislative Assembly of\n\nthe National Capital Territory of Delhi.\n\n(bb) As nearly as may be, one-third of the seats reserved for the\n\nScheduled Castes in the Legislative Assembly of the National Capital Territory\n\nof Delhi shall be reserved for women.\n\n(bc) As nearly as may be, one-third of the total number of seats to be\n\nfilled by direct election in the Legislative Assembly of the National Capital\n\nTerritory of Delhi (including the numbers of seats reserved for women\n\nbelonging to the Scheduled Castes) shall be reserved for women in such\n\nmanner as Parliament may by law determine.\n\n(c) The provisions of articles 324 to 327 and 329 shall apply in relation\n\nto the National Capital Territory, the Legislative Assembly of the National\n\nCapital Territory and the members thereof as they apply, in relation to a State,\n\nthe Legislative Assembly of a State and the members thereof respectively; and\n\nany reference in articles 326 and 329 to “appropriate Legislature” shall be\n\ndeemed to be a reference to Parliament.\n\n(3) (a) Subject to the provisions of this Constitution, the Legislative\n\nAssembly shall have power to make laws for the whole or any part of the\n\nNational Capital Territory with respect to any of the matters enumerated in the\n\nState List or in the Concurrent List in so far as any such matter is applicable to\n\nUnion territories except matters with respect to Entries 1, 2 and 18 of the State\n\nList and Entries 64, 65 and 66 of that List in so far as they relate to the said\n\nEntries 1, 2 and 18.\n\n(b) Nothing in sub-clause (a) shall derogate from the powers of\n\nParliament under this Constitution to make laws with respect to any matter for\n\na Union territory or any part thereof.\n\n(c) If any provision of a law made by the Legislative Assembly with\n\nrespect to any matter is repugnant to any provision of a law made by Parliament\n\nwith respect to that matter, whether passed before or after the law made by the\n\nLegislative Assembly, or of an earlier law, other than a law made by the\n\nLegislative Assembly, then, in either case, the law made by Parliament, or, as\n\nthe case may be, such earlier law, shall prevail and the law made by the\n\nLegislative Assembly shall, to the extent of the repugnancy, be void:\n\nProvided that if any such law made by the Legislative Assembly has\n\nbeen reserved for the consideration of the President and has received his assent,\n\nsuch law shall prevail in the National Capital Territory:\n\nProvided further that nothing in this sub-clause shall prevent Parliament\n\nfrom enacting at any time any law with respect to the same matter including a\n\nlaw adding to, amending, varying or repealing the law so made by the\n\nLegislative Assembly.\n\n(4) There shall be a Council of Ministers consisting of not more than ten\n\npercent. of the total number of members in the Legislative Assembly, with the\n\nChief Minister at the head to aid and advise the Lieutenant Governor in the\n\nexercise of his functions in relation to matters with respect to which the\n\nLegislative Assembly has power to make laws, except in so far as he is, by or\n\nunder any law, required to act in his discretion:\n\nProvided that in the case of difference of opinion between the Lieutenant\n\nGovernor and his Ministers on any matter, the Lieutenant Governor shall refer\n\nit to the President for decision and act according to the decision given thereon\n\nby the President and pending such decision it shall be competent for the\n\nLieutenant Governor in any case where the matter, in his opinion, is so urgent\n\nthat it is necessary for him to take immediate action, to take such action or to\n\ngive such direction in the matter as he deems necessary.\n\n(5) The Chief Minister shall be appointed by the President and other\n\nMinisters shall be appointed by the President on the advice of the Chief\n\nMinister and the Ministers shall hold office during the pleasure of the\n\nPresident.\n\n(6) The Council of Ministers shall be collectively responsible to the\n\nLegislative Assembly.\n\n(7) (a) Parliament may, by law, make provisions for giving effect to,\n\nor supplementing the provisions contained in the foregoing clauses and for all\n\nmatters incidental or consequential thereto.\n\n(b) Any such law as is referred to in sub-clause (a) shall not be deemed\n\nto be an amendment of this Constitution for the purposes of article 368\n\nnotwithstanding that it contains any provision which amends or has the effect\n\nof amending, this Constitution.\n\n(8) The provisions of article 239B shall, so far as may be, apply in\n\nrelation to the National Capital Territory, the Lieutenant Governor and the\n\nLegislative Assembly, as they apply in relation to the Union territory of\n\nPuducherry, the administrator and its Legislature, respectively; and any\n\nreference in that article to “clause (1) of article 239A” shall be deemed to be a\n\nreference to this article or article 239AB, as the case may be",
+    "summary": "Special provisions with respect to Delhi: creates Legislative Assembly and Council of Ministers for National Capital Territory (NCT) of Delhi with defined legislative powers.",
+    "cases": [
+      "Govt of NCT of Delhi v. Union of India (2018) - Lieutenant Governor bound by aid and advice of elected Delhi ministers.",
+      "Services Judgment (2023)"
+    ],
+    "importance": "landmark",
+    "tags": [
+      "part viii",
+      "union territories",
+      "delhi",
+      "nct",
+      "special status",
+      "lieutenant governor",
+      "federalism",
+      "special",
+      "provisions",
+      "respect"
+    ],
+    "isFundamental": false
+  },
+  {
     "id": "art-239AB",
     "index": 265,
     "article": "Article 239AB",
@@ -6877,7 +6884,7 @@
     "partId": "Part VIII",
     "partName": "Part VIII: The Union Territories",
     "category": "Union Territories",
-    "description": "If the President, on receipt of a report from the Lieutenant Governor or otherwise, is satisfied —\n\n \n\n(a) that a situation has arisen in which the administration of the National Capital Territory cannot be carried on in accordance with the provisions of article 239AA or of any law made in pursuance of that article; or\n\n \n\n(b) that for the proper administration of the National Capital Territory it is necessary or expedient so to do,\n\n \n\nthe President may by order suspend the operation of any provision of article 239AA or of all or any of the provisions of any law made in pursuance of that article for such period and subject to such conditions as may be specified in such law and make such incidental and consequential provisions as may appear to him to be necessary or expedient for administering the National Capital Territory in accordance with the provisions of article 239 and article 239AA.",
+    "description": "If\n\nthe President, on receipt of a report from the Lieutenant Governor or otherwise,\n\nis satisfied—\n\n(a) that a situation has arisen in which the administration of the\n\nNational Capital Territory cannot be carried on in accordance with the\n\nprovisions of article 239AA or of any law made in pursuance of that\n\narticle; or\n\n(b) that for the proper administration of the National Capital\n\nTerritory it is necessary or expedient so to do,\n\nthe President may by order suspend the operation of any provision of article\n\n239AA or of all or any of the provisions of any law made in pursuance of that\n\narticle for such period and subject to such conditions as may be specified in\n\nsuch law and make such incidental and consequential provisions as may appear\n\nto him to be necessary or expedient for administering the National Capital\n\nTerritory in accordance with the provisions of article 239 and article 239AA.",
     "summary": "Article 239AB provides constitutional rules and provisions regarding provision in case of failure of constitutional machinery, under Part VIII: The Union Territories.",
     "cases": [],
     "importance": "standard",
@@ -6902,7 +6909,7 @@
     "partId": "Part VIII",
     "partName": "Part VIII: The Union Territories",
     "category": "Union Territories",
-    "description": "(1) If at any time, except when the Legislature of the Union territory of Puducherry is in session, the administrator thereof is satisfied that circumstances exist which render it necessary for him to take immediate action, he may promulgate such Ordinances as the circumstances appear to him to require:\n\n \n\n   Provided that no such Ordinance shall be promulgated by the administrator except after obtaining instructions from the President in that behalf:\n\n \n\n   Provided further that whenever the said Legislature is dissolved, or its functioning remains suspended on account of any action taken under any such law as is referred to in clause (1) of article 239A, the administrator shall not promulgate any Ordinance during the period of such dissolution or suspension.\n\n \n\n(2) An Ordinance promulgated under this article in pursuance of instructions from the President shall be deemed to be an Act of the Legislature of the Union territory which has been duly enacted after complying with the provisions in that behalf contained in any such law as is referred to in clause (1) of article 239A, but every such Ordinance —\n\n \n\n(a) shall be laid before the Legislature of the Union territory and shall cease to operate at the expiration of six weeks from the reassembly of the Legislature or if, before the expiration of that period, a resolution disapproving it is passed by the Legislature, upon the passing of the resolution; and\n\n \n\n(b) may be withdrawn at any time by the administrator after obtaining instructions from the President in that behalf.\n\n \n\n(3) If and so far as an Ordinance under this article makes any provision which would not be valid if enacted in an Act of the Legislature of the Union territory made after complying with the provisions in that behalf contained in any such law as is referred to in clause (1) of article 239A, it shall be void.",
+    "description": "(1) If at any time, except when the Legislature of the\n\nUnion territory of Puducherry is in session, the administrator thereof is\n\nsatisfied that circumstances exist which render it necessary for him to take\n\nimmediate action, he may promulgate such Ordinances as the circumstances\n\nappear to him to require:\n\nProvided that no such Ordinance shall be promulgated by the\n\nadministrator except after obtaining instructions from the President in that\n\nbehalf:\n\nProvided further that whenever the said Legislature is dissolved, or its\n\nfunctioning remains suspended on account of any action taken under any such\n\nlaw as is referred to in clause (1) of article 239A, the administrator shall not\n\npromulgate any Ordinance during the period of such dissolution or suspension.\n\n(2) An Ordinance promulgated under this article in pursuance of\n\ninstructions from the President shall be deemed to be an Act of the Legislature\n\nof the Union territory which has been duly enacted after complying with the\n\nprovisions in that behalf contained in any such law as is referred to in clause (1)\n\nof article 239A, but every such Ordinance—\n\n(a) shall be laid before the Legislature of the Union territory and\n\nshall cease to operate at the expiration of six weeks from the reassembly\n\nof the Legislature or if, before the expiration of that period, a resolution\n\ndisapproving it is passed by the Legislature, upon the passing of the\n\nresolution; and\n\n(b) may be withdrawn at any time by the administrator after\n\nobtaining instructions from the President in that behalf.\n\n(3) If and so far as an Ordinance under this article makes any provision\n\nwhich would not be valid if enacted in an Act of the Legislature of the Union\n\nterritory made after complying with the provisions in that behalf contained in\n\nany such law as is referred to in clause (1) of article 239A, it shall be void.\n\n1(4)* * * *",
     "summary": "Article 239B provides constitutional rules and provisions regarding power of administrator to promulgate ordinances during recess of legislature, under Part VIII: The Union Territories.",
     "cases": [],
     "importance": "standard",
@@ -6929,7 +6936,7 @@
     "partId": "Part VIII",
     "partName": "Part VIII: The Union Territories",
     "category": "Union Territories",
-    "description": "(1) The President may make regulations for the peace, progress and good government of the Union territory of —\n\n \n\n(a) the Andaman and Nicobar Islands;\n\n \n\n(b) Lakshadweep;\n\n \n\n(c) Dadra and Nagar Haveli;\n\n \n\n(d) Daman and Diu;\n\n \n\n(e) Puducherry;\n\n \n\n   Provided that when any body is created under article 239A to function as a Legislature for the Union territory of Puducherry, the President shall not make any regulation for the peace, progress and good government of that Union territory with effect from the date appointed for the first meeting of the Legislature\n\n \n\n   Provided further that whenever the body functioning as a Legislature for the Union territory of Puducherry is dissolved, or the functioning of that body as such Legislature remains suspended on account of any  action taken under any such law as is referred to in clause (1) of article 239A, the President may, during the period of such dissolution or suspension, make regulations for the peace, progress and good          government of that Union territory.\n\n \n\n(2) Any regulation so made may repeal or amend any Act made by Parliament or any other law]which is for the time being applicable to the Union territory and, when promulgated by the President, shall have the same force and effect as an Act of Parliament which applies to that territory.",
+    "description": "(1) The President may make regulations for the peace, progress\n\nand good government of the Union territory of—\n\n(a) the Andaman and Nicobar Islands;\n\n(b) Lakshadweep;\n\n(c) Dadra and Nagar Haveli and Daman and Diu;\n\n(d) * ;\n\n(e) Puducherry ;\n\n8(f) * * *\n\n9(g) * * *\n\nProvided that when any body is created under article 239A to function\n\nas a Legislature for the Union territory of Puducherry, the President shall not\n\nmake any regulation for the peace, progress and good government of that\n\nUnion territory with effect from the date appointed for the first meeting of the\n\nLegislature:\n\nProvided further that whenever the body functioning as a Legislature\n\nfor the Union territory of Puducherry is dissolved, or the functioning of that\n\nbody as such Legislature remains suspended on account of any action taken\n\nunder any such law as is referred to in clause (1) of article 239A, the President\n\nmay, during the period of such dissolution or suspension, make regulations for\n\nthe peace, progress and good government of that Union territory.\n\n(2) Any regulation so made may repeal or amend any Act made by\n\nParliament or any other law, which is for the time being applicable to the\n\nUnion territory and, when promulgated by the President, shall have the same\n\nforce and effect as an Act of Parliament which applies to that territory.",
     "summary": "Article 240 provides constitutional rules and provisions regarding power of president to make regulations for certain union territories, under Part VIII: The Union Territories.",
     "cases": [],
     "importance": "standard",
@@ -6956,7 +6963,7 @@
     "partId": "Part VIII",
     "partName": "Part VIII: The Union Territories",
     "category": "Union Territories",
-    "description": "(1) Parliament may by law constitute a High Court for a Union territory or declare any court in any such territory to be a High Court for all or any of the purposes of this Constitution.\n\n \n\n(2) The provisions of Chapter V of Part VI shall apply in relation to every High Court referred to in clause (1) as they apply in relation to a High Court referred to in article 214 subject to such modifications or exceptions as Parliament may by law provide.\n\n \n\n(3) Subject to the provisions of this Constitution and to the provisions of any law of the appropriate Legislature made by virtue of powers conferred on that Legislature by or under this Constitution, every High Court exercising jurisdiction immediately before the commencement of the Constitution (Seventh Amendment) Act, 1956, in relation to any Union territory shall continue to exercise such jurisdiction in relation to that territory after such commencement.\n\n \n\n(4) Nothing in this article derogates from the power of Parliament to extend or exclude the jurisdiction of a High Court for a State to, or from, any Union territory or part thereof.",
+    "description": "(1) Parliament may by law\n\nconstitute a High Court for a Union territory or declare any court in any\n\nsuch territory to be a High Court for all or any of the purposes of this\n\nConstitution.\n\n(2) The provisions of Chapter V of Part VI shall apply in relation to\n\nevery High Court referred to in clause (1) as they apply in relation to a High\n\nCourt referred to in article 214 subject to such modifications or exceptions as\n\nParliament may by law provide.\n\n(3) Subject to the provisions of this Constitution and to the provisions\n\nof any law of the appropriate Legislature made by virtue of powers conferred\n\non that Legislature by or under this Constitution, every High Court exercising\n\njurisdiction immediately before the commencement of the Constitution\n\n(Seventh Amendment) Act, 1956, in relation to any Union territory shall\n\ncontinue to exercise such jurisdiction in relation to that territory after such\n\ncommencement.\n\n(4) Nothing in this article derogates from the power of Parliament to\n\nextend or exclude the jurisdiction of a High Court for a State to, or from, any\n\nUnion territory or part thereof.",
     "summary": "Article 241 provides constitutional rules and provisions regarding high courts for union territories, under Part VIII: The Union Territories.",
     "cases": [],
     "importance": "standard",
@@ -6971,8 +6978,29 @@
     "isFundamental": false
   },
   {
-    "id": "art-243",
+    "id": "art-242",
     "index": 269,
+    "article": "Article 242",
+    "articleNumber": 242,
+    "articleStr": "242",
+    "title": "Coorg",
+    "partId": "Part VIII",
+    "partName": "Part VIII: The Union Territories",
+    "category": "Union Territories",
+    "description": "[Coorg.]—Omitted by the Constitution (Seventh Amendment) Act, 1956, s. 29 and Sch. (w.e.f. 1-11-1956).",
+    "summary": "Article 242 provides constitutional rules and provisions regarding coorg, under Part VIII: The Union Territories.",
+    "cases": [],
+    "importance": "standard",
+    "tags": [
+      "part viii",
+      "union territories",
+      "coorg"
+    ],
+    "isFundamental": false
+  },
+  {
+    "id": "art-243",
+    "index": 270,
     "article": "Article 243",
     "articleNumber": 243,
     "articleStr": "243",
@@ -7000,7 +7028,7 @@
   },
   {
     "id": "art-243A",
-    "index": 270,
+    "index": 271,
     "article": "Article 243A",
     "articleNumber": "243A",
     "articleStr": "243A",
@@ -7022,7 +7050,7 @@
   },
   {
     "id": "art-243B",
-    "index": 271,
+    "index": 272,
     "article": "Article 243B",
     "articleNumber": "243B",
     "articleStr": "243B",
@@ -7044,7 +7072,7 @@
   },
   {
     "id": "art-243C",
-    "index": 272,
+    "index": 273,
     "article": "Article 243C",
     "articleNumber": "243C",
     "articleStr": "243C",
@@ -7066,7 +7094,7 @@
   },
   {
     "id": "art-243D",
-    "index": 273,
+    "index": 274,
     "article": "Article 243D",
     "articleNumber": "243D",
     "articleStr": "243D",
@@ -7088,7 +7116,7 @@
   },
   {
     "id": "art-243E",
-    "index": 274,
+    "index": 275,
     "article": "Article 243E",
     "articleNumber": "243E",
     "articleStr": "243E",
@@ -7110,7 +7138,7 @@
   },
   {
     "id": "art-243F",
-    "index": 275,
+    "index": 276,
     "article": "Article 243F",
     "articleNumber": "243F",
     "articleStr": "243F",
@@ -7132,7 +7160,7 @@
   },
   {
     "id": "art-243G",
-    "index": 276,
+    "index": 277,
     "article": "Article 243G",
     "articleNumber": "243G",
     "articleStr": "243G",
@@ -7156,7 +7184,7 @@
   },
   {
     "id": "art-243H",
-    "index": 277,
+    "index": 278,
     "article": "Article 243H",
     "articleNumber": "243H",
     "articleStr": "243H",
@@ -7181,7 +7209,7 @@
   },
   {
     "id": "art-243I",
-    "index": 278,
+    "index": 279,
     "article": "Article 243I",
     "articleNumber": "243I",
     "articleStr": "243I",
@@ -7207,7 +7235,7 @@
   },
   {
     "id": "art-243J",
-    "index": 279,
+    "index": 280,
     "article": "Article 243J",
     "articleNumber": "243J",
     "articleStr": "243J",
@@ -7230,7 +7258,7 @@
   },
   {
     "id": "art-243K",
-    "index": 280,
+    "index": 281,
     "article": "Article 243K",
     "articleNumber": "243K",
     "articleStr": "243K",
@@ -7252,7 +7280,7 @@
   },
   {
     "id": "art-243L",
-    "index": 281,
+    "index": 282,
     "article": "Article 243L",
     "articleNumber": "243L",
     "articleStr": "243L",
@@ -7275,7 +7303,7 @@
   },
   {
     "id": "art-243M",
-    "index": 282,
+    "index": 283,
     "article": "Article 243M",
     "articleNumber": "243M",
     "articleStr": "243M",
@@ -7299,7 +7327,7 @@
   },
   {
     "id": "art-243N",
-    "index": 283,
+    "index": 284,
     "article": "Article 243N",
     "articleNumber": "243N",
     "articleStr": "243N",
@@ -7323,7 +7351,7 @@
   },
   {
     "id": "art-243O",
-    "index": 284,
+    "index": 285,
     "article": "Article 243O",
     "articleNumber": "243O",
     "articleStr": "243O",
@@ -7347,7 +7375,7 @@
   },
   {
     "id": "art-243P",
-    "index": 285,
+    "index": 286,
     "article": "Article 243P",
     "articleNumber": "243P",
     "articleStr": "243P",
@@ -7368,7 +7396,7 @@
   },
   {
     "id": "art-243Q",
-    "index": 286,
+    "index": 287,
     "article": "Article 243Q",
     "articleNumber": "243Q",
     "articleStr": "243Q",
@@ -7389,7 +7417,7 @@
   },
   {
     "id": "art-243R",
-    "index": 287,
+    "index": 288,
     "article": "Article 243R",
     "articleNumber": "243R",
     "articleStr": "243R",
@@ -7410,7 +7438,7 @@
   },
   {
     "id": "art-243S",
-    "index": 288,
+    "index": 289,
     "article": "Article 243S",
     "articleNumber": "243S",
     "articleStr": "243S",
@@ -7434,7 +7462,7 @@
   },
   {
     "id": "art-243T",
-    "index": 289,
+    "index": 290,
     "article": "Article 243T",
     "articleNumber": "243T",
     "articleStr": "243T",
@@ -7456,7 +7484,7 @@
   },
   {
     "id": "art-243U",
-    "index": 290,
+    "index": 291,
     "article": "Article 243U",
     "articleNumber": "243U",
     "articleStr": "243U",
@@ -7477,7 +7505,7 @@
   },
   {
     "id": "art-243V",
-    "index": 291,
+    "index": 292,
     "article": "Article 243V",
     "articleNumber": "243V",
     "articleStr": "243V",
@@ -7499,7 +7527,7 @@
   },
   {
     "id": "art-243W",
-    "index": 292,
+    "index": 293,
     "article": "Article 243W",
     "articleNumber": "243W",
     "articleStr": "243W",
@@ -7522,7 +7550,7 @@
   },
   {
     "id": "art-243X",
-    "index": 293,
+    "index": 294,
     "article": "Article 243X",
     "articleNumber": "243X",
     "articleStr": "243X",
@@ -7546,7 +7574,7 @@
   },
   {
     "id": "art-243Y",
-    "index": 294,
+    "index": 295,
     "article": "Article 243Y",
     "articleNumber": "243Y",
     "articleStr": "243Y",
@@ -7568,7 +7596,7 @@
   },
   {
     "id": "art-243Z",
-    "index": 295,
+    "index": 296,
     "article": "Article 243Z",
     "articleNumber": "243Z",
     "articleStr": "243Z",
@@ -7590,7 +7618,7 @@
   },
   {
     "id": "art-243ZA",
-    "index": 296,
+    "index": 297,
     "article": "Article 243ZA",
     "articleNumber": "243ZA",
     "articleStr": "243ZA",
@@ -7611,7 +7639,7 @@
   },
   {
     "id": "art-243ZB",
-    "index": 297,
+    "index": 298,
     "article": "Article 243ZB",
     "articleNumber": "243ZB",
     "articleStr": "243ZB",
@@ -7634,7 +7662,7 @@
   },
   {
     "id": "art-243ZC",
-    "index": 298,
+    "index": 299,
     "article": "Article 243ZC",
     "articleNumber": "243ZC",
     "articleStr": "243ZC",
@@ -7658,7 +7686,7 @@
   },
   {
     "id": "art-243ZD",
-    "index": 299,
+    "index": 300,
     "article": "Article 243ZD",
     "articleNumber": "243ZD",
     "articleStr": "243ZD",
@@ -7681,7 +7709,7 @@
   },
   {
     "id": "art-243ZE",
-    "index": 300,
+    "index": 301,
     "article": "Article 243ZE",
     "articleNumber": "243ZE",
     "articleStr": "243ZE",
@@ -7704,7 +7732,7 @@
   },
   {
     "id": "art-243ZF",
-    "index": 301,
+    "index": 302,
     "article": "Article 243ZF",
     "articleNumber": "243ZF",
     "articleStr": "243ZF",
@@ -7727,7 +7755,7 @@
   },
   {
     "id": "art-243ZG",
-    "index": 302,
+    "index": 303,
     "article": "Article 243ZG",
     "articleNumber": "243ZG",
     "articleStr": "243ZG",
@@ -7751,7 +7779,7 @@
   },
   {
     "id": "art-243ZH",
-    "index": 303,
+    "index": 304,
     "article": "Article 243ZH",
     "articleNumber": "243ZH",
     "articleStr": "243ZH",
@@ -7772,7 +7800,7 @@
   },
   {
     "id": "art-243ZI",
-    "index": 304,
+    "index": 305,
     "article": "Article 243ZI",
     "articleNumber": "243ZI",
     "articleStr": "243ZI",
@@ -7795,7 +7823,7 @@
   },
   {
     "id": "art-243ZJ",
-    "index": 305,
+    "index": 306,
     "article": "Article 243ZJ",
     "articleNumber": "243ZJ",
     "articleStr": "243ZJ",
@@ -7821,7 +7849,7 @@
   },
   {
     "id": "art-243ZK",
-    "index": 306,
+    "index": 307,
     "article": "Article 243ZK",
     "articleNumber": "243ZK",
     "articleStr": "243ZK",
@@ -7844,7 +7872,7 @@
   },
   {
     "id": "art-243ZL",
-    "index": 307,
+    "index": 308,
     "article": "Article 243ZL",
     "articleNumber": "243ZL",
     "articleStr": "243ZL",
@@ -7869,7 +7897,7 @@
   },
   {
     "id": "art-243ZM",
-    "index": 308,
+    "index": 309,
     "article": "Article 243ZM",
     "articleNumber": "243ZM",
     "articleStr": "243ZM",
@@ -7893,7 +7921,7 @@
   },
   {
     "id": "art-243ZN",
-    "index": 309,
+    "index": 310,
     "article": "Article 243ZN",
     "articleNumber": "243ZN",
     "articleStr": "243ZN",
@@ -7917,7 +7945,7 @@
   },
   {
     "id": "art-243ZO",
-    "index": 310,
+    "index": 311,
     "article": "Article 243ZO",
     "articleNumber": "243ZO",
     "articleStr": "243ZO",
@@ -7940,7 +7968,7 @@
   },
   {
     "id": "art-243ZP",
-    "index": 311,
+    "index": 312,
     "article": "Article 243ZP",
     "articleNumber": "243ZP",
     "articleStr": "243ZP",
@@ -7961,7 +7989,7 @@
   },
   {
     "id": "art-243ZQ",
-    "index": 312,
+    "index": 313,
     "article": "Article 243ZQ",
     "articleNumber": "243ZQ",
     "articleStr": "243ZQ",
@@ -7983,7 +8011,7 @@
   },
   {
     "id": "art-243ZR",
-    "index": 313,
+    "index": 314,
     "article": "Article 243ZR",
     "articleNumber": "243ZR",
     "articleStr": "243ZR",
@@ -8008,7 +8036,7 @@
   },
   {
     "id": "art-243ZS",
-    "index": 314,
+    "index": 315,
     "article": "Article 243ZS",
     "articleNumber": "243ZS",
     "articleStr": "243ZS",
@@ -8031,7 +8059,7 @@
   },
   {
     "id": "art-243ZT",
-    "index": 315,
+    "index": 316,
     "article": "Article 243ZT",
     "articleNumber": "243ZT",
     "articleStr": "243ZT",
@@ -8054,7 +8082,7 @@
   },
   {
     "id": "art-244",
-    "index": 316,
+    "index": 317,
     "article": "Article 244",
     "articleNumber": 244,
     "articleStr": "244",
@@ -8078,7 +8106,7 @@
   },
   {
     "id": "art-244A",
-    "index": 317,
+    "index": 318,
     "article": "Article 244A",
     "articleNumber": "244A",
     "articleStr": "244A",
@@ -8113,7 +8141,7 @@
   },
   {
     "id": "art-245",
-    "index": 318,
+    "index": 319,
     "article": "Article 245",
     "articleNumber": 245,
     "articleStr": "245",
@@ -8139,7 +8167,7 @@
   },
   {
     "id": "art-246",
-    "index": 319,
+    "index": 320,
     "article": "Article 246",
     "articleNumber": 246,
     "articleStr": "246",
@@ -8174,7 +8202,7 @@
   },
   {
     "id": "art-246A",
-    "index": 320,
+    "index": 321,
     "article": "Article 246A",
     "articleNumber": "246A",
     "articleStr": "246A",
@@ -8206,7 +8234,7 @@
   },
   {
     "id": "art-247",
-    "index": 321,
+    "index": 322,
     "article": "Article 247",
     "articleNumber": 247,
     "articleStr": "247",
@@ -8233,7 +8261,7 @@
   },
   {
     "id": "art-248",
-    "index": 322,
+    "index": 323,
     "article": "Article 248",
     "articleNumber": 248,
     "articleStr": "248",
@@ -8256,7 +8284,7 @@
   },
   {
     "id": "art-249",
-    "index": 323,
+    "index": 324,
     "article": "Article 249",
     "articleNumber": 249,
     "articleStr": "249",
@@ -8285,7 +8313,7 @@
   },
   {
     "id": "art-250",
-    "index": 324,
+    "index": 325,
     "article": "Article 250",
     "articleNumber": 250,
     "articleStr": "250",
@@ -8315,7 +8343,7 @@
   },
   {
     "id": "art-251",
-    "index": 325,
+    "index": 326,
     "article": "Article 251",
     "articleNumber": 251,
     "articleStr": "251",
@@ -8343,7 +8371,7 @@
   },
   {
     "id": "art-252",
-    "index": 326,
+    "index": 327,
     "article": "Article 252",
     "articleNumber": 252,
     "articleStr": "252",
@@ -8371,7 +8399,7 @@
   },
   {
     "id": "art-253",
-    "index": 327,
+    "index": 328,
     "article": "Article 253",
     "articleNumber": 253,
     "articleStr": "253",
@@ -8396,7 +8424,7 @@
   },
   {
     "id": "art-254",
-    "index": 328,
+    "index": 329,
     "article": "Article 254",
     "articleNumber": 254,
     "articleStr": "254",
@@ -8423,7 +8451,7 @@
   },
   {
     "id": "art-255",
-    "index": 329,
+    "index": 330,
     "article": "Article 255",
     "articleNumber": 255,
     "articleStr": "255",
@@ -8451,7 +8479,7 @@
   },
   {
     "id": "art-256",
-    "index": 330,
+    "index": 331,
     "article": "Article 256",
     "articleNumber": 256,
     "articleStr": "256",
@@ -8474,7 +8502,7 @@
   },
   {
     "id": "art-257",
-    "index": 331,
+    "index": 332,
     "article": "Article 257",
     "articleNumber": 257,
     "articleStr": "257",
@@ -8500,7 +8528,7 @@
   },
   {
     "id": "art-258",
-    "index": 332,
+    "index": 333,
     "article": "Article 258",
     "articleNumber": 258,
     "articleStr": "258",
@@ -8527,7 +8555,7 @@
   },
   {
     "id": "art-258A",
-    "index": 333,
+    "index": 334,
     "article": "Article 258A",
     "articleNumber": "258A",
     "articleStr": "258A",
@@ -8552,7 +8580,7 @@
   },
   {
     "id": "art-260",
-    "index": 334,
+    "index": 335,
     "article": "Article 260",
     "articleNumber": 260,
     "articleStr": "260",
@@ -8578,7 +8606,7 @@
   },
   {
     "id": "art-261",
-    "index": 335,
+    "index": 336,
     "article": "Article 261",
     "articleNumber": 261,
     "articleStr": "261",
@@ -8603,7 +8631,7 @@
   },
   {
     "id": "art-262",
-    "index": 336,
+    "index": 337,
     "article": "Article 262",
     "articleNumber": 262,
     "articleStr": "262",
@@ -8631,7 +8659,7 @@
   },
   {
     "id": "art-263",
-    "index": 337,
+    "index": 338,
     "article": "Article 263",
     "articleNumber": 263,
     "articleStr": "263",
@@ -8656,7 +8684,7 @@
   },
   {
     "id": "art-264",
-    "index": 338,
+    "index": 339,
     "article": "Article 264",
     "articleNumber": 264,
     "articleStr": "264",
@@ -8677,7 +8705,7 @@
   },
   {
     "id": "art-265",
-    "index": 339,
+    "index": 340,
     "article": "Article 265",
     "articleNumber": 265,
     "articleStr": "265",
@@ -8701,7 +8729,7 @@
   },
   {
     "id": "art-266",
-    "index": 340,
+    "index": 341,
     "article": "Article 266",
     "articleNumber": 266,
     "articleStr": "266",
@@ -8727,7 +8755,7 @@
   },
   {
     "id": "art-267",
-    "index": 341,
+    "index": 342,
     "article": "Article 267",
     "articleNumber": 267,
     "articleStr": "267",
@@ -8749,7 +8777,7 @@
   },
   {
     "id": "art-268",
-    "index": 342,
+    "index": 343,
     "article": "Article 268",
     "articleNumber": 268,
     "articleStr": "268",
@@ -8775,7 +8803,7 @@
   },
   {
     "id": "art-268A",
-    "index": 343,
+    "index": 344,
     "article": "Article 268A",
     "articleNumber": "268A",
     "articleStr": "268A",
@@ -8801,7 +8829,7 @@
   },
   {
     "id": "art-269",
-    "index": 344,
+    "index": 345,
     "article": "Article 269",
     "articleNumber": 269,
     "articleStr": "269",
@@ -8827,7 +8855,7 @@
   },
   {
     "id": "art-269A",
-    "index": 345,
+    "index": 346,
     "article": "Article 269A",
     "articleNumber": "269A",
     "articleStr": "269A",
@@ -8856,7 +8884,7 @@
   },
   {
     "id": "art-270",
-    "index": 346,
+    "index": 347,
     "article": "Article 270",
     "articleNumber": 270,
     "articleStr": "270",
@@ -8882,7 +8910,7 @@
   },
   {
     "id": "art-271",
-    "index": 347,
+    "index": 348,
     "article": "Article 271",
     "articleNumber": 271,
     "articleStr": "271",
@@ -8908,7 +8936,7 @@
   },
   {
     "id": "art-273",
-    "index": 348,
+    "index": 349,
     "article": "Article 273",
     "articleNumber": 273,
     "articleStr": "273",
@@ -8934,7 +8962,7 @@
   },
   {
     "id": "art-274",
-    "index": 349,
+    "index": 350,
     "article": "Article 274",
     "articleNumber": 274,
     "articleStr": "274",
@@ -8964,7 +8992,7 @@
   },
   {
     "id": "art-275",
-    "index": 350,
+    "index": 351,
     "article": "Article 275",
     "articleNumber": 275,
     "articleStr": "275",
@@ -8988,7 +9016,7 @@
   },
   {
     "id": "art-276",
-    "index": 351,
+    "index": 352,
     "article": "Article 276",
     "articleNumber": 276,
     "articleStr": "276",
@@ -9013,7 +9041,7 @@
   },
   {
     "id": "art-277",
-    "index": 352,
+    "index": 353,
     "article": "Article 277",
     "articleNumber": 277,
     "articleStr": "277",
@@ -9034,7 +9062,7 @@
   },
   {
     "id": "art-279",
-    "index": 353,
+    "index": 354,
     "article": "Article 279",
     "articleNumber": 279,
     "articleStr": "279",
@@ -9056,7 +9084,7 @@
   },
   {
     "id": "art-280",
-    "index": 354,
+    "index": 355,
     "article": "Article 280",
     "articleNumber": 280,
     "articleStr": "280",
@@ -9084,7 +9112,7 @@
   },
   {
     "id": "art-281",
-    "index": 355,
+    "index": 356,
     "article": "Article 281",
     "articleNumber": 281,
     "articleStr": "281",
@@ -9107,7 +9135,7 @@
   },
   {
     "id": "art-282",
-    "index": 356,
+    "index": 357,
     "article": "Article 282",
     "articleNumber": 282,
     "articleStr": "282",
@@ -9132,7 +9160,7 @@
   },
   {
     "id": "art-283",
-    "index": 357,
+    "index": 358,
     "article": "Article 283",
     "articleNumber": 283,
     "articleStr": "283",
@@ -9160,7 +9188,7 @@
   },
   {
     "id": "art-284",
-    "index": 358,
+    "index": 359,
     "article": "Article 284",
     "articleNumber": 284,
     "articleStr": "284",
@@ -9188,7 +9216,7 @@
   },
   {
     "id": "art-285",
-    "index": 359,
+    "index": 360,
     "article": "Article 285",
     "articleNumber": 285,
     "articleStr": "285",
@@ -9213,7 +9241,7 @@
   },
   {
     "id": "art-286",
-    "index": 360,
+    "index": 361,
     "article": "Article 286",
     "articleNumber": 286,
     "articleStr": "286",
@@ -9238,7 +9266,7 @@
   },
   {
     "id": "art-287",
-    "index": 361,
+    "index": 362,
     "article": "Article 287",
     "articleNumber": 287,
     "articleStr": "287",
@@ -9261,7 +9289,7 @@
   },
   {
     "id": "art-288",
-    "index": 362,
+    "index": 363,
     "article": "Article 288",
     "articleNumber": 288,
     "articleStr": "288",
@@ -9289,7 +9317,7 @@
   },
   {
     "id": "art-289",
-    "index": 363,
+    "index": 364,
     "article": "Article 289",
     "articleNumber": 289,
     "articleStr": "289",
@@ -9315,7 +9343,7 @@
   },
   {
     "id": "art-290",
-    "index": 364,
+    "index": 365,
     "article": "Article 290",
     "articleNumber": 290,
     "articleStr": "290",
@@ -9340,7 +9368,7 @@
   },
   {
     "id": "art-290A",
-    "index": 365,
+    "index": 366,
     "article": "Article 290A",
     "articleNumber": "290A",
     "articleStr": "290A",
@@ -9365,7 +9393,7 @@
   },
   {
     "id": "art-292",
-    "index": 366,
+    "index": 367,
     "article": "Article 292",
     "articleNumber": 292,
     "articleStr": "292",
@@ -9388,7 +9416,7 @@
   },
   {
     "id": "art-293",
-    "index": 367,
+    "index": 368,
     "article": "Article 293",
     "articleNumber": 293,
     "articleStr": "293",
@@ -9410,7 +9438,7 @@
   },
   {
     "id": "art-294",
-    "index": 368,
+    "index": 369,
     "article": "Article 294",
     "articleNumber": 294,
     "articleStr": "294",
@@ -9438,7 +9466,7 @@
   },
   {
     "id": "art-295",
-    "index": 369,
+    "index": 370,
     "article": "Article 295",
     "articleNumber": 295,
     "articleStr": "295",
@@ -9465,7 +9493,7 @@
   },
   {
     "id": "art-296",
-    "index": 370,
+    "index": 371,
     "article": "Article 296",
     "articleNumber": 296,
     "articleStr": "296",
@@ -9491,7 +9519,7 @@
   },
   {
     "id": "art-297",
-    "index": 371,
+    "index": 372,
     "article": "Article 297",
     "articleNumber": 297,
     "articleStr": "297",
@@ -9524,7 +9552,7 @@
   },
   {
     "id": "art-298",
-    "index": 372,
+    "index": 373,
     "article": "Article 298",
     "articleNumber": 298,
     "articleStr": "298",
@@ -9547,7 +9575,7 @@
   },
   {
     "id": "art-299",
-    "index": 373,
+    "index": 374,
     "article": "Article 299",
     "articleNumber": 299,
     "articleStr": "299",
@@ -9568,7 +9596,7 @@
   },
   {
     "id": "art-300",
-    "index": 374,
+    "index": 375,
     "article": "Article 300",
     "articleNumber": 300,
     "articleStr": "300",
@@ -9590,7 +9618,7 @@
   },
   {
     "id": "art-300A",
-    "index": 375,
+    "index": 376,
     "article": "Article 300A",
     "articleNumber": "300A",
     "articleStr": "300A",
@@ -9622,7 +9650,7 @@
   },
   {
     "id": "art-301",
-    "index": 376,
+    "index": 377,
     "article": "Article 301",
     "articleNumber": 301,
     "articleStr": "301",
@@ -9646,7 +9674,7 @@
   },
   {
     "id": "art-302",
-    "index": 377,
+    "index": 378,
     "article": "Article 302",
     "articleNumber": 302,
     "articleStr": "302",
@@ -9673,7 +9701,7 @@
   },
   {
     "id": "art-303",
-    "index": 378,
+    "index": 379,
     "article": "Article 303",
     "articleNumber": 303,
     "articleStr": "303",
@@ -9701,7 +9729,7 @@
   },
   {
     "id": "art-304",
-    "index": 379,
+    "index": 380,
     "article": "Article 304",
     "articleNumber": 304,
     "articleStr": "304",
@@ -9727,7 +9755,7 @@
   },
   {
     "id": "art-305",
-    "index": 380,
+    "index": 381,
     "article": "Article 305",
     "articleNumber": 305,
     "articleStr": "305",
@@ -9753,7 +9781,7 @@
   },
   {
     "id": "art-307",
-    "index": 381,
+    "index": 382,
     "article": "Article 307",
     "articleNumber": 307,
     "articleStr": "307",
@@ -9778,7 +9806,7 @@
   },
   {
     "id": "art-308",
-    "index": 382,
+    "index": 383,
     "article": "Article 308",
     "articleNumber": 308,
     "articleStr": "308",
@@ -9799,7 +9827,7 @@
   },
   {
     "id": "art-309",
-    "index": 383,
+    "index": 384,
     "article": "Article 309",
     "articleNumber": 309,
     "articleStr": "309",
@@ -9826,7 +9854,7 @@
   },
   {
     "id": "art-310",
-    "index": 384,
+    "index": 385,
     "article": "Article 310",
     "articleNumber": 310,
     "articleStr": "310",
@@ -9852,7 +9880,7 @@
   },
   {
     "id": "art-311",
-    "index": 385,
+    "index": 386,
     "article": "Article 311",
     "articleNumber": 311,
     "articleStr": "311",
@@ -9889,7 +9917,7 @@
   },
   {
     "id": "art-312",
-    "index": 386,
+    "index": 387,
     "article": "Article 312",
     "articleNumber": 312,
     "articleStr": "312",
@@ -9918,7 +9946,7 @@
   },
   {
     "id": "art-312A",
-    "index": 387,
+    "index": 388,
     "article": "Article 312A",
     "articleNumber": "312A",
     "articleStr": "312A",
@@ -9947,7 +9975,7 @@
   },
   {
     "id": "art-313",
-    "index": 388,
+    "index": 389,
     "article": "Article 313",
     "articleNumber": 313,
     "articleStr": "313",
@@ -9969,7 +9997,7 @@
   },
   {
     "id": "art-315",
-    "index": 389,
+    "index": 390,
     "article": "Article 315",
     "articleNumber": 315,
     "articleStr": "315",
@@ -10001,7 +10029,7 @@
   },
   {
     "id": "art-316",
-    "index": 390,
+    "index": 391,
     "article": "Article 316",
     "articleNumber": 316,
     "articleStr": "316",
@@ -10025,7 +10053,7 @@
   },
   {
     "id": "art-317",
-    "index": 391,
+    "index": 392,
     "article": "Article 317",
     "articleNumber": 317,
     "articleStr": "317",
@@ -10051,7 +10079,7 @@
   },
   {
     "id": "art-318",
-    "index": 392,
+    "index": 393,
     "article": "Article 318",
     "articleNumber": 318,
     "articleStr": "318",
@@ -10079,7 +10107,7 @@
   },
   {
     "id": "art-319",
-    "index": 393,
+    "index": 394,
     "article": "Article 319",
     "articleNumber": 319,
     "articleStr": "319",
@@ -10105,7 +10133,7 @@
   },
   {
     "id": "art-321",
-    "index": 394,
+    "index": 395,
     "article": "Article 321",
     "articleNumber": 321,
     "articleStr": "321",
@@ -10131,7 +10159,7 @@
   },
   {
     "id": "art-322",
-    "index": 395,
+    "index": 396,
     "article": "Article 322",
     "articleNumber": 322,
     "articleStr": "322",
@@ -10155,7 +10183,7 @@
   },
   {
     "id": "art-323",
-    "index": 396,
+    "index": 397,
     "article": "Article 323",
     "articleNumber": 323,
     "articleStr": "323",
@@ -10179,7 +10207,7 @@
   },
   {
     "id": "art-323A",
-    "index": 397,
+    "index": 398,
     "article": "Article 323A",
     "articleNumber": "323A",
     "articleStr": "323A",
@@ -10201,7 +10229,7 @@
   },
   {
     "id": "art-323B",
-    "index": 398,
+    "index": 399,
     "article": "Article 323B",
     "articleNumber": "323B",
     "articleStr": "323B",
@@ -10223,7 +10251,7 @@
   },
   {
     "id": "art-324",
-    "index": 399,
+    "index": 400,
     "article": "Article 324",
     "articleNumber": 324,
     "articleStr": "324",
@@ -10258,7 +10286,7 @@
   },
   {
     "id": "art-325",
-    "index": 400,
+    "index": 401,
     "article": "Article 325",
     "articleNumber": 325,
     "articleStr": "325",
@@ -10290,7 +10318,7 @@
   },
   {
     "id": "art-326",
-    "index": 401,
+    "index": 402,
     "article": "Article 326",
     "articleNumber": 326,
     "articleStr": "326",
@@ -10324,7 +10352,7 @@
   },
   {
     "id": "art-327",
-    "index": 402,
+    "index": 403,
     "article": "Article 327",
     "articleNumber": 327,
     "articleStr": "327",
@@ -10351,7 +10379,7 @@
   },
   {
     "id": "art-328",
-    "index": 403,
+    "index": 404,
     "article": "Article 328",
     "articleNumber": 328,
     "articleStr": "328",
@@ -10378,7 +10406,7 @@
   },
   {
     "id": "art-329",
-    "index": 404,
+    "index": 405,
     "article": "Article 329",
     "articleNumber": 329,
     "articleStr": "329",
@@ -10402,7 +10430,7 @@
   },
   {
     "id": "art-330",
-    "index": 405,
+    "index": 406,
     "article": "Article 330",
     "articleNumber": 330,
     "articleStr": "330",
@@ -10429,7 +10457,7 @@
   },
   {
     "id": "art-331",
-    "index": 406,
+    "index": 407,
     "article": "Article 331",
     "articleNumber": 331,
     "articleStr": "331",
@@ -10455,7 +10483,7 @@
   },
   {
     "id": "art-332",
-    "index": 407,
+    "index": 408,
     "article": "Article 332",
     "articleNumber": 332,
     "articleStr": "332",
@@ -10483,7 +10511,7 @@
   },
   {
     "id": "art-333",
-    "index": 408,
+    "index": 409,
     "article": "Article 333",
     "articleNumber": 333,
     "articleStr": "333",
@@ -10510,7 +10538,7 @@
   },
   {
     "id": "art-334",
-    "index": 409,
+    "index": 410,
     "article": "Article 334",
     "articleNumber": 334,
     "articleStr": "334",
@@ -10538,7 +10566,7 @@
   },
   {
     "id": "art-335",
-    "index": 410,
+    "index": 411,
     "article": "Article 335",
     "articleNumber": 335,
     "articleStr": "335",
@@ -10564,7 +10592,7 @@
   },
   {
     "id": "art-336",
-    "index": 411,
+    "index": 412,
     "article": "Article 336",
     "articleNumber": 336,
     "articleStr": "336",
@@ -10591,7 +10619,7 @@
   },
   {
     "id": "art-337",
-    "index": 412,
+    "index": 413,
     "article": "Article 337",
     "articleNumber": 337,
     "articleStr": "337",
@@ -10620,7 +10648,7 @@
   },
   {
     "id": "art-338",
-    "index": 413,
+    "index": 414,
     "article": "Article 338",
     "articleNumber": 338,
     "articleStr": "338",
@@ -10644,7 +10672,7 @@
   },
   {
     "id": "art-338A",
-    "index": 414,
+    "index": 415,
     "article": "Article 338A",
     "articleNumber": "338A",
     "articleStr": "338A",
@@ -10668,7 +10696,7 @@
   },
   {
     "id": "art-339",
-    "index": 415,
+    "index": 416,
     "article": "Article 339",
     "articleNumber": 339,
     "articleStr": "339",
@@ -10696,7 +10724,7 @@
   },
   {
     "id": "art-340",
-    "index": 416,
+    "index": 417,
     "article": "Article 340",
     "articleNumber": 340,
     "articleStr": "340",
@@ -10722,7 +10750,7 @@
   },
   {
     "id": "art-341",
-    "index": 417,
+    "index": 418,
     "article": "Article 341",
     "articleNumber": 341,
     "articleStr": "341",
@@ -10744,7 +10772,7 @@
   },
   {
     "id": "art-342",
-    "index": 418,
+    "index": 419,
     "article": "Article 342",
     "articleNumber": 342,
     "articleStr": "342",
@@ -10766,7 +10794,7 @@
   },
   {
     "id": "art-343",
-    "index": 419,
+    "index": 420,
     "article": "Article 343",
     "articleNumber": 343,
     "articleStr": "343",
@@ -10789,7 +10817,7 @@
   },
   {
     "id": "art-344",
-    "index": 420,
+    "index": 421,
     "article": "Article 344",
     "articleNumber": 344,
     "articleStr": "344",
@@ -10814,7 +10842,7 @@
   },
   {
     "id": "art-345",
-    "index": 421,
+    "index": 422,
     "article": "Article 345",
     "articleNumber": 345,
     "articleStr": "345",
@@ -10838,7 +10866,7 @@
   },
   {
     "id": "art-346",
-    "index": 422,
+    "index": 423,
     "article": "Article 346",
     "articleNumber": 346,
     "articleStr": "346",
@@ -10865,7 +10893,7 @@
   },
   {
     "id": "art-347",
-    "index": 423,
+    "index": 424,
     "article": "Article 347",
     "articleNumber": 347,
     "articleStr": "347",
@@ -10893,7 +10921,7 @@
   },
   {
     "id": "art-348",
-    "index": 424,
+    "index": 425,
     "article": "Article 348",
     "articleNumber": 348,
     "articleStr": "348",
@@ -10921,7 +10949,7 @@
   },
   {
     "id": "art-349",
-    "index": 425,
+    "index": 426,
     "article": "Article 349",
     "articleNumber": 349,
     "articleStr": "349",
@@ -10948,7 +10976,7 @@
   },
   {
     "id": "art-350",
-    "index": 426,
+    "index": 427,
     "article": "Article 350",
     "articleNumber": 350,
     "articleStr": "350",
@@ -10973,7 +11001,7 @@
   },
   {
     "id": "art-350A",
-    "index": 427,
+    "index": 428,
     "article": "Article 350A",
     "articleNumber": "350A",
     "articleStr": "350A",
@@ -10999,7 +11027,7 @@
   },
   {
     "id": "art-350B",
-    "index": 428,
+    "index": 429,
     "article": "Article 350B",
     "articleNumber": "350B",
     "articleStr": "350B",
@@ -11023,7 +11051,7 @@
   },
   {
     "id": "art-351",
-    "index": 429,
+    "index": 430,
     "article": "Article 351",
     "articleNumber": 351,
     "articleStr": "351",
@@ -11047,7 +11075,7 @@
   },
   {
     "id": "art-352",
-    "index": 430,
+    "index": 431,
     "article": "Article 352",
     "articleNumber": 352,
     "articleStr": "352",
@@ -11077,7 +11105,7 @@
   },
   {
     "id": "art-353",
-    "index": 431,
+    "index": 432,
     "article": "Article 353",
     "articleNumber": 353,
     "articleStr": "353",
@@ -11100,7 +11128,7 @@
   },
   {
     "id": "art-354",
-    "index": 432,
+    "index": 433,
     "article": "Article 354",
     "articleNumber": 354,
     "articleStr": "354",
@@ -11129,7 +11157,7 @@
   },
   {
     "id": "art-355",
-    "index": 433,
+    "index": 434,
     "article": "Article 355",
     "articleNumber": 355,
     "articleStr": "355",
@@ -11158,7 +11186,7 @@
   },
   {
     "id": "art-356",
-    "index": 434,
+    "index": 435,
     "article": "Article 356",
     "articleNumber": 356,
     "articleStr": "356",
@@ -11191,7 +11219,7 @@
   },
   {
     "id": "art-357",
-    "index": 435,
+    "index": 436,
     "article": "Article 357",
     "articleNumber": 357,
     "articleStr": "357",
@@ -11217,7 +11245,7 @@
   },
   {
     "id": "art-358",
-    "index": 436,
+    "index": 437,
     "article": "Article 358",
     "articleNumber": 358,
     "articleStr": "358",
@@ -11242,7 +11270,7 @@
   },
   {
     "id": "art-359",
-    "index": 437,
+    "index": 438,
     "article": "Article 359",
     "articleNumber": 359,
     "articleStr": "359",
@@ -11269,7 +11297,7 @@
   },
   {
     "id": "art-360",
-    "index": 438,
+    "index": 439,
     "article": "Article 360",
     "articleNumber": 360,
     "articleStr": "360",
@@ -11298,7 +11326,7 @@
   },
   {
     "id": "art-361",
-    "index": 439,
+    "index": 440,
     "article": "Article 361",
     "articleNumber": 361,
     "articleStr": "361",
@@ -11322,7 +11350,7 @@
   },
   {
     "id": "art-361A",
-    "index": 440,
+    "index": 441,
     "article": "Article 361A",
     "articleNumber": "361A",
     "articleStr": "361A",
@@ -11348,7 +11376,7 @@
   },
   {
     "id": "art-361B",
-    "index": 441,
+    "index": 442,
     "article": "Article 361B",
     "articleNumber": "361B",
     "articleStr": "361B",
@@ -11373,7 +11401,7 @@
   },
   {
     "id": "art-363",
-    "index": 442,
+    "index": 443,
     "article": "Article 363",
     "articleNumber": 363,
     "articleStr": "363",
@@ -11400,7 +11428,7 @@
   },
   {
     "id": "art-363A",
-    "index": 443,
+    "index": 444,
     "article": "Article 363A",
     "articleNumber": "363A",
     "articleStr": "363A",
@@ -11429,7 +11457,7 @@
   },
   {
     "id": "art-364",
-    "index": 444,
+    "index": 445,
     "article": "Article 364",
     "articleNumber": 364,
     "articleStr": "364",
@@ -11454,7 +11482,7 @@
   },
   {
     "id": "art-365",
-    "index": 445,
+    "index": 446,
     "article": "Article 365",
     "articleNumber": 365,
     "articleStr": "365",
@@ -11481,7 +11509,7 @@
   },
   {
     "id": "art-366",
-    "index": 446,
+    "index": 447,
     "article": "Article 366",
     "articleNumber": 366,
     "articleStr": "366",
@@ -11502,7 +11530,7 @@
   },
   {
     "id": "art-367",
-    "index": 447,
+    "index": 448,
     "article": "Article 367",
     "articleNumber": 367,
     "articleStr": "367",
@@ -11523,7 +11551,7 @@
   },
   {
     "id": "art-368",
-    "index": 448,
+    "index": 449,
     "article": "Article 368",
     "articleNumber": 368,
     "articleStr": "368",
@@ -11560,7 +11588,7 @@
   },
   {
     "id": "art-369",
-    "index": 449,
+    "index": 450,
     "article": "Article 369",
     "articleNumber": 369,
     "articleStr": "369",
@@ -11593,7 +11621,7 @@
   },
   {
     "id": "art-370",
-    "index": 450,
+    "index": 451,
     "article": "Article 370",
     "articleNumber": 370,
     "articleStr": "370",
@@ -11628,7 +11656,7 @@
   },
   {
     "id": "art-371",
-    "index": 451,
+    "index": 452,
     "article": "Article 371",
     "articleNumber": 371,
     "articleStr": "371",
@@ -11654,7 +11682,7 @@
   },
   {
     "id": "art-371A",
-    "index": 452,
+    "index": 453,
     "article": "Article 371A",
     "articleNumber": "371A",
     "articleStr": "371A",
@@ -11679,7 +11707,7 @@
   },
   {
     "id": "art-371B",
-    "index": 453,
+    "index": 454,
     "article": "Article 371B",
     "articleNumber": "371B",
     "articleStr": "371B",
@@ -11704,7 +11732,7 @@
   },
   {
     "id": "art-371C",
-    "index": 454,
+    "index": 455,
     "article": "Article 371C",
     "articleNumber": "371C",
     "articleStr": "371C",
@@ -11729,7 +11757,7 @@
   },
   {
     "id": "art-371D",
-    "index": 455,
+    "index": 456,
     "article": "Article 371D",
     "articleNumber": "371D",
     "articleStr": "371D",
@@ -11755,7 +11783,7 @@
   },
   {
     "id": "art-371E",
-    "index": 456,
+    "index": 457,
     "article": "Article 371E",
     "articleNumber": "371E",
     "articleStr": "371E",
@@ -11780,7 +11808,7 @@
   },
   {
     "id": "art-371F",
-    "index": 457,
+    "index": 458,
     "article": "Article 371F",
     "articleNumber": "371F",
     "articleStr": "371F",
@@ -11805,7 +11833,7 @@
   },
   {
     "id": "art-371G",
-    "index": 458,
+    "index": 459,
     "article": "Article 371G",
     "articleNumber": "371G",
     "articleStr": "371G",
@@ -11830,7 +11858,7 @@
   },
   {
     "id": "art-371H",
-    "index": 459,
+    "index": 460,
     "article": "Article 371H",
     "articleNumber": "371H",
     "articleStr": "371H",
@@ -11856,7 +11884,7 @@
   },
   {
     "id": "art-371I",
-    "index": 460,
+    "index": 461,
     "article": "Article 371I",
     "articleNumber": "371I",
     "articleStr": "371I",
@@ -11880,7 +11908,7 @@
   },
   {
     "id": "art-372",
-    "index": 461,
+    "index": 462,
     "article": "Article 372",
     "articleNumber": 372,
     "articleStr": "372",
@@ -11906,7 +11934,7 @@
   },
   {
     "id": "art-372A",
-    "index": 462,
+    "index": 463,
     "article": "Article 372A",
     "articleNumber": "372A",
     "articleStr": "372A",
@@ -11930,7 +11958,7 @@
   },
   {
     "id": "art-373",
-    "index": 463,
+    "index": 464,
     "article": "Article 373",
     "articleNumber": 373,
     "articleStr": "373",
@@ -11960,7 +11988,7 @@
   },
   {
     "id": "art-374",
-    "index": 464,
+    "index": 465,
     "article": "Article 374",
     "articleNumber": 374,
     "articleStr": "374",
@@ -11989,7 +12017,7 @@
   },
   {
     "id": "art-375",
-    "index": 465,
+    "index": 466,
     "article": "Article 375",
     "articleNumber": 375,
     "articleStr": "375",
@@ -12017,7 +12045,7 @@
   },
   {
     "id": "art-376",
-    "index": 466,
+    "index": 467,
     "article": "Article 376",
     "articleNumber": 376,
     "articleStr": "376",
@@ -12041,7 +12069,7 @@
   },
   {
     "id": "art-377",
-    "index": 467,
+    "index": 468,
     "article": "Article 377",
     "articleNumber": 377,
     "articleStr": "377",
@@ -12066,7 +12094,7 @@
   },
   {
     "id": "art-378",
-    "index": 468,
+    "index": 469,
     "article": "Article 378",
     "articleNumber": 378,
     "articleStr": "378",
@@ -12090,7 +12118,7 @@
   },
   {
     "id": "art-378A",
-    "index": 469,
+    "index": 470,
     "article": "Article 378A",
     "articleNumber": "378A",
     "articleStr": "378A",
@@ -12117,7 +12145,7 @@
   },
   {
     "id": "art-392",
-    "index": 470,
+    "index": 471,
     "article": "Article 392",
     "articleNumber": 392,
     "articleStr": "392",
@@ -12141,7 +12169,7 @@
   },
   {
     "id": "art-393",
-    "index": 471,
+    "index": 472,
     "article": "Article 393",
     "articleNumber": 393,
     "articleStr": "393",
@@ -12163,7 +12191,7 @@
   },
   {
     "id": "art-394",
-    "index": 472,
+    "index": 473,
     "article": "Article 394",
     "articleNumber": 394,
     "articleStr": "394",
@@ -12184,7 +12212,7 @@
   },
   {
     "id": "art-394A",
-    "index": 473,
+    "index": 474,
     "article": "Article 394A",
     "articleNumber": "394A",
     "articleStr": "394A",
@@ -12208,7 +12236,7 @@
   },
   {
     "id": "art-395",
-    "index": 474,
+    "index": 475,
     "article": "Article 395",
     "articleNumber": 395,
     "articleStr": "395",
