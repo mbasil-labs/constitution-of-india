@@ -1,0 +1,42 @@
+{
+  "name": "Constitution of India • Samvidhan",
+  "short_name": "Constitution",
+  "description": "Offline Progressive Web App of the Constitution of India with interactive card swiping, smart search, and speech reader.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080e18",
+  "theme_color": "#0d1b2a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/emblem.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "books", "reference", "government"],
+  "shortcuts": [
+    {
+      "name": "Preamble",
+      "url": "/?view=preamble",
+      "description": "Read the Preamble of India"
+    },
+    {
+      "name": "Fundamental Rights",
+      "url": "/?filter=Part%20III",
+      "description": "Explore Fundamental Rights"
+    },
+    {
+      "name": "Bookmarks",
+      "url": "/?filter=favorites",
+      "description": "View your saved articles"
+    }
+  ]
+}
