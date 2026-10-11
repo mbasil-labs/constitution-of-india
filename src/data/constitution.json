@@ -7,9 +7,9 @@
     "articleStr": "0",
     "title": "Preamble",
     "partId": "Preamble",
-    "partName": "Preamble of the Constitution",
-    "category": "Foundational Philosophy & Objectives",
-    "description": "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship;\nEQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation; IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION",
+    "partName": "Preamble",
+    "category": "Preamble",
+    "description": "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens:\nJUSTICE, social, economic and political;\nLIBERTY of thought, expression, belief, faith and worship;\nEQUALITY of status and of opportunity;\nand to promote among them all\nFRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation;\nIN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.",
     "summary": "The moral and philosophical foundation of the Constitution. It declares India a Sovereign, Socialist, Secular, Democratic Republic, securing Justice, Liberty, Equality, and Fraternity for all citizens.",
     "cases": [
       "Kesavananda Bharati v. State of Kerala (1973) - Preamble is an integral part of the Constitution and can be amended without violating the Basic Structure.",
@@ -41,7 +41,7 @@
     "partId": "Part I",
     "partName": "Part I: The Union & Its Territory",
     "category": "Union & Territory",
-    "description": "(1) India, that is Bharat, shall be a Union of States.\n\n \n\n(2) The States and the territories thereof shall be as specified in the First Schedule.\n\n \n\n(3) The territory of India shall comprise —\n\n(a) the territories of the States;\n\n(b) the Union territories specified in the First Schedule; and\n\n(c) such other territories as may be acquired.",
+    "description": "(1) India, that is Bharat,\n\nshall be a Union of States.\n\n(2) The States and the territories thereof shall be as specified in\n\nthe First Schedule.\n\n(3) The territory of India shall comprise—\n\n(a) the territories of the States;\n\n(b) the Union territories specified in the First Schedule;\n\nand\n\n(c) such other territories as may be acquired",
     "summary": "Declares 'India, that is Bharat, shall be a Union of States', defining the sovereign territory comprising States, Union Territories, and acquired lands.",
     "cases": [
       "State of West Bengal v. Union of India (1963) - Established the indestructible nature of the Indian Union."
@@ -69,7 +69,7 @@
     "partId": "Part I",
     "partName": "Part I: The Union & Its Territory",
     "category": "Union & Territory",
-    "description": "Parliament may by law admit into the Union, or establish, new States on such terms and conditions as it thinks fit.",
+    "description": "Parliament may\n\nby law admit into the Union, or establish, new States on such terms and\n\nconditions as it thinks fit",
     "summary": "Article 2 provides constitutional rules and provisions regarding admission or establishment of new states, under Part I: The Union & Its Territory.",
     "cases": [],
     "importance": "standard",
@@ -83,8 +83,37 @@
     "isFundamental": false
   },
   {
-    "id": "art-3",
+    "id": "art-2A",
     "index": 3,
+    "article": "Article 2A",
+    "articleNumber": "2A",
+    "articleStr": "2A",
+    "title": "Sikkim to be associated with the Union",
+    "partId": "Part I",
+    "partName": "Part I: The Union & Its Territory",
+    "category": "Union & Territory",
+    "description": "[Sikkim to be associated with the Union.]—Omitted by the Constitution (Thirty-sixth Amendment) Act, 1975, s. 5 (w.e.f. 26-4-1975).",
+    "summary": "Sikkim to be associated with the Union. Inserted by the 35th Constitutional Amendment (1974); omitted by the 36th Constitutional Amendment (1975) when Sikkim became a full State of India.",
+    "cases": [
+      "R.C. Poudyal v. Union of India (1993) - Upheld terms of Sikkim admission into the Indian Union."
+    ],
+    "importance": "high",
+    "tags": [
+      "part i",
+      "union & territory",
+      "sikkim",
+      "omitted",
+      "associate state",
+      "union of states",
+      "36th amendment",
+      "associated",
+      "union"
+    ],
+    "isFundamental": false
+  },
+  {
+    "id": "art-3",
+    "index": 4,
     "article": "Article 3",
     "articleNumber": 3,
     "articleStr": "3",
@@ -92,7 +121,7 @@
     "partId": "Part I",
     "partName": "Part I: The Union & Its Territory",
     "category": "Union & Territory",
-    "description": "Parliament may by law—\n\n(a) form a new State by separation of territory from any State or by uniting two or more States or parts of States or by uniting any territory to a part of any State;\n\n(b) increase the area of any State;\n\n(c) diminish the area of any State;\n\n(d) alter the boundaries of any State;\n\n(e) alter the name of any State:\n\n \n\nProvided that no Bill for the purpose shall be introduced in either House of Parliament except on the recommendation of the President and unless, where the proposal contained in the Bill affects the area, boundaries or name of any of the States, the Bill has been referred by the President to the Legislature of that State for expressing its views thereon within such period as may be specified in the reference or within such further period as the President may allow and the period so specified or allowed has expired.\n\n \n\nExplanation I.—In this article, in clauses (a) to (e), \"State'' includes a Union territory, but in the proviso, \"State'' does not include a Union territory.\n\n \n\nExplanation II.—The power conferred on Parliament by clause (a) includes the power to form a new State or Union territory by uniting a part of any State or Union territory to any other State or Union territory.",
+    "description": "Parliament may by law—\n\n(a) form a new State by separation of territory from any\n\nState or by uniting two or more States or parts of States or by\n\nuniting any territory to a part of any State;\n\n(b) increase the area of any State;\n\n(c) diminish the area of any State;\n\n(d) alter the boundaries of any State;\n\n(e) alter the name of any State:\n\nProvided that no Bill for the purpose shall be introduced in\n\neither House of Parliament except on the recommendation of the\n\nPresident and unless, where the proposal contained in the Bill affects\n\nthe area, boundaries or name of any of the States, the Bill has\n\nbeen referred by the President to the Legislature of that State for\n\nexpressing its views thereon within such period as may be specified in\n\nthe reference or within such further period as the President may allow\n\nand the period so specified or allowed has expired.\n\nExplanation I.—In this article, in clauses (a) to (e), “State”\n\nincludes a Union territory, but in the proviso, “State” does not include a\n\nUnion territory.\n\nExplanation II.—The power conferred on Parliament by\n\nclause (a) includes the power to form a new State or Union territory by\n\nuniting a part of any State or Union territory to any other State or\n\nUnion territory.",
     "summary": "Article 3 provides constitutional rules and provisions regarding formation of new states and alteration of areas, boundaries or names of existing states, under Part I: The Union & Its Territory.",
     "cases": [],
     "importance": "standard",
@@ -111,7 +140,7 @@
   },
   {
     "id": "art-4",
-    "index": 4,
+    "index": 5,
     "article": "Article 4",
     "articleNumber": 4,
     "articleStr": "4",
@@ -119,7 +148,7 @@
     "partId": "Part I",
     "partName": "Part I: The Union & Its Territory",
     "category": "Union & Territory",
-    "description": "(1) Any law referred to in article 2 or article 3 shall contain such provisions for the amendment of the First Schedule and the Fourth Schedule as may be necessary to give effect to the provisions of the law and may also contain such supplemental, incidental and consequential provisions (including provisions as to representation in Parliament and in the Legislature or Legislatures of the State or States affected by such law) as Parliament may deem necessary.\n\n \n\n(2) No such law as aforesaid shall be deemed to be an amendment of this Constitution for the purposes of article 368.",
+    "description": "(1) Any law\n\nreferred to in article 2 or article 3 shall contain such provisions for the\n\namendment of the First Schedule and the Fourth Schedule as may be\n\nnecessary to give effect to the provisions of the law and may also\n\ncontain such supplemental, incidental and consequential provisions\n\n(including provisions as to representation in Parliament and in the\n\nLegislature or Legislatures of the State or States affected by such law)\n\nas Parliament may deem necessary.\n\n(2) No such law as aforesaid shall be deemed to be an\n\namendment of this Constitution for the purposes of article 368.",
     "summary": "Article 4 provides constitutional rules and provisions regarding laws made under articles 2 and 3 to provide for the amendment of the first and the fourth schedules and supplemental, incidental and consequential matters, under Part I: The Union & Its Territory.",
     "cases": [],
     "importance": "standard",
@@ -143,7 +172,7 @@
   },
   {
     "id": "art-5",
-    "index": 5,
+    "index": 6,
     "article": "Article 5",
     "articleNumber": 5,
     "articleStr": "5",
@@ -151,7 +180,7 @@
     "partId": "Part II",
     "partName": "Part II: Citizenship",
     "category": "Citizenship",
-    "description": "At the commencement of this Constitution, every person who has his domicile in the territory of India and —\n\n       \n\n        (a) who was born in the territory of India; or\n\n        (b) either of whose parents was born in the territory of India; or\n\n        (c) who has been ordinarily resident in the territory of India for not less than five years immediately preceding such commencement,\n\n \n\nshall be a citizen of India.",
+    "description": "At the\n\ncommencement of this Constitution, every person who has his domicile in the\n\nterritory of India and—\n\n(a) who was born in the territory of India; or\n\n(b) either of whose parents was born in the territory of India; or\n\n(c) who has been ordinarily resident in the territory of India for\n\nnot less than five years immediately preceding such commencement,\n\nshall be a citizen of India",
     "summary": "Article 5 provides constitutional rules and provisions regarding citizenship at the commencement of the constitution, under Part II: Citizenship.",
     "cases": [],
     "importance": "standard",
@@ -165,7 +194,7 @@
   },
   {
     "id": "art-6",
-    "index": 6,
+    "index": 7,
     "article": "Article 6",
     "articleNumber": 6,
     "articleStr": "6",
@@ -173,7 +202,7 @@
     "partId": "Part II",
     "partName": "Part II: Citizenship",
     "category": "Citizenship",
-    "description": "Notwithstanding anything in article 5, a person who has migrated to the territory of India from the territory now included in Pakistan shall be deemed to be a citizen of India at the commencement of this Constitution if —\n\n \n\n      (a) he or either of his parents or any of his grandparents was born in India as defined in the Government of India Act, 1935 (as originally enacted); and\n\n   \n\n      (b)  (i) in the case where such person has so migrated before the nineteenth day of July, 1948, he has been ordinarily resident in the territory of India since the date of his migration, or\n\n         \n\n            (ii) in the case where such person has so migrated on or after the nineteenth day of July, 1948, he has been registered as a citizen of India by an officer appointed in that behalf by the Government      of the Dominion of India on an application made by him therefor to such officer before the commencement of this Constitution in the form and manner prescribed by that Government:\n\n \n\nProvided that no person shall be so registered unless he has been resident in the territory of India for at least six months immediately preceding the date of his application.",
+    "description": "Notwithstanding anything in article 5, a person who\n\nhas migrated to the territory of India from the territory now included in\n\nPakistan shall be deemed to be a citizen of India at the commencement of this\n\nConstitution if—\n\n(a) he or either of his parents or any of his grand-parents was born\n\nin India as defined in the Government of India Act, 1935 (as originally\n\nenacted); and\n\n(b)(i) in the case where such person has so migrated before the\n\nnineteenth day of July, 1948, he has been ordinarily resident in the\n\nterritory of India since the date of his migration, or\n\n(ii) in the case where such person has so migrated on or after the\n\nnineteenth day of July, 1948, he has been registered as a citizen of India\n\nby an officer appointed in that behalf by the Government of the\n\nDominion of India on an application made by him therefor to such\n\nofficer before the commencement of this Constitution in the form and\n\nmanner prescribed by that Government:\n\nProvided that no person shall be so registered unless he has been resident\n\nin the territory of India for at least six months immediately preceding the date\n\nof his application",
     "summary": "Article 6 provides constitutional rules and provisions regarding rights of citizenship of certain persons who have migrated to india from pakistan, under Part II: Citizenship.",
     "cases": [],
     "importance": "standard",
@@ -191,7 +220,7 @@
   },
   {
     "id": "art-7",
-    "index": 7,
+    "index": 8,
     "article": "Article 7",
     "articleNumber": 7,
     "articleStr": "7",
@@ -199,7 +228,7 @@
     "partId": "Part II",
     "partName": "Part II: Citizenship",
     "category": "Citizenship",
-    "description": "Notwithstanding anything in articles 5 and 6, a person who has after the first day of March, 1947, migrated from the territory of India to the territory now included in Pakistan shall not be deemed to be a citizen of India:\n\n \n\nProvided that nothing in this article shall apply to a person who, after having so migrated to the territory now included in Pakistan, has returned to the territory of India under a permit for resettlement or permanent return issued by or under the authority of any law and every such person shall for the purposes of clause (b) of article 6 be deemed to have migrated to the territory of India after the nineteenth day of July, 1948.",
+    "description": "Notwithstanding anything in articles 5 and 6, a person who has after the first\n\nday of March, 1947, migrated from the territory of India to the territory now\n\nincluded in Pakistan shall not be deemed to be a citizen of India:\n\nProvided that nothing in this article shall apply to a person who, after\n\nhaving so migrated to the territory now included in Pakistan, has returned to the\n\nterritory of India under a permit for resettlement or permanent return issued by\n\nor under the authority of any law and every such person shall for the purposes\n\nof clause (b) of article 6 be deemed to have migrated to the territory of India\n\nafter the nineteenth day of July, 1948",
     "summary": "Article 7 provides constitutional rules and provisions regarding rights of citizenship of certain migrants to pakistan, under Part II: Citizenship.",
     "cases": [],
     "importance": "standard",
@@ -215,7 +244,7 @@
   },
   {
     "id": "art-8",
-    "index": 8,
+    "index": 9,
     "article": "Article 8",
     "articleNumber": 8,
     "articleStr": "8",
@@ -223,7 +252,7 @@
     "partId": "Part II",
     "partName": "Part II: Citizenship",
     "category": "Citizenship",
-    "description": "Notwithstanding anything in article 5, any person who or either of whose parents or any of whose grandparents was born in India as defined in the Government of India Act, 1935 (as originally enacted), and who is ordinarily residing in any country outside India as so defined shall be deemed to be a citizen of India if he has been registered as a citizen of India by the diplomatic or consular representative of India in the country where he is for the time being residing on an application made by him therefor to such diplomatic or consular representative, whether before or after the commencement of this Constitution, in the form and manner prescribed by the Government of the Dominion of India or the Government of India",
+    "description": "Notwithstanding anything in article 5, any person who or\n\neither of whose parents or any of whose grand-parents was born in India as\n\ndefined in the Government of India Act, 1935 (as originally enacted), and who\n\nis ordinarily residing in any country outside India as so defined shall be deemed\n\nto be a citizen of India if he has been registered as a citizen of India by the\n\ndiplomatic or consular representative of India in the country where he is for the\n\ntime being residing on an application made by him therefor to such diplomatic\n\nor consular representative, whether before or after the commencement of this\n\nConstitution, in the form and manner prescribed by the Government of the\n\nDominion of India or the Government of India",
     "summary": "Article 8 provides constitutional rules and provisions regarding rights of citizenship of certain persons of indian origin residing outside india, under Part II: Citizenship.",
     "cases": [],
     "importance": "standard",
@@ -243,7 +272,7 @@
   },
   {
     "id": "art-9",
-    "index": 9,
+    "index": 10,
     "article": "Article 9",
     "articleNumber": 9,
     "articleStr": "9",
@@ -251,7 +280,7 @@
     "partId": "Part II",
     "partName": "Part II: Citizenship",
     "category": "Citizenship",
-    "description": "No person shall be a citizen of India by virtue of article 5, or be deemed to be a citizen of India by virtue of article 6 or article 8, if he has voluntarily acquired the citizenship of any foreign State.",
+    "description": "No person shall be a citizen of India by virtue of article 5, or be\n\ndeemed to be a citizen of India by virtue of article 6 or article 8, if he has\n\nvoluntarily acquired the citizenship of any foreign State",
     "summary": "Article 9 provides constitutional rules and provisions regarding persons voluntarily acquiring citizenship of a foreign state not to be citizens, under Part II: Citizenship.",
     "cases": [],
     "importance": "standard",
@@ -269,7 +298,7 @@
   },
   {
     "id": "art-10",
-    "index": 10,
+    "index": 11,
     "article": "Article 10",
     "articleNumber": 10,
     "articleStr": "10",
@@ -277,7 +306,7 @@
     "partId": "Part II",
     "partName": "Part II: Citizenship",
     "category": "Citizenship",
-    "description": "Every person who is or is deemed to be a citizen of India under any of the foregoing provisions of this Part shall, subject to the provisions of any law that may be made by Parliament, continue to be such citizen.",
+    "description": "Every person who is or\n\nis deemed to be a citizen of India under any of the foregoing provisions of this\n\nPart shall, subject to the provisions of any law that may be made by Parliament,\n\ncontinue to be such citizen",
     "summary": "Article 10 provides constitutional rules and provisions regarding continuance of the rights of citizenship, under Part II: Citizenship.",
     "cases": [],
     "importance": "standard",
@@ -291,7 +320,7 @@
   },
   {
     "id": "art-11",
-    "index": 11,
+    "index": 12,
     "article": "Article 11",
     "articleNumber": 11,
     "articleStr": "11",
@@ -299,7 +328,7 @@
     "partId": "Part II",
     "partName": "Part II: Citizenship",
     "category": "Citizenship",
-    "description": "Nothing in the foregoing provisions of this Part shall derogate from the power of Parliament to make any provision with respect to the acquisition and termination of citizenship and all other matters relating to citizenship",
+    "description": "Nothing\n\nin the foregoing provisions of this Part shall derogate from the power of\n\nParliament to make any provision with respect to the acquisition and\n\ntermination of citizenship and all other matters relating to citizenship.",
     "summary": "Article 11 provides constitutional rules and provisions regarding parliament to regulate the right of citizenship by law, under Part II: Citizenship.",
     "cases": [],
     "importance": "standard",
@@ -314,7 +343,7 @@
   },
   {
     "id": "art-12",
-    "index": 12,
+    "index": 13,
     "article": "Article 12",
     "articleNumber": 12,
     "articleStr": "12",
@@ -343,7 +372,7 @@
   },
   {
     "id": "art-13",
-    "index": 13,
+    "index": 14,
     "article": "Article 13",
     "articleNumber": 13,
     "articleStr": "13",
@@ -376,7 +405,7 @@
   },
   {
     "id": "art-14",
-    "index": 14,
+    "index": 15,
     "article": "Article 14",
     "articleNumber": 14,
     "articleStr": "14",
@@ -407,7 +436,7 @@
   },
   {
     "id": "art-15",
-    "index": 15,
+    "index": 16,
     "article": "Article 15",
     "articleNumber": 15,
     "articleStr": "15",
@@ -445,7 +474,7 @@
   },
   {
     "id": "art-16",
-    "index": 16,
+    "index": 17,
     "article": "Article 16",
     "articleNumber": 16,
     "articleStr": "16",
@@ -480,7 +509,7 @@
   },
   {
     "id": "art-17",
-    "index": 17,
+    "index": 18,
     "article": "Article 17",
     "articleNumber": 17,
     "articleStr": "17",
@@ -509,7 +538,7 @@
   },
   {
     "id": "art-18",
-    "index": 18,
+    "index": 19,
     "article": "Article 18",
     "articleNumber": 18,
     "articleStr": "18",
@@ -532,7 +561,7 @@
   },
   {
     "id": "art-19",
-    "index": 19,
+    "index": 20,
     "article": "Article 19",
     "articleNumber": 19,
     "articleStr": "19",
@@ -570,7 +599,7 @@
   },
   {
     "id": "art-20",
-    "index": 20,
+    "index": 21,
     "article": "Article 20",
     "articleNumber": 20,
     "articleStr": "20",
@@ -595,7 +624,7 @@
   },
   {
     "id": "art-21",
-    "index": 21,
+    "index": 22,
     "article": "Article 21",
     "articleNumber": 21,
     "articleStr": "21",
@@ -631,7 +660,7 @@
   },
   {
     "id": "art-21A",
-    "index": 22,
+    "index": 23,
     "article": "Article 21A",
     "articleNumber": "21A",
     "articleStr": "21A",
@@ -662,7 +691,7 @@
   },
   {
     "id": "art-22",
-    "index": 23,
+    "index": 24,
     "article": "Article 22",
     "articleNumber": 22,
     "articleStr": "22",
@@ -689,7 +718,7 @@
   },
   {
     "id": "art-23",
-    "index": 24,
+    "index": 25,
     "article": "Article 23",
     "articleNumber": 23,
     "articleStr": "23",
@@ -716,7 +745,7 @@
   },
   {
     "id": "art-24",
-    "index": 25,
+    "index": 26,
     "article": "Article 24",
     "articleNumber": 24,
     "articleStr": "24",
@@ -741,7 +770,7 @@
   },
   {
     "id": "art-25",
-    "index": 26,
+    "index": 27,
     "article": "Article 25",
     "articleNumber": 25,
     "articleStr": "25",
@@ -777,7 +806,7 @@
   },
   {
     "id": "art-26",
-    "index": 27,
+    "index": 28,
     "article": "Article 26",
     "articleNumber": 26,
     "articleStr": "26",
@@ -802,7 +831,7 @@
   },
   {
     "id": "art-27",
-    "index": 28,
+    "index": 29,
     "article": "Article 27",
     "articleNumber": 27,
     "articleStr": "27",
@@ -829,7 +858,7 @@
   },
   {
     "id": "art-28",
-    "index": 29,
+    "index": 30,
     "article": "Article 28",
     "articleNumber": 28,
     "articleStr": "28",
@@ -858,7 +887,7 @@
   },
   {
     "id": "art-29",
-    "index": 30,
+    "index": 31,
     "article": "Article 29",
     "articleNumber": 29,
     "articleStr": "29",
@@ -882,7 +911,7 @@
   },
   {
     "id": "art-30",
-    "index": 31,
+    "index": 32,
     "article": "Article 30",
     "articleNumber": 30,
     "articleStr": "30",
@@ -909,7 +938,7 @@
   },
   {
     "id": "art-31",
-    "index": 32,
+    "index": 33,
     "article": "Article 31",
     "articleNumber": 31,
     "articleStr": "31",
@@ -918,22 +947,27 @@
     "partName": "Part III: Fundamental Rights",
     "category": "Cultural & Educational Rights",
     "description": "[Compulsory acquisition of property.] Rep. by the Constitution (Forty-fourth Amendment) Act, 1978, s. 6 (w.e.f. 20-6-1979).",
-    "summary": "Article 31 provides constitutional rules and provisions regarding compulsory acquisition of property, under Part III: Fundamental Rights.",
-    "cases": [],
+    "summary": "Compulsory acquisition of property. Omitted by the 44th Constitutional Amendment Act, 1978, and re-enacted as a constitutional right under Article 300A.",
+    "cases": [
+      "Bela Banerjee Case (1954)",
+      "Bank Nationalization Case (R.C. Cooper, 1970)"
+    ],
     "importance": "high",
     "tags": [
       "part iii",
       "cultural & educational rights",
       "fundamental",
-      "compulsory",
+      "omitted",
+      "property",
+      "44th amendment",
       "acquisition",
-      "property"
+      "compulsory"
     ],
     "isFundamental": true
   },
   {
     "id": "art-31A",
-    "index": 33,
+    "index": 34,
     "article": "Article 31A",
     "articleNumber": "31A",
     "articleStr": "31A",
@@ -959,7 +993,7 @@
   },
   {
     "id": "art-31B",
-    "index": 34,
+    "index": 35,
     "article": "Article 31B",
     "articleNumber": "31B",
     "articleStr": "31B",
@@ -984,7 +1018,7 @@
   },
   {
     "id": "art-31C",
-    "index": 35,
+    "index": 36,
     "article": "Article 31C",
     "articleNumber": "31C",
     "articleStr": "31C",
@@ -1012,7 +1046,7 @@
   },
   {
     "id": "art-31D",
-    "index": 36,
+    "index": 37,
     "article": "Article 31D",
     "articleNumber": "31D",
     "articleStr": "31D",
@@ -1039,7 +1073,7 @@
   },
   {
     "id": "art-32",
-    "index": 37,
+    "index": 38,
     "article": "Article 32",
     "articleNumber": 32,
     "articleStr": "32",
@@ -1074,7 +1108,7 @@
   },
   {
     "id": "art-32A",
-    "index": 38,
+    "index": 39,
     "article": "Article 32A",
     "articleNumber": "32A",
     "articleStr": "32A",
@@ -1102,7 +1136,7 @@
   },
   {
     "id": "art-33",
-    "index": 39,
+    "index": 40,
     "article": "Article 33",
     "articleNumber": 33,
     "articleStr": "33",
@@ -1132,7 +1166,7 @@
   },
   {
     "id": "art-34",
-    "index": 40,
+    "index": 41,
     "article": "Article 34",
     "articleNumber": 34,
     "articleStr": "34",
@@ -1161,7 +1195,7 @@
   },
   {
     "id": "art-35",
-    "index": 41,
+    "index": 42,
     "article": "Article 35",
     "articleNumber": 35,
     "articleStr": "35",
@@ -1187,7 +1221,7 @@
   },
   {
     "id": "art-36",
-    "index": 42,
+    "index": 43,
     "article": "Article 36",
     "articleNumber": 36,
     "articleStr": "36",
@@ -1208,7 +1242,7 @@
   },
   {
     "id": "art-37",
-    "index": 43,
+    "index": 44,
     "article": "Article 37",
     "articleNumber": 37,
     "articleStr": "37",
@@ -1232,7 +1266,7 @@
   },
   {
     "id": "art-38",
-    "index": 44,
+    "index": 45,
     "article": "Article 38",
     "articleNumber": 38,
     "articleStr": "38",
@@ -1259,7 +1293,7 @@
   },
   {
     "id": "art-39",
-    "index": 45,
+    "index": 46,
     "article": "Article 39",
     "articleNumber": 39,
     "articleStr": "39",
@@ -1291,7 +1325,7 @@
   },
   {
     "id": "art-39A",
-    "index": 46,
+    "index": 47,
     "article": "Article 39A",
     "articleNumber": "39A",
     "articleStr": "39A",
@@ -1322,7 +1356,7 @@
   },
   {
     "id": "art-40",
-    "index": 47,
+    "index": 48,
     "article": "Article 40",
     "articleNumber": 40,
     "articleStr": "40",
@@ -1351,7 +1385,7 @@
   },
   {
     "id": "art-41",
-    "index": 48,
+    "index": 49,
     "article": "Article 41",
     "articleNumber": 41,
     "articleStr": "41",
@@ -1378,7 +1412,7 @@
   },
   {
     "id": "art-42",
-    "index": 49,
+    "index": 50,
     "article": "Article 42",
     "articleNumber": 42,
     "articleStr": "42",
@@ -1405,7 +1439,7 @@
   },
   {
     "id": "art-43",
-    "index": 50,
+    "index": 51,
     "article": "Article 43",
     "articleNumber": 43,
     "articleStr": "43",
@@ -1428,7 +1462,7 @@
   },
   {
     "id": "art-43A",
-    "index": 51,
+    "index": 52,
     "article": "Article 43A",
     "articleNumber": "43A",
     "articleStr": "43A",
@@ -1452,7 +1486,7 @@
   },
   {
     "id": "art-44",
-    "index": 52,
+    "index": 53,
     "article": "Article 44",
     "articleNumber": 44,
     "articleStr": "44",
@@ -1485,7 +1519,7 @@
   },
   {
     "id": "art-45",
-    "index": 53,
+    "index": 54,
     "article": "Article 45",
     "articleNumber": 45,
     "articleStr": "45",
@@ -1494,23 +1528,29 @@
     "partName": "Part IV: Directive Principles of State Policy",
     "category": "Directive Principles",
     "description": "The State shall endeavour to provide, within a period of ten years from the commencement of this Constitution, for free and compulsory education for all children until they complete the age of fourteen years.",
-    "summary": "Article 45 provides constitutional rules and provisions regarding provision for free and compulsory education for children, under Part IV: Directive Principles of State Policy.",
-    "cases": [],
-    "importance": "standard",
+    "summary": "Provision for early childhood care and education to children below the age of six years. Substituted by the historic 86th Constitutional Amendment Act, 2002.",
+    "cases": [
+      "Unni Krishnan v. State of AP (1993)",
+      "Right of Children to Free and Compulsory Education Act, 2009."
+    ],
+    "importance": "high",
     "tags": [
       "part iv",
       "directive principles",
+      "early childhood care",
+      "children",
+      "pre-school",
+      "86th amendment",
       "provision",
       "free",
       "compulsory",
-      "education",
-      "children"
+      "education"
     ],
     "isFundamental": false
   },
   {
     "id": "art-46",
-    "index": 54,
+    "index": 55,
     "article": "Article 46",
     "articleNumber": 46,
     "articleStr": "46",
@@ -1539,7 +1579,7 @@
   },
   {
     "id": "art-47",
-    "index": 55,
+    "index": 56,
     "article": "Article 47",
     "articleNumber": 47,
     "articleStr": "47",
@@ -1569,7 +1609,7 @@
   },
   {
     "id": "art-48",
-    "index": 56,
+    "index": 57,
     "article": "Article 48",
     "articleNumber": 48,
     "articleStr": "48",
@@ -1593,7 +1633,7 @@
   },
   {
     "id": "art-48A",
-    "index": 57,
+    "index": 58,
     "article": "Article 48A",
     "articleNumber": "48A",
     "articleStr": "48A",
@@ -1626,7 +1666,7 @@
   },
   {
     "id": "art-49",
-    "index": 58,
+    "index": 59,
     "article": "Article 49",
     "articleNumber": 49,
     "articleStr": "49",
@@ -1652,7 +1692,7 @@
   },
   {
     "id": "art-50",
-    "index": 59,
+    "index": 60,
     "article": "Article 50",
     "articleNumber": 50,
     "articleStr": "50",
@@ -1675,7 +1715,7 @@
   },
   {
     "id": "art-51",
-    "index": 60,
+    "index": 61,
     "article": "Article 51",
     "articleNumber": 51,
     "articleStr": "51",
@@ -1699,7 +1739,7 @@
   },
   {
     "id": "art-51A",
-    "index": 61,
+    "index": 62,
     "article": "Article 51A",
     "articleNumber": "51A",
     "articleStr": "51A",
@@ -1728,7 +1768,7 @@
   },
   {
     "id": "art-52",
-    "index": 62,
+    "index": 63,
     "article": "Article 52",
     "articleNumber": 52,
     "articleStr": "52",
@@ -1756,7 +1796,7 @@
   },
   {
     "id": "art-53",
-    "index": 63,
+    "index": 64,
     "article": "Article 53",
     "articleNumber": 53,
     "articleStr": "53",
@@ -1779,7 +1819,7 @@
   },
   {
     "id": "art-54",
-    "index": 64,
+    "index": 65,
     "article": "Article 54",
     "articleNumber": 54,
     "articleStr": "54",
@@ -1801,7 +1841,7 @@
   },
   {
     "id": "art-55",
-    "index": 65,
+    "index": 66,
     "article": "Article 55",
     "articleNumber": 55,
     "articleStr": "55",
@@ -1824,7 +1864,7 @@
   },
   {
     "id": "art-56",
-    "index": 66,
+    "index": 67,
     "article": "Article 56",
     "articleNumber": 56,
     "articleStr": "56",
@@ -1847,7 +1887,7 @@
   },
   {
     "id": "art-57",
-    "index": 67,
+    "index": 68,
     "article": "Article 57",
     "articleNumber": 57,
     "articleStr": "57",
@@ -1869,7 +1909,7 @@
   },
   {
     "id": "art-58",
-    "index": 68,
+    "index": 69,
     "article": "Article 58",
     "articleNumber": 58,
     "articleStr": "58",
@@ -1892,7 +1932,7 @@
   },
   {
     "id": "art-59",
-    "index": 69,
+    "index": 70,
     "article": "Article 59",
     "articleNumber": 59,
     "articleStr": "59",
@@ -1915,7 +1955,7 @@
   },
   {
     "id": "art-60",
-    "index": 70,
+    "index": 71,
     "article": "Article 60",
     "articleNumber": 60,
     "articleStr": "60",
@@ -1938,7 +1978,7 @@
   },
   {
     "id": "art-61",
-    "index": 71,
+    "index": 72,
     "article": "Article 61",
     "articleNumber": 61,
     "articleStr": "61",
@@ -1965,7 +2005,7 @@
   },
   {
     "id": "art-62",
-    "index": 72,
+    "index": 73,
     "article": "Article 62",
     "articleNumber": 62,
     "articleStr": "62",
@@ -1996,7 +2036,7 @@
   },
   {
     "id": "art-63",
-    "index": 73,
+    "index": 74,
     "article": "Article 63",
     "articleNumber": 63,
     "articleStr": "63",
@@ -2019,7 +2059,7 @@
   },
   {
     "id": "art-64",
-    "index": 74,
+    "index": 75,
     "article": "Article 64",
     "articleNumber": 64,
     "articleStr": "64",
@@ -2045,7 +2085,7 @@
   },
   {
     "id": "art-65",
-    "index": 75,
+    "index": 76,
     "article": "Article 65",
     "articleNumber": 65,
     "articleStr": "65",
@@ -2074,7 +2114,7 @@
   },
   {
     "id": "art-66",
-    "index": 76,
+    "index": 77,
     "article": "Article 66",
     "articleNumber": 66,
     "articleStr": "66",
@@ -2097,7 +2137,7 @@
   },
   {
     "id": "art-67",
-    "index": 77,
+    "index": 78,
     "article": "Article 67",
     "articleNumber": 67,
     "articleStr": "67",
@@ -2121,7 +2161,7 @@
   },
   {
     "id": "art-68",
-    "index": 78,
+    "index": 79,
     "article": "Article 68",
     "articleNumber": 68,
     "articleStr": "68",
@@ -2153,7 +2193,7 @@
   },
   {
     "id": "art-69",
-    "index": 79,
+    "index": 80,
     "article": "Article 69",
     "articleNumber": 69,
     "articleStr": "69",
@@ -2177,7 +2217,7 @@
   },
   {
     "id": "art-70",
-    "index": 80,
+    "index": 81,
     "article": "Article 70",
     "articleNumber": 70,
     "articleStr": "70",
@@ -2201,7 +2241,7 @@
   },
   {
     "id": "art-71",
-    "index": 81,
+    "index": 82,
     "article": "Article 71",
     "articleNumber": 71,
     "articleStr": "71",
@@ -2227,7 +2267,7 @@
   },
   {
     "id": "art-72",
-    "index": 82,
+    "index": 83,
     "article": "Article 72",
     "articleNumber": 72,
     "articleStr": "72",
@@ -2266,7 +2306,7 @@
   },
   {
     "id": "art-73",
-    "index": 83,
+    "index": 84,
     "article": "Article 73",
     "articleNumber": 73,
     "articleStr": "73",
@@ -2290,7 +2330,7 @@
   },
   {
     "id": "art-74",
-    "index": 84,
+    "index": 85,
     "article": "Article 74",
     "articleNumber": 74,
     "articleStr": "74",
@@ -2322,7 +2362,7 @@
   },
   {
     "id": "art-75",
-    "index": 85,
+    "index": 86,
     "article": "Article 75",
     "articleNumber": 75,
     "articleStr": "75",
@@ -2349,7 +2389,7 @@
   },
   {
     "id": "art-76",
-    "index": 86,
+    "index": 87,
     "article": "Article 76",
     "articleNumber": 76,
     "articleStr": "76",
@@ -2378,7 +2418,7 @@
   },
   {
     "id": "art-77",
-    "index": 87,
+    "index": 88,
     "article": "Article 77",
     "articleNumber": 77,
     "articleStr": "77",
@@ -2402,7 +2442,7 @@
   },
   {
     "id": "art-78",
-    "index": 88,
+    "index": 89,
     "article": "Article 78",
     "articleNumber": 78,
     "articleStr": "78",
@@ -2429,7 +2469,7 @@
   },
   {
     "id": "art-79",
-    "index": 89,
+    "index": 90,
     "article": "Article 79",
     "articleNumber": 79,
     "articleStr": "79",
@@ -2451,7 +2491,7 @@
   },
   {
     "id": "art-80",
-    "index": 90,
+    "index": 91,
     "article": "Article 80",
     "articleNumber": 80,
     "articleStr": "80",
@@ -2474,7 +2514,7 @@
   },
   {
     "id": "art-81",
-    "index": 91,
+    "index": 92,
     "article": "Article 81",
     "articleNumber": 81,
     "articleStr": "81",
@@ -2497,7 +2537,7 @@
   },
   {
     "id": "art-82",
-    "index": 92,
+    "index": 93,
     "article": "Article 82",
     "articleNumber": 82,
     "articleStr": "82",
@@ -2521,7 +2561,7 @@
   },
   {
     "id": "art-83",
-    "index": 93,
+    "index": 94,
     "article": "Article 83",
     "articleNumber": 83,
     "articleStr": "83",
@@ -2544,7 +2584,7 @@
   },
   {
     "id": "art-84",
-    "index": 94,
+    "index": 95,
     "article": "Article 84",
     "articleNumber": 84,
     "articleStr": "84",
@@ -2567,7 +2607,7 @@
   },
   {
     "id": "art-85",
-    "index": 95,
+    "index": 96,
     "article": "Article 85",
     "articleNumber": 85,
     "articleStr": "85",
@@ -2591,7 +2631,7 @@
   },
   {
     "id": "art-86",
-    "index": 96,
+    "index": 97,
     "article": "Article 86",
     "articleNumber": 86,
     "articleStr": "86",
@@ -2617,7 +2657,7 @@
   },
   {
     "id": "art-87",
-    "index": 97,
+    "index": 98,
     "article": "Article 87",
     "articleNumber": 87,
     "articleStr": "87",
@@ -2640,7 +2680,7 @@
   },
   {
     "id": "art-88",
-    "index": 98,
+    "index": 99,
     "article": "Article 88",
     "articleNumber": 88,
     "articleStr": "88",
@@ -2666,7 +2706,7 @@
   },
   {
     "id": "art-89",
-    "index": 99,
+    "index": 100,
     "article": "Article 89",
     "articleNumber": 89,
     "articleStr": "89",
@@ -2690,7 +2730,7 @@
   },
   {
     "id": "art-90",
-    "index": 100,
+    "index": 101,
     "article": "Article 90",
     "articleNumber": 90,
     "articleStr": "90",
@@ -2716,7 +2756,7 @@
   },
   {
     "id": "art-91",
-    "index": 101,
+    "index": 102,
     "article": "Article 91",
     "articleNumber": 91,
     "articleStr": "91",
@@ -2743,7 +2783,7 @@
   },
   {
     "id": "art-92",
-    "index": 102,
+    "index": 103,
     "article": "Article 92",
     "articleNumber": 92,
     "articleStr": "92",
@@ -2771,7 +2811,7 @@
   },
   {
     "id": "art-93",
-    "index": 103,
+    "index": 104,
     "article": "Article 93",
     "articleNumber": 93,
     "articleStr": "93",
@@ -2795,7 +2835,7 @@
   },
   {
     "id": "art-94",
-    "index": 104,
+    "index": 105,
     "article": "Article 94",
     "articleNumber": 94,
     "articleStr": "94",
@@ -2821,7 +2861,7 @@
   },
   {
     "id": "art-95",
-    "index": 105,
+    "index": 106,
     "article": "Article 95",
     "articleNumber": 95,
     "articleStr": "95",
@@ -2848,7 +2888,7 @@
   },
   {
     "id": "art-96",
-    "index": 106,
+    "index": 107,
     "article": "Article 96",
     "articleNumber": 96,
     "articleStr": "96",
@@ -2876,7 +2916,7 @@
   },
   {
     "id": "art-97",
-    "index": 107,
+    "index": 108,
     "article": "Article 97",
     "articleNumber": 97,
     "articleStr": "97",
@@ -2901,7 +2941,7 @@
   },
   {
     "id": "art-98",
-    "index": 108,
+    "index": 109,
     "article": "Article 98",
     "articleNumber": 98,
     "articleStr": "98",
@@ -2923,7 +2963,7 @@
   },
   {
     "id": "art-99",
-    "index": 109,
+    "index": 110,
     "article": "Article 99",
     "articleNumber": 99,
     "articleStr": "99",
@@ -2946,7 +2986,7 @@
   },
   {
     "id": "art-100",
-    "index": 110,
+    "index": 111,
     "article": "Article 100",
     "articleNumber": 100,
     "articleStr": "100",
@@ -2972,7 +3012,7 @@
   },
   {
     "id": "art-101",
-    "index": 111,
+    "index": 112,
     "article": "Article 101",
     "articleNumber": 101,
     "articleStr": "101",
@@ -2994,7 +3034,7 @@
   },
   {
     "id": "art-102",
-    "index": 112,
+    "index": 113,
     "article": "Article 102",
     "articleNumber": 102,
     "articleStr": "102",
@@ -3016,7 +3056,7 @@
   },
   {
     "id": "art-103",
-    "index": 113,
+    "index": 114,
     "article": "Article 103",
     "articleNumber": 103,
     "articleStr": "103",
@@ -3040,7 +3080,7 @@
   },
   {
     "id": "art-104",
-    "index": 114,
+    "index": 115,
     "article": "Article 104",
     "articleNumber": 104,
     "articleStr": "104",
@@ -3071,7 +3111,7 @@
   },
   {
     "id": "art-105",
-    "index": 115,
+    "index": 116,
     "article": "Article 105",
     "articleNumber": 105,
     "articleStr": "105",
@@ -3105,7 +3145,7 @@
   },
   {
     "id": "art-106",
-    "index": 116,
+    "index": 117,
     "article": "Article 106",
     "articleNumber": 106,
     "articleStr": "106",
@@ -3128,7 +3168,7 @@
   },
   {
     "id": "art-107",
-    "index": 117,
+    "index": 118,
     "article": "Article 107",
     "articleNumber": 107,
     "articleStr": "107",
@@ -3152,7 +3192,7 @@
   },
   {
     "id": "art-108",
-    "index": 118,
+    "index": 119,
     "article": "Article 108",
     "articleNumber": 108,
     "articleStr": "108",
@@ -3178,7 +3218,7 @@
   },
   {
     "id": "art-109",
-    "index": 119,
+    "index": 120,
     "article": "Article 109",
     "articleNumber": 109,
     "articleStr": "109",
@@ -3203,7 +3243,7 @@
   },
   {
     "id": "art-110",
-    "index": 120,
+    "index": 121,
     "article": "Article 110",
     "articleNumber": 110,
     "articleStr": "110",
@@ -3233,7 +3273,7 @@
   },
   {
     "id": "art-111",
-    "index": 121,
+    "index": 122,
     "article": "Article 111",
     "articleNumber": 111,
     "articleStr": "111",
@@ -3255,7 +3295,7 @@
   },
   {
     "id": "art-112",
-    "index": 122,
+    "index": 123,
     "article": "Article 112",
     "articleNumber": 112,
     "articleStr": "112",
@@ -3278,7 +3318,7 @@
   },
   {
     "id": "art-113",
-    "index": 123,
+    "index": 124,
     "article": "Article 113",
     "articleNumber": 113,
     "articleStr": "113",
@@ -3302,7 +3342,7 @@
   },
   {
     "id": "art-114",
-    "index": 124,
+    "index": 125,
     "article": "Article 114",
     "articleNumber": 114,
     "articleStr": "114",
@@ -3324,7 +3364,7 @@
   },
   {
     "id": "art-115",
-    "index": 125,
+    "index": 126,
     "article": "Article 115",
     "articleNumber": 115,
     "articleStr": "115",
@@ -3348,7 +3388,7 @@
   },
   {
     "id": "art-116",
-    "index": 126,
+    "index": 127,
     "article": "Article 116",
     "articleNumber": 116,
     "articleStr": "116",
@@ -3373,7 +3413,7 @@
   },
   {
     "id": "art-117",
-    "index": 127,
+    "index": 128,
     "article": "Article 117",
     "articleNumber": 117,
     "articleStr": "117",
@@ -3397,7 +3437,7 @@
   },
   {
     "id": "art-118",
-    "index": 128,
+    "index": 129,
     "article": "Article 118",
     "articleNumber": 118,
     "articleStr": "118",
@@ -3419,7 +3459,7 @@
   },
   {
     "id": "art-119",
-    "index": 129,
+    "index": 130,
     "article": "Article 119",
     "articleNumber": 119,
     "articleStr": "119",
@@ -3445,7 +3485,7 @@
   },
   {
     "id": "art-120",
-    "index": 130,
+    "index": 131,
     "article": "Article 120",
     "articleNumber": 120,
     "articleStr": "120",
@@ -3468,7 +3508,7 @@
   },
   {
     "id": "art-121",
-    "index": 131,
+    "index": 132,
     "article": "Article 121",
     "articleNumber": 121,
     "articleStr": "121",
@@ -3491,7 +3531,7 @@
   },
   {
     "id": "art-122",
-    "index": 132,
+    "index": 133,
     "article": "Article 122",
     "articleNumber": 122,
     "articleStr": "122",
@@ -3515,7 +3555,7 @@
   },
   {
     "id": "art-123",
-    "index": 133,
+    "index": 134,
     "article": "Article 123",
     "articleNumber": 123,
     "articleStr": "123",
@@ -3549,7 +3589,7 @@
   },
   {
     "id": "art-124",
-    "index": 134,
+    "index": 135,
     "article": "Article 124",
     "articleNumber": 124,
     "articleStr": "124",
@@ -3581,7 +3621,7 @@
   },
   {
     "id": "art-125",
-    "index": 135,
+    "index": 136,
     "article": "Article 125",
     "articleNumber": 125,
     "articleStr": "125",
@@ -3603,7 +3643,7 @@
   },
   {
     "id": "art-126",
-    "index": 136,
+    "index": 137,
     "article": "Article 126",
     "articleNumber": 126,
     "articleStr": "126",
@@ -3627,7 +3667,7 @@
   },
   {
     "id": "art-127",
-    "index": 137,
+    "index": 138,
     "article": "Article 127",
     "articleNumber": 127,
     "articleStr": "127",
@@ -3649,7 +3689,7 @@
   },
   {
     "id": "art-128",
-    "index": 138,
+    "index": 139,
     "article": "Article 128",
     "articleNumber": 128,
     "articleStr": "128",
@@ -3675,7 +3715,7 @@
   },
   {
     "id": "art-129",
-    "index": 139,
+    "index": 140,
     "article": "Article 129",
     "articleNumber": 129,
     "articleStr": "129",
@@ -3705,7 +3745,7 @@
   },
   {
     "id": "art-130",
-    "index": 140,
+    "index": 141,
     "article": "Article 130",
     "articleNumber": 130,
     "articleStr": "130",
@@ -3728,7 +3768,7 @@
   },
   {
     "id": "art-131",
-    "index": 141,
+    "index": 142,
     "article": "Article 131",
     "articleNumber": 131,
     "articleStr": "131",
@@ -3752,7 +3792,7 @@
   },
   {
     "id": "art-132",
-    "index": 142,
+    "index": 143,
     "article": "Article 132",
     "articleNumber": 132,
     "articleStr": "132",
@@ -3781,7 +3821,7 @@
   },
   {
     "id": "art-133",
-    "index": 143,
+    "index": 144,
     "article": "Article 133",
     "articleNumber": 133,
     "articleStr": "133",
@@ -3811,7 +3851,7 @@
   },
   {
     "id": "art-134",
-    "index": 144,
+    "index": 145,
     "article": "Article 134",
     "articleNumber": 134,
     "articleStr": "134",
@@ -3838,7 +3878,7 @@
   },
   {
     "id": "art-134A",
-    "index": 145,
+    "index": 146,
     "article": "Article 134A",
     "articleNumber": "134A",
     "articleStr": "134A",
@@ -3862,7 +3902,7 @@
   },
   {
     "id": "art-135",
-    "index": 146,
+    "index": 147,
     "article": "Article 135",
     "articleNumber": 135,
     "articleStr": "135",
@@ -3889,7 +3929,7 @@
   },
   {
     "id": "art-136",
-    "index": 147,
+    "index": 148,
     "article": "Article 136",
     "articleNumber": 136,
     "articleStr": "136",
@@ -3921,7 +3961,7 @@
   },
   {
     "id": "art-137",
-    "index": 148,
+    "index": 149,
     "article": "Article 137",
     "articleNumber": 137,
     "articleStr": "137",
@@ -3946,7 +3986,7 @@
   },
   {
     "id": "art-138",
-    "index": 149,
+    "index": 150,
     "article": "Article 138",
     "articleNumber": 138,
     "articleStr": "138",
@@ -3970,7 +4010,7 @@
   },
   {
     "id": "art-139",
-    "index": 150,
+    "index": 151,
     "article": "Article 139",
     "articleNumber": 139,
     "articleStr": "139",
@@ -3997,7 +4037,7 @@
   },
   {
     "id": "art-139A",
-    "index": 151,
+    "index": 152,
     "article": "Article 139A",
     "articleNumber": "139A",
     "articleStr": "139A",
@@ -4020,7 +4060,7 @@
   },
   {
     "id": "art-140",
-    "index": 152,
+    "index": 153,
     "article": "Article 140",
     "articleNumber": 140,
     "articleStr": "140",
@@ -4044,7 +4084,7 @@
   },
   {
     "id": "art-141",
-    "index": 153,
+    "index": 154,
     "article": "Article 141",
     "articleNumber": 141,
     "articleStr": "141",
@@ -4076,7 +4116,7 @@
   },
   {
     "id": "art-142",
-    "index": 154,
+    "index": 155,
     "article": "Article 142",
     "articleNumber": 142,
     "articleStr": "142",
@@ -4110,7 +4150,7 @@
   },
   {
     "id": "art-143",
-    "index": 155,
+    "index": 156,
     "article": "Article 143",
     "articleNumber": 143,
     "articleStr": "143",
@@ -4144,7 +4184,7 @@
   },
   {
     "id": "art-144",
-    "index": 156,
+    "index": 157,
     "article": "Article 144",
     "articleNumber": 144,
     "articleStr": "144",
@@ -4169,7 +4209,7 @@
   },
   {
     "id": "art-145",
-    "index": 157,
+    "index": 158,
     "article": "Article 145",
     "articleNumber": 145,
     "articleStr": "145",
@@ -4191,7 +4231,7 @@
   },
   {
     "id": "art-146",
-    "index": 158,
+    "index": 159,
     "article": "Article 146",
     "articleNumber": 146,
     "articleStr": "146",
@@ -4216,7 +4256,7 @@
   },
   {
     "id": "art-147",
-    "index": 159,
+    "index": 160,
     "article": "Article 147",
     "articleNumber": 147,
     "articleStr": "147",
@@ -4237,7 +4277,7 @@
   },
   {
     "id": "art-148",
-    "index": 160,
+    "index": 161,
     "article": "Article 148",
     "articleNumber": 148,
     "articleStr": "148",
@@ -4268,7 +4308,7 @@
   },
   {
     "id": "art-149",
-    "index": 161,
+    "index": 162,
     "article": "Article 149",
     "articleNumber": 149,
     "articleStr": "149",
@@ -4293,7 +4333,7 @@
   },
   {
     "id": "art-150",
-    "index": 162,
+    "index": 163,
     "article": "Article 150",
     "articleNumber": 150,
     "articleStr": "150",
@@ -4317,7 +4357,7 @@
   },
   {
     "id": "art-151",
-    "index": 163,
+    "index": 164,
     "article": "Article 151",
     "articleNumber": 151,
     "articleStr": "151",
@@ -4339,7 +4379,7 @@
   },
   {
     "id": "art-152",
-    "index": 164,
+    "index": 165,
     "article": "Article 152",
     "articleNumber": 152,
     "articleStr": "152",
@@ -4360,7 +4400,7 @@
   },
   {
     "id": "art-153",
-    "index": 165,
+    "index": 166,
     "article": "Article 153",
     "articleNumber": 153,
     "articleStr": "153",
@@ -4382,7 +4422,7 @@
   },
   {
     "id": "art-154",
-    "index": 166,
+    "index": 167,
     "article": "Article 154",
     "articleNumber": 154,
     "articleStr": "154",
@@ -4405,7 +4445,7 @@
   },
   {
     "id": "art-155",
-    "index": 167,
+    "index": 168,
     "article": "Article 155",
     "articleNumber": 155,
     "articleStr": "155",
@@ -4427,7 +4467,7 @@
   },
   {
     "id": "art-156",
-    "index": 168,
+    "index": 169,
     "article": "Article 156",
     "articleNumber": 156,
     "articleStr": "156",
@@ -4450,7 +4490,7 @@
   },
   {
     "id": "art-157",
-    "index": 169,
+    "index": 170,
     "article": "Article 157",
     "articleNumber": 157,
     "articleStr": "157",
@@ -4473,7 +4513,7 @@
   },
   {
     "id": "art-158",
-    "index": 170,
+    "index": 171,
     "article": "Article 158",
     "articleNumber": 158,
     "articleStr": "158",
@@ -4496,7 +4536,7 @@
   },
   {
     "id": "art-159",
-    "index": 171,
+    "index": 172,
     "article": "Article 159",
     "articleNumber": 159,
     "articleStr": "159",
@@ -4519,7 +4559,7 @@
   },
   {
     "id": "art-160",
-    "index": 172,
+    "index": 173,
     "article": "Article 160",
     "articleNumber": 160,
     "articleStr": "160",
@@ -4544,7 +4584,7 @@
   },
   {
     "id": "art-161",
-    "index": 173,
+    "index": 174,
     "article": "Article 161",
     "articleNumber": 161,
     "articleStr": "161",
@@ -4574,7 +4614,7 @@
   },
   {
     "id": "art-162",
-    "index": 174,
+    "index": 175,
     "article": "Article 162",
     "articleNumber": 162,
     "articleStr": "162",
@@ -4598,7 +4638,7 @@
   },
   {
     "id": "art-163",
-    "index": 175,
+    "index": 176,
     "article": "Article 163",
     "articleNumber": 163,
     "articleStr": "163",
@@ -4622,7 +4662,7 @@
   },
   {
     "id": "art-164",
-    "index": 176,
+    "index": 177,
     "article": "Article 164",
     "articleNumber": 164,
     "articleStr": "164",
@@ -4644,7 +4684,7 @@
   },
   {
     "id": "art-165",
-    "index": 177,
+    "index": 178,
     "article": "Article 165",
     "articleNumber": 165,
     "articleStr": "165",
@@ -4667,7 +4707,7 @@
   },
   {
     "id": "art-166",
-    "index": 178,
+    "index": 179,
     "article": "Article 166",
     "articleNumber": 166,
     "articleStr": "166",
@@ -4691,7 +4731,7 @@
   },
   {
     "id": "art-167",
-    "index": 179,
+    "index": 180,
     "article": "Article 167",
     "articleNumber": 167,
     "articleStr": "167",
@@ -4718,7 +4758,7 @@
   },
   {
     "id": "art-168",
-    "index": 180,
+    "index": 181,
     "article": "Article 168",
     "articleNumber": 168,
     "articleStr": "168",
@@ -4741,7 +4781,7 @@
   },
   {
     "id": "art-169",
-    "index": 181,
+    "index": 182,
     "article": "Article 169",
     "articleNumber": 169,
     "articleStr": "169",
@@ -4766,7 +4806,7 @@
   },
   {
     "id": "art-170",
-    "index": 182,
+    "index": 183,
     "article": "Article 170",
     "articleNumber": 170,
     "articleStr": "170",
@@ -4789,7 +4829,7 @@
   },
   {
     "id": "art-171",
-    "index": 183,
+    "index": 184,
     "article": "Article 171",
     "articleNumber": 171,
     "articleStr": "171",
@@ -4812,7 +4852,7 @@
   },
   {
     "id": "art-172",
-    "index": 184,
+    "index": 185,
     "article": "Article 172",
     "articleNumber": 172,
     "articleStr": "172",
@@ -4835,7 +4875,7 @@
   },
   {
     "id": "art-173",
-    "index": 185,
+    "index": 186,
     "article": "Article 173",
     "articleNumber": 173,
     "articleStr": "173",
@@ -4859,7 +4899,7 @@
   },
   {
     "id": "art-174",
-    "index": 186,
+    "index": 187,
     "article": "Article 174",
     "articleNumber": 174,
     "articleStr": "174",
@@ -4884,7 +4924,7 @@
   },
   {
     "id": "art-175",
-    "index": 187,
+    "index": 188,
     "article": "Article 175",
     "articleNumber": 175,
     "articleStr": "175",
@@ -4911,7 +4951,7 @@
   },
   {
     "id": "art-176",
-    "index": 188,
+    "index": 189,
     "article": "Article 176",
     "articleNumber": 176,
     "articleStr": "176",
@@ -4934,7 +4974,7 @@
   },
   {
     "id": "art-177",
-    "index": 189,
+    "index": 190,
     "article": "Article 177",
     "articleNumber": 177,
     "articleStr": "177",
@@ -4960,7 +5000,7 @@
   },
   {
     "id": "art-178",
-    "index": 190,
+    "index": 191,
     "article": "Article 178",
     "articleNumber": 178,
     "articleStr": "178",
@@ -4984,7 +5024,7 @@
   },
   {
     "id": "art-179",
-    "index": 191,
+    "index": 192,
     "article": "Article 179",
     "articleNumber": 179,
     "articleStr": "179",
@@ -5010,7 +5050,7 @@
   },
   {
     "id": "art-180",
-    "index": 192,
+    "index": 193,
     "article": "Article 180",
     "articleNumber": 180,
     "articleStr": "180",
@@ -5037,7 +5077,7 @@
   },
   {
     "id": "art-181",
-    "index": 193,
+    "index": 194,
     "article": "Article 181",
     "articleNumber": 181,
     "articleStr": "181",
@@ -5065,7 +5105,7 @@
   },
   {
     "id": "art-182",
-    "index": 194,
+    "index": 195,
     "article": "Article 182",
     "articleNumber": 182,
     "articleStr": "182",
@@ -5089,7 +5129,7 @@
   },
   {
     "id": "art-183",
-    "index": 195,
+    "index": 196,
     "article": "Article 183",
     "articleNumber": 183,
     "articleStr": "183",
@@ -5115,7 +5155,7 @@
   },
   {
     "id": "art-184",
-    "index": 196,
+    "index": 197,
     "article": "Article 184",
     "articleNumber": 184,
     "articleStr": "184",
@@ -5142,7 +5182,7 @@
   },
   {
     "id": "art-185",
-    "index": 197,
+    "index": 198,
     "article": "Article 185",
     "articleNumber": 185,
     "articleStr": "185",
@@ -5170,7 +5210,7 @@
   },
   {
     "id": "art-186",
-    "index": 198,
+    "index": 199,
     "article": "Article 186",
     "articleNumber": 186,
     "articleStr": "186",
@@ -5195,7 +5235,7 @@
   },
   {
     "id": "art-187",
-    "index": 199,
+    "index": 200,
     "article": "Article 187",
     "articleNumber": 187,
     "articleStr": "187",
@@ -5218,7 +5258,7 @@
   },
   {
     "id": "art-188",
-    "index": 200,
+    "index": 201,
     "article": "Article 188",
     "articleNumber": 188,
     "articleStr": "188",
@@ -5241,7 +5281,7 @@
   },
   {
     "id": "art-189",
-    "index": 201,
+    "index": 202,
     "article": "Article 189",
     "articleNumber": 189,
     "articleStr": "189",
@@ -5267,7 +5307,7 @@
   },
   {
     "id": "art-190",
-    "index": 202,
+    "index": 203,
     "article": "Article 190",
     "articleNumber": 190,
     "articleStr": "190",
@@ -5289,7 +5329,7 @@
   },
   {
     "id": "art-191",
-    "index": 203,
+    "index": 204,
     "article": "Article 191",
     "articleNumber": 191,
     "articleStr": "191",
@@ -5311,7 +5351,7 @@
   },
   {
     "id": "art-192",
-    "index": 204,
+    "index": 205,
     "article": "Article 192",
     "articleNumber": 192,
     "articleStr": "192",
@@ -5335,7 +5375,7 @@
   },
   {
     "id": "art-193",
-    "index": 205,
+    "index": 206,
     "article": "Article 193",
     "articleNumber": 193,
     "articleStr": "193",
@@ -5366,7 +5406,7 @@
   },
   {
     "id": "art-194",
-    "index": 206,
+    "index": 207,
     "article": "Article 194",
     "articleNumber": 194,
     "articleStr": "194",
@@ -5393,7 +5433,7 @@
   },
   {
     "id": "art-195",
-    "index": 207,
+    "index": 208,
     "article": "Article 195",
     "articleNumber": 195,
     "articleStr": "195",
@@ -5416,7 +5456,7 @@
   },
   {
     "id": "art-196",
-    "index": 208,
+    "index": 209,
     "article": "Article 196",
     "articleNumber": 196,
     "articleStr": "196",
@@ -5440,7 +5480,7 @@
   },
   {
     "id": "art-197",
-    "index": 209,
+    "index": 210,
     "article": "Article 197",
     "articleNumber": 197,
     "articleStr": "197",
@@ -5467,7 +5507,7 @@
   },
   {
     "id": "art-198",
-    "index": 210,
+    "index": 211,
     "article": "Article 198",
     "articleNumber": 198,
     "articleStr": "198",
@@ -5492,7 +5532,7 @@
   },
   {
     "id": "art-199",
-    "index": 211,
+    "index": 212,
     "article": "Article 199",
     "articleNumber": 199,
     "articleStr": "199",
@@ -5515,7 +5555,7 @@
   },
   {
     "id": "art-200",
-    "index": 212,
+    "index": 213,
     "article": "Article 200",
     "articleNumber": 200,
     "articleStr": "200",
@@ -5537,7 +5577,7 @@
   },
   {
     "id": "art-201",
-    "index": 213,
+    "index": 214,
     "article": "Article 201",
     "articleNumber": 201,
     "articleStr": "201",
@@ -5560,7 +5600,7 @@
   },
   {
     "id": "art-202",
-    "index": 214,
+    "index": 215,
     "article": "Article 202",
     "articleNumber": 202,
     "articleStr": "202",
@@ -5583,7 +5623,7 @@
   },
   {
     "id": "art-203",
-    "index": 215,
+    "index": 216,
     "article": "Article 203",
     "articleNumber": 203,
     "articleStr": "203",
@@ -5607,7 +5647,7 @@
   },
   {
     "id": "art-204",
-    "index": 216,
+    "index": 217,
     "article": "Article 204",
     "articleNumber": 204,
     "articleStr": "204",
@@ -5629,7 +5669,7 @@
   },
   {
     "id": "art-205",
-    "index": 217,
+    "index": 218,
     "article": "Article 205",
     "articleNumber": 205,
     "articleStr": "205",
@@ -5653,7 +5693,7 @@
   },
   {
     "id": "art-206",
-    "index": 218,
+    "index": 219,
     "article": "Article 206",
     "articleNumber": 206,
     "articleStr": "206",
@@ -5678,7 +5718,7 @@
   },
   {
     "id": "art-207",
-    "index": 219,
+    "index": 220,
     "article": "Article 207",
     "articleNumber": 207,
     "articleStr": "207",
@@ -5702,7 +5742,7 @@
   },
   {
     "id": "art-208",
-    "index": 220,
+    "index": 221,
     "article": "Article 208",
     "articleNumber": 208,
     "articleStr": "208",
@@ -5724,7 +5764,7 @@
   },
   {
     "id": "art-209",
-    "index": 221,
+    "index": 222,
     "article": "Article 209",
     "articleNumber": 209,
     "articleStr": "209",
@@ -5751,7 +5791,7 @@
   },
   {
     "id": "art-210",
-    "index": 222,
+    "index": 223,
     "article": "Article 210",
     "articleNumber": 210,
     "articleStr": "210",
@@ -5774,7 +5814,7 @@
   },
   {
     "id": "art-211",
-    "index": 223,
+    "index": 224,
     "article": "Article 211",
     "articleNumber": 211,
     "articleStr": "211",
@@ -5797,7 +5837,7 @@
   },
   {
     "id": "art-212",
-    "index": 224,
+    "index": 225,
     "article": "Article 212",
     "articleNumber": 212,
     "articleStr": "212",
@@ -5821,7 +5861,7 @@
   },
   {
     "id": "art-213",
-    "index": 225,
+    "index": 226,
     "article": "Article 213",
     "articleNumber": 213,
     "articleStr": "213",
@@ -5848,7 +5888,7 @@
   },
   {
     "id": "art-214",
-    "index": 226,
+    "index": 227,
     "article": "Article 214",
     "articleNumber": 214,
     "articleStr": "214",
@@ -5877,7 +5917,7 @@
   },
   {
     "id": "art-215",
-    "index": 227,
+    "index": 228,
     "article": "Article 215",
     "articleNumber": 215,
     "articleStr": "215",
@@ -5900,7 +5940,7 @@
   },
   {
     "id": "art-216",
-    "index": 228,
+    "index": 229,
     "article": "Article 216",
     "articleNumber": 216,
     "articleStr": "216",
@@ -5923,7 +5963,7 @@
   },
   {
     "id": "art-217",
-    "index": 229,
+    "index": 230,
     "article": "Article 217",
     "articleNumber": 217,
     "articleStr": "217",
@@ -5949,7 +5989,7 @@
   },
   {
     "id": "art-218",
-    "index": 230,
+    "index": 231,
     "article": "Article 218",
     "articleNumber": 218,
     "articleStr": "218",
@@ -5977,7 +6017,7 @@
   },
   {
     "id": "art-219",
-    "index": 231,
+    "index": 232,
     "article": "Article 219",
     "articleNumber": 219,
     "articleStr": "219",
@@ -6002,7 +6042,7 @@
   },
   {
     "id": "art-220",
-    "index": 232,
+    "index": 233,
     "article": "Article 220",
     "articleNumber": 220,
     "articleStr": "220",
@@ -6028,7 +6068,7 @@
   },
   {
     "id": "art-221",
-    "index": 233,
+    "index": 234,
     "article": "Article 221",
     "articleNumber": 221,
     "articleStr": "221",
@@ -6050,7 +6090,7 @@
   },
   {
     "id": "art-222",
-    "index": 234,
+    "index": 235,
     "article": "Article 222",
     "articleNumber": 222,
     "articleStr": "222",
@@ -6075,7 +6115,7 @@
   },
   {
     "id": "art-223",
-    "index": 235,
+    "index": 236,
     "article": "Article 223",
     "articleNumber": 223,
     "articleStr": "223",
@@ -6099,7 +6139,7 @@
   },
   {
     "id": "art-224",
-    "index": 236,
+    "index": 237,
     "article": "Article 224",
     "articleNumber": 224,
     "articleStr": "224",
@@ -6123,7 +6163,7 @@
   },
   {
     "id": "art-224A",
-    "index": 237,
+    "index": 238,
     "article": "Article 224A",
     "articleNumber": "224A",
     "articleStr": "224A",
@@ -6149,7 +6189,7 @@
   },
   {
     "id": "art-225",
-    "index": 238,
+    "index": 239,
     "article": "Article 225",
     "articleNumber": 225,
     "articleStr": "225",
@@ -6173,7 +6213,7 @@
   },
   {
     "id": "art-226",
-    "index": 239,
+    "index": 240,
     "article": "Article 226",
     "articleNumber": 226,
     "articleStr": "226",
@@ -6206,7 +6246,7 @@
   },
   {
     "id": "art-227",
-    "index": 240,
+    "index": 241,
     "article": "Article 227",
     "articleNumber": 227,
     "articleStr": "227",
@@ -6232,7 +6272,7 @@
   },
   {
     "id": "art-228",
-    "index": 241,
+    "index": 242,
     "article": "Article 228",
     "articleNumber": 228,
     "articleStr": "228",
@@ -6257,7 +6297,7 @@
   },
   {
     "id": "art-229",
-    "index": 242,
+    "index": 243,
     "article": "Article 229",
     "articleNumber": 229,
     "articleStr": "229",
@@ -6282,7 +6322,7 @@
   },
   {
     "id": "art-230",
-    "index": 243,
+    "index": 244,
     "article": "Article 230",
     "articleNumber": 230,
     "articleStr": "230",
@@ -6308,7 +6348,7 @@
   },
   {
     "id": "art-231",
-    "index": 244,
+    "index": 245,
     "article": "Article 231",
     "articleNumber": 231,
     "articleStr": "231",
@@ -6334,7 +6374,7 @@
   },
   {
     "id": "art-233",
-    "index": 245,
+    "index": 246,
     "article": "Article 233",
     "articleNumber": 233,
     "articleStr": "233",
@@ -6357,7 +6397,7 @@
   },
   {
     "id": "art-233A",
-    "index": 246,
+    "index": 247,
     "article": "Article 233A",
     "articleNumber": "233A",
     "articleStr": "233A",
@@ -6384,7 +6424,7 @@
   },
   {
     "id": "art-234",
-    "index": 247,
+    "index": 248,
     "article": "Article 234",
     "articleNumber": 234,
     "articleStr": "234",
@@ -6411,7 +6451,7 @@
   },
   {
     "id": "art-235",
-    "index": 248,
+    "index": 249,
     "article": "Article 235",
     "articleNumber": 235,
     "articleStr": "235",
@@ -6435,7 +6475,7 @@
   },
   {
     "id": "art-236",
-    "index": 249,
+    "index": 250,
     "article": "Article 236",
     "articleNumber": 236,
     "articleStr": "236",
@@ -6456,7 +6496,7 @@
   },
   {
     "id": "art-237",
-    "index": 250,
+    "index": 251,
     "article": "Article 237",
     "articleNumber": 237,
     "articleStr": "237",
@@ -6483,7 +6523,7 @@
   },
   {
     "id": "art-238",
-    "index": 251,
+    "index": 252,
     "article": "Article 238",
     "articleNumber": 238,
     "articleStr": "238",
@@ -6509,7 +6549,7 @@
   },
   {
     "id": "art-239",
-    "index": 252,
+    "index": 253,
     "article": "Article 239",
     "articleNumber": 239,
     "articleStr": "239",
@@ -6532,7 +6572,7 @@
   },
   {
     "id": "art-239 A A",
-    "index": 253,
+    "index": 254,
     "article": "Article 239 A A",
     "articleNumber": "239 A A",
     "articleStr": "239 A A",
@@ -6556,7 +6596,7 @@
   },
   {
     "id": "art-239A",
-    "index": 254,
+    "index": 255,
     "article": "Article 239A",
     "articleNumber": "239A",
     "articleStr": "239A",
@@ -6585,7 +6625,7 @@
   },
   {
     "id": "art-239AB",
-    "index": 255,
+    "index": 256,
     "article": "Article 239AB",
     "articleNumber": "239AB",
     "articleStr": "239AB",
@@ -6610,7 +6650,7 @@
   },
   {
     "id": "art-239B",
-    "index": 256,
+    "index": 257,
     "article": "Article 239B",
     "articleNumber": "239B",
     "articleStr": "239B",
@@ -6637,7 +6677,7 @@
   },
   {
     "id": "art-240",
-    "index": 257,
+    "index": 258,
     "article": "Article 240",
     "articleNumber": 240,
     "articleStr": "240",
@@ -6664,7 +6704,7 @@
   },
   {
     "id": "art-241",
-    "index": 258,
+    "index": 259,
     "article": "Article 241",
     "articleNumber": 241,
     "articleStr": "241",
@@ -6688,7 +6728,7 @@
   },
   {
     "id": "art-243",
-    "index": 259,
+    "index": 260,
     "article": "Article 243",
     "articleNumber": 243,
     "articleStr": "243",
@@ -6716,7 +6756,7 @@
   },
   {
     "id": "art-243A",
-    "index": 260,
+    "index": 261,
     "article": "Article 243A",
     "articleNumber": "243A",
     "articleStr": "243A",
@@ -6738,7 +6778,7 @@
   },
   {
     "id": "art-243B",
-    "index": 261,
+    "index": 262,
     "article": "Article 243B",
     "articleNumber": "243B",
     "articleStr": "243B",
@@ -6760,7 +6800,7 @@
   },
   {
     "id": "art-243C",
-    "index": 262,
+    "index": 263,
     "article": "Article 243C",
     "articleNumber": "243C",
     "articleStr": "243C",
@@ -6782,7 +6822,7 @@
   },
   {
     "id": "art-243D",
-    "index": 263,
+    "index": 264,
     "article": "Article 243D",
     "articleNumber": "243D",
     "articleStr": "243D",
@@ -6804,7 +6844,7 @@
   },
   {
     "id": "art-243E",
-    "index": 264,
+    "index": 265,
     "article": "Article 243E",
     "articleNumber": "243E",
     "articleStr": "243E",
@@ -6826,7 +6866,7 @@
   },
   {
     "id": "art-243F",
-    "index": 265,
+    "index": 266,
     "article": "Article 243F",
     "articleNumber": "243F",
     "articleStr": "243F",
@@ -6848,7 +6888,7 @@
   },
   {
     "id": "art-243G",
-    "index": 266,
+    "index": 267,
     "article": "Article 243G",
     "articleNumber": "243G",
     "articleStr": "243G",
@@ -6872,7 +6912,7 @@
   },
   {
     "id": "art-243H",
-    "index": 267,
+    "index": 268,
     "article": "Article 243H",
     "articleNumber": "243H",
     "articleStr": "243H",
@@ -6897,7 +6937,7 @@
   },
   {
     "id": "art-243I",
-    "index": 268,
+    "index": 269,
     "article": "Article 243I",
     "articleNumber": "243I",
     "articleStr": "243I",
@@ -6923,7 +6963,7 @@
   },
   {
     "id": "art-243J",
-    "index": 269,
+    "index": 270,
     "article": "Article 243J",
     "articleNumber": "243J",
     "articleStr": "243J",
@@ -6946,7 +6986,7 @@
   },
   {
     "id": "art-243K",
-    "index": 270,
+    "index": 271,
     "article": "Article 243K",
     "articleNumber": "243K",
     "articleStr": "243K",
@@ -6968,7 +7008,7 @@
   },
   {
     "id": "art-243L",
-    "index": 271,
+    "index": 272,
     "article": "Article 243L",
     "articleNumber": "243L",
     "articleStr": "243L",
@@ -6991,7 +7031,7 @@
   },
   {
     "id": "art-243M",
-    "index": 272,
+    "index": 273,
     "article": "Article 243M",
     "articleNumber": "243M",
     "articleStr": "243M",
@@ -7015,7 +7055,7 @@
   },
   {
     "id": "art-243N",
-    "index": 273,
+    "index": 274,
     "article": "Article 243N",
     "articleNumber": "243N",
     "articleStr": "243N",
@@ -7039,7 +7079,7 @@
   },
   {
     "id": "art-243O",
-    "index": 274,
+    "index": 275,
     "article": "Article 243O",
     "articleNumber": "243O",
     "articleStr": "243O",
@@ -7063,7 +7103,7 @@
   },
   {
     "id": "art-243P",
-    "index": 275,
+    "index": 276,
     "article": "Article 243P",
     "articleNumber": "243P",
     "articleStr": "243P",
@@ -7084,7 +7124,7 @@
   },
   {
     "id": "art-243Q",
-    "index": 276,
+    "index": 277,
     "article": "Article 243Q",
     "articleNumber": "243Q",
     "articleStr": "243Q",
@@ -7105,7 +7145,7 @@
   },
   {
     "id": "art-243R",
-    "index": 277,
+    "index": 278,
     "article": "Article 243R",
     "articleNumber": "243R",
     "articleStr": "243R",
@@ -7126,7 +7166,7 @@
   },
   {
     "id": "art-243S",
-    "index": 278,
+    "index": 279,
     "article": "Article 243S",
     "articleNumber": "243S",
     "articleStr": "243S",
@@ -7150,7 +7190,7 @@
   },
   {
     "id": "art-243T",
-    "index": 279,
+    "index": 280,
     "article": "Article 243T",
     "articleNumber": "243T",
     "articleStr": "243T",
@@ -7172,7 +7212,7 @@
   },
   {
     "id": "art-243U",
-    "index": 280,
+    "index": 281,
     "article": "Article 243U",
     "articleNumber": "243U",
     "articleStr": "243U",
@@ -7193,7 +7233,7 @@
   },
   {
     "id": "art-243V",
-    "index": 281,
+    "index": 282,
     "article": "Article 243V",
     "articleNumber": "243V",
     "articleStr": "243V",
@@ -7215,7 +7255,7 @@
   },
   {
     "id": "art-243W",
-    "index": 282,
+    "index": 283,
     "article": "Article 243W",
     "articleNumber": "243W",
     "articleStr": "243W",
@@ -7238,7 +7278,7 @@
   },
   {
     "id": "art-243X",
-    "index": 283,
+    "index": 284,
     "article": "Article 243X",
     "articleNumber": "243X",
     "articleStr": "243X",
@@ -7262,7 +7302,7 @@
   },
   {
     "id": "art-243Y",
-    "index": 284,
+    "index": 285,
     "article": "Article 243Y",
     "articleNumber": "243Y",
     "articleStr": "243Y",
@@ -7284,7 +7324,7 @@
   },
   {
     "id": "art-243Z",
-    "index": 285,
+    "index": 286,
     "article": "Article 243Z",
     "articleNumber": "243Z",
     "articleStr": "243Z",
@@ -7306,7 +7346,7 @@
   },
   {
     "id": "art-243ZA",
-    "index": 286,
+    "index": 287,
     "article": "Article 243ZA",
     "articleNumber": "243ZA",
     "articleStr": "243ZA",
@@ -7327,7 +7367,7 @@
   },
   {
     "id": "art-243ZB",
-    "index": 287,
+    "index": 288,
     "article": "Article 243ZB",
     "articleNumber": "243ZB",
     "articleStr": "243ZB",
@@ -7350,7 +7390,7 @@
   },
   {
     "id": "art-243ZC",
-    "index": 288,
+    "index": 289,
     "article": "Article 243ZC",
     "articleNumber": "243ZC",
     "articleStr": "243ZC",
@@ -7374,7 +7414,7 @@
   },
   {
     "id": "art-243ZD",
-    "index": 289,
+    "index": 290,
     "article": "Article 243ZD",
     "articleNumber": "243ZD",
     "articleStr": "243ZD",
@@ -7397,7 +7437,7 @@
   },
   {
     "id": "art-243ZE",
-    "index": 290,
+    "index": 291,
     "article": "Article 243ZE",
     "articleNumber": "243ZE",
     "articleStr": "243ZE",
@@ -7420,7 +7460,7 @@
   },
   {
     "id": "art-243ZF",
-    "index": 291,
+    "index": 292,
     "article": "Article 243ZF",
     "articleNumber": "243ZF",
     "articleStr": "243ZF",
@@ -7443,7 +7483,7 @@
   },
   {
     "id": "art-243ZG",
-    "index": 292,
+    "index": 293,
     "article": "Article 243ZG",
     "articleNumber": "243ZG",
     "articleStr": "243ZG",
@@ -7467,7 +7507,7 @@
   },
   {
     "id": "art-243ZH",
-    "index": 293,
+    "index": 294,
     "article": "Article 243ZH",
     "articleNumber": "243ZH",
     "articleStr": "243ZH",
@@ -7488,7 +7528,7 @@
   },
   {
     "id": "art-243ZI",
-    "index": 294,
+    "index": 295,
     "article": "Article 243ZI",
     "articleNumber": "243ZI",
     "articleStr": "243ZI",
@@ -7511,7 +7551,7 @@
   },
   {
     "id": "art-243ZJ",
-    "index": 295,
+    "index": 296,
     "article": "Article 243ZJ",
     "articleNumber": "243ZJ",
     "articleStr": "243ZJ",
@@ -7537,7 +7577,7 @@
   },
   {
     "id": "art-243ZK",
-    "index": 296,
+    "index": 297,
     "article": "Article 243ZK",
     "articleNumber": "243ZK",
     "articleStr": "243ZK",
@@ -7560,7 +7600,7 @@
   },
   {
     "id": "art-243ZL",
-    "index": 297,
+    "index": 298,
     "article": "Article 243ZL",
     "articleNumber": "243ZL",
     "articleStr": "243ZL",
@@ -7585,7 +7625,7 @@
   },
   {
     "id": "art-243ZM",
-    "index": 298,
+    "index": 299,
     "article": "Article 243ZM",
     "articleNumber": "243ZM",
     "articleStr": "243ZM",
@@ -7609,7 +7649,7 @@
   },
   {
     "id": "art-243ZN",
-    "index": 299,
+    "index": 300,
     "article": "Article 243ZN",
     "articleNumber": "243ZN",
     "articleStr": "243ZN",
@@ -7633,7 +7673,7 @@
   },
   {
     "id": "art-243ZO",
-    "index": 300,
+    "index": 301,
     "article": "Article 243ZO",
     "articleNumber": "243ZO",
     "articleStr": "243ZO",
@@ -7656,7 +7696,7 @@
   },
   {
     "id": "art-243ZP",
-    "index": 301,
+    "index": 302,
     "article": "Article 243ZP",
     "articleNumber": "243ZP",
     "articleStr": "243ZP",
@@ -7677,7 +7717,7 @@
   },
   {
     "id": "art-243ZQ",
-    "index": 302,
+    "index": 303,
     "article": "Article 243ZQ",
     "articleNumber": "243ZQ",
     "articleStr": "243ZQ",
@@ -7699,7 +7739,7 @@
   },
   {
     "id": "art-243ZR",
-    "index": 303,
+    "index": 304,
     "article": "Article 243ZR",
     "articleNumber": "243ZR",
     "articleStr": "243ZR",
@@ -7724,7 +7764,7 @@
   },
   {
     "id": "art-243ZS",
-    "index": 304,
+    "index": 305,
     "article": "Article 243ZS",
     "articleNumber": "243ZS",
     "articleStr": "243ZS",
@@ -7747,7 +7787,7 @@
   },
   {
     "id": "art-243ZT",
-    "index": 305,
+    "index": 306,
     "article": "Article 243ZT",
     "articleNumber": "243ZT",
     "articleStr": "243ZT",
@@ -7770,7 +7810,7 @@
   },
   {
     "id": "art-244",
-    "index": 306,
+    "index": 307,
     "article": "Article 244",
     "articleNumber": 244,
     "articleStr": "244",
@@ -7794,7 +7834,7 @@
   },
   {
     "id": "art-244A",
-    "index": 307,
+    "index": 308,
     "article": "Article 244A",
     "articleNumber": "244A",
     "articleStr": "244A",
@@ -7829,7 +7869,7 @@
   },
   {
     "id": "art-245",
-    "index": 308,
+    "index": 309,
     "article": "Article 245",
     "articleNumber": 245,
     "articleStr": "245",
@@ -7855,7 +7895,7 @@
   },
   {
     "id": "art-246",
-    "index": 309,
+    "index": 310,
     "article": "Article 246",
     "articleNumber": 246,
     "articleStr": "246",
@@ -7890,7 +7930,7 @@
   },
   {
     "id": "art-246A",
-    "index": 310,
+    "index": 311,
     "article": "Article 246A",
     "articleNumber": "246A",
     "articleStr": "246A",
@@ -7922,7 +7962,7 @@
   },
   {
     "id": "art-247",
-    "index": 311,
+    "index": 312,
     "article": "Article 247",
     "articleNumber": 247,
     "articleStr": "247",
@@ -7949,7 +7989,7 @@
   },
   {
     "id": "art-248",
-    "index": 312,
+    "index": 313,
     "article": "Article 248",
     "articleNumber": 248,
     "articleStr": "248",
@@ -7972,7 +8012,7 @@
   },
   {
     "id": "art-249",
-    "index": 313,
+    "index": 314,
     "article": "Article 249",
     "articleNumber": 249,
     "articleStr": "249",
@@ -8001,7 +8041,7 @@
   },
   {
     "id": "art-250",
-    "index": 314,
+    "index": 315,
     "article": "Article 250",
     "articleNumber": 250,
     "articleStr": "250",
@@ -8031,7 +8071,7 @@
   },
   {
     "id": "art-251",
-    "index": 315,
+    "index": 316,
     "article": "Article 251",
     "articleNumber": 251,
     "articleStr": "251",
@@ -8059,7 +8099,7 @@
   },
   {
     "id": "art-252",
-    "index": 316,
+    "index": 317,
     "article": "Article 252",
     "articleNumber": 252,
     "articleStr": "252",
@@ -8087,7 +8127,7 @@
   },
   {
     "id": "art-253",
-    "index": 317,
+    "index": 318,
     "article": "Article 253",
     "articleNumber": 253,
     "articleStr": "253",
@@ -8112,7 +8152,7 @@
   },
   {
     "id": "art-254",
-    "index": 318,
+    "index": 319,
     "article": "Article 254",
     "articleNumber": 254,
     "articleStr": "254",
@@ -8139,7 +8179,7 @@
   },
   {
     "id": "art-255",
-    "index": 319,
+    "index": 320,
     "article": "Article 255",
     "articleNumber": 255,
     "articleStr": "255",
@@ -8167,7 +8207,7 @@
   },
   {
     "id": "art-256",
-    "index": 320,
+    "index": 321,
     "article": "Article 256",
     "articleNumber": 256,
     "articleStr": "256",
@@ -8190,7 +8230,7 @@
   },
   {
     "id": "art-257",
-    "index": 321,
+    "index": 322,
     "article": "Article 257",
     "articleNumber": 257,
     "articleStr": "257",
@@ -8216,7 +8256,7 @@
   },
   {
     "id": "art-258",
-    "index": 322,
+    "index": 323,
     "article": "Article 258",
     "articleNumber": 258,
     "articleStr": "258",
@@ -8243,7 +8283,7 @@
   },
   {
     "id": "art-258A",
-    "index": 323,
+    "index": 324,
     "article": "Article 258A",
     "articleNumber": "258A",
     "articleStr": "258A",
@@ -8268,7 +8308,7 @@
   },
   {
     "id": "art-260",
-    "index": 324,
+    "index": 325,
     "article": "Article 260",
     "articleNumber": 260,
     "articleStr": "260",
@@ -8294,7 +8334,7 @@
   },
   {
     "id": "art-261",
-    "index": 325,
+    "index": 326,
     "article": "Article 261",
     "articleNumber": 261,
     "articleStr": "261",
@@ -8319,7 +8359,7 @@
   },
   {
     "id": "art-262",
-    "index": 326,
+    "index": 327,
     "article": "Article 262",
     "articleNumber": 262,
     "articleStr": "262",
@@ -8347,7 +8387,7 @@
   },
   {
     "id": "art-263",
-    "index": 327,
+    "index": 328,
     "article": "Article 263",
     "articleNumber": 263,
     "articleStr": "263",
@@ -8372,7 +8412,7 @@
   },
   {
     "id": "art-264",
-    "index": 328,
+    "index": 329,
     "article": "Article 264",
     "articleNumber": 264,
     "articleStr": "264",
@@ -8393,7 +8433,7 @@
   },
   {
     "id": "art-265",
-    "index": 329,
+    "index": 330,
     "article": "Article 265",
     "articleNumber": 265,
     "articleStr": "265",
@@ -8417,7 +8457,7 @@
   },
   {
     "id": "art-266",
-    "index": 330,
+    "index": 331,
     "article": "Article 266",
     "articleNumber": 266,
     "articleStr": "266",
@@ -8443,7 +8483,7 @@
   },
   {
     "id": "art-267",
-    "index": 331,
+    "index": 332,
     "article": "Article 267",
     "articleNumber": 267,
     "articleStr": "267",
@@ -8465,7 +8505,7 @@
   },
   {
     "id": "art-268",
-    "index": 332,
+    "index": 333,
     "article": "Article 268",
     "articleNumber": 268,
     "articleStr": "268",
@@ -8491,7 +8531,7 @@
   },
   {
     "id": "art-268A",
-    "index": 333,
+    "index": 334,
     "article": "Article 268A",
     "articleNumber": "268A",
     "articleStr": "268A",
@@ -8517,7 +8557,7 @@
   },
   {
     "id": "art-269",
-    "index": 334,
+    "index": 335,
     "article": "Article 269",
     "articleNumber": 269,
     "articleStr": "269",
@@ -8543,7 +8583,7 @@
   },
   {
     "id": "art-269A",
-    "index": 335,
+    "index": 336,
     "article": "Article 269A",
     "articleNumber": "269A",
     "articleStr": "269A",
@@ -8572,7 +8612,7 @@
   },
   {
     "id": "art-270",
-    "index": 336,
+    "index": 337,
     "article": "Article 270",
     "articleNumber": 270,
     "articleStr": "270",
@@ -8598,7 +8638,7 @@
   },
   {
     "id": "art-271",
-    "index": 337,
+    "index": 338,
     "article": "Article 271",
     "articleNumber": 271,
     "articleStr": "271",
@@ -8624,7 +8664,7 @@
   },
   {
     "id": "art-273",
-    "index": 338,
+    "index": 339,
     "article": "Article 273",
     "articleNumber": 273,
     "articleStr": "273",
@@ -8650,7 +8690,7 @@
   },
   {
     "id": "art-274",
-    "index": 339,
+    "index": 340,
     "article": "Article 274",
     "articleNumber": 274,
     "articleStr": "274",
@@ -8680,7 +8720,7 @@
   },
   {
     "id": "art-275",
-    "index": 340,
+    "index": 341,
     "article": "Article 275",
     "articleNumber": 275,
     "articleStr": "275",
@@ -8704,7 +8744,7 @@
   },
   {
     "id": "art-276",
-    "index": 341,
+    "index": 342,
     "article": "Article 276",
     "articleNumber": 276,
     "articleStr": "276",
@@ -8729,7 +8769,7 @@
   },
   {
     "id": "art-277",
-    "index": 342,
+    "index": 343,
     "article": "Article 277",
     "articleNumber": 277,
     "articleStr": "277",
@@ -8750,7 +8790,7 @@
   },
   {
     "id": "art-279",
-    "index": 343,
+    "index": 344,
     "article": "Article 279",
     "articleNumber": 279,
     "articleStr": "279",
@@ -8772,7 +8812,7 @@
   },
   {
     "id": "art-280",
-    "index": 344,
+    "index": 345,
     "article": "Article 280",
     "articleNumber": 280,
     "articleStr": "280",
@@ -8800,7 +8840,7 @@
   },
   {
     "id": "art-281",
-    "index": 345,
+    "index": 346,
     "article": "Article 281",
     "articleNumber": 281,
     "articleStr": "281",
@@ -8823,7 +8863,7 @@
   },
   {
     "id": "art-282",
-    "index": 346,
+    "index": 347,
     "article": "Article 282",
     "articleNumber": 282,
     "articleStr": "282",
@@ -8848,7 +8888,7 @@
   },
   {
     "id": "art-283",
-    "index": 347,
+    "index": 348,
     "article": "Article 283",
     "articleNumber": 283,
     "articleStr": "283",
@@ -8876,7 +8916,7 @@
   },
   {
     "id": "art-284",
-    "index": 348,
+    "index": 349,
     "article": "Article 284",
     "articleNumber": 284,
     "articleStr": "284",
@@ -8904,7 +8944,7 @@
   },
   {
     "id": "art-285",
-    "index": 349,
+    "index": 350,
     "article": "Article 285",
     "articleNumber": 285,
     "articleStr": "285",
@@ -8929,7 +8969,7 @@
   },
   {
     "id": "art-286",
-    "index": 350,
+    "index": 351,
     "article": "Article 286",
     "articleNumber": 286,
     "articleStr": "286",
@@ -8954,7 +8994,7 @@
   },
   {
     "id": "art-287",
-    "index": 351,
+    "index": 352,
     "article": "Article 287",
     "articleNumber": 287,
     "articleStr": "287",
@@ -8977,7 +9017,7 @@
   },
   {
     "id": "art-288",
-    "index": 352,
+    "index": 353,
     "article": "Article 288",
     "articleNumber": 288,
     "articleStr": "288",
@@ -9005,7 +9045,7 @@
   },
   {
     "id": "art-289",
-    "index": 353,
+    "index": 354,
     "article": "Article 289",
     "articleNumber": 289,
     "articleStr": "289",
@@ -9031,7 +9071,7 @@
   },
   {
     "id": "art-290",
-    "index": 354,
+    "index": 355,
     "article": "Article 290",
     "articleNumber": 290,
     "articleStr": "290",
@@ -9056,7 +9096,7 @@
   },
   {
     "id": "art-290A",
-    "index": 355,
+    "index": 356,
     "article": "Article 290A",
     "articleNumber": "290A",
     "articleStr": "290A",
@@ -9081,7 +9121,7 @@
   },
   {
     "id": "art-292",
-    "index": 356,
+    "index": 357,
     "article": "Article 292",
     "articleNumber": 292,
     "articleStr": "292",
@@ -9104,7 +9144,7 @@
   },
   {
     "id": "art-293",
-    "index": 357,
+    "index": 358,
     "article": "Article 293",
     "articleNumber": 293,
     "articleStr": "293",
@@ -9126,7 +9166,7 @@
   },
   {
     "id": "art-294",
-    "index": 358,
+    "index": 359,
     "article": "Article 294",
     "articleNumber": 294,
     "articleStr": "294",
@@ -9154,7 +9194,7 @@
   },
   {
     "id": "art-295",
-    "index": 359,
+    "index": 360,
     "article": "Article 295",
     "articleNumber": 295,
     "articleStr": "295",
@@ -9181,7 +9221,7 @@
   },
   {
     "id": "art-296",
-    "index": 360,
+    "index": 361,
     "article": "Article 296",
     "articleNumber": 296,
     "articleStr": "296",
@@ -9207,7 +9247,7 @@
   },
   {
     "id": "art-297",
-    "index": 361,
+    "index": 362,
     "article": "Article 297",
     "articleNumber": 297,
     "articleStr": "297",
@@ -9240,7 +9280,7 @@
   },
   {
     "id": "art-298",
-    "index": 362,
+    "index": 363,
     "article": "Article 298",
     "articleNumber": 298,
     "articleStr": "298",
@@ -9263,7 +9303,7 @@
   },
   {
     "id": "art-299",
-    "index": 363,
+    "index": 364,
     "article": "Article 299",
     "articleNumber": 299,
     "articleStr": "299",
@@ -9284,7 +9324,7 @@
   },
   {
     "id": "art-300",
-    "index": 364,
+    "index": 365,
     "article": "Article 300",
     "articleNumber": 300,
     "articleStr": "300",
@@ -9306,7 +9346,7 @@
   },
   {
     "id": "art-300A",
-    "index": 365,
+    "index": 366,
     "article": "Article 300A",
     "articleNumber": "300A",
     "articleStr": "300A",
@@ -9338,7 +9378,7 @@
   },
   {
     "id": "art-301",
-    "index": 366,
+    "index": 367,
     "article": "Article 301",
     "articleNumber": 301,
     "articleStr": "301",
@@ -9362,7 +9402,7 @@
   },
   {
     "id": "art-302",
-    "index": 367,
+    "index": 368,
     "article": "Article 302",
     "articleNumber": 302,
     "articleStr": "302",
@@ -9389,7 +9429,7 @@
   },
   {
     "id": "art-303",
-    "index": 368,
+    "index": 369,
     "article": "Article 303",
     "articleNumber": 303,
     "articleStr": "303",
@@ -9417,7 +9457,7 @@
   },
   {
     "id": "art-304",
-    "index": 369,
+    "index": 370,
     "article": "Article 304",
     "articleNumber": 304,
     "articleStr": "304",
@@ -9443,7 +9483,7 @@
   },
   {
     "id": "art-305",
-    "index": 370,
+    "index": 371,
     "article": "Article 305",
     "articleNumber": 305,
     "articleStr": "305",
@@ -9469,7 +9509,7 @@
   },
   {
     "id": "art-307",
-    "index": 371,
+    "index": 372,
     "article": "Article 307",
     "articleNumber": 307,
     "articleStr": "307",
@@ -9494,7 +9534,7 @@
   },
   {
     "id": "art-308",
-    "index": 372,
+    "index": 373,
     "article": "Article 308",
     "articleNumber": 308,
     "articleStr": "308",
@@ -9515,7 +9555,7 @@
   },
   {
     "id": "art-309",
-    "index": 373,
+    "index": 374,
     "article": "Article 309",
     "articleNumber": 309,
     "articleStr": "309",
@@ -9542,7 +9582,7 @@
   },
   {
     "id": "art-310",
-    "index": 374,
+    "index": 375,
     "article": "Article 310",
     "articleNumber": 310,
     "articleStr": "310",
@@ -9568,7 +9608,7 @@
   },
   {
     "id": "art-311",
-    "index": 375,
+    "index": 376,
     "article": "Article 311",
     "articleNumber": 311,
     "articleStr": "311",
@@ -9605,7 +9645,7 @@
   },
   {
     "id": "art-312",
-    "index": 376,
+    "index": 377,
     "article": "Article 312",
     "articleNumber": 312,
     "articleStr": "312",
@@ -9634,7 +9674,7 @@
   },
   {
     "id": "art-312A",
-    "index": 377,
+    "index": 378,
     "article": "Article 312A",
     "articleNumber": "312A",
     "articleStr": "312A",
@@ -9663,7 +9703,7 @@
   },
   {
     "id": "art-313",
-    "index": 378,
+    "index": 379,
     "article": "Article 313",
     "articleNumber": 313,
     "articleStr": "313",
@@ -9685,7 +9725,7 @@
   },
   {
     "id": "art-315",
-    "index": 379,
+    "index": 380,
     "article": "Article 315",
     "articleNumber": 315,
     "articleStr": "315",
@@ -9717,7 +9757,7 @@
   },
   {
     "id": "art-316",
-    "index": 380,
+    "index": 381,
     "article": "Article 316",
     "articleNumber": 316,
     "articleStr": "316",
@@ -9741,7 +9781,7 @@
   },
   {
     "id": "art-317",
-    "index": 381,
+    "index": 382,
     "article": "Article 317",
     "articleNumber": 317,
     "articleStr": "317",
@@ -9767,7 +9807,7 @@
   },
   {
     "id": "art-318",
-    "index": 382,
+    "index": 383,
     "article": "Article 318",
     "articleNumber": 318,
     "articleStr": "318",
@@ -9795,7 +9835,7 @@
   },
   {
     "id": "art-319",
-    "index": 383,
+    "index": 384,
     "article": "Article 319",
     "articleNumber": 319,
     "articleStr": "319",
@@ -9821,7 +9861,7 @@
   },
   {
     "id": "art-321",
-    "index": 384,
+    "index": 385,
     "article": "Article 321",
     "articleNumber": 321,
     "articleStr": "321",
@@ -9847,7 +9887,7 @@
   },
   {
     "id": "art-322",
-    "index": 385,
+    "index": 386,
     "article": "Article 322",
     "articleNumber": 322,
     "articleStr": "322",
@@ -9871,7 +9911,7 @@
   },
   {
     "id": "art-323",
-    "index": 386,
+    "index": 387,
     "article": "Article 323",
     "articleNumber": 323,
     "articleStr": "323",
@@ -9895,7 +9935,7 @@
   },
   {
     "id": "art-323A",
-    "index": 387,
+    "index": 388,
     "article": "Article 323A",
     "articleNumber": "323A",
     "articleStr": "323A",
@@ -9917,7 +9957,7 @@
   },
   {
     "id": "art-323B",
-    "index": 388,
+    "index": 389,
     "article": "Article 323B",
     "articleNumber": "323B",
     "articleStr": "323B",
@@ -9939,7 +9979,7 @@
   },
   {
     "id": "art-324",
-    "index": 389,
+    "index": 390,
     "article": "Article 324",
     "articleNumber": 324,
     "articleStr": "324",
@@ -9974,7 +10014,7 @@
   },
   {
     "id": "art-325",
-    "index": 390,
+    "index": 391,
     "article": "Article 325",
     "articleNumber": 325,
     "articleStr": "325",
@@ -10006,7 +10046,7 @@
   },
   {
     "id": "art-326",
-    "index": 391,
+    "index": 392,
     "article": "Article 326",
     "articleNumber": 326,
     "articleStr": "326",
@@ -10040,7 +10080,7 @@
   },
   {
     "id": "art-327",
-    "index": 392,
+    "index": 393,
     "article": "Article 327",
     "articleNumber": 327,
     "articleStr": "327",
@@ -10067,7 +10107,7 @@
   },
   {
     "id": "art-328",
-    "index": 393,
+    "index": 394,
     "article": "Article 328",
     "articleNumber": 328,
     "articleStr": "328",
@@ -10094,7 +10134,7 @@
   },
   {
     "id": "art-329",
-    "index": 394,
+    "index": 395,
     "article": "Article 329",
     "articleNumber": 329,
     "articleStr": "329",
@@ -10118,7 +10158,7 @@
   },
   {
     "id": "art-330",
-    "index": 395,
+    "index": 396,
     "article": "Article 330",
     "articleNumber": 330,
     "articleStr": "330",
@@ -10145,7 +10185,7 @@
   },
   {
     "id": "art-331",
-    "index": 396,
+    "index": 397,
     "article": "Article 331",
     "articleNumber": 331,
     "articleStr": "331",
@@ -10171,7 +10211,7 @@
   },
   {
     "id": "art-332",
-    "index": 397,
+    "index": 398,
     "article": "Article 332",
     "articleNumber": 332,
     "articleStr": "332",
@@ -10199,7 +10239,7 @@
   },
   {
     "id": "art-333",
-    "index": 398,
+    "index": 399,
     "article": "Article 333",
     "articleNumber": 333,
     "articleStr": "333",
@@ -10226,7 +10266,7 @@
   },
   {
     "id": "art-334",
-    "index": 399,
+    "index": 400,
     "article": "Article 334",
     "articleNumber": 334,
     "articleStr": "334",
@@ -10254,7 +10294,7 @@
   },
   {
     "id": "art-335",
-    "index": 400,
+    "index": 401,
     "article": "Article 335",
     "articleNumber": 335,
     "articleStr": "335",
@@ -10280,7 +10320,7 @@
   },
   {
     "id": "art-336",
-    "index": 401,
+    "index": 402,
     "article": "Article 336",
     "articleNumber": 336,
     "articleStr": "336",
@@ -10307,7 +10347,7 @@
   },
   {
     "id": "art-337",
-    "index": 402,
+    "index": 403,
     "article": "Article 337",
     "articleNumber": 337,
     "articleStr": "337",
@@ -10336,7 +10376,7 @@
   },
   {
     "id": "art-338",
-    "index": 403,
+    "index": 404,
     "article": "Article 338",
     "articleNumber": 338,
     "articleStr": "338",
@@ -10360,7 +10400,7 @@
   },
   {
     "id": "art-338A",
-    "index": 404,
+    "index": 405,
     "article": "Article 338A",
     "articleNumber": "338A",
     "articleStr": "338A",
@@ -10384,7 +10424,7 @@
   },
   {
     "id": "art-339",
-    "index": 405,
+    "index": 406,
     "article": "Article 339",
     "articleNumber": 339,
     "articleStr": "339",
@@ -10412,7 +10452,7 @@
   },
   {
     "id": "art-340",
-    "index": 406,
+    "index": 407,
     "article": "Article 340",
     "articleNumber": 340,
     "articleStr": "340",
@@ -10438,7 +10478,7 @@
   },
   {
     "id": "art-341",
-    "index": 407,
+    "index": 408,
     "article": "Article 341",
     "articleNumber": 341,
     "articleStr": "341",
@@ -10460,7 +10500,7 @@
   },
   {
     "id": "art-342",
-    "index": 408,
+    "index": 409,
     "article": "Article 342",
     "articleNumber": 342,
     "articleStr": "342",
@@ -10482,7 +10522,7 @@
   },
   {
     "id": "art-343",
-    "index": 409,
+    "index": 410,
     "article": "Article 343",
     "articleNumber": 343,
     "articleStr": "343",
@@ -10505,7 +10545,7 @@
   },
   {
     "id": "art-344",
-    "index": 410,
+    "index": 411,
     "article": "Article 344",
     "articleNumber": 344,
     "articleStr": "344",
@@ -10530,7 +10570,7 @@
   },
   {
     "id": "art-345",
-    "index": 411,
+    "index": 412,
     "article": "Article 345",
     "articleNumber": 345,
     "articleStr": "345",
@@ -10554,7 +10594,7 @@
   },
   {
     "id": "art-346",
-    "index": 412,
+    "index": 413,
     "article": "Article 346",
     "articleNumber": 346,
     "articleStr": "346",
@@ -10581,7 +10621,7 @@
   },
   {
     "id": "art-347",
-    "index": 413,
+    "index": 414,
     "article": "Article 347",
     "articleNumber": 347,
     "articleStr": "347",
@@ -10609,7 +10649,7 @@
   },
   {
     "id": "art-348",
-    "index": 414,
+    "index": 415,
     "article": "Article 348",
     "articleNumber": 348,
     "articleStr": "348",
@@ -10637,7 +10677,7 @@
   },
   {
     "id": "art-349",
-    "index": 415,
+    "index": 416,
     "article": "Article 349",
     "articleNumber": 349,
     "articleStr": "349",
@@ -10664,7 +10704,7 @@
   },
   {
     "id": "art-350",
-    "index": 416,
+    "index": 417,
     "article": "Article 350",
     "articleNumber": 350,
     "articleStr": "350",
@@ -10689,7 +10729,7 @@
   },
   {
     "id": "art-350A",
-    "index": 417,
+    "index": 418,
     "article": "Article 350A",
     "articleNumber": "350A",
     "articleStr": "350A",
@@ -10715,7 +10755,7 @@
   },
   {
     "id": "art-350B",
-    "index": 418,
+    "index": 419,
     "article": "Article 350B",
     "articleNumber": "350B",
     "articleStr": "350B",
@@ -10739,7 +10779,7 @@
   },
   {
     "id": "art-351",
-    "index": 419,
+    "index": 420,
     "article": "Article 351",
     "articleNumber": 351,
     "articleStr": "351",
@@ -10763,7 +10803,7 @@
   },
   {
     "id": "art-352",
-    "index": 420,
+    "index": 421,
     "article": "Article 352",
     "articleNumber": 352,
     "articleStr": "352",
@@ -10793,7 +10833,7 @@
   },
   {
     "id": "art-353",
-    "index": 421,
+    "index": 422,
     "article": "Article 353",
     "articleNumber": 353,
     "articleStr": "353",
@@ -10816,7 +10856,7 @@
   },
   {
     "id": "art-354",
-    "index": 422,
+    "index": 423,
     "article": "Article 354",
     "articleNumber": 354,
     "articleStr": "354",
@@ -10845,7 +10885,7 @@
   },
   {
     "id": "art-355",
-    "index": 423,
+    "index": 424,
     "article": "Article 355",
     "articleNumber": 355,
     "articleStr": "355",
@@ -10874,7 +10914,7 @@
   },
   {
     "id": "art-356",
-    "index": 424,
+    "index": 425,
     "article": "Article 356",
     "articleNumber": 356,
     "articleStr": "356",
@@ -10907,7 +10947,7 @@
   },
   {
     "id": "art-357",
-    "index": 425,
+    "index": 426,
     "article": "Article 357",
     "articleNumber": 357,
     "articleStr": "357",
@@ -10933,7 +10973,7 @@
   },
   {
     "id": "art-358",
-    "index": 426,
+    "index": 427,
     "article": "Article 358",
     "articleNumber": 358,
     "articleStr": "358",
@@ -10958,7 +10998,7 @@
   },
   {
     "id": "art-359",
-    "index": 427,
+    "index": 428,
     "article": "Article 359",
     "articleNumber": 359,
     "articleStr": "359",
@@ -10985,7 +11025,7 @@
   },
   {
     "id": "art-360",
-    "index": 428,
+    "index": 429,
     "article": "Article 360",
     "articleNumber": 360,
     "articleStr": "360",
@@ -11014,7 +11054,7 @@
   },
   {
     "id": "art-361",
-    "index": 429,
+    "index": 430,
     "article": "Article 361",
     "articleNumber": 361,
     "articleStr": "361",
@@ -11038,7 +11078,7 @@
   },
   {
     "id": "art-361A",
-    "index": 430,
+    "index": 431,
     "article": "Article 361A",
     "articleNumber": "361A",
     "articleStr": "361A",
@@ -11064,7 +11104,7 @@
   },
   {
     "id": "art-361B",
-    "index": 431,
+    "index": 432,
     "article": "Article 361B",
     "articleNumber": "361B",
     "articleStr": "361B",
@@ -11089,7 +11129,7 @@
   },
   {
     "id": "art-363",
-    "index": 432,
+    "index": 433,
     "article": "Article 363",
     "articleNumber": 363,
     "articleStr": "363",
@@ -11116,7 +11156,7 @@
   },
   {
     "id": "art-363A",
-    "index": 433,
+    "index": 434,
     "article": "Article 363A",
     "articleNumber": "363A",
     "articleStr": "363A",
@@ -11145,7 +11185,7 @@
   },
   {
     "id": "art-364",
-    "index": 434,
+    "index": 435,
     "article": "Article 364",
     "articleNumber": 364,
     "articleStr": "364",
@@ -11170,7 +11210,7 @@
   },
   {
     "id": "art-365",
-    "index": 435,
+    "index": 436,
     "article": "Article 365",
     "articleNumber": 365,
     "articleStr": "365",
@@ -11197,7 +11237,7 @@
   },
   {
     "id": "art-366",
-    "index": 436,
+    "index": 437,
     "article": "Article 366",
     "articleNumber": 366,
     "articleStr": "366",
@@ -11218,7 +11258,7 @@
   },
   {
     "id": "art-367",
-    "index": 437,
+    "index": 438,
     "article": "Article 367",
     "articleNumber": 367,
     "articleStr": "367",
@@ -11239,7 +11279,7 @@
   },
   {
     "id": "art-368",
-    "index": 438,
+    "index": 439,
     "article": "Article 368",
     "articleNumber": 368,
     "articleStr": "368",
@@ -11276,7 +11316,7 @@
   },
   {
     "id": "art-369",
-    "index": 439,
+    "index": 440,
     "article": "Article 369",
     "articleNumber": 369,
     "articleStr": "369",
@@ -11309,7 +11349,7 @@
   },
   {
     "id": "art-370",
-    "index": 440,
+    "index": 441,
     "article": "Article 370",
     "articleNumber": 370,
     "articleStr": "370",
@@ -11344,7 +11384,7 @@
   },
   {
     "id": "art-371",
-    "index": 441,
+    "index": 442,
     "article": "Article 371",
     "articleNumber": 371,
     "articleStr": "371",
@@ -11370,7 +11410,7 @@
   },
   {
     "id": "art-371A",
-    "index": 442,
+    "index": 443,
     "article": "Article 371A",
     "articleNumber": "371A",
     "articleStr": "371A",
@@ -11395,7 +11435,7 @@
   },
   {
     "id": "art-371B",
-    "index": 443,
+    "index": 444,
     "article": "Article 371B",
     "articleNumber": "371B",
     "articleStr": "371B",
@@ -11420,7 +11460,7 @@
   },
   {
     "id": "art-371C",
-    "index": 444,
+    "index": 445,
     "article": "Article 371C",
     "articleNumber": "371C",
     "articleStr": "371C",
@@ -11445,7 +11485,7 @@
   },
   {
     "id": "art-371D",
-    "index": 445,
+    "index": 446,
     "article": "Article 371D",
     "articleNumber": "371D",
     "articleStr": "371D",
@@ -11471,7 +11511,7 @@
   },
   {
     "id": "art-371E",
-    "index": 446,
+    "index": 447,
     "article": "Article 371E",
     "articleNumber": "371E",
     "articleStr": "371E",
@@ -11496,7 +11536,7 @@
   },
   {
     "id": "art-371F",
-    "index": 447,
+    "index": 448,
     "article": "Article 371F",
     "articleNumber": "371F",
     "articleStr": "371F",
@@ -11521,7 +11561,7 @@
   },
   {
     "id": "art-371G",
-    "index": 448,
+    "index": 449,
     "article": "Article 371G",
     "articleNumber": "371G",
     "articleStr": "371G",
@@ -11546,7 +11586,7 @@
   },
   {
     "id": "art-371H",
-    "index": 449,
+    "index": 450,
     "article": "Article 371H",
     "articleNumber": "371H",
     "articleStr": "371H",
@@ -11572,7 +11612,7 @@
   },
   {
     "id": "art-371I",
-    "index": 450,
+    "index": 451,
     "article": "Article 371I",
     "articleNumber": "371I",
     "articleStr": "371I",
@@ -11596,7 +11636,7 @@
   },
   {
     "id": "art-372",
-    "index": 451,
+    "index": 452,
     "article": "Article 372",
     "articleNumber": 372,
     "articleStr": "372",
@@ -11622,7 +11662,7 @@
   },
   {
     "id": "art-372A",
-    "index": 452,
+    "index": 453,
     "article": "Article 372A",
     "articleNumber": "372A",
     "articleStr": "372A",
@@ -11646,7 +11686,7 @@
   },
   {
     "id": "art-373",
-    "index": 453,
+    "index": 454,
     "article": "Article 373",
     "articleNumber": 373,
     "articleStr": "373",
@@ -11676,7 +11716,7 @@
   },
   {
     "id": "art-374",
-    "index": 454,
+    "index": 455,
     "article": "Article 374",
     "articleNumber": 374,
     "articleStr": "374",
@@ -11705,7 +11745,7 @@
   },
   {
     "id": "art-375",
-    "index": 455,
+    "index": 456,
     "article": "Article 375",
     "articleNumber": 375,
     "articleStr": "375",
@@ -11733,7 +11773,7 @@
   },
   {
     "id": "art-376",
-    "index": 456,
+    "index": 457,
     "article": "Article 376",
     "articleNumber": 376,
     "articleStr": "376",
@@ -11757,7 +11797,7 @@
   },
   {
     "id": "art-377",
-    "index": 457,
+    "index": 458,
     "article": "Article 377",
     "articleNumber": 377,
     "articleStr": "377",
@@ -11782,7 +11822,7 @@
   },
   {
     "id": "art-378",
-    "index": 458,
+    "index": 459,
     "article": "Article 378",
     "articleNumber": 378,
     "articleStr": "378",
@@ -11806,7 +11846,7 @@
   },
   {
     "id": "art-378A",
-    "index": 459,
+    "index": 460,
     "article": "Article 378A",
     "articleNumber": "378A",
     "articleStr": "378A",
@@ -11833,7 +11873,7 @@
   },
   {
     "id": "art-392",
-    "index": 460,
+    "index": 461,
     "article": "Article 392",
     "articleNumber": 392,
     "articleStr": "392",
@@ -11857,7 +11897,7 @@
   },
   {
     "id": "art-393",
-    "index": 461,
+    "index": 462,
     "article": "Article 393",
     "articleNumber": 393,
     "articleStr": "393",
@@ -11879,7 +11919,7 @@
   },
   {
     "id": "art-394",
-    "index": 462,
+    "index": 463,
     "article": "Article 394",
     "articleNumber": 394,
     "articleStr": "394",
@@ -11900,7 +11940,7 @@
   },
   {
     "id": "art-394A",
-    "index": 463,
+    "index": 464,
     "article": "Article 394A",
     "articleNumber": "394A",
     "articleStr": "394A",
@@ -11924,7 +11964,7 @@
   },
   {
     "id": "art-395",
-    "index": 464,
+    "index": 465,
     "article": "Article 395",
     "articleNumber": 395,
     "articleStr": "395",

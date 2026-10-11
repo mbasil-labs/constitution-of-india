@@ -17,6 +17,12 @@ const landmarkMap = {
     importance: "landmark",
     tags: ["bharat", "union of states", "territory", "federation"]
   },
+  '2A': {
+    summary: "Sikkim to be associated with the Union. Inserted by the 35th Constitutional Amendment (1974); omitted by the 36th Constitutional Amendment (1975) when Sikkim became a full State of India.",
+    cases: ["R.C. Poudyal v. Union of India (1993) - Upheld terms of Sikkim admission into the Indian Union."],
+    importance: "high",
+    tags: ["sikkim", "omitted", "associate state", "union of states", "36th amendment"]
+  },
   12: {
     summary: "Defines 'the State' for the enforcement of Fundamental Rights, covering the Government, Parliament, state legislatures, and all local or other authorities within India.",
     cases: ["Ajay Hasia v. Khalid Mujib (1981) - Financial, functional, and administrative control test for instrumentality of State.", "R.D. Shetty v. International Airport Authority (1979)"],
@@ -77,6 +83,12 @@ const landmarkMap = {
     importance: "landmark",
     tags: ["freedom of religion", "conscience", "secularism", "faith", "worship"]
   },
+  31: {
+    summary: "Compulsory acquisition of property. Omitted by the 44th Constitutional Amendment Act, 1978, and re-enacted as a constitutional right under Article 300A.",
+    cases: ["Bela Banerjee Case (1954)", "Bank Nationalization Case (R.C. Cooper, 1970)"],
+    importance: "high",
+    tags: ["omitted", "property", "44th amendment", "acquisition"]
+  },
   32: {
     summary: "Right to constitutional remedies: empowers citizens to move the Supreme Court directly for the enforcement of Fundamental Rights via writs (Habeas Corpus, Mandamus, Prohibition, Quo Warranto, Certiorari). Dr. Ambedkar termed it the 'heart and soul of the Constitution'.",
     cases: ["Bandhua Mukti Morcha (1984) - Origin of Public Interest Litigation (PIL).", "Sunil Batra v. Delhi Administration (1980) - Protection of prisoner rights via postcard petition.", "L. Chandra Kumar (1997)"],
@@ -101,11 +113,23 @@ const landmarkMap = {
     importance: "high",
     tags: ["panchayat", "local self-government", "gandhian principles", "grassroots democracy"]
   },
+  '43B': {
+    summary: "Promotion of co-operative societies: State shall endeavour to promote voluntary formation, autonomous functioning, democratic control, and professional management of co-operative societies. Added via 97th Amendment Act, 2011.",
+    cases: ["Union of India v. Rajendra N. Shah (2021) - Upheld Article 43B and Part IXB as applied to multi-State co-operative societies."],
+    importance: "high",
+    tags: ["co-operatives", "autonomous", "grassroots", "97th amendment", "democratic control"]
+  },
   44: {
     summary: "Directs the State to secure for the citizens a Uniform Civil Code (UCC) throughout the territory of India.",
     cases: ["Shah Bano Case (1985) - SC urged government to frame a UCC.", "Sarla Mudgal (1995)", "John Vallamattom (2003)"],
     importance: "landmark",
     tags: ["uniform civil code", "ucc", "personal laws", "gender justice", "secularism"]
+  },
+  45: {
+    summary: "Provision for early childhood care and education to children below the age of six years. Substituted by the historic 86th Constitutional Amendment Act, 2002.",
+    cases: ["Unni Krishnan v. State of AP (1993)", "Right of Children to Free and Compulsory Education Act, 2009."],
+    importance: "high",
+    tags: ["early childhood care", "children", "pre-school", "86th amendment", "directive principles"]
   },
   '48A': {
     summary: "Protection and improvement of environment and safeguarding of forests and wild life. Added by 42nd Amendment Act, 1976.",
@@ -178,6 +202,12 @@ const landmarkMap = {
     cases: ["First, Second, and Third Judges Cases (1981, 1993, 1998) - Evolution of the Collegium system.", "NJAC Case (Supreme Court Advocates-on-Record Association, 2015) - Struck down 99th Amendment."],
     importance: "landmark",
     tags: ["supreme court", "cji", "collegium", "judiciary", "njac"]
+  },
+  '124A': {
+    summary: "National Judicial Appointments Commission (NJAC). Inserted by the 99th Amendment Act, 2014, and subsequently declared unconstitutional and void by Supreme Court in 2015.",
+    cases: ["Supreme Court Advocates-on-Record Association v. Union of India (NJAC Case, 2015) - 4:1 majority held judicial primacy in appointments is basic structure."],
+    importance: "landmark",
+    tags: ["njac", "judiciary", "collegium", "99th amendment", "basic structure"]
   },
   129: {
     summary: "Supreme Court to be a Court of Record and shall have all powers of such a court, including the power to punish for contempt of itself.",
@@ -252,10 +282,10 @@ const landmarkMap = {
     tags: ["gst", "goods and services tax", "101st amendment", "fiscal federalism", "taxation"]
   },
   '279A': {
-    summary: "Establishment of Goods and Services Tax Council (GST Council), chaired by Union Finance Minister with state finance ministers as members.",
-    cases: ["Symbol of cooperative fiscal federalism in Indian indirect tax administration."],
-    importance: "high",
-    tags: ["gst council", "fiscal federalism", "finance minister", "indirect tax"]
+    summary: "Establishment of Goods and Services Tax Council (GST Council), chaired by Union Finance Minister with state finance ministers as members. Added by 101st Amendment, 2016.",
+    cases: ["Union of India v. Mohit Minerals (2022) - Cooperative fiscal federalism in Indian indirect tax administration."],
+    importance: "landmark",
+    tags: ["gst council", "fiscal federalism", "finance minister", "indirect tax", "101st amendment"]
   },
   280: {
     summary: "Finance Commission: appointed by the President every five years to make recommendations on the devolution of tax revenues between Union and States.",
@@ -287,6 +317,12 @@ const landmarkMap = {
     importance: "high",
     tags: ["upsc", "spsc", "civil service exams", "recruitment", "merit"]
   },
+  320: {
+    summary: "Functions of Public Service Commissions: duty to conduct examinations for appointments to services of Union and States, and mandatory consultation on recruitment methods and disciplinary matters.",
+    cases: ["State of UP v. Manbodhan Lal Srivastava (1957) - Consultation with UPSC under Art 320(3)(c) is directory, not mandatory, but safeguards meritocracy."],
+    importance: "landmark",
+    tags: ["upsc", "spsc", "examinations", "civil services", "recruitment", "merit"]
+  },
   324: {
     summary: "Superintendence, direction and control of elections to be vested in an Election Commission of India (ECI), ensuring free and fair democratic polls.",
     cases: ["T.N. Seshan v. Union of India (1995) - Independence and multi-member commission.", "Anoop Baranwal v. Union of India (2023) - Appointment panel for Chief Election Commissioner."],
@@ -298,6 +334,36 @@ const landmarkMap = {
     cases: ["61st Constitutional Amendment Act 1988 lowered voting age from 21 to 18 years."],
     importance: "landmark",
     tags: ["universal adult franchise", "voting age", "democracy", "suffrage"]
+  },
+  '330A': {
+    summary: "Reservation of seats for women in the House of the People (Lok Sabha). Enacted via the historic 106th Constitutional Amendment Act, 2023 (Nari Shakti Vandan Adhiniyam), reserving one-third of total seats for women.",
+    cases: ["Historic constitutional breakthrough for gender parity in national parliamentary representation."],
+    importance: "landmark",
+    tags: ["women reservation", "lok sabha", "nari shakti vandan", "106th amendment", "gender equality"]
+  },
+  '332A': {
+    summary: "Reservation of seats for women in the Legislative Assemblies of the States. Enacted via the 106th Constitutional Amendment Act, 2023, reserving one-third of total assembly seats for women.",
+    cases: ["Empowers female representation across State Legislative Assemblies."],
+    importance: "landmark",
+    tags: ["women reservation", "state assemblies", "nari shakti vandan", "106th amendment", "gender equality"]
+  },
+  '334A': {
+    summary: "Reservation of seats for women to take effect: specifies that women's reservation in Lok Sabha and State Assemblies will come into effect after delimitation following the relevant census and continue for fifteen years initially.",
+    cases: ["Enacted via the 106th Constitutional Amendment Act, 2023."],
+    importance: "landmark",
+    tags: ["women reservation", "delimitation", "census", "106th amendment", "sun-set clause"]
+  },
+  '338B': {
+    summary: "National Commission for Backward Classes (NCBC): granted constitutional status with powers equivalent to a civil court to investigate and monitor safeguards for socially and educationally backward classes. Added by 102nd Amendment Act, 2018.",
+    cases: ["Jaishri Laxmanrao Patil v. Chief Minister, Maharashtra (Maratha Reservation, 2021)."],
+    importance: "landmark",
+    tags: ["ncbc", "backward classes", "obc", "102nd amendment", "social justice"]
+  },
+  '342A': {
+    summary: "Socially and educationally backward classes: empowers President to specify the Central List of SEBCs, and 105th Amendment (2021) clarified power of States to maintain their own State OBC lists.",
+    cases: ["105th Constitutional Amendment Act, 2021 restored states' authority to maintain State OBC lists."],
+    importance: "landmark",
+    tags: ["backward classes", "obc list", "102nd amendment", "105th amendment", "federalism"]
   },
   352: {
     summary: "Proclamation of National Emergency by the President on grounds of war, external aggression, or armed rebellion, on written advice of the Union Cabinet.",
@@ -328,6 +394,12 @@ const landmarkMap = {
     cases: ["Prem Nath Kaul (1959)", "Sampat Prakash (1970)", "In Re: Article 370 of the Constitution (2023) - SC constitution bench upheld the abrogation of Article 370."],
     importance: "landmark",
     tags: ["jammu and kashmir", "special status", "abrogation", "federalism", "temporary provision"]
+  },
+  '371J': {
+    summary: "Special provisions with respect to the State of Karnataka: provides for the establishment of a separate development board and quotas in education and public employment for the Hyderabad-Karnataka region. Inserted by 98th Amendment Act, 2012.",
+    cases: ["Empowered affirmative regional development for Kalyana-Karnataka districts."],
+    importance: "landmark",
+    tags: ["karnataka", "hyderabad karnataka", "kalyana karnataka", "98th amendment", "regional development"]
   }
 };
 
@@ -382,7 +454,7 @@ function getPartInfo(art) {
   if (num === 238) {
     return { partId: 'Part VII', partName: 'Part VII: States in Part B (Repealed)', category: 'Repealed Provisions' };
   }
-  if (num >= 239 && num <= 242) {
+  if (artStr.startsWith('239') || (num >= 239 && num <= 242)) {
     return { partId: 'Part VIII', partName: 'Part VIII: The Union Territories', category: 'Union Territories' };
   }
   if (artStr.startsWith('243')) {
@@ -493,34 +565,34 @@ const enrichedArticles = raw.map((item, index) => {
   };
 });
 
-// Build 12 Schedules dataset
+// Build 12 Schedules dataset directly matching the official Government of India document
 const schedulesData = [
   {
     scheduleNumber: 1,
-    title: "First Schedule: States and Union Territories",
-    description: "Lists the States and Union Territories of India, specifying the territorial borders and jurisdiction of each state and territory as amended by state reorganisation acts.",
+    title: "First Schedule: The States and The Union Territories",
+    description: "Lists the 28 States and 8 Union Territories of India, specifying the territorial borders, boundaries, and jurisdiction of each as amended by state reorganisation acts.",
     articles: "Articles 1 and 4",
     highlights: ["28 States and 8 Union Territories", "Defines geographical expanse and territorial waters of Bharat"]
   },
   {
     scheduleNumber: 2,
-    title: "Second Schedule: Emoluments and Allowances",
-    description: "Provisions regarding the salaries, allowances, privileges, and official residences of the President, Governors, Speaker and Deputy Speaker of Lok Sabha and Legislative Assemblies, Judges of Supreme Court and High Courts, and the CAG.",
-    articles: "Articles 59, 65, 75, 97, 125, 148, 158, 164, 186 and 221",
+    title: "Second Schedule: Emoluments, Allowances and Privileges",
+    description: "Provisions regarding salaries, allowances, and official residences for the President, Governors, Speaker and Deputy Speaker of Lok Sabha, Chairman and Deputy Chairman of Rajya Sabha, Judges of the Supreme Court and High Courts, and the Comptroller and Auditor-General of India.",
+    articles: "Articles 59(3), 65(3), 75(6), 97, 125, 148(3), 158(3), 164(5), 186 and 221",
     highlights: ["Salaries charged upon Consolidated Fund of India", "Immune from negative alteration during tenure"]
   },
   {
     scheduleNumber: 3,
     title: "Third Schedule: Forms of Oaths or Affirmations",
-    description: "Prescribes the solemn forms of oaths or affirmations to be taken by Union Ministers, candidates for Parliament, Members of Parliament, Supreme Court Judges, CAG, State Ministers, State Legislators, and High Court Judges.",
-    articles: "Articles 75, 84, 99, 124, 146, 173, 188 and 219",
-    highlights: ["Oath of Allegiance to the Constitution", "Oath of Secrecy for executive ministers"]
+    description: "Prescribes the solemn forms of oaths or affirmations taken by Union Ministers, candidates for Parliament, Members of Parliament, Supreme Court Judges, the Comptroller and Auditor-General of India, State Ministers, State Legislators, and High Court Judges.",
+    articles: "Articles 75(4), 99, 124(6), 148(2), 164(3), 188 and 219",
+    highlights: ["Oath of Allegiance to the Constitution of India", "Oath of Secrecy for Union and State Ministers"]
   },
   {
     scheduleNumber: 4,
-    title: "Fourth Schedule: Allocation of Seats in the Rajya Sabha",
-    description: "Allocates seats to each State and Union Territory in the Council of States (Rajya Sabha), determined according to the population of each state.",
-    articles: "Articles 4 and 80",
+    title: "Fourth Schedule: Allocation of Seats in the Council of States",
+    description: "Allocates seats to each State and Union Territory in the Council of States (Rajya Sabha), determined according to proportional demographic weight.",
+    articles: "Articles 4(1) and 80(2)",
     highlights: ["Reflects federal representation based on demographic weight", "Maximum sanctioned strength is 250 (238 elected + 12 nominated)"]
   },
   {
@@ -528,19 +600,19 @@ const schedulesData = [
     title: "Fifth Schedule: Administration of Scheduled Areas and Scheduled Tribes",
     description: "Contains special provisions for the administration and control of Scheduled Areas and Scheduled Tribes in states other than Assam, Meghalaya, Tripura, and Mizoram. Establishes Tribes Advisory Councils.",
     articles: "Article 244(1)",
-    highlights: ["Governor's discretionary powers to suspend parliamentary laws in scheduled zones", "Tribes Advisory Council (TAC) mandatory consultation"]
+    highlights: ["Governor's discretionary powers in scheduled zones", "Tribes Advisory Council (TAC) mandatory consultation"]
   },
   {
     scheduleNumber: 6,
     title: "Sixth Schedule: Tribal Areas in North-Eastern States",
-    description: "Administration of autonomous tribal areas in the North-Eastern States of Assam, Meghalaya, Tripura, and Mizoram through Autonomous District Councils (ADCs) and Regional Councils with legislative, judicial, and financial autonomy.",
+    description: "Administration of autonomous tribal areas in the North-Eastern States of Assam, Meghalaya, Tripura, and Mizoram through Autonomous District Councils (ADCs) and Regional Councils with legislative, judicial, and financial powers.",
     articles: "Articles 244(2) and 275(1)",
     highlights: ["Empowered Autonomous District Councils (ADCs)", "Protects indigenous customs, land rights, and tribal customary law"]
   },
   {
     scheduleNumber: 7,
     title: "Seventh Schedule: Distribution of Legislative Powers (Three Lists)",
-    description: "Delineates subjects of governance into three lists: List I (Union List - 100 items), List II (State List - 61 items), and List III (Concurrent List - 52 items). Residuary powers reside exclusively with Parliament.",
+    description: "Delineates subjects of governance into three lists: List I (Union List - 97 items), List II (State List - 66 items), and List III (Concurrent List - 47 items). Residuary legislative powers reside exclusively with Parliament.",
     articles: "Article 246",
     highlights: ["List I: Defence, Foreign Affairs, Atomic Energy, Currency, Railways", "List II: Police, Public Health, Agriculture, Local Government", "List III: Criminal Law, Marriage, Education, Forests"]
   },
@@ -554,28 +626,28 @@ const schedulesData = [
   {
     scheduleNumber: 9,
     title: "Ninth Schedule: Validation of Certain Acts and Regulations",
-    description: "Added by the 1st Amendment (1951) to protect land reform laws and agrarian legislation from judicial review on ground of violation of Fundamental Rights. In I.R. Coelho (2007), SC held laws placed after April 24, 1973 are open to Basic Structure review.",
+    description: "Added by the 1st Constitutional Amendment (1951) to protect agrarian land reforms and progressive legislation from judicial review on ground of Fundamental Rights infringement. In I.R. Coelho (2007), Supreme Court held laws placed after April 24, 1973 are open to Basic Structure review.",
     articles: "Article 31B",
-    highlights: ["Contains over 284 protected state and central agrarian laws", "Subject to Basic Structure doctrine post-1973 (I.R. Coelho v. State of TN)"]
+    highlights: ["Contains 284 protected state and central agrarian laws", "Subject to Basic Structure doctrine post-1973 (I.R. Coelho v. State of TN)"]
   },
   {
     scheduleNumber: 10,
     title: "Tenth Schedule: Anti-Defection Law",
     description: "Inserted by the 52nd Amendment Act (1985). Provides disqualification of legislators on grounds of defection from their political party or voting contrary to the party whip. Decision rendered by the Presiding Officer.",
     articles: "Articles 102(2) and 191(2)",
-    highlights: ["Disqualification for voluntarily giving up party membership or defying whip", "Kihoto Hollohan (1992): Speaker's decision is subject to judicial review"]
+    highlights: ["Disqualification for voluntarily giving up party membership or defying whip", "Kihoto Hollohan (1992): Presiding Officer decision subject to judicial review"]
   },
   {
     scheduleNumber: 11,
-    title: "Eleventh Schedule: Powers and Functions of Panchayats",
-    description: "Added by 73rd Amendment Act (1992). Lists 29 functional subjects devolved to Panchayati Raj Institutions for economic development and social justice.",
+    title: "Eleventh Schedule: Powers, Authority and Responsibilities of Panchayats",
+    description: "Added by the 73rd Amendment Act (1992). Lists 29 functional subjects devolved to Panchayati Raj Institutions for economic development and social justice.",
     articles: "Article 243G",
     highlights: ["29 functional items including agriculture, rural housing, drinking water, roads, poverty alleviation", "Grassroots democracy framework"]
   },
   {
     scheduleNumber: 12,
-    title: "Twelfth Schedule: Powers and Functions of Municipalities",
-    description: "Added by 74th Amendment Act (1992). Lists 18 functional subjects within the purview of urban local bodies (Municipalities and Corporations).",
+    title: "Twelfth Schedule: Powers, Authority and Responsibilities of Municipalities",
+    description: "Added by the 74th Amendment Act (1992). Lists 18 functional subjects within the purview of urban local bodies (Municipalities and Corporations).",
     articles: "Article 243W",
     highlights: ["18 functional subjects including urban planning, water supply, public health, fire services, solid waste management", "Empowers urban local governance"]
   }
