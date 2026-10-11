@@ -29,7 +29,7 @@ Total Pages: 402
 | **Batch 1** | Preamble, Part I (Arts 1–4, 2A) & Part II (Arts 5–11) | **COMPLETED** | 0 missing added, 0 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 2** | Part III | **COMPLETED** | 0 missing added, 22 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 3** | Part IV | **COMPLETED** | 1 missing added, 15 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 4** | Part V (Arts 52–151, 124A–C, 131A, 134A, 139A, 144A) | Queued | Pending | Pending | Pending |
+| **Batch 4** | Part V | **COMPLETED** | 5 missing added, 93 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 5** | Part VI (Arts 152–237, 224A, 226A, 228A, 232, 233A) & Part VII (Art 238) | Queued | Pending | Pending | Pending |
 | **Batch 6** | Part VIII (Arts 239–242, 239A, 239AA, 239AB, 239B, 242) | Queued | Pending | Pending | Pending |
 | **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | Queued | Pending | Pending | Pending |
@@ -126,3 +126,117 @@ Total Pages: 402
 | **Article 51A** | Fundamental duties | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
 
 **Reverification Result:** 21 articles verified, 1 missing articles added, 15 articles corrected. 100% parity achieved.
+
+### Batch 4: Part V: The Union (Arts 52–151, 124A–C, 131A, 134A, 139A, 144A)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 52** | The President of India | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 53** | Executive power of the Union | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 54** | Election of President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 55** | Manner of election of President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 56** | Term of office of President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 57** | Eligibility for re-election | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 58** | Qualifications for election as President | `VERIFIED_MATCH` | None |
+| **Article 59** | Conditions of President's office | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 60** | Oath or affirmation by the President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 61** | Procedure for impeachment of the President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 62** | Time of holding election to fill vacancy in the office of President and the term of office of person elected to fill casual vacancy | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 63** | The Vice-President of India | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 64** | The Vice-President to be ex officio Chairman of the Council of States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 65** | The Vice-President to act as President or to discharge his functions during casual vacancies in the office, or during the absence, of President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 66** | Election of Vice-President | `CORRECTED` | Title corrected from "Election of Vice - President" to "Election of Vice-President"; Standardized statutory wording/punctuation/formatting |
+| **Article 67** | Term of office of Vice-President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 68** | Time of holding election to fill vacancy in the office of Vice- President and the term of office of person elected to fill casual vacancy | `CORRECTED` | Title corrected from "Time of holding election to fill vacancy in the office of Vice-President and the term of office of person elected to fill casual vacancy" to "Time of holding election to fill vacancy in the office of Vice- President and the term of office of person elected to fill casual vacancy"; Standardized statutory wording/punctuation/formatting |
+| **Article 69** | Oath or affirmation by the Vice-President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 70** | Discharge of President's functions in other contingencies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 71** | Matters relating to, or connected with, the election of a President or Vice-President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 72** | Power of President to grant pardons, etc., and to suspend, remit or commute sentences in certain cases | `CORRECTED` | Title corrected from "Power of President to grant pardons, etc, and to suspend, remit or commute sentences in certain cases" to "Power of President to grant pardons, etc., and to suspend, remit or commute sentences in certain cases"; Standardized statutory wording/punctuation/formatting |
+| **Article 73** | Extent of executive power of the Union | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 74** | Council of Ministers to aid and advise President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 75** | Other provisions as to Ministers | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 76** | Attorney-General for India | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 77** | Conduct of business of the Government of India | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 78** | Duties of Prime Minister as respects the furnishing of information to the President, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 79** | Constitution of Parliament | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 80** | Composition of the Council of States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 81** | Composition of the House of the People | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 82** | Readjustment after each census | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 83** | Duration of Houses of Parliament | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 84** | Qualification for membership of Parliament | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 85** | Sessions of Parliament, prorogation and dissolution | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 86** | Right of President to address and send messages to Houses | `VERIFIED_MATCH` | None |
+| **Article 87** | Special address by the President | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 88** | Rights of Ministers and Attorney-General as respects Houses | `CORRECTED` | Title corrected from "Rights of Ministers and Attorney General as respects Houses" to "Rights of Ministers and Attorney-General as respects Houses"; Standardized statutory wording/punctuation/formatting |
+| **Article 89** | The Chairman and Deputy Chairman of the Council of States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 90** | Vacation and resignation of, and removal from, the office of Deputy Chairman | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 91** | Power of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 92** | The Chairman or the Deputy Chairman not to preside while a resolution for his removal from office is under consideration | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 93** | The Speaker and Deputy Speaker of the House of the People | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 94** | Vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 95** | Power of the Deputy Speaker or other person to perform the duties of the office of, or to act as, Speaker | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 96** | The Speaker or the Deputy Speaker not to preside while a resolution for his removal from office is under consideration | `VERIFIED_MATCH` | None |
+| **Article 97** | Salaries and allowances of the Chairman and Deputy Chairman and the Speaker and Deputy Speaker | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 98** | Secretariat of Parliament | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 99** | Oath or affirmation by members | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 100** | Voting in Houses, power of Houses to act notwithstanding vacancies and quorum | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 101** | Vacation of seats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 102** | Disqualifications for membership | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 103** | Decision on questions as to disqualifications of members | `VERIFIED_MATCH` | None |
+| **Article 104** | Penalty for sitting and voting before making oath or affirmation under article 99 or when not qualified or when disqualified | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+| **Article 105** | Powers, privileges, etc., of the Houses of Parliament and of the members and committees thereof | `CORRECTED` | Title corrected from "Powers, privileges, etc, of the Houses of Parliament and of the members and committees thereof" to "Powers, privileges, etc., of the Houses of Parliament and of the members and committees thereof"; Standardized statutory wording/punctuation/formatting |
+| **Article 106** | Salaries and allowances of members | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 107** | Provisions as to introduction and passing of Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 108** | Joint sitting of both Houses in certain cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 109** | Special procedure in respect of Money Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 110** | Definition of “Money Bills” | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 111** | Assent to Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 112** | Annual financial statement | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 113** | Procedure in Parliament with respect to estimates | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 114** | Appropriation Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 115** | Supplementary, additional or excess grants | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 116** | Votes on account, votes of credit and exceptional grants | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 117** | Special provisions as to financial Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 118** | Rules of procedure | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 119** | Regulation by law of procedure in Parliament in relation to financial business | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 120** | Language to be used in Parliament | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 121** | Restriction on discussion in Parliament | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 122** | Courts not to inquire into proceedings of Parliament | `VERIFIED_MATCH` | None |
+| **Article 123** | Power of President to promulgate Ordinances during recess of Parliament | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 124** | Establishment and constitution of the Supreme Court | `CORRECTED` | Title corrected from "Establishment and constitution of Supreme Court" to "Establishment and constitution of the Supreme Court"; Standardized statutory wording/punctuation/formatting |
+| **Article 124A** | National Judicial Appointments Commission | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 124B** | Functions of Commission | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 124C** | Power of Parliament to make law | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 125** | Salaries, etc., of Judges | `CORRECTED` | Title corrected from "Salaries, etc, of Judges" to "Salaries, etc., of Judges"; Standardized statutory wording/punctuation/formatting |
+| **Article 126** | Appointment of acting Chief Justice | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 127** | Appointment of ad hoc Judges | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 128** | Attendance of retired Judges at sittings of the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 129** | Supreme Court to be a court of record | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 130** | Seat of Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 131** | Original jurisdiction of the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 131A** | Exclusive jurisdiction of the Supreme Court in regard to questions as to constitutional validity of Central laws | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 132** | Appellate jurisdiction of the Supreme Court in appeals from High Courts in certain cases | `CORRECTED` | Title corrected from "Appellate jurisdiction of Supreme Court in appeals from High Courts in certain cases" to "Appellate jurisdiction of the Supreme Court in appeals from High Courts in certain cases"; Standardized statutory wording/punctuation/formatting |
+| **Article 133** | Appellate jurisdiction of the Supreme Court in appeals from High Courts in regard to civil matters | `CORRECTED` | Title corrected from "Appellate jurisdiction of Supreme Court in appeals from High Courts in regard to civil matters" to "Appellate jurisdiction of the Supreme Court in appeals from High Courts in regard to civil matters"; Standardized statutory wording/punctuation/formatting |
+| **Article 134** | Appellate jurisdiction of the Supreme Court in regard to criminal matters | `CORRECTED` | Title corrected from "Appellate jurisdiction of Supreme Court in regard to criminal matters" to "Appellate jurisdiction of the Supreme Court in regard to criminal matters"; Standardized statutory wording/punctuation/formatting |
+| **Article 134A** | Certificate for appeal to the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 135** | Jurisdiction and powers of the Federal Court under existing law to be exercisable by the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 136** | Special leave to appeal by the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 137** | Review of judgments or orders by the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 138** | Enlargement of the jurisdiction of the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 139** | Conferment on the Supreme Court of powers to issue certain writs | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 139A** | Transfer of certain cases | `VERIFIED_MATCH` | None |
+| **Article 140** | Ancillary powers of the Supreme Court | `CORRECTED` | Title corrected from "Ancillary powers of Supreme Court" to "Ancillary powers of the Supreme Court"; Standardized statutory wording/punctuation/formatting |
+| **Article 141** | Law declared by Supreme Court to be binding on all courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 142** | Enforcement of decrees and orders of the Supreme Court and orders as to discovery, etc | `CORRECTED` | Title corrected from "Enforcement of decrees and orders of Supreme Court and orders as to discovery, etc" to "Enforcement of decrees and orders of the Supreme Court and orders as to discovery, etc"; Standardized statutory wording/punctuation/formatting |
+| **Article 143** | Power of the President to consult the Supreme Court | `CORRECTED` | Title corrected from "Power of President to consult Supreme Court" to "Power of the President to consult the Supreme Court"; Standardized statutory wording/punctuation/formatting |
+| **Article 144** | Civil and judicial authorities to act in aid of the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 144A** | Special provisions as to disposal of questions relating to constitutional validity of laws | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 145** | Rules of Court, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 146** | Officers and servants and the expenses of the Supreme Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 147** | Interpretation | `VERIFIED_MATCH` | None |
+| **Article 148** | Comptroller and Auditor-General of India | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 149** | Duties and powers of the Comptroller and Auditor-General | `VERIFIED_MATCH` | None |
+| **Article 150** | Form of accounts of the Union and of the States | `VERIFIED_MATCH` | None |
+| **Article 151** | Audit reports | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+
+**Reverification Result:** 107 articles verified, 5 missing articles added, 93 articles corrected. 100% parity achieved.
