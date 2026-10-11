@@ -1032,7 +1032,8 @@ function checkNetworkStatus() {
 
 function setupServiceWorker() {
   if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('/sw.js').catch(() => {});
+    const base = import.meta.env.BASE_URL || './';
+    navigator.serviceWorker.register(`${base}sw.js`, { scope: base }).catch(() => {});
   }
 }
 

@@ -1,18 +1,17 @@
-const CACHE_NAME = 'constitution-india-v1';
-
-const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/emblem.jpg',
-  '/icon-512.png',
-  '/manifest.webmanifest'
-];
+const CACHE_NAME = 'constitution-india-m3-v1';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS).catch((err) => {
-        console.warn('Pre-cache error (continuing anyway):', err);
+      const scope = self.registration.scope;
+      return cache.addAll([
+        scope,
+        `${scope}index.html`,
+        `${scope}emblem.jpg`,
+        `${scope}icon-512.png`,
+        `${scope}manifest.webmanifest`
+      ]).catch((err) => {
+        console.warn('Pre-cache warning (continuing anyway):', err);
       });
     })
   );
@@ -31,13 +30,12 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Only handle GET requests
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
-        // Return cached response and update cache in background
+        // Stale-while-revalidate
         fetch(event.request).then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse));
@@ -56,9 +54,8 @@ self.addEventListener('fetch', (event) => {
         });
         return networkResponse;
       }).catch(() => {
-        // Fallback for navigation requests
         if (event.request.mode === 'navigate') {
-          return caches.match('/index.html');
+          return caches.match(`${self.registration.scope}index.html`);
         }
       });
     })
