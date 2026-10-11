@@ -37,7 +37,7 @@ Total Pages: 402
 | **Batch 9** | Part XIII | **COMPLETED** | 3 missing added, 21 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 10** | Part XV | **COMPLETED** | 6 missing added, 20 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 11** | Part XVII | **COMPLETED** | 2 missing added, 25 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 12** | Part XX (Art 368), Part XXI (Arts 369–392, 371A–J, 379–391), Part XXII (Arts 393–395) | Queued | Pending | Pending | Pending |
+| **Batch 12** | Part XX | **COMPLETED** | 14 missing added, 20 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 13** | Schedules 1 through 12 | Queued | Pending | Pending | Pending |
 
 ---
@@ -585,3 +585,51 @@ Total Pages: 402
 | **Article 367** | Interpretation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
 
 **Reverification Result:** 31 articles verified, 2 missing articles added, 25 articles corrected. 100% parity achieved.
+
+### Batch 12: Part XX: Amendment (Art 368), Part XXI: Temporary & Special Provisions (Arts 369–392), Part XXII: Short Title & Repeals (Arts 393–395)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 368** | 1Power of Parliament to amend the Constitution and procedure therefor | `CORRECTED` | Title corrected from "Power of Parliament to amend the Constitution and procedure therefor" to "1Power of Parliament to amend the Constitution and procedure therefor"; Standardized statutory wording/punctuation/formatting |
+| **Article 369** | Temporary power to Parliament to make laws with respect to certain matters in the State List as if they were matters in the Concurrent List | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 370** | Temporary provisions with respect to the State of Jammu and Kashmir | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 371** | Special provision with respect to the States of 2*** Maharashtra and Gujarat | `CORRECTED` | Title corrected from "Special provision with respect to the States of Maharashtra and Gujarat" to "Special provision with respect to the States of 2*** Maharashtra and Gujarat"; Standardized statutory wording/punctuation/formatting |
+| **Article 371A** | Special provision with respect to the State of Nagaland | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 371B** | Special provision with respect to the State of Assam | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 371C** | Special provision with respect to the State of Manipur | `VERIFIED_MATCH` | None |
+| **Article 371D** | Special provisions with respect to 4the State of Andhra Pradesh or the State of Telangana | `CORRECTED` | Title corrected from "Special provisions with respect to the State of Andhra Pradesh" to "Special provisions with respect to 4the State of Andhra Pradesh or the State of Telangana"; Standardized statutory wording/punctuation/formatting |
+| **Article 371E** | Establishment of Central University in Andhra Pradesh | `VERIFIED_MATCH` | None |
+| **Article 371F** | Special provisions with respect to the State of Sikkim | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 371G** | Special provision with respect to the State of Mizoram | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 371H** | Special provision with respect to the State of Arunachal Pradesh | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 371I** | Special provision with respect to the State of Goa | `VERIFIED_MATCH` | None |
+| **Article 371J** | Special provisions with respect to State of Karnataka | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 372** | Continuance in force of existing laws and their adaptation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 372A** | Power of the President to adapt laws | `VERIFIED_MATCH` | None |
+| **Article 373** | Power of President to make order in respect of persons under preventive detention in certain cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 374** | Provisions as to Judges of the Federal Court and proceedings pending in the Federal Court or before His Majesty in Council | `VERIFIED_MATCH` | None |
+| **Article 375** | Courts, authorities and officers to continue to function subject to the provisions of the Constitution | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 376** | Provisions as to Judges of High Courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 377** | Provisions as to Comptroller and Auditor-General of India | `VERIFIED_MATCH` | None |
+| **Article 378** | Provisions as to Public Service Commissions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 378A** | Special provision as to duration of Andhra Pradesh Legislative Assembly | `VERIFIED_MATCH` | None |
+| **Article 379** | Provisions as to provisional Parliament and the Speaker and Deputy Speaker thereof | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 380** | Provision as to President | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 381** | Council of Ministers of the President | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 382** | Provisions as to provisional Legislatures for States in Part A of the First Schedule | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 383** | Provision as to Governors of Provinces | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 384** | Council of Ministers of the Governors | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 385** | Provision as to provisional Legislatures in States in Part B of the First Schedule | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 386** | Council of Ministers for States in Part B of the First Schedule | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 387** | Special provision as to determination of population for the purposes of certain elections | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 388** | Provisions as to the filling of casual vacancies in the provisional Parliament and provisional Legislatures of the States | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 389** | Provision as to Bills pending in the Dominion Legislatures and in the Legislatures of Provinces and Indian States | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 390** | Money received or raised or expenditure incurred between the commencement of the Constitution and the 31st day of March, 1950 | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 391** | Power of the President to amend the First and Fourth Schedules in certain contingencies | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 392** | Power of the President to remove difficulties | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 393** | Short title | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 394** | Commencement | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 394A** | Authoritative text in the Hindi language | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 395** | Repeals | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+
+**Reverification Result:** 41 articles verified, 14 missing articles added, 20 articles corrected. 100% parity achieved.
