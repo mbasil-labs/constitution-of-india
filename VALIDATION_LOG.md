@@ -33,7 +33,7 @@ Total Pages: 402
 | **Batch 5** | Part VI | **COMPLETED** | 3 missing added, 83 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 6** | Part VIII | **COMPLETED** | 2 missing added, 4 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | **COMPLETED** | 0 missing added, 47 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 8** | Part XI (Arts 245–263, 246A, 257A–259) & Part XII (Arts 264–300A, 268A, 269A, 278–279A, 290A, 291) | Queued | Pending | Pending | Pending |
+| **Batch 8** | Part XI | **COMPLETED** | 6 missing added, 52 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 9** | Part XIII (Arts 301–307, 306), Part XIV (Arts 308–323, 312A, 314, 320), Part XIVA (Arts 323A–323B) | Queued | Pending | Pending | Pending |
 | **Batch 10** | Part XV (Arts 324–329A) & Part XVI (Arts 330–342A, 330A, 332A, 334A, 338A–B, 342A) | Queued | Pending | Pending | Pending |
 | **Batch 11** | Part XVII (Arts 343–351), Part XVIII (Arts 352–360), Part XIX (Arts 361–367) | Queued | Pending | Pending | Pending |
@@ -410,3 +410,74 @@ Total Pages: 402
 | **Article 244A** | Formation of an autonomous State comprising certain tribal areas in Assam and creation of local Legislature or Council of Ministers or both therefor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
 
 **Reverification Result:** 49 articles verified, 0 missing articles added, 47 articles corrected. 100% parity achieved.
+
+### Batch 8: Part XI: Union-State Relations (Arts 245–263) & Part XII: Finance, Property (Arts 264–300A)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 245** | Extent of laws made by Parliament and by the Legislatures of States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 246** | Subject-matter of laws made by Parliament and by the Legislatures of States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 246A** | Special provision with respect to goods and services tax | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 247** | Power of Parliament to provide for the establishment of certain additional courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 248** | Residuary powers of legislation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 249** | Power of Parliament to legislate with respect to a matter in the State List in the national interest | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 250** | Power of Parliament to legislate with respect to any matter in the State List if a Proclamation of Emergency is in operation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 251** | Inconsistency between laws made by Parliament under articles 249 and 250 and laws made by the Legislatures of States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 252** | Power of Parliament to legislate for two or more States by consent and adoption of such legislation by any other State | `CORRECTED` | Title corrected from "Power of Parliament to legislate for two or more States by consent and adoption of such legislation by" to "Power of Parliament to legislate for two or more States by consent and adoption of such legislation by any other State"; Standardized statutory wording/punctuation/formatting |
+| **Article 253** | Legislation for giving effect to international agreements | `VERIFIED_MATCH` | None |
+| **Article 254** | Inconsistency between laws made by Parliament and laws made by the Legislatures of States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 255** | Requirements as to recommendations and previous sanctions to be regarded as matters of procedure only | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 256** | Obligation of States and the Union | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 257** | Control of the Union over States in certain cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 257A** | Assistance to States by deployment of armed forces or other forces of the Union | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 258** | Power of the Union to confer powers, etc., on States in certain cases | `CORRECTED` | Title corrected from "Power of the Union to confer powers, etc, on States in certain cases" to "Power of the Union to confer powers, etc., on States in certain cases"; Standardized statutory wording/punctuation/formatting |
+| **Article 258A** | Power of the States to entrust functions to the Union | `VERIFIED_MATCH` | None |
+| **Article 259** | Armed Forces in States in Part B of the First Schedule | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 260** | Jurisdiction of the Union in relation to territories outside India | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 261** | Public acts, records and judicial proceedings | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 262** | Adjudication of disputes relating to waters of inter-State rivers or river valleys | `CORRECTED` | Title corrected from "Adjudication of disputes relating to waters of interState rivers or river valleys" to "Adjudication of disputes relating to waters of inter-State rivers or river valleys"; Standardized statutory wording/punctuation/formatting |
+| **Article 263** | Provisions with respect to an inter-State Council | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 264** | Interpretation | `VERIFIED_MATCH` | None |
+| **Article 265** | Taxes not to be imposed save by authority of law | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 266** | Consolidated Funds and public accounts of India and of the States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 267** | Contingency Fund | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 268** | Duties levied by the Union but collected and appropriated by the States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 268A** | Service tax levied by Union and collected and appropriated by the Union and the States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 269** | Taxes levied and collected by the Union but assigned to the States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 269A** | Levy and collection of goods and services tax in course of inter-State trade or commerce | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 270** | Taxes levied and distributed between the Union and the States | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+| **Article 271** | Surcharge on certain duties and taxes for purposes of the Union | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+| **Article 272** | Taxes which are levied and collected by the Union and may be distributed between the Union and the States | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 273** | Grants in lieu of export duty on jute and jute products | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 274** | Prior recommendation of President required to Bills affecting taxation in which States are interested | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 275** | Grants from the Union to certain States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 276** | Taxes on professions, trades, callings and employments | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 277** | Savings | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 278** | Agreement with States in Part B of the First Schedule with regard to certain financial matters | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 279** | Calculation of “net proceeds”, etc | `VERIFIED_MATCH` | None |
+| **Article 279A** | Goods and Services Tax Council | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 280** | Finance Commission | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 281** | Recommendations of the Finance Commission | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+| **Article 282** | Expenditure defrayable by the Union or a State out of its revenues | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 283** | Custody, etc., of Consolidated Funds, Contingency Funds and moneys credited to the public accounts | `CORRECTED` | Title corrected from "Custody, etc, of Consolidated Funds, Contingency Funds and moneys credited to the public accounts" to "Custody, etc., of Consolidated Funds, Contingency Funds and moneys credited to the public accounts"; Standardized statutory wording/punctuation/formatting |
+| **Article 284** | Custody of suitors' deposits and other moneys received by public servants and courts | `CORRECTED` | Title corrected from "Custody of suitors’ deposits and other moneys received by public servants and courts" to "Custody of suitors' deposits and other moneys received by public servants and courts"; Standardized statutory wording/punctuation/formatting |
+| **Article 285** | Exemption of property of the Union from State taxation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 286** | Restrictions as to imposition of tax on the sale or purchase of goods | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 287** | Exemption from taxes on electricity | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 288** | Exemption from taxation by States in respect of water or electricity in certain cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 289** | Exemption of property and income of a State from Union taxation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 290** | Adjustment in respect of certain expenses and pensions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 290A** | Annual payment to certain Devaswom Funds | `VERIFIED_MATCH` | None |
+| **Article 291** | Privy purse sums of Rulers | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 292** | Borrowing by the Government of India | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 293** | Borrowing by States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 294** | Succession to property, assets, rights, liabilities and obligations in certain cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 295** | Succession to property, assets, rights, liabilities and obligations in other cases | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 296** | Property accruing by escheat or lapse or as bona vacantia | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 297** | Things of value within territorial waters or continental shelf and resources of the exclusive economic zone to vest in the Union | `VERIFIED_MATCH` | None |
+| **Article 298** | Power to carry on trade, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 299** | Contracts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 300** | Suits and proceedings | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 300A** | Persons not to be deprived of property save by authority of law | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+
+**Reverification Result:** 64 articles verified, 6 missing articles added, 52 articles corrected. 100% parity achieved.
