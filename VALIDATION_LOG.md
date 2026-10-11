@@ -36,7 +36,7 @@ Total Pages: 402
 | **Batch 8** | Part XI | **COMPLETED** | 6 missing added, 52 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 9** | Part XIII | **COMPLETED** | 3 missing added, 21 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 10** | Part XV | **COMPLETED** | 6 missing added, 20 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 11** | Part XVII (Arts 343–351), Part XVIII (Arts 352–360), Part XIX (Arts 361–367) | Queued | Pending | Pending | Pending |
+| **Batch 11** | Part XVII | **COMPLETED** | 2 missing added, 25 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 12** | Part XX (Art 368), Part XXI (Arts 369–392, 371A–J, 379–391), Part XXII (Arts 393–395) | Queued | Pending | Pending | Pending |
 | **Batch 13** | Schedules 1 through 12 | Queued | Pending | Pending | Pending |
 
@@ -547,3 +547,41 @@ Total Pages: 402
 | **Article 342A** | Socially and educationally backward classes | `MISSING_ADDED` | Article completely omitted from website raw dataset |
 
 **Reverification Result:** 26 articles verified, 6 missing articles added, 20 articles corrected. 100% parity achieved.
+
+### Batch 11: Part XVII: Official Language (Arts 343–351), Part XVIII: Emergency (Arts 352–360), Part XIX: Miscellaneous (Arts 361–367)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 343** | Official language of the Union | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 344** | Commission and Committee of Parliament on official language | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 345** | Official language or languages of a State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 346** | Official language for communication between one State and another or between a State and the Union | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 347** | Special provision relating to language spoken by a section of the population of a State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 348** | Language to be used in the Supreme Court and in the High Courts and for Acts, Bills, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 349** | Special procedure for enactment of certain laws relating to language | `VERIFIED_MATCH` | None |
+| **Article 350** | Language to be used in representations for redress of grievances | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 350A** | Facilities for instruction in mother-tongue at primary stage | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 350B** | Special Officer for linguistic minorities | `VERIFIED_MATCH` | None |
+| **Article 351** | Directive for development of the Hindi language | `VERIFIED_MATCH` | None |
+| **Article 352** | Proclamation of Emergency | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 353** | Effect of Proclamation of Emergency | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 354** | Application of provisions relating to distribution of revenues while a Proclamation of Emergency is in operation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 355** | Duty of the Union to protect States against external aggression and internal disturbance | `VERIFIED_MATCH` | None |
+| **Article 356** | Provisions in case of failure of constitutional machinery in States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 357** | Exercise of legislative powers under Proclamation issued under article 356 | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 358** | Suspension of provisions of article 19 during emergencies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 359** | Suspension of the enforcement of the rights conferred by Part III during emergencies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 359A** | Application of this Part to the State of Punjab | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 360** | Provisions as to financial emergency | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 361** | Protection of President and Governors and Rajpramukhs | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 361A** | Protection of publication of proceedings of Parliament and State Legislatures | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 361B** | Disqualification for appointment on remunerative political post | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 362** | Rights and privileges of Rulers of Indian States | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 363** | Bar to interference by courts in disputes arising out of certain treaties, agreements, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 363A** | Recognition granted to Rulers of Indian States to cease and privy purses to be abolished | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 364** | Special provisions as to major ports and aerodromes | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 365** | Effect of failure to comply with, or to give effect to, directions given by the Union | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 366** | Definitions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 367** | Interpretation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+
+**Reverification Result:** 31 articles verified, 2 missing articles added, 25 articles corrected. 100% parity achieved.
