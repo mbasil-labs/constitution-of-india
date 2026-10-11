@@ -32,7 +32,7 @@ Total Pages: 402
 | **Batch 4** | Part V | **COMPLETED** | 5 missing added, 93 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 5** | Part VI | **COMPLETED** | 3 missing added, 83 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 6** | Part VIII | **COMPLETED** | 2 missing added, 4 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | Queued | Pending | Pending | Pending |
+| **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | **COMPLETED** | 0 missing added, 47 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 8** | Part XI (Arts 245–263, 246A, 257A–259) & Part XII (Arts 264–300A, 268A, 269A, 278–279A, 290A, 291) | Queued | Pending | Pending | Pending |
 | **Batch 9** | Part XIII (Arts 301–307, 306), Part XIV (Arts 308–323, 312A, 314, 320), Part XIVA (Arts 323A–323B) | Queued | Pending | Pending | Pending |
 | **Batch 10** | Part XV (Arts 324–329A) & Part XVI (Arts 330–342A, 330A, 332A, 334A, 338A–B, 342A) | Queued | Pending | Pending | Pending |
@@ -354,3 +354,59 @@ Total Pages: 402
 | **Article 242** | Coorg | `MISSING_ADDED` | Article completely omitted from website raw dataset |
 
 **Reverification Result:** 8 articles verified, 2 missing articles added, 4 articles corrected. 100% parity achieved.
+
+### Batch 7: Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 243** | Definitions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243A** | Gram Sabha | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243B** | Constitution of Panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243C** | Composition of Panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243D** | Reservation of seats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243E** | Duration of Panchayats, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243F** | Disqualifications for membership | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243G** | Powers, authority and responsibilities of Panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243H** | Powers to impose taxes by, and Funds of, the Panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243I** | Constitution of Finance Commission to review financial position | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243J** | Audit of accounts of Panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243K** | Elections to the Panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243L** | Application to Union territories | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243M** | Part not to apply to certain areas | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243N** | Continuance of existing laws and Panchayats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243O** | Bar to interference by courts in electoral matters | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243P** | Definitions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243Q** | Constitution of Municipalities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243R** | Composition of Municipalities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243S** | Constitution and composition of Wards Committees, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243T** | Reservation of seats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243U** | Duration of Municipalities, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243V** | Disqualifications for membership | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243W** | Powers, authority and responsibilities of Municipalities, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243X** | Power to impose taxes by, and Funds of, the Municipalities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243Y** | Finance Commission | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243Z** | Audit of accounts of Municipalities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZA** | Elections to the Municipalities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZB** | Application to Union territories | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZC** | Part not to apply to certain areas | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZD** | Committee for district planning | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZE** | Committee for Metropolitan planning | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZF** | Continuance of existing laws and Municipalities | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZG** | Bar to interference by courts in electoral matters | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZH** | Definitions | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZI** | Incorporation of co-operative societies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZJ** | Number and term of members of board and its office bearers | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZK** | Election of members of board | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZL** | Supersession and suspension of board and interim management | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZM** | Audit of accounts of co-operative societies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZN** | Convening of general body meetings | `VERIFIED_MATCH` | None |
+| **Article 243ZO** | Right of a member to get information | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZP** | Returns | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZQ** | Offences and penalties | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZR** | Application to multi-State co-operative societies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZS** | Application to Union territories | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 243ZT** | Continuance of existing laws | `VERIFIED_MATCH` | None |
+| **Article 244** | Administration of Scheduled Areas and Tribal Areas | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 244A** | Formation of an autonomous State comprising certain tribal areas in Assam and creation of local Legislature or Council of Ministers or both therefor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+
+**Reverification Result:** 49 articles verified, 0 missing articles added, 47 articles corrected. 100% parity achieved.
