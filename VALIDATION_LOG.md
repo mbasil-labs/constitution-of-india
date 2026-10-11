@@ -30,7 +30,7 @@ Total Pages: 402
 | **Batch 2** | Part III | **COMPLETED** | 0 missing added, 22 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 3** | Part IV | **COMPLETED** | 1 missing added, 15 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 4** | Part V | **COMPLETED** | 5 missing added, 93 corrected | Applied official text & metadata | **PASS (100%)** |
-| **Batch 5** | Part VI (Arts 152–237, 224A, 226A, 228A, 232, 233A) & Part VII (Art 238) | Queued | Pending | Pending | Pending |
+| **Batch 5** | Part VI | **COMPLETED** | 3 missing added, 83 corrected | Applied official text & metadata | **PASS (100%)** |
 | **Batch 6** | Part VIII (Arts 239–242, 239A, 239AA, 239AB, 239B, 242) | Queued | Pending | Pending | Pending |
 | **Batch 7** | Part IX, IXA, IXB (Arts 243–243ZT) & Part X (Arts 244–244A) | Queued | Pending | Pending | Pending |
 | **Batch 8** | Part XI (Arts 245–263, 246A, 257A–259) & Part XII (Arts 264–300A, 268A, 269A, 278–279A, 290A, 291) | Queued | Pending | Pending | Pending |
@@ -240,3 +240,102 @@ Total Pages: 402
 | **Article 151** | Audit reports | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
 
 **Reverification Result:** 107 articles verified, 5 missing articles added, 93 articles corrected. 100% parity achieved.
+
+### Batch 5: Part VI: The States (Arts 152–237, 224A, 226A, 228A, 232, 233A) & Part VII (Art 238)
+
+| Article | Official Title | Validation Status | Discrepancies & Corrections Applied |
+| :--- | :--- | :--- | :--- |
+| **Article 152** | Definition | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 153** | Governors of States | `VERIFIED_MATCH` | None |
+| **Article 154** | Executive power of State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 155** | Appointment of Governor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 156** | Term of office of Governor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 157** | Qualifications for appointment as Governor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 158** | Conditions of Governor's office | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 159** | Oath or affirmation by the Governor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 160** | Discharge of the functions of the Governor in certain contingencies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 161** | Power of Governor to grant pardons, etc., and to suspend, remit or commute sentences in certain cases | `CORRECTED` | Title corrected from "Power of Governor to grant pardons, etc, and to suspend, remit or commute sentences in certain cases" to "Power of Governor to grant pardons, etc., and to suspend, remit or commute sentences in certain cases"; Standardized statutory wording/punctuation/formatting |
+| **Article 162** | Extent of executive power of State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 163** | Council of Ministers to aid and advise Governor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 164** | Other provisions as to Ministers | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 165** | Advocate-General for the State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 166** | Conduct of Business of the Government of a State | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 167** | Duties of Chief Minister as respects the furnishing of information to Governor, etc | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 168** | Constitution of Legislatures in States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 169** | Abolition or creation of Legislative Councils in States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 170** | Composition of the Legislative Assemblies | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 171** | Composition of the Legislative Councils | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 172** | Duration of State Legislatures | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 173** | Qualification for membership of the State Legislature | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 174** | Sessions of the State Legislature, prorogation and dissolution | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 175** | Right of Governor to address and send messages to the House or Houses | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 176** | Special address by the Governor | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 177** | Rights of Ministers and Advocate-General as respects the Houses | `CORRECTED` | Title corrected from "Rights of Ministers and Advocate General as respects the Houses" to "Rights of Ministers and Advocate-General as respects the Houses"; Standardized statutory wording/punctuation/formatting |
+| **Article 178** | The Speaker and Deputy Speaker of the Legislative Assembly | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 179** | Vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 180** | Power of the Deputy Speaker or other person to perform the duties of the office of, or to act as, Speaker | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 181** | The Speaker or the Deputy Speaker not to preside while a resolution for his removal from office is under consideration | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 182** | The Chairman and Deputy Chairman of the Legislative Council | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 183** | Vacation and resignation of, and removal from, the offices of Chairman and Deputy Chairman | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 184** | Power of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 185** | The Chairman or the Deputy Chairman not to preside while a resolution for his removal from office is under consideration | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 186** | Salaries and allowances of the Speaker and Deputy Speaker and the Chairman and Deputy Chairman | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 187** | Secretariat of State Legislature | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 188** | Oath or affirmation by members | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 189** | Voting in Houses, power of Houses to act notwithstanding vacancies and quorum | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 190** | Vacation of seats | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 191** | Disqualifications for membership | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 192** | Decision on questions as to disqualifications of members | `VERIFIED_MATCH` | None |
+| **Article 193** | Penalty for sitting and voting before making oath or affirmation under article 188 or when not qualified or when disqualified | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+| **Article 194** | Powers, privileges, etc., of the Houses of Legislatures and of the members and committees thereof | `CORRECTED` | Title corrected from "Powers, privileges, etc, of the Houses of Legislatures and of the members and committees thereof" to "Powers, privileges, etc., of the Houses of Legislatures and of the members and committees thereof"; Standardized statutory wording/punctuation/formatting |
+| **Article 195** | Salaries and allowances of members | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 196** | Provisions as to introduction and passing of Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 197** | Restriction on powers of Legislative Council as to Bills other than Money Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 198** | Special procedure in respect of Money Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 199** | Definition of “Money Bills” | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 200** | Assent to Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 201** | Bills reserved for consideration | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 202** | Annual financial statement | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 203** | Procedure in Legislature with respect to estimates | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 204** | Appropriation Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 205** | Supplementary, additional or excess grants | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 206** | Votes on account, votes of credit and exceptional grants | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 207** | Special provisions as to financial Bills | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 208** | Rules of procedure | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 209** | Regulation by law of procedure in the Legislature of the State in relation to financial business | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 210** | Language to be used in the Legislature | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 211** | Restriction on discussion in the Legislature | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 212** | Courts not to inquire into proceedings of the Legislature | `VERIFIED_MATCH` | None |
+| **Article 213** | Power of Governor to promulgate Ordinances during recess of Legislature | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 214** | High Courts for States | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+| **Article 215** | High Courts to be courts of record | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 216** | Constitution of High Courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 217** | Appointment and conditions of the office of a Judge of a High Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 218** | Application of certain provisions relating to Supreme Court to High Courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 219** | Oath or affirmation by Judges of High Courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 220** | Restriction on practice after being a permanent Judge | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 221** | Salaries, etc., of Judges | `CORRECTED` | Title corrected from "Salaries, etc, of Judges" to "Salaries, etc., of Judges"; Standardized statutory wording/punctuation/formatting |
+| **Article 222** | Transfer of a Judge from one High Court to another | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 223** | Appointment of acting Chief Justice | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 224** | Appointment of additional and acting Judges | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+| **Article 224A** | Appointment of retired Judges at sittings of High Courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 225** | Jurisdiction of existing High Courts | `VERIFIED_MATCH` | None |
+| **Article 226** | Power of High Courts to issue certain writs | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 226A** | Constitutional validity of Central laws not to be considered in proceedings under article 226 | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 227** | Power of superintendence over all courts by the High Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 228** | Transfer of certain cases to High Court | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 228A** | Special provisions as to disposal of questions relating to constitutional validity of State laws | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 229** | Officers and servants and the expenses of High Courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 230** | Extension of jurisdiction of High Courts to Union territories | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 231** | Establishment of a common High Court for two or more States | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 232** | Interpretation | `MISSING_ADDED` | Article completely omitted from website raw dataset |
+| **Article 232** | Interpretation | `VERIFIED_MATCH` | None |
+| **Article 233** | Appointment of district judges | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 233A** | Validation of appointments of, and judgments, etc., delivered by, certain district judges | `CORRECTED` | Title corrected from "Validation of appointments of, and judgments, etc, delivered by, certain district judges" to "Validation of appointments of, and judgments, etc., delivered by, certain district judges"; Standardized statutory wording/punctuation/formatting |
+| **Article 234** | Recruitment of persons other than district judges to the judicial service | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 235** | Control over subordinate courts | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 236** | Interpretation | `CORRECTED` | Standardized statutory wording/punctuation/formatting |
+| **Article 237** | Application of the provisions of this Chapter to certain class or classes of magistrates | `VERIFIED_MATCH` | None |
+| **Article 238** | Application of provisions of Part VI to States in Part B of the First Schedule | `CORRECTED` | Text was truncated/outdated; updated to full official text |
+
+**Reverification Result:** 92 articles verified, 3 missing articles added, 83 articles corrected. 100% parity achieved.
