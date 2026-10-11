@@ -60,6 +60,15 @@
         <button id="btn-open-jump" class="nav-icon-btn" title="Jump to Article Number">
           <span class="material-symbols-outlined">tag</span>
         </button>
+        <a id="btn-official-doc" 
+           href="https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="nav-icon-btn" 
+           title="Original Official PDF (Legislative Dept, Ministry of Law & Justice)" 
+           aria-label="Official Constitution Document PDF (opens in new tab)">
+          <span class="material-symbols-outlined">picture_as_pdf</span>
+        </a>
 
         <!-- Status Indicator Dot -->
         <div id="offline-status-pill" class="status-indicator online" title="100% Offline Ready">
@@ -194,6 +203,16 @@
         <span class="hint-tip">Press <kbd>M</kbd> or <kbd>Space</kbd> to toggle legal text</span>
         <span class="hint-divider">•</span>
         <span class="hint-tip">Press <kbd>F</kbd> to bookmark</span>
+        <span class="hint-divider">•</span>
+        <a href="https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="footer-doc-link" 
+           title="Official Constitution PDF (Legislative Dept, Ministry of Law & Justice)">
+          <span class="material-symbols-outlined footer-doc-icon">picture_as_pdf</span>
+          <span>Official Doc (PDF)</span>
+          <span class="material-symbols-outlined footer-ext-icon">open_in_new</span>
+        </a>
       </footer>
     </main>
   </div>
@@ -238,6 +257,15 @@
 
       <div class="dialog-results-summary">
         <span id="search-count-label" class="m3-label-large">Showing 465 articles</span>
+        <a href="https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="search-official-doc-link" 
+           title="View original official Constitution PDF (opens in new tab)">
+          <span class="material-symbols-outlined">picture_as_pdf</span>
+          <span>Official PDF</span>
+          <span class="material-symbols-outlined" style="font-size: 13px;">open_in_new</span>
+        </a>
       </div>
 
       <div id="search-results-list" class="dialog-results-list">
@@ -299,6 +327,16 @@
       </div>
 
       <div class="m3-dialog-actions">
+        <a href="https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="m3-button outlined" 
+           title="View Original Official Constitution PDF in a new tab" 
+           style="text-decoration: none;">
+          <span class="material-symbols-outlined">picture_as_pdf</span>
+          <span>Official Doc</span>
+          <span class="material-symbols-outlined" style="font-size: 15px;">open_in_new</span>
+        </a>
         <button id="btn-preamble-speech" class="m3-button outlined">
           <span class="material-symbols-outlined">volume_up</span>
           <span>Listen</span>
@@ -319,9 +357,21 @@
           <span class="m3-label-large primary-text">CONSTITUTIONAL FRAMEWORK</span>
           <h2 class="m3-headline-medium">The 12 Schedules</h2>
         </div>
-        <button id="btn-close-schedules" class="m3-icon-button" aria-label="Close">
-          <span class="material-symbols-outlined">close</span>
-        </button>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <a href="https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="m3-button outlined dialog-header-link" 
+             title="View Original Official Constitution PDF in a new tab" 
+             style="text-decoration: none;">
+            <span class="material-symbols-outlined" style="font-size: 16px;">picture_as_pdf</span>
+            <span>Official PDF</span>
+            <span class="material-symbols-outlined" style="font-size: 13px;">open_in_new</span>
+          </a>
+          <button id="btn-close-schedules" class="m3-icon-button" aria-label="Close">
+            <span class="material-symbols-outlined">close</span>
+          </button>
+        </div>
       </div>
 
       <div id="schedules-grid" class="schedules-cards-grid">

@@ -71,6 +71,11 @@
   --accent-ruby: #ef4444;
   --accent-ruby-subtle: rgba(239, 68, 68, 0.12);
 
+  /* Brand color aliases */
+  --brand-blue: var(--accent-primary-text);
+  --brand-saffron: var(--accent-saffron-text);
+  --brand-green: var(--accent-emerald-text);
+
   /* Shadows */
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--border-base);
@@ -125,6 +130,11 @@
 
   --accent-ruby: #dc2626;
   --accent-ruby-subtle: rgba(220, 38, 38, 0.08);
+
+  /* Brand color aliases */
+  --brand-blue: var(--accent-primary);
+  --brand-saffron: var(--accent-saffron);
+  --brand-green: var(--accent-emerald);
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
   --shadow-card: 0 4px 16px -2px rgba(15, 23, 42, 0.06), 0 0 0 1px var(--border-base);
@@ -331,6 +341,7 @@ html, body {
   justify-content: center;
   cursor: pointer;
   position: relative;
+  text-decoration: none;
   transition: all var(--motion-fast) ease;
 }
 
@@ -953,6 +964,60 @@ html, body {
   word-break: break-word;
 }
 
+/* Legal Source Attribution Bar */
+.legal-source-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  background-color: var(--bg-surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  font-size: 0.76rem;
+  flex-wrap: wrap;
+}
+
+.legal-source-bar .source-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.legal-source-bar .source-badge-icon {
+  font-size: 15px;
+  color: var(--brand-green);
+}
+
+.legal-official-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--brand-blue);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.74rem;
+  padding: 4px 8px;
+  border-radius: var(--radius-xs);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  transition: all var(--motion-fast) ease;
+  white-space: nowrap;
+}
+
+.legal-official-link:hover {
+  background-color: var(--bg-surface-hover);
+  border-color: var(--brand-blue);
+  color: var(--brand-blue);
+}
+
+.legal-official-link .ext-icon {
+  font-size: 12px;
+}
+
 .clause-paragraph {
   margin-bottom: 14px;
   text-wrap: pretty;
@@ -1052,6 +1117,33 @@ html, body {
   color: var(--border-strong);
 }
 
+.footer-doc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: var(--radius-xs);
+  transition: all var(--motion-fast) ease;
+}
+
+.footer-doc-link:hover {
+  color: var(--brand-blue);
+  background-color: var(--bg-surface-raised);
+}
+
+.footer-doc-link .footer-doc-icon {
+  font-size: 14px;
+  color: var(--brand-saffron);
+}
+
+.footer-doc-link .footer-ext-icon {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
 /* ==========================================================================
    Modals & Dialogs: 12px Radius, Hairline Borders, Clean Backdrop
    ========================================================================== */
@@ -1095,6 +1187,28 @@ html, body {
   border-radius: var(--radius-xs);
   background-color: var(--border-strong);
   margin: 0 auto 12px;
+}
+
+.dialog-header-link {
+  height: 30px;
+  padding: 0 10px;
+  font-size: 0.74rem;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-surface-raised);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all var(--motion-fast) ease;
+}
+
+.dialog-header-link:hover {
+  background-color: var(--bg-surface-hover);
+  border-color: var(--border-strong);
+  color: var(--text-primary);
 }
 
 .m3-headline-medium {
@@ -1183,9 +1297,30 @@ html, body {
 }
 
 .dialog-results-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--border-subtle);
   margin-bottom: 8px;
+}
+
+.search-official-doc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.74rem;
+  color: var(--brand-blue);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: var(--radius-xs);
+  transition: all var(--motion-fast) ease;
+}
+
+.search-official-doc-link:hover {
+  background-color: var(--bg-surface-hover);
+  text-decoration: underline;
 }
 
 .m3-label-large {

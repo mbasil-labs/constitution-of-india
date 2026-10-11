@@ -460,6 +460,21 @@ function renderLegalBody(item) {
 
   return `
     <div class="legal-text-view">
+      <div class="legal-source-bar">
+        <div class="source-info">
+          <span class="material-symbols-outlined source-badge-icon">verified</span>
+          <span>Official Text • Legislative Department, Ministry of Law and Justice</span>
+        </div>
+        <a href="https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="legal-official-link" 
+           title="View original official Constitution PDF in a new tab">
+          <span class="material-symbols-outlined">picture_as_pdf</span>
+          <span>Original Official PDF</span>
+          <span class="material-symbols-outlined ext-icon">open_in_new</span>
+        </a>
+      </div>
       ${formatted || '<p>No legal text clauses registered for this item.</p>'}
     </div>
   `;
@@ -1010,6 +1025,8 @@ function setupEventListeners() {
       if (e.code === 'Space') e.preventDefault();
       state.cardMode = state.cardMode === 'summary' ? 'legal' : 'summary';
       renderCurrentCard();
+    } else if (e.key.toLowerCase() === 'o') {
+      window.open('https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf', '_blank', 'noopener,noreferrer');
     }
   });
 

@@ -7,7 +7,8 @@
 
 An offline Progressive Web App (PWA) of the **Constitution of India (Samvidhan)**, crafted with **Material Design 3 (M3)** specifications, tactile gesture swiping, instant full-text search, landmark Supreme Court constitutional jurisprudence, plain-English simplifications, and an integrated audio reader.
 
-🔗 **Live Application**: [https://labs.0301.in/constitution-of-india/](https://labs.0301.in/constitution-of-india/)
+🔗 **Live Application**: [https://labs.0301.in/constitution-of-india/](https://labs.0301.in/constitution-of-india/)  
+📄 **Official Government Document (PDF)**: [Legislative Department, Ministry of Law and Justice](https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf)
 
 ---
 
@@ -17,6 +18,7 @@ An offline Progressive Web App (PWA) of the **Constitution of India (Samvidhan)*
   - Full official text across all 395+ Articles and 22 Parts.
   - Interactive browser for all **12 Schedules**.
   - Majestic, scrollable **Preamble** presentation.
+  - Direct 1-click access to the authoritative [Original Official Document (PDF)](https://www.legislative.gov.in/static/uploads/2025/07/ca7ce5c746fa7480804bbdeb6cb704f0.pdf) published by the Legislative Department.
 
 - 📱 **Material Design 3 (M3) Experience**:
   - Tricolor system accent indicator with dynamic M3 color tokens.
@@ -61,6 +63,7 @@ An offline Progressive Web App (PWA) of the **Constitution of India (Samvidhan)*
 | `B` | Bookmark current Article |
 | `A` | Toggle Audio Speech Narration |
 | `T` | Toggle Dark / Light Theme |
+| `O` | Open Official Constitution PDF in a new tab |
 | `Esc` | Close any open Dialog / Sheet |
 
 ---
