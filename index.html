@@ -14,6 +14,16 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="apple-touch-icon" href="icon-512.png">
 
+  <!-- Open Graph & Social Cards for Deep Linking -->
+  <meta property="og:site_name" content="Constitution of India • Samvidhan">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Constitution of India • Samvidhan | M3 Progressive Web App">
+  <meta property="og:description" content="Explore the Constitution of India with interactive Material Design 3 swipeable cards, offline search, landmark Supreme Court cases, plain-English summaries, and audio narration.">
+  <meta property="og:url" content="https://mbasil-labs.github.io/constitution-of-india/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Constitution of India • Samvidhan | M3 Progressive Web App">
+  <meta name="twitter:description" content="Explore the Constitution of India with interactive Material Design 3 swipeable cards, offline search, landmark Supreme Court cases, plain-English summaries, and audio narration.">
+
   <!-- Google Fonts: Roboto, Plus Jakarta Sans & Material Symbols Outlined -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -139,6 +149,9 @@
           <div class="sub-toolbar-controls">
             <div id="active-filter-badge" class="filter-status-tag" style="display: none;">
               <span id="active-filter-text">Filtered</span>
+              <button id="btn-share-filter" class="btn-share-chip" title="Share section link" aria-label="Share section link">
+                <span class="material-symbols-outlined">share</span>
+              </button>
               <button id="btn-clear-filter" class="btn-clear-chip" title="Clear filter">
                 <span class="material-symbols-outlined">close</span>
               </button>
@@ -337,6 +350,10 @@
           <span>Official Doc</span>
           <span class="material-symbols-outlined" style="font-size: 15px;">open_in_new</span>
         </a>
+        <button id="btn-share-preamble" class="m3-button outlined" title="Share Preamble">
+          <span class="material-symbols-outlined">share</span>
+          <span>Share</span>
+        </button>
         <button id="btn-preamble-speech" class="m3-button outlined">
           <span class="material-symbols-outlined">volume_up</span>
           <span>Listen</span>
@@ -410,6 +427,86 @@
           <button type="button" class="m3-assist-chip" data-jump="368">Art 368 (Amendment)</button>
         </div>
       </form>
+    </div>
+  </dialog>
+
+  <!-- M3 Share & Deep Link Dialog (<dialog>) -->
+  <dialog id="share-modal" class="m3-dialog share-dialog" aria-labelledby="share-dialog-title">
+    <div class="m3-dialog-surface">
+      <div class="dialog-drag-handle" aria-hidden="true"></div>
+      <div class="m3-dialog-header">
+        <div class="header-text-block">
+          <span id="share-dialog-eyebrow" class="m3-label-large primary-text">CONSTITUTION DEEP LINK</span>
+          <h2 id="share-dialog-title" class="m3-headline-medium">Share Article</h2>
+        </div>
+        <button id="btn-close-share" class="m3-icon-button" aria-label="Close share dialog">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+
+      <div class="share-dialog-body">
+        <!-- Target Preview Card -->
+        <div class="share-preview-card">
+          <div class="share-preview-badges">
+            <span id="share-preview-badge" class="badge-article">Article 21</span>
+            <span class="meta-sep">•</span>
+            <span id="share-preview-part" class="badge-part">Part III</span>
+          </div>
+          <h3 id="share-preview-title" class="share-preview-title">Protection of life and personal liberty</h3>
+          <p id="share-preview-desc" class="share-preview-desc">No person shall be deprived of his life or personal liberty except according to procedure established by law.</p>
+        </div>
+
+        <!-- Direct Link Box -->
+        <div class="share-link-section">
+          <label for="share-link-input" class="share-section-label">Direct Shareable Link</label>
+          <div class="share-link-input-group">
+            <input type="text" id="share-link-input" class="share-link-input" readonly spellcheck="false" />
+            <button id="btn-copy-share-link" class="m3-button filled" title="Copy link to clipboard">
+              <span class="material-symbols-outlined">content_copy</span>
+              <span id="btn-copy-share-link-text">Copy Link</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Share Options Grid -->
+        <div class="share-apps-section">
+          <label class="share-section-label">Quick Share to Apps</label>
+          <div class="share-apps-grid">
+            <button id="btn-share-whatsapp" class="share-app-btn whatsapp" title="Share on WhatsApp">
+              <span class="share-app-icon">💬</span>
+              <span>WhatsApp</span>
+            </button>
+            <button id="btn-share-x" class="share-app-btn twitter" title="Share on X (Twitter)">
+              <span class="share-app-icon">𝕏</span>
+              <span>X / Twitter</span>
+            </button>
+            <button id="btn-share-telegram" class="share-app-btn telegram" title="Share on Telegram">
+              <span class="share-app-icon">✈️</span>
+              <span>Telegram</span>
+            </button>
+            <button id="btn-share-linkedin" class="share-app-btn linkedin" title="Share on LinkedIn">
+              <span class="share-app-icon">💼</span>
+              <span>LinkedIn</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- System Native Share (if supported) -->
+        <div id="share-system-wrap" class="share-system-wrap" style="display: none;">
+          <button id="btn-share-system" class="m3-button outlined share-system-btn">
+            <span class="material-symbols-outlined">ios_share</span>
+            <span>Share via Device Apps...</span>
+          </button>
+        </div>
+
+        <!-- Copy Full Citation Button -->
+        <div class="share-citation-wrap">
+          <button id="btn-copy-citation" class="m3-button share-citation-btn">
+            <span class="material-symbols-outlined">description</span>
+            <span>Copy Full Text & Citation with Link</span>
+          </button>
+        </div>
+      </div>
     </div>
   </dialog>
 

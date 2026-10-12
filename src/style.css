@@ -564,7 +564,7 @@ html, body {
   font-weight: 600;
 }
 
-.btn-clear-chip, .chip-trailing-icon {
+.btn-clear-chip, .btn-share-chip, .chip-trailing-icon {
   background: none;
   border: none;
   color: inherit;
@@ -572,9 +572,15 @@ html, body {
   display: flex;
   align-items: center;
   padding: 0;
+  opacity: 0.8;
+  transition: opacity var(--motion-fast) ease;
 }
 
-.btn-clear-chip .material-symbols-outlined, .chip-trailing-icon .material-symbols-outlined {
+.btn-clear-chip:hover, .btn-share-chip:hover {
+  opacity: 1;
+}
+
+.btn-clear-chip .material-symbols-outlined, .btn-share-chip .material-symbols-outlined, .chip-trailing-icon .material-symbols-outlined {
   font-size: 14px;
 }
 
@@ -749,6 +755,48 @@ html, body {
   color: var(--text-secondary);
   font-size: 0.75rem;
   font-weight: 500;
+  transition: color var(--motion-fast) ease;
+}
+
+.badge-part[data-part] {
+  cursor: pointer;
+}
+
+.badge-part[data-part]:hover {
+  color: var(--accent-primary-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Quick Copy Deep Link Button on Card Header */
+.btn-copy-art-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-xs);
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 0;
+  transition: all var(--motion-fast) ease;
+  vertical-align: middle;
+}
+
+.btn-copy-art-link:hover {
+  color: var(--accent-primary-text);
+  background-color: var(--accent-primary-subtle);
+}
+
+.btn-copy-art-link.copied {
+  color: var(--accent-emerald-text);
+  background-color: var(--accent-emerald-subtle);
+}
+
+.btn-copy-art-link .material-symbols-outlined {
+  font-size: 14px;
 }
 
 .badge-landmark, .m3-badge-tonal.badge-landmark {
@@ -1471,6 +1519,49 @@ mark {
   justify-content: space-between;
 }
 
+.schedule-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-schedule-share {
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xs);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all var(--motion-fast) ease;
+}
+
+.btn-schedule-share:hover {
+  color: var(--accent-primary-text);
+  border-color: var(--border-strong);
+  background-color: var(--bg-surface-hover);
+}
+
+.btn-schedule-share .material-symbols-outlined {
+  font-size: 14px;
+}
+
+.m3-schedule-card.highlighted {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 2px var(--accent-primary-subtle), 0 4px 18px rgba(59, 130, 246, 0.3);
+  animation: schedule-highlight-pulse 2.2s ease-out;
+}
+
+@keyframes schedule-highlight-pulse {
+  0% { transform: scale(1.02); }
+  40% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
 .schedule-num {
   font-size: 0.72rem;
   font-weight: 700;
@@ -1608,3 +1699,170 @@ mark {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   M3 Deep Link & Sharing Dialog
+   ========================================================================== */
+.share-dialog {
+  max-width: 520px;
+}
+
+.share-dialog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 4px;
+}
+
+.share-preview-card {
+  background-color: var(--bg-surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.share-preview-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+}
+
+.share-preview-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.35;
+  margin: 0;
+}
+
+.share-preview-desc {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.share-section-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+  margin-bottom: 6px;
+}
+
+.share-link-input-group {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.share-link-input {
+  flex: 1;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-surface-raised);
+  border: 1px solid var(--border-base);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  outline: none;
+  text-overflow: ellipsis;
+  transition: border-color var(--motion-fast) ease;
+}
+
+.share-link-input:focus {
+  border-color: var(--accent-primary);
+}
+
+.share-apps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+@media (max-width: 520px) {
+  .share-apps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.share-app-btn {
+  height: 38px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border-base);
+  background-color: var(--bg-surface-raised);
+  color: var(--text-primary);
+  transition: all var(--motion-fast) ease;
+  text-decoration: none;
+}
+
+.share-app-btn:hover {
+  background-color: var(--bg-surface-hover);
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+
+.share-app-btn.whatsapp:hover {
+  border-color: rgba(16, 185, 129, 0.5);
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #34d399;
+}
+
+.share-app-btn.twitter:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.share-app-btn.telegram:hover {
+  border-color: rgba(56, 189, 248, 0.5);
+  background-color: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+}
+
+.share-app-btn.linkedin:hover {
+  border-color: rgba(59, 130, 246, 0.5);
+  background-color: rgba(59, 130, 246, 0.1);
+  color: #60a5fa;
+}
+
+.share-app-icon {
+  font-size: 14px;
+}
+
+.share-system-btn, .share-citation-btn {
+  width: 100%;
+  height: 38px;
+  justify-content: center;
+}
+
+.share-citation-btn {
+  background-color: var(--bg-surface-subtle);
+  border: 1px dashed var(--border-strong);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+
+.share-citation-btn:hover {
+  background-color: var(--bg-surface-hover);
+  color: var(--text-primary);
+}
+

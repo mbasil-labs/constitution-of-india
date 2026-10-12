@@ -122,6 +122,50 @@ const jumpArticleInput = document.getElementById('jump-article-input');
 
 const toastContainer = document.getElementById('toast-container');
 
+// Share Dialog DOM Elements
+const shareModal = document.getElementById('share-modal');
+const btnCloseShare = document.getElementById('btn-close-share');
+const shareDialogEyebrow = document.getElementById('share-dialog-eyebrow');
+const shareDialogTitle = document.getElementById('share-dialog-title');
+const sharePreviewBadge = document.getElementById('share-preview-badge');
+const sharePreviewPart = document.getElementById('share-preview-part');
+const sharePreviewTitle = document.getElementById('share-preview-title');
+const sharePreviewDesc = document.getElementById('share-preview-desc');
+const shareLinkInput = document.getElementById('share-link-input');
+const btnCopyShareLink = document.getElementById('btn-copy-share-link');
+const btnCopyShareLinkText = document.getElementById('btn-copy-share-link-text');
+const btnShareWhatsapp = document.getElementById('btn-share-whatsapp');
+const btnShareX = document.getElementById('btn-share-x');
+const btnShareTelegram = document.getElementById('btn-share-telegram');
+const btnShareLinkedin = document.getElementById('btn-share-linkedin');
+const shareSystemWrap = document.getElementById('share-system-wrap');
+const btnShareSystem = document.getElementById('btn-share-system');
+const btnCopyCitation = document.getElementById('btn-copy-citation');
+const btnShareFilter = document.getElementById('btn-share-filter');
+const btnSharePreamble = document.getElementById('btn-share-preamble');
+
+// Constitutional Parts Map & Roman Lookup
+const partsMap = new Map();
+state.allArticles.forEach(a => {
+  if (!partsMap.has(a.partId)) {
+    partsMap.set(a.partId, a.partName);
+  }
+});
+
+const romanToDigits = {
+  'I': '1', 'II': '2', 'III': '3', 'IV': '4', 'IVA': '4A', 'V': '5',
+  'VI': '6', 'VII': '7', 'VIII': '8', 'IX': '9', 'IXA': '9A', 'IXB': '9B',
+  'X': '10', 'XI': '11', 'XII': '12', 'XIII': '13', 'XIV': '14', 'XIVA': '14A',
+  'XV': '15', 'XVI': '16', 'XVII': '17', 'XVIII': '18', 'XIX': '19', 'XX': '20',
+  'XXI': '21', 'XXII': '22'
+};
+
+const digitsToRoman = {};
+for (const [rom, dig] of Object.entries(romanToDigits)) {
+  digitsToRoman[dig] = rom;
+  digitsToRoman[dig.toLowerCase()] = rom;
+}
+
 /* ==========================================================================
    INITIALIZATION
    ========================================================================== */
@@ -137,13 +181,8 @@ function init() {
   renderSchedulesModal();
   checkNetworkStatus();
 
-  // Deep linking
-  const urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.get('view') === 'preamble') {
-    openModal(preambleModal);
-  } else if (urlParams.get('filter')) {
-    applyFilter(urlParams.get('filter'));
-  }
+  // Initial Deep Linking & URL Routing
+  parseUrlAndNavigate(true);
 }
 
 /* ==========================================================================
@@ -174,16 +213,16 @@ function adjustFontSize(delta) {
    FILTER & SEARCH ENGINE
    ========================================================================== */
 function populatePartsDropdown() {
-  const partsMap = new Map();
+  const partsInfoMap = new Map();
   state.allArticles.forEach(a => {
-    if (!partsMap.has(a.partId)) {
-      partsMap.set(a.partId, { name: a.partName, count: 0 });
+    if (!partsInfoMap.has(a.partId)) {
+      partsInfoMap.set(a.partId, { name: a.partName, count: 0 });
     }
-    partsMap.get(a.partId).count++;
+    partsInfoMap.get(a.partId).count++;
   });
 
   partDropdownSelect.innerHTML = '<option value="">-- All Constitutional Parts (Full Text) --</option>';
-  partsMap.forEach((info, partId) => {
+  partsInfoMap.forEach((info, partId) => {
     const opt = document.createElement('option');
     opt.value = partId;
     opt.textContent = `${info.name} (${info.count} articles)`;
@@ -270,6 +309,7 @@ function clearFilter() {
 
   updateFilter();
   renderCurrentCard();
+  syncUrlWithState(false);
   showToast('Filters reset: Showing all 465 articles');
 }
 
@@ -277,6 +317,7 @@ function applyFilter(filterType) {
   state.activeFilterType = filterType;
   updateFilter();
   renderCurrentCard();
+  syncUrlWithState(false);
 }
 
 /* ==========================================================================
@@ -343,8 +384,11 @@ function createCardHTML(item, isFav, mode) {
       <div class="card-meta-bar">
         <div class="meta-pills">
           <span class="badge-article">${item.article}</span>
+          <button class="btn-copy-art-link" data-article="${item.articleStr || item.articleNumber}" title="Copy direct link to ${item.article}" aria-label="Copy direct link to ${item.article}">
+            <span class="material-symbols-outlined">link</span>
+          </button>
           <span class="meta-sep">•</span>
-          <span class="badge-part">${item.partName}</span>
+          <span class="badge-part" data-part="${item.partId}" title="Filter section: ${item.partName}">${item.partName}</span>
           ${isLandmark ? '<span class="badge-landmark">★ Landmark</span>' : ''}
         </div>
 
@@ -508,6 +552,42 @@ function attachCardEvents(item) {
   const shareBtn = document.getElementById('btn-share-card');
   if (shareBtn) shareBtn.addEventListener('click', () => shareArticle(item));
 
+  // Quick copy link icon on card header
+  const copyLinkBtn = cardFront.querySelector('.btn-copy-art-link');
+  if (copyLinkBtn) {
+    copyLinkBtn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      const url = getArticleUrl(item);
+      const success = await copyToClipboard(url, `Copied link: ${item.article}`);
+      if (success) {
+        copyLinkBtn.classList.add('copied');
+        const icon = copyLinkBtn.querySelector('.material-symbols-outlined');
+        if (icon) icon.textContent = 'check';
+        setTimeout(() => {
+          copyLinkBtn.classList.remove('copied');
+          if (icon) icon.textContent = 'link';
+        }, 1800);
+      }
+    });
+  }
+
+  // Click on Part badge to filter to that section
+  const partPill = cardFront.querySelector('.badge-part[data-part]');
+  if (partPill) {
+    partPill.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const partId = partPill.dataset.part;
+      if (partId && partsMap.has(partId)) {
+        state.selectedPart = partId;
+        partDropdownSelect.value = partId;
+        updateFilter();
+        renderCurrentCard();
+        syncUrlWithState(false);
+        showToast(`Filtered to ${partsMap.get(partId)}`);
+      }
+    });
+  }
+
   // Tags click
   cardFront.querySelectorAll('.tag-chip').forEach(chip => {
     chip.addEventListener('click', () => {
@@ -614,6 +694,7 @@ function nextCard() {
   state.currentIndex = (state.currentIndex + 1) % state.filteredArticles.length;
   resetCardTransforms();
   renderCurrentCard();
+  syncUrlWithState(true);
 }
 
 function prevCard() {
@@ -621,6 +702,7 @@ function prevCard() {
   state.currentIndex = (state.currentIndex - 1 + state.filteredArticles.length) % state.filteredArticles.length;
   resetCardTransforms();
   renderCurrentCard();
+  syncUrlWithState(true);
 }
 
 function resetCardTransforms() {
@@ -632,23 +714,23 @@ function resetCardTransforms() {
 }
 
 function jumpToArticle(artNumQuery) {
-  const query = String(artNumQuery).trim().toLowerCase();
-  const index = state.allArticles.findIndex(a => {
-    return String(a.articleNumber).toLowerCase() === query || 
-           a.article.toLowerCase() === `article ${query}` ||
-           (query === 'preamble' && a.articleNumber === 0);
-  });
+  const target = findArticle(artNumQuery);
 
-  if (index !== -1) {
+  if (target) {
     if (state.activeFilterType !== 'all' || state.searchQuery || state.selectedPart) {
       state.activeFilterType = 'all';
       state.searchQuery = '';
       state.selectedPart = '';
+      partDropdownSelect.value = '';
       updateFilter();
     }
-    state.currentIndex = index;
+    const idx = state.filteredArticles.findIndex(a => a.id === target.id);
+    if (idx !== -1) {
+      state.currentIndex = idx;
+    }
     renderCurrentCard();
-    showToast(`Jumped to ${state.allArticles[index].article}`);
+    syncUrlWithState(false);
+    showToast(`Jumped to ${target.article}`);
     return true;
   } else {
     showToast(`Article "${artNumQuery}" not found`);
@@ -737,32 +819,418 @@ function stopSpeech() {
 }
 
 /* ==========================================================================
-   COPY & SHARE UTILITIES
+   DEEP LINKING, RESOLUTION & ROUTING ENGINE
    ========================================================================== */
-async function copyArticleText(item) {
-  const textToCopy = `Constitution of India — ${item.article}: ${item.title}\n(${item.partName})\n\n${item.summary}\n\nFull Official Text:\n${item.description}\n\nShared via Samvidhan Constitution PWA`;
+function findArticle(query) {
+  if (query === null || query === undefined || query === '') return null;
+  const raw = String(query).trim().toLowerCase();
+  const q = raw.replace(/^article[\s_-]*/i, '').replace(/^art[\s_-]*/i, '').trim();
+
+  if (q === '0' || q === 'preamble') {
+    return state.allArticles.find(a => a.articleNumber === 0) || null;
+  }
+
+  // 1. Direct match on articleStr or articleNumber
+  let found = state.allArticles.find(a => String(a.articleStr || a.articleNumber).toLowerCase() === q);
+  if (found) return found;
+
+  // 2. Match on id e.g. "art-21", "art-21a"
+  found = state.allArticles.find(a => a.id.toLowerCase() === `art-${q}` || a.id.toLowerCase() === raw);
+  if (found) return found;
+
+  // 3. Match on full article field e.g. "Article 21A"
+  found = state.allArticles.find(a => a.article.toLowerCase() === `article ${q}` || a.article.toLowerCase() === raw);
+  return found || null;
+}
+
+function findPartId(query) {
+  if (!query) return null;
+  const raw = String(query).trim();
+  const lower = raw.toLowerCase().replace(/^part[\s_-]*/i, '').trim();
+
+  // Direct match on partId (e.g. "Part III")
+  for (const partId of partsMap.keys()) {
+    if (partId.toLowerCase() === raw.toLowerCase()) return partId;
+    if (partId.toLowerCase().replace(/^part\s+/i, '') === lower) return partId;
+  }
+
+  // Digits to Roman candidate (e.g. "3" -> "Part III", "4a" -> "Part IVA")
+  if (digitsToRoman[lower]) {
+    const candidate = `Part ${digitsToRoman[lower]}`;
+    if (partsMap.has(candidate)) return candidate;
+  }
+
+  // Keyword match in partName
+  for (const [partId, partName] of partsMap.entries()) {
+    if (partName.toLowerCase().includes(raw.toLowerCase())) return partId;
+  }
+
+  return null;
+}
+
+function findSchedule(query) {
+  if (!query) return null;
+  const q = String(query).trim().toLowerCase().replace(/^schedule[\s_-]*/i, '').replace(/^sched[\s_-]*/i, '').trim();
+  const num = parseInt(q, 10);
+  if (!isNaN(num) && num >= 1 && num <= 12) {
+    return schedulesData.find(s => s.scheduleNumber === num) || null;
+  }
+  return schedulesData.find(s => s.title.toLowerCase().includes(q)) || null;
+}
+
+function getArticleUrl(item, options = {}) {
+  const url = new URL(window.location.origin + window.location.pathname);
+  if (item.articleNumber === 0) {
+    url.searchParams.set('article', '0');
+  } else {
+    url.searchParams.set('article', item.articleStr || String(item.articleNumber));
+  }
+
+  const mode = options.mode || (state.cardMode === 'legal' ? 'legal' : null);
+  if (mode === 'legal') {
+    url.searchParams.set('mode', 'legal');
+  }
+
+  if (state.selectedPart) {
+    url.searchParams.set('part', state.selectedPart);
+  }
+
+  return url.toString();
+}
+
+function getSectionUrl(partId) {
+  const url = new URL(window.location.origin + window.location.pathname);
+  url.searchParams.set('part', partId);
+  return url.toString();
+}
+
+function getScheduleUrl(scheduleNum) {
+  const url = new URL(window.location.origin + window.location.pathname);
+  url.searchParams.set('schedule', String(scheduleNum));
+  return url.toString();
+}
+
+function getPreambleUrl() {
+  const url = new URL(window.location.origin + window.location.pathname);
+  url.searchParams.set('view', 'preamble');
+  return url.toString();
+}
+
+function getFilterUrl(filterType) {
+  const url = new URL(window.location.origin + window.location.pathname);
+  url.searchParams.set('filter', filterType);
+  return url.toString();
+}
+
+async function copyToClipboard(text, successToast = 'Copied to clipboard') {
   try {
-    await navigator.clipboard.writeText(textToCopy);
-    showToast(`Copied ${item.article} to clipboard`);
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+    } else {
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      textArea.style.position = 'fixed';
+      textArea.style.opacity = '0';
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+    }
+    showToast(successToast);
+    return true;
   } catch (err) {
     showToast('Failed to copy to clipboard');
+    return false;
   }
 }
 
-async function shareArticle(item) {
-  const shareData = {
-    title: `${item.article}: ${item.title} — Constitution of India`,
-    text: `${item.article} of the Indian Constitution: ${item.title}. ${item.summary}`,
-    url: window.location.href
+function updateMetaTags({ title, description, url }) {
+  if (title) {
+    document.title = title;
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', title);
+    const twTitle = document.querySelector('meta[name="twitter:title"]');
+    if (twTitle) twTitle.setAttribute('content', title);
+  }
+  if (description) {
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', description);
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', description);
+    const twDesc = document.querySelector('meta[name="twitter:description"]');
+    if (twDesc) twDesc.setAttribute('content', description);
+  }
+  if (url) {
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.setAttribute('content', url);
+  }
+}
+
+function syncUrlWithState(replace = true) {
+  const currentItem = state.filteredArticles[state.currentIndex];
+  if (!currentItem) return;
+
+  const url = new URL(window.location.origin + window.location.pathname);
+
+  if (state.selectedPart) {
+    url.searchParams.set('part', state.selectedPart);
+  } else if (state.activeFilterType && state.activeFilterType !== 'all') {
+    url.searchParams.set('filter', state.activeFilterType);
+  }
+
+  if (currentItem.articleNumber === 0) {
+    url.searchParams.set('article', '0');
+  } else {
+    url.searchParams.set('article', currentItem.articleStr || String(currentItem.articleNumber));
+  }
+
+  if (state.cardMode === 'legal') {
+    url.searchParams.set('mode', 'legal');
+  }
+
+  const title = `${currentItem.article}: ${currentItem.title} — Constitution of India`;
+  updateMetaTags({
+    title,
+    description: `${currentItem.article} (${currentItem.partName}): ${currentItem.summary}`,
+    url: url.toString()
+  });
+
+  const newPath = url.pathname + url.search;
+  const currentPath = window.location.pathname + window.location.search;
+
+  if (newPath !== currentPath) {
+    const historyState = {
+      articleId: currentItem.id,
+      partId: state.selectedPart,
+      filter: state.activeFilterType,
+      mode: state.cardMode
+    };
+    if (replace) {
+      window.history.replaceState(historyState, '', newPath);
+    } else {
+      window.history.pushState(historyState, '', newPath);
+    }
+  }
+}
+
+function parseUrlAndNavigate(isInitial = false) {
+  const searchParams = new URLSearchParams(window.location.search);
+  const hash = window.location.hash ? window.location.hash.slice(1) : '';
+
+  let articleQuery = searchParams.get('article') || searchParams.get('art');
+  let partQuery = searchParams.get('part') || searchParams.get('section');
+  let scheduleQuery = searchParams.get('schedule') || searchParams.get('sched');
+  let viewQuery = searchParams.get('view');
+  let filterQuery = searchParams.get('filter');
+  let modeQuery = searchParams.get('mode');
+
+  // Support hash routes like #/article/21, #art-21, #/part/Part%20III, #/schedule/1, #preamble
+  if (hash) {
+    const artMatch = hash.match(/^(?:\/)?(?:article\/|art-?)([0-9a-zA-Z]+)/i);
+    if (artMatch && !articleQuery) {
+      articleQuery = artMatch[1];
+    }
+    const partMatch = hash.match(/^(?:\/)?part\/(.+)/i);
+    if (partMatch && !partQuery) {
+      partQuery = decodeURIComponent(partMatch[1]);
+    }
+    const schedMatch = hash.match(/^(?:\/)?schedule\/([0-9]+)/i);
+    if (schedMatch && !scheduleQuery) {
+      scheduleQuery = schedMatch[1];
+    }
+    const filterMatch = hash.match(/^(?:\/)?filter\/(.+)/i);
+    if (filterMatch && !filterQuery) {
+      filterQuery = decodeURIComponent(filterMatch[1]);
+    }
+    if (hash === 'preamble' || hash === '/preamble') {
+      viewQuery = 'preamble';
+    }
+  }
+
+  // 1. Mode preference
+  if (modeQuery === 'legal' || modeQuery === 'summary') {
+    state.cardMode = modeQuery;
+  }
+
+  // 2. Schedules deep linking
+  if (scheduleQuery) {
+    const sched = findSchedule(scheduleQuery);
+    if (sched) {
+      openModal(schedulesModal);
+      setTimeout(() => {
+        const card = document.getElementById(`schedule-card-${sched.scheduleNumber}`);
+        if (card) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.classList.add('highlighted');
+          setTimeout(() => card.classList.remove('highlighted'), 3000);
+        }
+      }, 150);
+      showToast(`Schedule ${sched.scheduleNumber}: ${sched.title}`);
+      return;
+    }
+  }
+
+  // 3. Preamble deep linking
+  if (viewQuery === 'preamble') {
+    openModal(preambleModal);
+    return;
+  }
+
+  // 4. Part / Section filtering
+  if (partQuery) {
+    const matchedPartId = findPartId(partQuery);
+    if (matchedPartId) {
+      state.activeFilterType = 'all';
+      state.selectedPart = matchedPartId;
+      partDropdownSelect.value = matchedPartId;
+      updateFilter();
+      if (!articleQuery) {
+        state.currentIndex = 0;
+        renderCurrentCard();
+        syncUrlWithState(true);
+        const partName = partsMap.get(matchedPartId) || matchedPartId;
+        showToast(`Section: ${partName} (${state.filteredArticles.length} articles)`);
+        return;
+      }
+    }
+  } else if (filterQuery) {
+    applyFilter(filterQuery);
+    if (!articleQuery) {
+      syncUrlWithState(true);
+      return;
+    }
+  }
+
+  // 5. Article deep linking
+  if (articleQuery) {
+    const targetArticle = findArticle(articleQuery);
+    if (targetArticle) {
+      let idxInFiltered = state.filteredArticles.findIndex(a => a.id === targetArticle.id);
+      if (idxInFiltered === -1) {
+        state.activeFilterType = 'all';
+        state.selectedPart = '';
+        state.searchQuery = '';
+        partDropdownSelect.value = '';
+        updateFilter();
+        idxInFiltered = state.filteredArticles.findIndex(a => a.id === targetArticle.id);
+      }
+      if (idxInFiltered !== -1) {
+        state.currentIndex = idxInFiltered;
+      }
+      renderCurrentCard();
+      syncUrlWithState(true);
+      if (!isInitial) {
+        showToast(`Deep linked to ${targetArticle.article}`);
+      }
+      return;
+    } else {
+      showToast(`Article "${articleQuery}" not found. Showing ${state.filteredArticles[0]?.article || 'Article 1'}`);
+    }
+  }
+
+  // Default initial sync
+  syncUrlWithState(true);
+}
+
+/* ==========================================================================
+   COPY & SHARE UTILITIES
+   ========================================================================== */
+async function copyArticleText(item) {
+  const shareUrl = getArticleUrl(item);
+  const textToCopy = `Constitution of India — ${item.article}: ${item.title}\n(${item.partName})\n\nTakeaway:\n${item.summary}\n\nFull Official Text:\n${item.description}\n\nDirect Link: ${shareUrl}\n\nShared via Samvidhan Constitution PWA`;
+  await copyToClipboard(textToCopy, `Copied ${item.article} with citation & link`);
+}
+
+function shareArticle(item) {
+  openShareModal({ type: 'article', item });
+}
+
+function openShareModal({ type = 'article', item = null, partId = null, schedule = null }) {
+  if (!shareModal) return;
+
+  let shareTitle = '';
+  let shareEyebrow = 'CONSTITUTION DEEP LINK';
+  let badgePrimary = '';
+  let badgeSecondary = '';
+  let previewTitle = '';
+  let previewDesc = '';
+  let shareUrl = '';
+  let fullCitation = '';
+  let shareText = '';
+
+  if (type === 'article' && item) {
+    shareEyebrow = 'SHARE CONSTITUTION ARTICLE';
+    shareTitle = `Share ${item.article}`;
+    badgePrimary = item.article;
+    badgeSecondary = item.partName;
+    previewTitle = item.title;
+    previewDesc = item.summary;
+    shareUrl = getArticleUrl(item);
+    shareText = `${item.article} (${item.partName}): ${item.title}\n\n${item.summary}`;
+    fullCitation = `Constitution of India — ${item.article}: ${item.title}\n(${item.partName})\n\nTakeaway:\n${item.summary}\n\nFull Official Text:\n${item.description}\n\nDirect Link: ${shareUrl}\n\nShared via Samvidhan Constitution PWA`;
+  } else if (type === 'section' && partId) {
+    const partName = partsMap.get(partId) || partId;
+    const count = state.allArticles.filter(a => a.partId === partId).length;
+    shareEyebrow = 'SHARE CONSTITUTIONAL SECTION';
+    shareTitle = `Share ${partId}`;
+    badgePrimary = partId;
+    badgeSecondary = `${count} Articles`;
+    previewTitle = partName;
+    previewDesc = `Explore all constitutional provisions and articles under ${partName}.`;
+    shareUrl = getSectionUrl(partId);
+    shareText = `${partName} — Constitution of India (${count} articles)`;
+    fullCitation = `${partName} — Constitution of India (${count} articles)\n\nExplore this section: ${shareUrl}\n\nShared via Samvidhan Constitution PWA`;
+  } else if (type === 'schedule' && schedule) {
+    shareEyebrow = 'SHARE SCHEDULE';
+    shareTitle = `Share Schedule ${schedule.scheduleNumber}`;
+    badgePrimary = `Schedule ${schedule.scheduleNumber}`;
+    badgeSecondary = schedule.articles;
+    previewTitle = schedule.title;
+    previewDesc = schedule.description;
+    shareUrl = getScheduleUrl(schedule.scheduleNumber);
+    shareText = `Schedule ${schedule.scheduleNumber}: ${schedule.title} (${schedule.articles}) — Constitution of India`;
+    fullCitation = `Constitution of India — Schedule ${schedule.scheduleNumber}: ${schedule.title}\n(${schedule.articles})\n\n${schedule.description}\n\nDirect Link: ${shareUrl}\n\nShared via Samvidhan Constitution PWA`;
+  } else if (type === 'preamble') {
+    const preambleItem = state.allArticles.find(a => a.articleNumber === 0);
+    shareEyebrow = 'SHARE PREAMBLE';
+    shareTitle = 'Share The Preamble';
+    badgePrimary = 'Preamble';
+    badgeSecondary = '1949';
+    previewTitle = 'Preamble of the Constitution of India';
+    previewDesc = preambleItem ? preambleItem.summary : 'The moral and philosophical foundation of the Indian Constitution.';
+    shareUrl = getPreambleUrl();
+    shareText = `Preamble of the Constitution of India: WE, THE PEOPLE OF INDIA...`;
+    fullCitation = `Constitution of India — The Preamble\n\nWE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC...\n\nDirect Link: ${shareUrl}\n\nShared via Samvidhan Constitution PWA`;
+  }
+
+  state.currentShareData = {
+    title: previewTitle,
+    text: shareText,
+    url: shareUrl,
+    citation: fullCitation
   };
 
-  if (navigator.share) {
-    try {
-      await navigator.share(shareData);
-    } catch (err) {}
-  } else {
-    copyArticleText(item);
+  if (shareDialogEyebrow) shareDialogEyebrow.textContent = shareEyebrow;
+  if (shareDialogTitle) shareDialogTitle.textContent = shareTitle;
+  if (sharePreviewBadge) sharePreviewBadge.textContent = badgePrimary;
+  if (sharePreviewPart) sharePreviewPart.textContent = badgeSecondary;
+  if (sharePreviewTitle) sharePreviewTitle.textContent = previewTitle;
+  if (sharePreviewDesc) sharePreviewDesc.textContent = previewDesc;
+  if (shareLinkInput) shareLinkInput.value = shareUrl;
+
+  if (btnCopyShareLinkText) btnCopyShareLinkText.textContent = 'Copy Link';
+
+  // Toggle system share button based on browser support
+  if (shareSystemWrap) {
+    if (navigator.share) {
+      shareSystemWrap.style.display = 'block';
+    } else {
+      shareSystemWrap.style.display = 'none';
+    }
   }
+
+  openModal(shareModal);
 }
 
 /* ==========================================================================
@@ -853,6 +1321,7 @@ function renderSearchResults() {
         updateFilter();
         state.currentIndex = targetIndex;
         renderCurrentCard();
+        syncUrlWithState(false);
         closeModal(searchModal);
         showToast(`Jumped to ${state.allArticles[targetIndex].article}`);
       }
@@ -863,9 +1332,14 @@ function renderSearchResults() {
 function renderSchedulesModal() {
   schedulesGrid.innerHTML = schedulesData.map(s => {
     return `
-      <div class="m3-schedule-card">
+      <div class="m3-schedule-card" id="schedule-card-${s.scheduleNumber}">
         <div class="schedule-header">
-          <span class="schedule-num">Schedule ${s.scheduleNumber}</span>
+          <div class="schedule-header-left">
+            <span class="schedule-num">Schedule ${s.scheduleNumber}</span>
+            <button class="btn-schedule-share" data-schedule="${s.scheduleNumber}" title="Share Schedule ${s.scheduleNumber} link" aria-label="Share Schedule ${s.scheduleNumber}">
+              <span class="material-symbols-outlined">share</span>
+            </button>
+          </div>
           <span class="schedule-articles-meta">${s.articles}</span>
         </div>
         <h3 class="schedule-title">${s.title}</h3>
@@ -873,6 +1347,17 @@ function renderSchedulesModal() {
       </div>
     `;
   }).join('');
+
+  schedulesGrid.querySelectorAll('.btn-schedule-share').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const schedNum = parseInt(btn.dataset.schedule, 10);
+      const sched = schedulesData.find(s => s.scheduleNumber === schedNum);
+      if (sched) {
+        openShareModal({ type: 'schedule', schedule: sched });
+      }
+    });
+  });
 }
 
 /* ==========================================================================
@@ -998,6 +1483,111 @@ function setupEventListeners() {
       closeModal(jumpModal);
     });
   });
+
+  // Section & Filter Share Button in Sub-toolbar
+  if (btnShareFilter) {
+    btnShareFilter.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const currentPart = state.selectedPart || (state.activeFilterType.startsWith('Part') ? state.activeFilterType : null);
+      if (currentPart) {
+        openShareModal({ type: 'section', partId: currentPart });
+      } else {
+        const currentItem = state.filteredArticles[state.currentIndex];
+        if (currentItem) {
+          openShareModal({ type: 'article', item: currentItem });
+        }
+      }
+    });
+  }
+
+  // Preamble Share Button in Preamble Modal
+  if (btnSharePreamble) {
+    btnSharePreamble.addEventListener('click', () => {
+      openShareModal({ type: 'preamble' });
+    });
+  }
+
+  // Share Modal Actions
+  if (btnCloseShare) {
+    btnCloseShare.addEventListener('click', () => closeModal(shareModal));
+  }
+
+  if (btnCopyShareLink) {
+    btnCopyShareLink.addEventListener('click', async () => {
+      if (shareLinkInput) {
+        const success = await copyToClipboard(shareLinkInput.value, 'Link copied to clipboard!');
+        if (success && btnCopyShareLinkText) {
+          btnCopyShareLinkText.textContent = 'Copied!';
+          setTimeout(() => {
+            btnCopyShareLinkText.textContent = 'Copy Link';
+          }, 2000);
+        }
+      }
+    });
+  }
+
+  if (btnShareWhatsapp) {
+    btnShareWhatsapp.addEventListener('click', () => {
+      if (!state.currentShareData) return;
+      const text = `${state.currentShareData.text}\n\n${state.currentShareData.url}`;
+      window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (btnShareX) {
+    btnShareX.addEventListener('click', () => {
+      if (!state.currentShareData) return;
+      const text = `${state.currentShareData.title} — Constitution of India`;
+      window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(state.currentShareData.url)}`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (btnShareTelegram) {
+    btnShareTelegram.addEventListener('click', () => {
+      if (!state.currentShareData) return;
+      window.open(`https://t.me/share/url?url=${encodeURIComponent(state.currentShareData.url)}&text=${encodeURIComponent(state.currentShareData.title)}`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (btnShareLinkedin) {
+    btnShareLinkedin.addEventListener('click', () => {
+      if (!state.currentShareData) return;
+      window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(state.currentShareData.url)}`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (btnShareSystem) {
+    btnShareSystem.addEventListener('click', async () => {
+      if (!state.currentShareData) return;
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: state.currentShareData.title,
+            text: state.currentShareData.text,
+            url: state.currentShareData.url
+          });
+        } catch (err) {
+          if (err.name !== 'AbortError') {
+            copyToClipboard(state.currentShareData.url, 'Link copied to clipboard');
+          }
+        }
+      } else {
+        copyToClipboard(state.currentShareData.url, 'Link copied to clipboard');
+      }
+    });
+  }
+
+  if (btnCopyCitation) {
+    btnCopyCitation.addEventListener('click', async () => {
+      if (state.currentShareData && state.currentShareData.citation) {
+        await copyToClipboard(state.currentShareData.citation, 'Full text, citation & link copied!');
+      }
+    });
+  }
+
+  // Browser Forward / Back Navigation
+  window.addEventListener('popstate', () => parseUrlAndNavigate(false));
+  window.addEventListener('hashchange', () => parseUrlAndNavigate(false));
 
   // Keyboard Shortcuts
   window.addEventListener('keydown', (e) => {
